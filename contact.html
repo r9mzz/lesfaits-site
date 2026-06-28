@@ -1,0 +1,331 @@
+﻿<!DOCTYPE html>
+<html lang="fr" data-theme="">
+<head>
+  <meta charset="UTF-8"/>
+<meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' 'unsafe-inline' https://plausible.io; style-src 'self' 'unsafe-inline'; img-src 'self' data: https:; connect-src 'self' https://plausible.io https://api.web3forms.com; base-uri 'self'; form-action 'self' https://api.web3forms.com;">
+<meta name="referrer" content="strict-origin-when-cross-origin">
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <meta name="description" content="Les Faits — Nous contacter. Posez une question, signalez une erreur ou proposez un sujet."/>
+  <meta property="og:title" content="Contact — Les Faits"/>
+  <meta property="og:description" content="Les Faits — Nous contacter. Posez une question, signalez une erreur ou proposez un sujet."/>
+  <meta property="og:type" content="website"/>
+  <meta property="og:url" content="https://r9mzz.github.io/lesfaits/contact.html"/>
+  <meta property="og:image" content="https://r9mzz.github.io/lesfaits/assets/images/og-default.jpg"/>
+  <meta name="twitter:card" content="summary_large_image"/>
+  <meta name="twitter:title" content="Contact — Les Faits"/>
+  <meta name="twitter:description" content="Les Faits — Nous contacter. Posez une question, signalez une erreur ou proposez un sujet."/>
+  <meta name="twitter:image" content="https://r9mzz.github.io/lesfaits/assets/images/og-default.jpg"/>
+  <link rel="canonical" href="https://r9mzz.github.io/lesfaits/contact.html"/>
+  <title>Contact — Les Faits</title>
+  <base href="/lesfaits/"/>
+  <link rel="stylesheet" href="src/style.css"/>
+  <style>
+    .contact-tabs { display:flex; gap:0; border-bottom:2px solid var(--rule); margin-bottom:40px; }
+    .contact-tab { padding:12px 24px; font-size:.9rem; font-weight:700; cursor:pointer; border:none; background:none; color:var(--muted); border-bottom:2px solid transparent; margin-bottom:-2px; transition:color .15s, border-color .15s; }
+    .contact-tab.active { color:var(--blue); border-bottom-color:var(--blue); }
+    .contact-panel { display:none; }
+    .contact-panel.active { display:block; }
+    .form-group { margin-bottom:24px; }
+    .form-label { display:block; font-size:.85rem; font-weight:700; margin-bottom:8px; color:var(--ink); }
+    .form-input, .form-textarea, .form-select {
+      width:100%; padding:12px 16px; border:1px solid var(--rule); border-radius:4px;
+      font-family:inherit; font-size:.95rem; color:var(--ink); background:var(--white);
+      box-sizing:border-box; transition:border-color .15s;
+    }
+    .form-input:focus, .form-textarea:focus, .form-select:focus { outline:none; border-color:var(--blue); }
+    .form-textarea { resize:vertical; min-height:140px; line-height:1.6; }
+    .form-hint { font-size:.8rem; color:var(--muted); margin-top:6px; }
+    .form-submit { display:inline-flex; align-items:center; gap:8px; padding:13px 36px; background:var(--blue); color:#fff; border:none; border-radius:4px; font-size:.95rem; font-weight:700; cursor:pointer; transition:opacity .15s; }
+    .form-submit:hover { opacity:.85; }
+    .form-submit:disabled { opacity:.5; cursor:not-allowed; }
+    .spinner { width:16px; height:16px; border:2px solid rgba(255,255,255,.4); border-top-color:#fff; border-radius:50%; animation:spin .7s linear infinite; display:none; }
+    @keyframes spin { to { transform:rotate(360deg); } }
+    .alert { padding:20px 24px; border-radius:6px; margin-bottom:24px; font-size:.95rem; line-height:1.6; display:none; }
+    .alert-success { background:#e8f5e9; border-left:3px solid #4caf50; color:#2e7d32; }
+    .alert-error { background:#fdecea; border-left:3px solid #e53935; color:#c62828; }
+    [data-theme="dark"] .alert-success { background:#0d2b14; color:#6fcf7a; }
+    [data-theme="dark"] .alert-error { background:#2b0d0d; color:#f08080; }
+  </style>
+<link rel="icon" type="image/svg+xml" href="/lesfaits/favicon.svg">
+<link rel="manifest" href="/lesfaits/manifest.json">
+<script defer data-domain="r9mzz.github.io/lesfaits" src="https://plausible.io/js/script.js"></script>
+</head>
+<body>
+<script>
+(function(){var s=localStorage.getItem('theme');var d=s==='dark'||(s===null&&window.matchMedia('(prefers-color-scheme:dark)').matches);document.documentElement.setAttribute('data-theme',d?'dark':'light');})();
+</script>
+<div class="nav-overlay" id="nav-overlay" onclick="closeMenu()"></div>
+<nav class="nav-mobile" id="nav-mobile" aria-label="Menu mobile">
+<a href="categories/societe.html">Société</a>
+<a href="categories/science.html">Science</a>
+<a href="categories/economie.html">Économie</a>
+<a href="categories/tech.html">Tech</a>
+<a href="categories/sante.html">Santé</a>
+<a href="categories/environnement.html">Environnement</a>
+<a href="methode.html" class="nav-cta">Comment on travaille →</a>
+</nav>
+<script>
+function toggleMenu(){var b=document.getElementById('burger'),m=document.getElementById('nav-mobile'),o=document.getElementById('nav-overlay');b.classList.toggle('open');m.classList.toggle('open');o.classList.toggle('open');}
+function closeMenu(){document.getElementById('burger').classList.remove('open');document.getElementById('nav-mobile').classList.remove('open');document.getElementById('nav-overlay').classList.remove('open');}
+</script>
+
+<div id="read-progress"></div>
+<header class="header">
+  <div class="header__inner">
+    <a href="index.html" class="brand">
+      <div class="brand__logotype"><span class="fact">les</span><span class="uel">faits</span></div>
+    </a>
+    <div class="header__search">
+      <input type="search" class="header__search-input" aria-label="Rechercher un article" id="search-input" placeholder="Rechercher…" autocomplete="off" onkeydown="if(event.key==='Enter'&&this.value.trim())window.location=(document.querySelector('base').href)+'recherche.html?q='+encodeURIComponent(this.value.trim())"/>
+    </div>
+    <nav aria-label="Navigation principale">
+      <a href="categories/societe.html">Société</a>
+      <a href="categories/science.html">Science</a>
+      <a href="categories/economie.html">Économie</a>
+      <a href="categories/tech.html">Tech</a>
+      <a href="categories/sante.html">Santé</a>
+      <a href="categories/environnement.html">Environnement</a>
+      <a href="methode.html" class="nav-cta">Comment on travaille →</a>
+    </nav>
+    <button class="burger" id="burger" aria-label="Menu" onclick="toggleMenu()">
+      <span></span><span></span><span></span>
+    </button>
+    <button class="dark-toggle" id="dark-toggle" aria-label="Mode sombre" title="Mode sombre">🌙</button>
+  </div>
+</header>
+
+<main style="max-width:680px;margin:80px auto;padding:0 24px">
+
+  <span style="font-size:.8rem;font-weight:700;letter-spacing:.1em;color:var(--muted);text-transform:uppercase">Contact</span>
+  <h1 style="font-size:2.2rem;font-weight:700;margin:12px 0 8px;line-height:1.2">Nous écrire</h1>
+  <p style="color:var(--muted);font-size:1rem;margin-bottom:40px;line-height:1.7">
+    Une question, une erreur à signaler, un sujet que vous aimeriez voir traité — nous lisons tout.
+  </p>
+
+  <div class="contact-tabs">
+    <button class="contact-tab active" onclick="switchTab('general', this)">Message général</button>
+    <button class="contact-tab" onclick="switchTab('erreur', this)">Signaler une erreur</button>
+    <button class="contact-tab" onclick="switchTab('sujet', this)">Proposer un sujet</button>
+  </div>
+
+  <!-- Onglet 1 : Message général -->
+  <div id="panel-general" class="contact-panel active">
+    <div id="alert-general" class="alert"></div>
+    <form id="form-general" onsubmit="submitForm('general', event)">
+      <input type="hidden" name="access_key" value="d6261129-264c-4d22-a287-b0117a195d22">
+      <input type="hidden" name="subject" value="Message via Les Faits">
+      <input type="hidden" name="from_name" value="Les Faits Contact">
+      <input type="checkbox" name="botcheck" style="display:none !important" tabindex="-1" autocomplete="off">
+      <div class="form-group">
+        <label class="form-label" for="g-nom">Votre prénom ou pseudo <span style="color:var(--muted);font-weight:400">(optionnel)</span></label>
+        <input class="form-input" type="text" id="g-nom" name="name" placeholder="Ex : Marie">
+      </div>
+      <div class="form-group">
+        <label class="form-label" for="g-email">Votre adresse e-mail <span style="color:var(--muted);font-weight:400">(pour recevoir une réponse)</span></label>
+        <input class="form-input" type="email" id="g-email" name="email" placeholder="votre@email.com">
+      </div>
+      <div class="form-group">
+        <label class="form-label" for="g-msg">Votre message *</label>
+        <textarea class="form-textarea" id="g-msg" name="message" required placeholder="Écrivez votre message ici…"></textarea>
+      </div>
+      <button class="form-submit" type="submit" id="btn-general">
+        <span>Envoyer</span>
+        <div class="spinner" id="spin-general"></div>
+      </button>
+    </form>
+  </div>
+
+  <!-- Onglet 2 : Signaler une erreur -->
+  <div id="panel-erreur" class="contact-panel">
+    <p style="color:var(--muted);font-size:.9rem;line-height:1.7;margin-bottom:28px">
+      Vous avez repéré une erreur factuelle ? Précisez l'article, le passage concerné et la source que vous proposez. Nous répondons sous 48h.
+    </p>
+    <div id="alert-erreur" class="alert"></div>
+    <form id="form-erreur" onsubmit="submitForm('erreur', event)">
+      <input type="hidden" name="access_key" value="d6261129-264c-4d22-a287-b0117a195d22">
+      <input type="hidden" name="subject" value="Signalement erreur — Les Faits">
+      <input type="hidden" name="from_name" value="Les Faits Signalement">
+      <input type="checkbox" name="botcheck" style="display:none !important" tabindex="-1" autocomplete="off">
+      <div class="form-group">
+        <label class="form-label" for="e-email">Votre adresse e-mail <span style="color:var(--muted);font-weight:400">(pour recevoir une réponse)</span></label>
+        <input class="form-input" type="email" id="e-email" name="email" placeholder="votre@email.com">
+      </div>
+      <div class="form-group">
+        <label class="form-label" for="e-article">Titre ou URL de l'article *</label>
+        <input class="form-input" type="text" id="e-article" name="article" required placeholder="Ex : Canicule et pollution de l'air en France">
+      </div>
+      <div class="form-group">
+        <label class="form-label" for="e-passage">Le passage que vous estimez inexact *</label>
+        <textarea class="form-textarea" id="e-passage" name="message" required placeholder="Copiez ici le passage concerné…" style="min-height:100px"></textarea>
+      </div>
+      <div class="form-group">
+        <label class="form-label" for="e-source">Source que vous proposez <span style="color:var(--muted);font-weight:400">(optionnel)</span></label>
+        <input class="form-input" type="text" id="e-source" name="source" placeholder="Ex : https://www.insee.fr/...">
+        <p class="form-hint">Un lien vérifiable accélère le traitement de votre signalement.</p>
+      </div>
+      <button class="form-submit" type="submit" id="btn-erreur">
+        <span>Signaler l'erreur</span>
+        <div class="spinner" id="spin-erreur"></div>
+      </button>
+    </form>
+  </div>
+
+  <!-- Onglet 3 : Proposer un sujet -->
+  <div id="panel-sujet" class="contact-panel">
+    <p style="color:var(--muted);font-size:.9rem;line-height:1.7;margin-bottom:28px">
+      Un sujet vous semble important et peu couvert ? Partagez-le avec nous. Nous ne pouvons pas garantir de publication, mais nous lisons toutes les suggestions.
+    </p>
+    <div id="alert-sujet" class="alert"></div>
+    <form id="form-sujet" onsubmit="submitForm('sujet', event)">
+      <input type="hidden" name="access_key" value="d6261129-264c-4d22-a287-b0117a195d22">
+      <input type="hidden" name="subject" value="Proposition de sujet — Les Faits">
+      <input type="hidden" name="from_name" value="Les Faits Suggestion">
+      <input type="checkbox" name="botcheck" style="display:none !important" tabindex="-1" autocomplete="off">
+      <div class="form-group">
+        <label class="form-label" for="s-email">Votre adresse e-mail <span style="color:var(--muted);font-weight:400">(optionnel)</span></label>
+        <input class="form-input" type="email" id="s-email" name="email" placeholder="votre@email.com">
+      </div>
+      <div class="form-group">
+        <label class="form-label" for="s-titre">Le sujet en une phrase *</label>
+        <input class="form-input" type="text" id="s-titre" name="name" required placeholder="Ex : Impact des microplastiques dans les eaux françaises">
+      </div>
+      <div class="form-group">
+        <label class="form-label" for="s-cat">Rubrique</label>
+        <select class="form-select" id="s-cat" name="categorie">
+          <option value="">— Choisir —</option>
+          <option>Société</option>
+          <option>Science</option>
+          <option>Économie</option>
+          <option>Tech</option>
+          <option value="sante">Santé</option>
+          <option>Environnement</option>
+        </select>
+      </div>
+      <div class="form-group">
+        <label class="form-label" for="s-detail">Contexte ou sources connues <span style="color:var(--muted);font-weight:400">(optionnel)</span></label>
+        <textarea class="form-textarea" id="s-detail" name="message" placeholder="Contexte, sources que vous connaissez, angle suggéré…" style="min-height:100px"></textarea>
+      </div>
+      <button class="form-submit" type="submit" id="btn-sujet">
+        <span>Proposer le sujet</span>
+        <div class="spinner" id="spin-sujet"></div>
+      </button>
+    </form>
+  </div>
+
+</main>
+
+<footer class="footer" role="contentinfo" aria-label="Pied de page">
+  <div class="footer__inner">
+    <div class="footer__brand">
+      <div class="brand__logotype"><span class="fact">les</span><span class="uel">faits</span></div>
+      <p>Journal numérique français rédigé par IA. Sans publicité. Sans actionnaires.</p>
+      <p style="font-size:10px;color:var(--muted);margin-top:8px">Aucune publicité · Aucun actionnaire · Aucun cookie de tracking</p>
+    </div>
+    <div class="footer__col"><h4>RUBRIQUES</h4>
+      <a href="categories/societe.html">Société</a>
+      <a href="categories/science.html">Science</a>
+      <a href="categories/economie.html">Économie</a>
+      <a href="categories/tech.html">Tech</a>
+      <a href="categories/sante.html">Santé</a>
+      <a href="categories/environnement.html">Environnement</a>
+    </div>
+    <div class="footer__col"><h4>JOURNAL</h4>
+      <a href="methode.html">Comment on travaille</a>
+      <a href="corrections.html">Corrections publiques</a>
+      <a href="archive.html">Tous les articles</a>
+      <a href="feed.xml" class="footer__rss">Flux RSS</a>
+    </div>
+    <div class="footer__col"><h4>LÉGAL</h4>
+      <a href="mentions-legales.html">Mentions légales</a>
+      <a href="confidentialite.html">Confidentialité</a>
+      <a href="cgu.html">CGU</a>
+    </div>
+    <div class="footer__col"><h4>CONTACT</h4>
+      <a href="contact.html">Nous écrire</a>
+      <a href="contact.html#erreur">Signaler une erreur</a>
+    </div>
+  </div>
+  <div class="footer__bottom">
+    <span>© 2026 Les Faits · <a href="https://creativecommons.org/licenses/by-nc-nd/4.0/deed.fr" rel="noopener noreferrer external" target="_blank" style="color:inherit">CC BY-NC-ND 4.0</a></span>
+    <span>Protocole éditorial v1.1</span>
+  </div>
+</footer>
+
+<script>
+const ACCESS_KEY = 'd6261129-264c-4d22-a287-b0117a195d22';
+
+function switchTab(id, btn) {
+  document.querySelectorAll('.contact-panel').forEach(p => p.classList.remove('active'));
+  document.querySelectorAll('.contact-tab').forEach(b => b.classList.remove('active'));
+  document.getElementById('panel-' + id).classList.add('active');
+  btn.classList.add('active');
+}
+
+if (window.location.hash === '#erreur') {
+  document.querySelectorAll('.contact-tab')[1].click();
+} else if (window.location.hash === '#sujet') {
+  document.querySelectorAll('.contact-tab')[2].click();
+}
+
+function showAlert(id, type, msg) {
+  const el = document.getElementById('alert-' + id);
+  el.className = 'alert alert-' + type;
+  el.textContent = msg;
+  el.style.display = 'block';
+  el.scrollIntoView({ behavior: 'smooth', block: 'nearest' });
+}
+
+async function submitForm(id, e) {
+  e.preventDefault();
+  const form = document.getElementById('form-' + id);
+  const btn = document.getElementById('btn-' + id);
+  const spin = document.getElementById('spin-' + id);
+
+  btn.disabled = true;
+  spin.style.display = 'block';
+  document.getElementById('alert-' + id).style.display = 'none';
+
+  const data = new FormData(form);
+  // Ajoute la clé d'accès (déjà dans le hidden input, mais on s'assure)
+  data.set('access_key', ACCESS_KEY);
+
+  try {
+    const res = await fetch('https://api.web3forms.com/submit', {
+      method: 'POST',
+      body: data
+    });
+    const json = await res.json();
+
+    if (json.success) {
+      showAlert(id, 'success', '✓ Message envoyé. Nous vous répondons sous 48h.');
+      form.reset();
+    } else {
+      showAlert(id, 'error', 'Une erreur est survenue. Réessayez ou écrivez directement à lesfaits.contact@gmail.com');
+    }
+  } catch {
+    showAlert(id, 'error', 'Impossible d\'envoyer le message. Vérifiez votre connexion et réessayez.');
+  } finally {
+    btn.disabled = false;
+    spin.style.display = 'none';
+  }
+}
+</script>
+<script>
+(function(){
+  var btn=document.getElementById('dark-toggle');
+  var s=localStorage.getItem('theme');
+  var dark=s==='dark'||(s===null&&window.matchMedia('(prefers-color-scheme:dark)').matches);
+  document.documentElement.setAttribute('data-theme',dark?'dark':'light');
+  if(btn)btn.textContent=dark?'☀️':'🌙';
+  if(btn)btn.addEventListener('click',function(){
+    var d=document.documentElement.getAttribute('data-theme')==='dark';
+    document.documentElement.setAttribute('data-theme',d?'light':'dark');
+    localStorage.setItem('theme',d?'light':'dark');
+    btn.textContent=d?'🌙':'☀️';
+  });
+})();
+</script>
+<script>document.addEventListener('keydown',function(e){if(e.key==='/'&&!['INPUT','TEXTAREA','SELECT'].includes(document.activeElement.tagName)){e.preventDefault();var s=document.getElementById('search-input');if(s){s.focus();s.select();}}});</script>
+</body>
+</html>
