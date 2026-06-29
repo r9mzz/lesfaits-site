@@ -231,18 +231,6 @@ document.addEventListener('keydown',function(e){if(e.key==='Escape')closeMenu();
         </a></div></div>
 </div>
 
-<div style="max-width:1140px;margin:0 auto;padding:0 32px">
-  <div class="newsletter-block">
-    <div class="newsletter-block__title">La semaine en faits</div>
-    <div class="newsletter-block__sub">Chaque dimanche. Aucune opinion. Aucun parti pris.</div>
-    <form class="newsletter-form" onsubmit="handleNL(event)">
-      <input type="email" placeholder="votre@email.com" required autocomplete="email"/>
-      <button type="submit">S'abonner</button>
-    </form>
-    <div class="newsletter-block__legal">Aucune publicité. Désinscription en un clic.</div>
-  </div>
-</div>
-
 <footer class="footer" role="contentinfo" aria-label="Pied de page">
   <div class="footer__inner">
     <div class="footer__brand">
@@ -279,15 +267,6 @@ document.addEventListener('keydown',function(e){if(e.key==='Escape')closeMenu();
     <span>Protocole éditorial v1.1</span>
   </div>
 </footer>
-<script>
-(function(){
-  function handleNL(e){
-    e.preventDefault();
-    e.target.innerHTML='<p style="color:var(--blue);font-weight:600">✓ Merci ! Vous recevrez votre première newsletter dimanche.</p>';
-  }
-  window.handleNL=handleNL;
-})();
-</script>
 <script>
 (function(){
   var btn=document.getElementById('dark-toggle');
