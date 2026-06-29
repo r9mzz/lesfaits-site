@@ -1,5 +1,135 @@
 [
   {
+    "slug": "protections-radiations-spatiales-astronautes",
+    "titre": "Nouvelles protections contre les radiations spatiales pour les astronautes",
+    "categorie": "science",
+    "nb_sources": 4,
+    "date": "29 juin 2026, 11h16",
+    "resume": [
+      "Les astronautes sont exposés à des radiations spatiales qui peuvent avoir des effets néfastes sur leur santé, notamment un risque accru de cancer et de troubles neurologiques, selon des études menées par la NASA et d'autres institutions spatiales.",
+      "Des chercheurs de l'Institut coréen des sciences et technologies (Kist) ont développé un matériau qui bloque simultanément les ondes électromagnétiques et les rayonnements neutroniques, offrant ainsi une protection potentielle pour les équipages spatiaux, comme indiqué dans une publication récente sur le site de Futura Sciences.",
+      "D'autres solutions sont également explorées, telles que l'utilisation de champignons découverts à Tchernobyl, qui pourraient avoir des propriétés protectrices contre les radiations cosmiques, ou encore des nano-particules et des matériaux plastiques, comme mentionné dans des articles de Maxi Sciences et de Futura Sciences."
+    ],
+    "image_keyword": "space station europe"
+  },
+  {
+    "slug": "decouverte-champ-bataille-alexandre-le-grand-turquie",
+    "titre": "Découverte du champ de bataille d’Alexandre le Grand en Turquie",
+    "categorie": "societe",
+    "nb_sources": 4,
+    "date": "29 juin 2026, 11h16",
+    "resume": [
+      "Des archéologues ont identifié le site de la première victoire d'Alexandre le Grand contre les Perses en 334 avant J.-C., près de la rivière Biga en Turquie, après des décennies de recherches.",
+      "Cette découverte est considérée comme une avancée majeure dans la compréhension de l'histoire d'Alexandre le Grand et de son empire, qui s'étendait de la Grèce à l'Inde.",
+      "Les fouilles ont permis de localiser des indices essentiels, tels que des armes et des pièces de monnaie, qui confirment l'emplacement du champ de bataille, selon les archéologues."
+    ],
+    "image_keyword": "ancient battlefield turkey"
+  },
+  {
+    "slug": "securite-en-ligne-pendant-le-mondial",
+    "titre": "Sécurité en ligne pour les supporters pendant le Mondial",
+    "categorie": "tech",
+    "nb_sources": 4,
+    "date": "29 juin 2026, 11h16",
+    "resume": [
+      "Le Mondial attire des millions de supporters qui utilisent les réseaux sociaux et les plateformes de discussion pour échanger sur les matchs, ce qui augmente les risques de piratage et de vol de données.",
+      "Les connexions Wi-Fi partagées et les réseaux mobiles saturés pendant les événements sportifs sont particulièrement vulnérables aux attaques de pirates, mettant en danger la sécurité des comptes et des échanges numériques.",
+      "Les solutions de sécurité en ligne, telles que les VPN, peuvent aider à protéger les supporters en chiffrant les données et en masquant les adresses IP, réduisant ainsi les risques d'interception et de vol de données."
+    ],
+    "image_keyword": "football stadium crowd"
+  },
+  {
+    "slug": "sauvetage-poisson-rare-monde",
+    "titre": "Le poisson le plus rare du monde sauve de l’extinction",
+    "categorie": "societe",
+    "nb_sources": 3,
+    "date": "29 juin 2026, 11h16",
+    "resume": [
+      "Le Cyprinodon diabolis, considéré comme l'espèce la plus rare de la planète, a été sauvé de l'extinction grâce à une opération de sauvetage menée par des scientifiques dans le désert du Nevada.",
+      "La population de ce poisson avait chuté à seulement 20 individus après deux séismes qui ont détruit une partie de son habitat, mais les chercheurs ont réussi à relâcher des individus élevés en captivité pour augmenter la population.",
+      "Cependant, les scientifiques n'ont pas pu prélever des échantillons génétiques des poissons d'élevage avant de les réintroduire, ce qui a créé un casse-tête génétique pour suivre l'évolution de la population."
+    ],
+    "image_keyword": "desert fish nevada"
+  },
+  {
+    "slug": "spiruline-super-aliment-nutritionnel",
+    "titre": "La spiruline, un super-aliment aux vertus nutritionnelles",
+    "categorie": "societe",
+    "nb_sources": 4,
+    "date": "29 juin 2026, 11h16",
+    "resume": [
+      "La spiruline, une cyanobactérie filamenteuse, est consommée depuis des millénaires pour ses qualités nutritionnelles, avec 67 % de protéines et une multitude de vitamines et minéraux.",
+      "Le secteur de la spiruline est en pleine croissance, mais les coulisses de la production sont parfois troubles, avec des importations massives et des procédés de séchage qui altèrent la qualité.",
+      "Les consommateurs doivent être vigilants quant à l'origine et au séchage de la spiruline, car certaines productions industrielles importées d'Asie peuvent contenir des contaminants et des cyanotoxines."
+    ],
+    "image_keyword": "green algae farm"
+  },
+  {
+    "slug": "neutrinos-cosmiques-haute-energie",
+    "titre": "Découverte de la source des neutrinos cosmiques de haute énergie",
+    "categorie": "science",
+    "nb_sources": 4,
+    "date": "29 juin 2026, 11h16",
+    "resume": [
+      "Les scientifiques ont identifié une galaxie lointaine comme la source probable d'un neutrino cosmique de haute énergie, grâce à l'effet de lentille gravitationnelle et à l'astronomie multi-messagers.",
+      "Cette découverte a été rendue possible par la collaboration de plus de 800 scientifiques du monde entier, coordonnés par le CEA-Irfu, et par l'utilisation de télescopes sous-marins et de réseaux de radiotélescopes.",
+      "Les neutrinos cosmiques de haute énergie sont des particules mystérieuses qui peuvent traverser des milliers de Terres sans être détectées, et leur étude pourrait révéler des secrets sur l'Univers et ses phénomènes extrêmes."
+    ],
+    "image_keyword": "galaxy formation universe"
+  },
+  {
+    "slug": "bulle-froide-atlantique-vagues-chaleur-europe",
+    "titre": "La bulle froide de l’Atlantique et ses effets sur les vagues de chaleur en Europe",
+    "categorie": "environnement",
+    "nb_sources": 3,
+    "date": "29 juin 2026, 11h16",
+    "resume": [
+      "La bulle froide de l'Atlantique, une zone de refroidissement anormal de l'océan, pourrait accentuer les vagues de chaleur en Europe, selon des études récentes. Les scientifiques ont constaté que les épisodes de chaleur extrême coïncidaient souvent avec des périodes où les eaux à l'ouest de la Grande-Bretagne étaient anormalement froides.",
+      "Le phénomène de la bulle froide est lié à l'affaiblissement de la circulation méridienne de retournement de l'Atlantique (AMOC), un système de courants océaniques qui contribue à réguler le climat de la planète. Les émissions de gaz à effet de serre constituent la principale cause du changement climatique, qui rend les vagues de chaleur plus fréquentes et plus intenses.",
+      "Les conséquences d'un arrêt de l'AMOC seraient considérables dans de nombreuses régions du monde, notamment en Europe, où les hivers pourraient devenir plus rigoureux et les sécheresses plus fréquentes. Les scientifiques estiment que la probabilité d'un arrêt de l'AMOC dépasse 50%."
+    ],
+    "image_keyword": "atlantic ocean waves"
+  },
+  {
+    "slug": "retour-acetamipride-france-debat-scientifique-politique",
+    "titre": "Retour de l’acétamipride en France, un débat scientifique et politique",
+    "categorie": "science",
+    "nb_sources": 4,
+    "date": "29 juin 2026, 11h16",
+    "resume": [
+      "Le Sénat français a voté la réintroduction de l'acétamipride, un insecticide de la famille des néonicotinoïdes, malgré les préoccupations scientifiques sur sa toxicité. Selon le Monde, les représentants des principales associations de patients et des sociétés savantes médicales et scientifiques rappellent l'état de la science sur la toxicité de l'acétamipride et du flupyradifurone.",
+      "Le débat sur la réintroduction de l'acétamipride en France a commencé il y a plusieurs mois, avec des positions divergentes entre les partisans de la réintroduction et les opposants. D'après Reporterre, l'acétamipride est de retour, avec une adoption par trois sénateurs, dont Laurent Duplomb, à l'issue de la première matinée d'examen du projet de loi d'urgence agricole.",
+      "Les opposants à la réintroduction de l'acétamipride soulignent les risques pour la santé humaine et l'environnement. Selon Politis, chaque jour, des voix s'élèvent pour favoriser des prises de conscience politiques et le débat d'idées, par des enquêtes, reportages et analyses."
+    ],
+    "image_keyword": "french wheat field"
+  },
+  {
+    "slug": "nouvelles-addictions-mecanismes-risques",
+    "titre": "Les nouvelles addictions : comprendre les mécanismes et les risques",
+    "categorie": "science",
+    "nb_sources": 4,
+    "date": "29 juin 2026, 11h16",
+    "resume": [
+      "Selon l'Inserm, les addictions sont des pathologies cérébrales définies par une dépendance à une substance ou un comportement, avec des conséquences graves sur la santé mentale et physique.",
+      "D'après l'Observatoire français des drogues et tendances addictives, les usages numériques et la santé sont de plus en plus liés, avec des risques d'addiction aux jeux vidéo, aux réseaux sociaux et à d'autres activités en ligne.",
+      "Selon les chercheurs, les nouvelles addictions nécessitent de nouvelles approches de prévention et de prise en charge, en tenant compte des spécificités de chaque type d'addiction et des besoins individuels des personnes concernées."
+    ],
+    "image_keyword": "brain scan europe"
+  },
+  {
+    "slug": "loi-urgence-agricole-acetamipride",
+    "titre": "Loi d’urgence agricole : le Sénat rouvre le débat sur l’acétamipride",
+    "categorie": "environnement",
+    "nb_sources": 4,
+    "date": "29 juin 2026, 11h16",
+    "resume": [
+      "Le Sénat a rouvert le débat sur la réintroduction de l'acétamipride, un pesticide interdit en France, dans le cadre de la loi d'urgence agricole, malgré l'opposition du gouvernement.",
+      "La majorité sénatoriale compte profiter de l'examen du projet de loi pour tenter de réintroduire l'usage dérogatoire de l'acétamipride, un sujet inflammable qui cristallise la controverse.",
+      "Le gouvernement craint que la disposition ne compromette l'adoption du texte et pourrait lâcher du lest sur d'autres mesures controversées, notamment sur l'eau."
+    ],
+    "image_keyword": "french countryside landscape"
+  },
+  {
     "slug": "refuges-climatiques-espagne-canicules",
     "titre": "L'Espagne met en place des refuges climatiques pour lutter contre les canicules",
     "categorie": "environnement",
