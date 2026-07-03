@@ -42,7 +42,8 @@
   <a href="categories/tech.html">Tech</a>
   <a href="categories/sante.html">Santé</a>
   <a href="categories/environnement.html">Environnement</a>
-  <a href="archive.html">Tous les articles</a>
+  <a href="favoris.html">Favoris</a>
+<a href="archive.html">Tous les articles</a>
   <a href="methode.html" class="nav-cta">Comment on travaille →</a>
 </nav>
 <script>
@@ -66,6 +67,7 @@ document.addEventListener('keydown',function(e){if(e.key==='Escape')closeMenu();
 <a href="categories/tech.html">Tech</a>
 <a href="categories/sante.html">Santé</a>
 <a href="categories/environnement.html">Environnement</a>
+<a href="favoris.html">Favoris</a>
 <a href="archive.html">Tous les articles</a>
 <a class="nav-cta" href="methode.html">Comment on travaille →</a>
 </nav>
@@ -103,7 +105,7 @@ document.addEventListener('keydown',function(e){if(e.key==='Escape')closeMenu();
   <a class="share-btn" href="https://www.linkedin.com/sharing/share-offsite/?url=https://lesfaits.info/articles/subvention-ars-planning-familial-gironde-2026.html" target="_blank" rel="noopener noreferrer external">in LinkedIn</a>
   <a class="share-btn" href="https://api.whatsapp.com/send?text=Subvention%20Ars%20Planning%20Familial%20Gironde%202026%20https%3A//lesfaits.info/articles/subvention-ars-planning-familial-gironde-2026.html" target="_blank" rel="noopener noreferrer external">WhatsApp</a>
   <button class="share-btn" onclick="copyLink()" id="copy-btn">Copier le lien</button>
-  <button class="fav-btn" id="fav-btn" aria-pressed="false">♡ Favoris</button>
+  <button class="fav-btn" id="fav-btn" aria-pressed="false">Favoris</button>
 </div>
 <script>if(navigator.share)document.getElementById('native-share').style.display='inline-flex';</script>
 <div class="sources"><h3>SOURCES</h3><ol><li><strong>Planning familial de Gironde</strong> · <em>La subvention de l’ARS maintenue pour 2026</em> · 2026 · <a href="https://entrevue.fr/entrevue/planning-familial-de-gironde-la-subvention-de-lars-maintenue-pour-2026/" rel="noopener" target="_blank">Lire la source →</a></li><li><strong>Rue 89 Bordeaux</strong> · <em>Le Planning familial de la Gironde « condamné à disparaître » par la …</em> · 2026 · <a href="https://rue89bordeaux.com/2026/06/le-planning-familial-de-la-gironde-condamne-a-disparaitre-par-la-suppression-des-aides-de-lars/" rel="noopener" target="_blank">Lire la source →</a></li><li><strong>Sud Ouest</strong> · <em>Planning familial de la Gironde : l’ARS maintient sa subvention de 160 …</em> · 2026 · <a href="https://www.sudouest.fr/gironde/bordeaux/planning-familial-de-la-gironde-l-ars-maintient-sa-subvention-de-160-000-euros-et-conditionne-ses-financements-pour-2027-29636307.php" rel="noopener" target="_blank">Lire la source →</a></li><li><strong>Rue 89 Bordeaux</strong> · <em>La suppression de la principale subvention du Planning familial de …</em> · 2026 · <a href="https://rue89bordeaux.com/2026/06/la-fin-de-la-principale-subvention-au-planning-familial-de-la-gironde-suscite-lindignation-generale/" rel="noopener" target="_blank">Lire la source →</a></li></ol></div>
@@ -132,7 +134,8 @@ document.addEventListener('keydown',function(e){if(e.key==='Escape')closeMenu();
     <div class="footer__col"><h4>JOURNAL</h4>
       <a href="methode.html">Comment on travaille</a>
       <a href="corrections.html">Corrections publiques</a>
-      <a href="archive.html">Tous les articles</a>
+      <a href="favoris.html">Favoris</a>
+<a href="archive.html">Tous les articles</a>
       <a href="feed.xml" class="footer__rss">Flux RSS</a>
     </div>
     <div class="footer__col"><h4>LÉGAL</h4>
@@ -191,12 +194,12 @@ function copyLink(){
   if(!btn)return;
   var favs=JSON.parse(localStorage.getItem('lesfaits_favs')||'[]');
   var slug='subvention-ars-planning-familial-gironde-2026';
-  if(favs.indexOf(slug)>-1){btn.classList.add('active');btn.setAttribute('aria-pressed','true');btn.textContent='♥ Favori';}
+  if(favs.indexOf(slug)>-1){btn.classList.add('active');btn.setAttribute('aria-pressed','true');btn.textContent='Favori';}
   btn.addEventListener('click',function(){
     var f=JSON.parse(localStorage.getItem('lesfaits_favs')||'[]');
     var idx=f.indexOf(slug);
-    if(idx>-1){f.splice(idx,1);btn.classList.remove('active');btn.setAttribute('aria-pressed','false');btn.textContent='♡ Favoris';}
-    else{f.push(slug);btn.classList.add('active');btn.setAttribute('aria-pressed','true');btn.textContent='♥ Favori';}
+    if(idx>-1){f.splice(idx,1);btn.classList.remove('active');btn.setAttribute('aria-pressed','false');btn.textContent='Favoris';}
+    else{f.push(slug);btn.classList.add('active');btn.setAttribute('aria-pressed','true');btn.textContent='Favori';}
     localStorage.setItem('lesfaits_favs',JSON.stringify(f));
   });
 })();

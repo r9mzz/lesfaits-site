@@ -42,7 +42,8 @@
   <a href="categories/tech.html">Tech</a>
   <a href="categories/sante.html">Santé</a>
   <a href="categories/environnement.html">Environnement</a>
-  <a href="archive.html">Tous les articles</a>
+  <a href="favoris.html">Favoris</a>
+<a href="archive.html">Tous les articles</a>
   <a href="methode.html" class="nav-cta">Comment on travaille →</a>
 </nav>
 <script>
@@ -66,6 +67,7 @@ document.addEventListener('keydown',function(e){if(e.key==='Escape')closeMenu();
 <a href="categories/tech.html">Tech</a>
 <a href="categories/sante.html">Santé</a>
 <a href="categories/environnement.html">Environnement</a>
+<a href="favoris.html">Favoris</a>
 <a href="archive.html">Tous les articles</a>
 <a class="nav-cta" href="methode.html">Comment on travaille →</a>
 </nav>
@@ -103,7 +105,7 @@ document.addEventListener('keydown',function(e){if(e.key==='Escape')closeMenu();
   <a class="share-btn" href="https://www.linkedin.com/sharing/share-offsite/?url=https://lesfaits.info/articles/chantal-delsol-droite-antimoderne.html" target="_blank" rel="noopener noreferrer external">in LinkedIn</a>
   <a class="share-btn" href="https://api.whatsapp.com/send?text=Chantal%20Delsol%20et%20la%20droite%20antimoderne%20https%3A//lesfaits.info/articles/chantal-delsol-droite-antimoderne.html" target="_blank" rel="noopener noreferrer external">WhatsApp</a>
   <button class="share-btn" onclick="copyLink()" id="copy-btn">Copier le lien</button>
-  <button class="fav-btn" id="fav-btn" aria-pressed="false">♡ Favoris</button>
+  <button class="fav-btn" id="fav-btn" aria-pressed="false">Favoris</button>
 </div>
 <script>if(navigator.share)document.getElementById('native-share').style.display='inline-flex';</script>
 <div class="sources"><h3>SOURCES</h3><ol><li><strong>Revue des Deux Mondes</strong> · <em>Entretien avec Chantal Delsol. Comment peut-on être de droite ?</em> · 2024 · <a href="https://www.revuedesdeuxmondes.fr/entretien-avec-chantal-delsol-comment-peut-on-etre-de-droite/" rel="noopener" target="_blank">Lire la source →</a></li><li><strong>Université Populaire de Toulouse</strong> · <em>Qui est Chantal Delsol, la philosophe antimoderne à l’origine de la venue de…</em> · 2024 · <a href="https://universitepopulairetoulouse.fr/Qui-est-Chantal-Delsol-la-philosophe-antimoderne-a-l-origine-de-la-venue-de.html" rel="noopener" target="_blank">Lire la source →</a></li><li><strong>Académie des Sciences Morales et Politiques</strong> · <em>Chantal Delsol</em> · 2024 · <a href="https://academiesciencesmoralesetpolitiques.fr/category/chantal-delsol/" rel="noopener" target="_blank">Lire la source →</a></li></ol></div>
@@ -132,7 +134,8 @@ document.addEventListener('keydown',function(e){if(e.key==='Escape')closeMenu();
     <div class="footer__col"><h4>JOURNAL</h4>
       <a href="methode.html">Comment on travaille</a>
       <a href="corrections.html">Corrections publiques</a>
-      <a href="archive.html">Tous les articles</a>
+      <a href="favoris.html">Favoris</a>
+<a href="archive.html">Tous les articles</a>
       <a href="feed.xml" class="footer__rss">Flux RSS</a>
     </div>
     <div class="footer__col"><h4>LÉGAL</h4>
@@ -191,12 +194,12 @@ function copyLink(){
   if(!btn)return;
   var favs=JSON.parse(localStorage.getItem('lesfaits_favs')||'[]');
   var slug='chantal-delsol-droite-antimoderne';
-  if(favs.indexOf(slug)>-1){btn.classList.add('active');btn.setAttribute('aria-pressed','true');btn.textContent='♥ Favori';}
+  if(favs.indexOf(slug)>-1){btn.classList.add('active');btn.setAttribute('aria-pressed','true');btn.textContent='Favori';}
   btn.addEventListener('click',function(){
     var f=JSON.parse(localStorage.getItem('lesfaits_favs')||'[]');
     var idx=f.indexOf(slug);
-    if(idx>-1){f.splice(idx,1);btn.classList.remove('active');btn.setAttribute('aria-pressed','false');btn.textContent='♡ Favoris';}
-    else{f.push(slug);btn.classList.add('active');btn.setAttribute('aria-pressed','true');btn.textContent='♥ Favori';}
+    if(idx>-1){f.splice(idx,1);btn.classList.remove('active');btn.setAttribute('aria-pressed','false');btn.textContent='Favoris';}
+    else{f.push(slug);btn.classList.add('active');btn.setAttribute('aria-pressed','true');btn.textContent='Favori';}
     localStorage.setItem('lesfaits_favs',JSON.stringify(f));
   });
 })();

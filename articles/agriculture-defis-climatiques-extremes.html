@@ -43,7 +43,8 @@
   <a href="categories/tech.html">Tech</a>
   <a href="categories/sante.html">Santé</a>
   <a href="categories/environnement.html">Environnement</a>
-  <a href="archive.html">Tous les articles</a>
+  <a href="favoris.html">Favoris</a>
+<a href="archive.html">Tous les articles</a>
   <a href="methode.html" class="nav-cta">Comment on travaille →</a>
 </nav>
 <script>
@@ -67,6 +68,7 @@ document.addEventListener('keydown',function(e){if(e.key==='Escape')closeMenu();
 <a href="categories/tech.html">Tech</a>
 <a href="categories/sante.html">Santé</a>
 <a href="categories/environnement.html">Environnement</a>
+<a href="favoris.html">Favoris</a>
 <a href="archive.html">Tous les articles</a>
 <a class="nav-cta" href="methode.html">Comment on travaille →</a>
 </nav>
@@ -104,7 +106,7 @@ document.addEventListener('keydown',function(e){if(e.key==='Escape')closeMenu();
   <a class="share-btn" href="https://www.linkedin.com/sharing/share-offsite/?url=https://lesfaits.info/articles/agriculture-defis-climatiques-extremes.html" target="_blank" rel="noopener noreferrer external">in LinkedIn</a>
   <a class="share-btn" href="https://api.whatsapp.com/send?text=L%27agriculture%20face%20aux%20d%C3%A9fis%20climatiques%20extr%C3%AAmes%20https%3A//lesfaits.info/articles/agriculture-defis-climatiques-extremes.html" target="_blank" rel="noopener noreferrer external">WhatsApp</a>
   <button class="share-btn" onclick="copyLink()" id="copy-btn">Copier le lien</button>
-  <button class="fav-btn" id="fav-btn" aria-pressed="false">♡ Favoris</button>
+  <button class="fav-btn" id="fav-btn" aria-pressed="false">Favoris</button>
 </div>
 <script>if(navigator.share)document.getElementById('native-share').style.display='inline-flex';</script>
 <div class="sources"><h3>SOURCES</h3><ol><li><strong>Sénat</strong> · <em>L’agriculture face au réchauffement climatique et aux pertes de</em> · 2025 · <a href="https://www.senat.fr/rap/r24-516/r24-516.html" rel="noopener" target="_blank">Lire la source →</a></li><li><strong>INRAE</strong> · <em>Agriculture et changement climatique. Impacts, adaptation et</em> · 2025 · <a href="https://www.inrae.fr/actualites/agriculture-changement-climatique-impacts-adaptation-attenuation" rel="noopener" target="_blank">Lire la source →</a></li><li><strong>Chambre d’agriculture France</strong> · <em>Agriculture et changement climatique</em> · 2025 · <a href="https://chambres-agriculture.fr/les-dossiers/detail-du-dossier/agriculture-et-changement-climatique-1" rel="noopener" target="_blank">Lire la source →</a></li><li><strong>Geo.fr</strong> · <em>Ce que l’agriculture française a traversé en 2024, et comment elle s</em> · 2024 · <a href="https://www.geo.fr/environnement/ce-que-l-agriculture-francaise-a-traverse-en-2024-et-comment-elle-s-adapte-au-changement-climatique-222226" rel="noopener" target="_blank">Lire la source →</a></li><li><strong>Paysans.fr</strong> · <em>Sécheresse, canicule et vent : le défi crucial des agriculteurs</em> · 2025 · <a href="https://www.paysans.fr/climat-ecologie/secheresse-canicule-et-vent-un-cocktail-explosif-pour-les-agriculteurs.html" rel="noopener" target="_blank">Lire la source →</a></li></ol></div>
@@ -133,7 +135,8 @@ document.addEventListener('keydown',function(e){if(e.key==='Escape')closeMenu();
     <div class="footer__col"><h4>JOURNAL</h4>
       <a href="methode.html">Comment on travaille</a>
       <a href="corrections.html">Corrections publiques</a>
-      <a href="archive.html">Tous les articles</a>
+      <a href="favoris.html">Favoris</a>
+<a href="archive.html">Tous les articles</a>
       <a href="feed.xml" class="footer__rss">Flux RSS</a>
     </div>
     <div class="footer__col"><h4>LÉGAL</h4>
@@ -192,12 +195,12 @@ function copyLink(){
   if(!btn)return;
   var favs=JSON.parse(localStorage.getItem('lesfaits_favs')||'[]');
   var slug='agriculture-defis-climatiques-extremes';
-  if(favs.indexOf(slug)>-1){btn.classList.add('active');btn.setAttribute('aria-pressed','true');btn.textContent='♥ Favori';}
+  if(favs.indexOf(slug)>-1){btn.classList.add('active');btn.setAttribute('aria-pressed','true');btn.textContent='Favori';}
   btn.addEventListener('click',function(){
     var f=JSON.parse(localStorage.getItem('lesfaits_favs')||'[]');
     var idx=f.indexOf(slug);
-    if(idx>-1){f.splice(idx,1);btn.classList.remove('active');btn.setAttribute('aria-pressed','false');btn.textContent='♡ Favoris';}
-    else{f.push(slug);btn.classList.add('active');btn.setAttribute('aria-pressed','true');btn.textContent='♥ Favori';}
+    if(idx>-1){f.splice(idx,1);btn.classList.remove('active');btn.setAttribute('aria-pressed','false');btn.textContent='Favoris';}
+    else{f.push(slug);btn.classList.add('active');btn.setAttribute('aria-pressed','true');btn.textContent='Favori';}
     localStorage.setItem('lesfaits_favs',JSON.stringify(f));
   });
 })();

@@ -42,7 +42,8 @@
   <a href="categories/tech.html">Tech</a>
   <a href="categories/sante.html">Santé</a>
   <a href="categories/environnement.html">Environnement</a>
-  <a href="archive.html">Tous les articles</a>
+  <a href="favoris.html">Favoris</a>
+<a href="archive.html">Tous les articles</a>
   <a href="methode.html" class="nav-cta">Comment on travaille →</a>
 </nav>
 <script>
@@ -66,6 +67,7 @@ document.addEventListener('keydown',function(e){if(e.key==='Escape')closeMenu();
 <a href="categories/tech.html">Tech</a>
 <a href="categories/sante.html">Santé</a>
 <a href="categories/environnement.html">Environnement</a>
+<a href="favoris.html">Favoris</a>
 <a href="archive.html">Tous les articles</a>
 <a class="nav-cta" href="methode.html">Comment on travaille →</a>
 </nav>
@@ -103,7 +105,7 @@ document.addEventListener('keydown',function(e){if(e.key==='Escape')closeMenu();
   <a class="share-btn" href="https://www.linkedin.com/sharing/share-offsite/?url=https://lesfaits.info/articles/canicule-sante-publique-france.html" target="_blank" rel="noopener noreferrer external">in LinkedIn</a>
   <a class="share-btn" href="https://api.whatsapp.com/send?text=Canicule%20%3A%20Situation%20sanitaire%20en%20France%20https%3A//lesfaits.info/articles/canicule-sante-publique-france.html" target="_blank" rel="noopener noreferrer external">WhatsApp</a>
   <button class="share-btn" onclick="copyLink()" id="copy-btn">Copier le lien</button>
-  <button class="fav-btn" id="fav-btn" aria-pressed="false">♡ Favoris</button>
+  <button class="fav-btn" id="fav-btn" aria-pressed="false">Favoris</button>
 </div>
 <script>if(navigator.share)document.getElementById('native-share').style.display='inline-flex';</script>
 <div class="sources"><h3>SOURCES</h3><ol><li><strong>Santé publique France</strong> · <em>Canicule et santé en France. Bulletin du 24 juin 2026.</em> · 2026 · <a href="https://www.santepubliquefrance.fr/climat/fortes-chaleurs-canicule/bulletin-national/canicule-et-sante-en-france-bulletin-du-24-juin-2026" rel="noopener" target="_blank">Lire la source →</a></li><li><strong>Ministère de la Santé, de la Jeunesse et des Sports</strong> · <em>La gestion sanitaire des vagues de chaleur</em> · 2023 · <a href="https://sante.gouv.fr/sante-et-environnement/risques-climatiques/article/la-gestion-sanitaire-des-vagues-de-chaleur" rel="noopener" target="_blank">Lire la source →</a></li><li><strong>France Info</strong> · <em>DIRECT. Alerte canicule : 14 départements passeront en vigilance rouge</em> · 2026 · <a href="https://www.franceinfo.fr/environnement/meteo/alertes-meteo-et-vigilances/direct-alerte-canicule-26-c-a-paris-27-c-a-bordeaux-29-c-a-la-rochelle-a-5-heures-mercredi-quatre-nouveaux-departements-places-en-vigilance-rouge-mercredi_8076842.html" rel="noopener" target="_blank">Lire la source →</a></li><li><strong>Santé Magazine</strong> · <em>Canicule 2026 : départements concernés, comment se protéger ?</em> · 2026 · <a href="https://www.santemagazine.fr/sante/sante-environnementale/tout-savoir-sur-la-canicule-et-les-fortes-chaleurs-443480" rel="noopener" target="_blank">Lire la source →</a></li><li><strong>Vie publique</strong> · <em>Chronologie des canicules en France depuis 2003</em> · 2023 · <a href="https://www.vie-publique.fr/eclairage/303797-chronologie-des-canicules-en-france-depuis-2003" rel="noopener" target="_blank">Lire la source →</a></li></ol></div>
@@ -132,7 +134,8 @@ document.addEventListener('keydown',function(e){if(e.key==='Escape')closeMenu();
     <div class="footer__col"><h4>JOURNAL</h4>
       <a href="methode.html">Comment on travaille</a>
       <a href="corrections.html">Corrections publiques</a>
-      <a href="archive.html">Tous les articles</a>
+      <a href="favoris.html">Favoris</a>
+<a href="archive.html">Tous les articles</a>
       <a href="feed.xml" class="footer__rss">Flux RSS</a>
     </div>
     <div class="footer__col"><h4>LÉGAL</h4>
@@ -191,12 +194,12 @@ function copyLink(){
   if(!btn)return;
   var favs=JSON.parse(localStorage.getItem('lesfaits_favs')||'[]');
   var slug='canicule-sante-publique-france';
-  if(favs.indexOf(slug)>-1){btn.classList.add('active');btn.setAttribute('aria-pressed','true');btn.textContent='♥ Favori';}
+  if(favs.indexOf(slug)>-1){btn.classList.add('active');btn.setAttribute('aria-pressed','true');btn.textContent='Favori';}
   btn.addEventListener('click',function(){
     var f=JSON.parse(localStorage.getItem('lesfaits_favs')||'[]');
     var idx=f.indexOf(slug);
-    if(idx>-1){f.splice(idx,1);btn.classList.remove('active');btn.setAttribute('aria-pressed','false');btn.textContent='♡ Favoris';}
-    else{f.push(slug);btn.classList.add('active');btn.setAttribute('aria-pressed','true');btn.textContent='♥ Favori';}
+    if(idx>-1){f.splice(idx,1);btn.classList.remove('active');btn.setAttribute('aria-pressed','false');btn.textContent='Favoris';}
+    else{f.push(slug);btn.classList.add('active');btn.setAttribute('aria-pressed','true');btn.textContent='Favori';}
     localStorage.setItem('lesfaits_favs',JSON.stringify(f));
   });
 })();

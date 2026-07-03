@@ -42,7 +42,8 @@
   <a href="categories/tech.html">Tech</a>
   <a href="categories/sante.html">Santé</a>
   <a href="categories/environnement.html">Environnement</a>
-  <a href="archive.html">Tous les articles</a>
+  <a href="favoris.html">Favoris</a>
+<a href="archive.html">Tous les articles</a>
   <a href="methode.html" class="nav-cta">Comment on travaille →</a>
 </nav>
 <script>
@@ -66,6 +67,7 @@ document.addEventListener('keydown',function(e){if(e.key==='Escape')closeMenu();
 <a href="categories/tech.html">Tech</a>
 <a href="categories/sante.html">Santé</a>
 <a href="categories/environnement.html">Environnement</a>
+<a href="favoris.html">Favoris</a>
 <a href="archive.html">Tous les articles</a>
 <a class="nav-cta" href="methode.html">Comment on travaille →</a>
 </nav>
@@ -103,7 +105,7 @@ document.addEventListener('keydown',function(e){if(e.key==='Escape')closeMenu();
   <a class="share-btn" href="https://www.linkedin.com/sharing/share-offsite/?url=https://lesfaits.info/articles/theorie-evolution-darwin.html" target="_blank" rel="noopener noreferrer external">in LinkedIn</a>
   <a class="share-btn" href="https://api.whatsapp.com/send?text=La%20Th%C3%A9orie%20de%20l%27%C3%89volution%20de%20Darwin%20https%3A//lesfaits.info/articles/theorie-evolution-darwin.html" target="_blank" rel="noopener noreferrer external">WhatsApp</a>
   <button class="share-btn" onclick="copyLink()" id="copy-btn">Copier le lien</button>
-  <button class="fav-btn" id="fav-btn" aria-pressed="false">♡ Favoris</button>
+  <button class="fav-btn" id="fav-btn" aria-pressed="false">Favoris</button>
 </div>
 <script>if(navigator.share)document.getElementById('native-share').style.display='inline-flex';</script>
 <div class="sources"><h3>SOURCES</h3><ol><li><strong>Geo.fr</strong> · <em>Charles Darwin : qu’est-ce que la théorie de l’évolution ?</em> · 2023 · <a href="https://www.geo.fr/histoire/charles-darwin-quest-ce-que-la-theorie-de-levolution-208353" rel="noopener" target="_blank">Lire la source →</a></li><li><strong>Sciences et Avenir</strong> · <em>Théorie de l’évolution : actu, infos et vidéos</em> · 2023 · <a href="https://www.sciencesetavenir.fr/tag_theme/theorie-de-l-evolution_37696/" rel="noopener" target="_blank">Lire la source →</a></li><li><strong>Wikipédia</strong> · <em>Darwinisme</em> · 2023 · <a href="https://fr.wikipedia.org/wiki/Darwinisme" rel="noopener" target="_blank">Lire la source →</a></li><li><strong>BEM-UNIV</strong> · <em>Les sciences de l’évolution - Biologie de l’évolution et médecine</em> · 2023 · <a href="https://bem-univ.fr/rapprocher-les-sciences-de-l-evolution-la-medecine-et-la-sante-publique-457-html" rel="noopener" target="_blank">Lire la source →</a></li><li><strong>Planet-Vie</strong> · <em>Vers un remaniement de la théorie de l’évolution</em> · 2023 · <a href="https://planet-vie.ens.fr/thematiques/evolution/mecanismes-theories-et-concepts-de-l-evolution/vers-un-remaniement-de-la" rel="noopener" target="_blank">Lire la source →</a></li></ol></div>
@@ -132,7 +134,8 @@ document.addEventListener('keydown',function(e){if(e.key==='Escape')closeMenu();
     <div class="footer__col"><h4>JOURNAL</h4>
       <a href="methode.html">Comment on travaille</a>
       <a href="corrections.html">Corrections publiques</a>
-      <a href="archive.html">Tous les articles</a>
+      <a href="favoris.html">Favoris</a>
+<a href="archive.html">Tous les articles</a>
       <a href="feed.xml" class="footer__rss">Flux RSS</a>
     </div>
     <div class="footer__col"><h4>LÉGAL</h4>
@@ -191,12 +194,12 @@ function copyLink(){
   if(!btn)return;
   var favs=JSON.parse(localStorage.getItem('lesfaits_favs')||'[]');
   var slug='theorie-evolution-darwin';
-  if(favs.indexOf(slug)>-1){btn.classList.add('active');btn.setAttribute('aria-pressed','true');btn.textContent='♥ Favori';}
+  if(favs.indexOf(slug)>-1){btn.classList.add('active');btn.setAttribute('aria-pressed','true');btn.textContent='Favori';}
   btn.addEventListener('click',function(){
     var f=JSON.parse(localStorage.getItem('lesfaits_favs')||'[]');
     var idx=f.indexOf(slug);
-    if(idx>-1){f.splice(idx,1);btn.classList.remove('active');btn.setAttribute('aria-pressed','false');btn.textContent='♡ Favoris';}
-    else{f.push(slug);btn.classList.add('active');btn.setAttribute('aria-pressed','true');btn.textContent='♥ Favori';}
+    if(idx>-1){f.splice(idx,1);btn.classList.remove('active');btn.setAttribute('aria-pressed','false');btn.textContent='Favoris';}
+    else{f.push(slug);btn.classList.add('active');btn.setAttribute('aria-pressed','true');btn.textContent='Favori';}
     localStorage.setItem('lesfaits_favs',JSON.stringify(f));
   });
 })();

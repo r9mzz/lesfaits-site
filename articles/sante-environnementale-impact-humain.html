@@ -42,7 +42,8 @@
   <a href="categories/tech.html">Tech</a>
   <a href="categories/sante.html">Santé</a>
   <a href="categories/environnement.html">Environnement</a>
-  <a href="archive.html">Tous les articles</a>
+  <a href="favoris.html">Favoris</a>
+<a href="archive.html">Tous les articles</a>
   <a href="methode.html" class="nav-cta">Comment on travaille →</a>
 </nav>
 <script>
@@ -66,6 +67,7 @@ document.addEventListener('keydown',function(e){if(e.key==='Escape')closeMenu();
 <a href="categories/tech.html">Tech</a>
 <a href="categories/sante.html">Santé</a>
 <a href="categories/environnement.html">Environnement</a>
+<a href="favoris.html">Favoris</a>
 <a href="archive.html">Tous les articles</a>
 <a class="nav-cta" href="methode.html">Comment on travaille →</a>
 </nav>
@@ -103,7 +105,7 @@ document.addEventListener('keydown',function(e){if(e.key==='Escape')closeMenu();
   <a class="share-btn" href="https://www.linkedin.com/sharing/share-offsite/?url=https://lesfaits.info/articles/sante-environnementale-impact-humain.html" target="_blank" rel="noopener noreferrer external">in LinkedIn</a>
   <a class="share-btn" href="https://api.whatsapp.com/send?text=Sant%C3%A9%20Environnementale%20%3A%20L%27Impact%20Humain%20sur%20la%20Plan%C3%A8te%20https%3A//lesfaits.info/articles/sante-environnementale-impact-humain.html" target="_blank" rel="noopener noreferrer external">WhatsApp</a>
   <button class="share-btn" onclick="copyLink()" id="copy-btn">Copier le lien</button>
-  <button class="fav-btn" id="fav-btn" aria-pressed="false">♡ Favoris</button>
+  <button class="fav-btn" id="fav-btn" aria-pressed="false">Favoris</button>
 </div>
 <script>if(navigator.share)document.getElementById('native-share').style.display='inline-flex';</script>
 <div class="sources"><h3>SOURCES</h3><ol><li><strong>Ministère de l’Écologie</strong> · <em>Pourquoi concilier santé humaine et santé de la planète</em> · 2025 · <a href="https://www.ecologie.gouv.fr/dossiers/pourquoi-concilier-sante-humaine-sante-planete" rel="noopener" target="_blank">Lire la source →</a></li><li><strong>Organisation Mondiale de la Santé</strong> · <em>Une seule santé. Une seule planète. Notre responsabilité.</em> · 2025 · <a href="https://www.who.int/europe/fr/news/item/03-11-2025-one-health.-one-planet.-our-responsibility" rel="noopener" target="_blank">Lire la source →</a></li><li><strong>France Info</strong> · <em>La vie des 8 milliards d’habitants de la planète est en jeu</em> · 2025 · <a href="https://www.franceinfo.fr/environnement/crise-climatique/cop-climat/la-vie-des-8-milliards-d-habitants-de-la-planete-est-en-jeu-une-etude-decrit-les-effets-du-dereglement-climatique-sur-la-sante_7580837.html" rel="noopener" target="_blank">Lire la source →</a></li><li><strong>Programme des Nations Unies pour l’environnement</strong> · <em>Rapport de l’ONU : Investir dans la santé planétaire</em> · 2025 · <a href="https://www.unep.org/fr/actualites-et-recits/communique-de-presse/rapport-de-lonu-investir-dans-la-sante-planetaire" rel="noopener" target="_blank">Lire la source →</a></li><li><strong>Haut Conseil de la santé publique</strong> · <em>Les politiques publiques de santé environnementale</em> · 2025 · <a href="https://www.strategie-plan.gouv.fr/files/files/Publications/2025/2025-10-29 - Santé environnementale/HCSP-2025-RAPPORT-SANTE-ENVIRONNEMENTALE-TRANSVERSAL-29octobre14h-FINAL-COUV.pdf" rel="noopener" target="_blank">Lire la source →</a></li></ol></div>
@@ -132,7 +134,8 @@ document.addEventListener('keydown',function(e){if(e.key==='Escape')closeMenu();
     <div class="footer__col"><h4>JOURNAL</h4>
       <a href="methode.html">Comment on travaille</a>
       <a href="corrections.html">Corrections publiques</a>
-      <a href="archive.html">Tous les articles</a>
+      <a href="favoris.html">Favoris</a>
+<a href="archive.html">Tous les articles</a>
       <a href="feed.xml" class="footer__rss">Flux RSS</a>
     </div>
     <div class="footer__col"><h4>LÉGAL</h4>
@@ -191,12 +194,12 @@ function copyLink(){
   if(!btn)return;
   var favs=JSON.parse(localStorage.getItem('lesfaits_favs')||'[]');
   var slug='sante-environnementale-impact-humain';
-  if(favs.indexOf(slug)>-1){btn.classList.add('active');btn.setAttribute('aria-pressed','true');btn.textContent='♥ Favori';}
+  if(favs.indexOf(slug)>-1){btn.classList.add('active');btn.setAttribute('aria-pressed','true');btn.textContent='Favori';}
   btn.addEventListener('click',function(){
     var f=JSON.parse(localStorage.getItem('lesfaits_favs')||'[]');
     var idx=f.indexOf(slug);
-    if(idx>-1){f.splice(idx,1);btn.classList.remove('active');btn.setAttribute('aria-pressed','false');btn.textContent='♡ Favoris';}
-    else{f.push(slug);btn.classList.add('active');btn.setAttribute('aria-pressed','true');btn.textContent='♥ Favori';}
+    if(idx>-1){f.splice(idx,1);btn.classList.remove('active');btn.setAttribute('aria-pressed','false');btn.textContent='Favoris';}
+    else{f.push(slug);btn.classList.add('active');btn.setAttribute('aria-pressed','true');btn.textContent='Favori';}
     localStorage.setItem('lesfaits_favs',JSON.stringify(f));
   });
 })();
