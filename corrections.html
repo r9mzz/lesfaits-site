@@ -92,6 +92,7 @@ function closeMenu(){document.getElementById('burger').classList.remove('open');
     <div style="font-size:2rem;margin-bottom:12px">✓</div>
     <p style="font-weight:600;margin-bottom:8px;color:var(--ink)">Aucune correction enregistrée à ce jour</p>
     <p style="font-size:.9rem;margin:0">Les Faits est en ligne depuis juin 2026. Ce journal sera mis à jour à chaque correction publiée.</p>
+    <p style="font-size:.8rem;margin:12px 0 0;opacity:.75">Dernière vérification du journal : 3 juillet 2026</p>
   </div>
 
   <!-- Comment signaler -->
@@ -186,12 +187,12 @@ function closeMenu(){document.getElementById('burger').classList.remove('open');
   var s=localStorage.getItem('theme');
   var dark=s==='dark'||(s===null&&window.matchMedia('(prefers-color-scheme:dark)').matches);
   document.documentElement.setAttribute('data-theme',dark?'dark':'light');
-  if(btn)btn.textContent=dark?'☀️':'🌙';
+  if(btn){btn.textContent=dark?'☀️':'🌙';btn.setAttribute('aria-label',dark?'Passer en mode clair':'Passer en mode sombre');}
   if(btn)btn.addEventListener('click',function(){
     var d=document.documentElement.getAttribute('data-theme')==='dark';
     document.documentElement.setAttribute('data-theme',d?'light':'dark');
     localStorage.setItem('theme',d?'light':'dark');
-    btn.textContent=d?'🌙':'☀️';
+    btn.textContent=d?'🌙':'☀️';btn.setAttribute('aria-label',d?'Passer en mode sombre':'Passer en mode clair');
   });
 })();
 </script>

@@ -77,7 +77,7 @@ document.addEventListener('keydown',function(e){if(e.key==='Escape')closeMenu();
 <main>
 <div class="art">
 <a class="art__back" href="index.html">← Retour à l’accueil</a>
-<span class="art__cat">SANTE</span>
+<span class="art__cat">SANTÉ</span>
 <h1 class="art__title">Premier cas Ebola détecté en France</h1>
 <div class="art__meta">
 <span style="color:var(--blue);font-weight:600">4 sources</span>
@@ -154,12 +154,12 @@ document.addEventListener('keydown',function(e){if(e.key==='Escape')closeMenu();
 (function(){
   var btn=document.getElementById('dark-toggle');
   var dark=document.documentElement.getAttribute('data-theme')==='dark';
-  if(btn) btn.textContent=dark?'☀️':'🌙';
+  if(btn){btn.textContent=dark?'☀️':'🌙';btn.setAttribute('aria-label',dark?'Passer en mode clair':'Passer en mode sombre');}
   if(btn) btn.addEventListener('click',function(){
     var d=document.documentElement.getAttribute('data-theme')==='dark';
     document.documentElement.setAttribute('data-theme',d?'light':'dark');
     localStorage.setItem('theme',d?'light':'dark');
-    btn.textContent=d?'🌙':'☀️';
+    btn.textContent=d?'🌙':'☀️';btn.setAttribute('aria-label',d?'Passer en mode sombre':'Passer en mode clair');
   });
 })();
 </script>

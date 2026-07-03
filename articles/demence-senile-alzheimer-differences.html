@@ -73,7 +73,7 @@ document.addEventListener('keydown',function(e){if(e.key==='Escape')closeMenu();
 <main>
 <div class="art">
   <a class="art__back" href="index.html">← Retour à l'accueil</a>
-  <span class="art__cat">SANTE</span>
+  <span class="art__cat">SANTÉ</span>
   <h1 class="art__title">Démence sénile et Alzheimer, comprendre les différences</h1>
   <div class="art__meta">
     <span style="color:var(--blue);font-weight:600">4 sources</span><span class="meta__sep" aria-hidden="true">·</span>
@@ -101,7 +101,7 @@ document.addEventListener('keydown',function(e){if(e.key==='Escape')closeMenu();
 </div>
 <script>if(navigator.share)document.getElementById('native-share').style.display='inline-flex';</script>
   <section class="sources" aria-label="Sources"><h3>SOURCES</h3><ol><li><cite>Futura</cite> · <em>Démence sénile et Alzheimer</em> · 29 juin 2026 · <a href="https://www.futura-sciences.com/sante/actualites/demence-voici-difference-essentielle-demence-senile-alzheimer-beaucoup-confondent-encore-k2m6-135705/#xtor%3DRSS-8" target="_blank" rel="noopener noreferrer external" aria-label="Futura (ouvre dans un nouvel onglet)">Lire la source →</a></li>
-<li><cite>EMS</cite> · <em>La démence sénile vs. La maladie d'Alzheimer</em> · None · <a href="https://www.retraiteplus.ch/sante/les-demences-seniles/differences-entre-demence-senile-maladie-alzheimer" target="_blank" rel="noopener noreferrer external" aria-label="EMS (ouvre dans un nouvel onglet)">Lire la source →</a></li>
+<li><cite>EMS</cite> · <em>La démence sénile vs. La maladie d'Alzheimer</em> · <a href="https://www.retraiteplus.ch/sante/les-demences-seniles/differences-entre-demence-senile-maladie-alzheimer" target="_blank" rel="noopener noreferrer external" aria-label="EMS (ouvre dans un nouvel onglet)">Lire la source →</a></li>
 <li><cite>Cap Retraite</cite> · <em>Alzheimer ou démence sénile ? Ce que cachent vraiment ces termes</em> · 26 mai 2026 · <a href="https://www.capretraite.fr/blog/maladie-alzheimer/alzheimer-ou-demence-senile-ce-que-cachent-vraiment-ces-termes-et-comment-sy-retrouver/" target="_blank" rel="noopener noreferrer external" aria-label="Cap Retraite (ouvre dans un nouvel onglet)">Lire la source →</a></li>
 <li><cite>Eugeria</cite> · <em>Quelle est la différence entre Alzheimer et démence?</em> · 12 mars 2020 · <a href="https://info.eugeria.ca/quelle-est-la-difference-entre-alzheimer-et-demence/" target="_blank" rel="noopener noreferrer external" aria-label="Eugeria (ouvre dans un nouvel onglet)">Lire la source →</a></li></ol></section>
   <div class="art__related"><div class="art__related-title">À LIRE AUSSI</div><div class="art__related-grid"><a class="art__related-card" href="articles/openai-participation-gouvernement-americain.html"><img src="assets/images/openai-participation-gouvernement-americain.jpg" alt="" width="400" height="110" loading="lazy" style="width:calc(100% + 32px);margin:-14px -16px 12px;height:110px;object-fit:cover;display:block;border-radius:var(--radius) var(--radius) 0 0"><span class="cat cat--tech">TECH</span><div class="title-sm">OpenAI propose une participation minoritaire au gouvernement américain</div><div style="font-size:10px;color:var(--muted);margin-top:6px">3 juillet 2026, 18h00</div></a>
@@ -190,12 +190,12 @@ function copyLink(){
 (function(){
   var btn=document.getElementById('dark-toggle');
   var dark=document.documentElement.getAttribute('data-theme')==='dark';
-  if(btn) btn.textContent=dark?'☀️':'🌙';
+  if(btn){btn.textContent=dark?'☀️':'🌙';btn.setAttribute('aria-label',dark?'Passer en mode clair':'Passer en mode sombre');}
   if(btn) btn.addEventListener('click',function(){
     var d=document.documentElement.getAttribute('data-theme')==='dark';
     document.documentElement.setAttribute('data-theme',d?'light':'dark');
     localStorage.setItem('theme',d?'light':'dark');
-    btn.textContent=d?'🌙':'☀️';
+    btn.textContent=d?'🌙':'☀️';btn.setAttribute('aria-label',d?'Passer en mode sombre':'Passer en mode clair');
   });
 })();
 </script>
