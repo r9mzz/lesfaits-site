@@ -12,7 +12,16 @@
   <link rel="icon" type="image/svg+xml" href="/favicon.svg"/>
   <link rel="manifest" href="/manifest.json"/>
   <script>
-(function(){var s=localStorage.getItem('theme'),d=s==='dark'||(s===null&&window.matchMedia('(prefers-color-scheme:dark)').matches);document.documentElement.setAttribute('data-theme',d?'dark':'light');})();
+(function(){var s=localStorage.getItem('theme'),d=s==='dark'||(s===null&&window.matchMedia('(prefers-color-scheme:dark)').matches);document.documentElement.setAttribute('data-theme',d?'dark':'light');
+  // Header scroll shadow
+  var hdr=document.querySelector('.header');
+  if(hdr) window.addEventListener('scroll',function(){hdr.classList.toggle('scrolled',window.scrollY>40);},{passive:true});
+  // Scroll fade-in cartes catégorie
+  if('IntersectionObserver' in window){
+    var obs=new IntersectionObserver(function(entries){entries.forEach(function(e){if(e.isIntersecting){e.target.classList.add('is-visible');obs.unobserve(e.target);}});},{threshold:.12,rootMargin:'0px 0px -40px 0px'});
+    document.querySelectorAll('.card3,.list-item,.archive-item').forEach(function(el){el.classList.add('js-reveal');obs.observe(el);});
+  }
+})();
 </script>
 </head>
 <body>
@@ -24,7 +33,6 @@
 <a href="categories/tech.html">Tech</a>
 <a href="categories/sante.html">Santé</a>
 <a href="categories/environnement.html">Environnement</a>
-<a href="favoris.html">Favoris</a>
 <a href="archive.html">Tous les articles</a>
 <a href="methode.html" class="nav-cta">Comment on travaille →</a>
 </nav>
@@ -49,7 +57,6 @@ document.addEventListener('keydown',function(e){if(e.key==='Escape')closeMenu();
       <a href="categories/tech.html">Tech</a>
       <a href="categories/sante.html">Santé</a>
       <a href="categories/environnement.html">Environnement</a>
-      <a href="favoris.html">Favoris</a>
       <a href="archive.html">Tous les articles</a>
       <a href="methode.html" class="nav-cta">Comment on travaille →</a>
     </nav>
@@ -74,32 +81,8 @@ document.addEventListener('keydown',function(e){if(e.key==='Escape')closeMenu();
   </nav>
   <div style="display:grid;grid-template-columns:repeat(auto-fill,minmax(280px,1fr));gap:24px">
     
-        <a class="card3" href="articles/openai-participation-gouvernement-americain.html">
-          <img class="card3__img" src="assets/images/openai-participation-gouvernement-americain.jpg" alt="OpenAI propose une participation minoritaire au gouvernement américain" loading="lazy">
-          <div class="card3__body">
-            <span class="cat cat--tech">TECH</span>
-            <h3 class="title-sm">OpenAI propose une participation minoritaire au gouvernement américain</h3>
-            <div class="meta" style="margin-top:10px">
-              <span class="meta__src">4 sources</span>
-              <span class="meta__sep">·</span><span>3 juillet 2026, 18h00</span>
-            </div>
-          </div>
-        </a>
-
-        <a class="card3" href="articles/fin-jeux-sur-disque-xbox-playstation.html">
-          <img class="card3__img" src="assets/images/fin-jeux-sur-disque-xbox-playstation.jpg" alt="Fin des jeux sur disque pour Xbox et PlayStation" loading="lazy">
-          <div class="card3__body">
-            <span class="cat cat--tech">TECH</span>
-            <h3 class="title-sm">Fin des jeux sur disque pour Xbox et PlayStation</h3>
-            <div class="meta" style="margin-top:10px">
-              <span class="meta__src">4 sources</span>
-              <span class="meta__sep">·</span><span>2 juillet 2026, 18h00</span>
-            </div>
-          </div>
-        </a>
-
         <a class="card3" href="articles/ver-informatique-ia-attaque-experimentale.html">
-          <img class="card3__img" src="assets/images/ver-informatique-ia-attaque-experimentale.jpg" alt="Première attaque expérimentale d’un ver informatique mû par l’IA" loading="lazy">
+          <picture><source srcset="assets/images/ver-informatique-ia-attaque-experimentale.webp" type="image/webp"><img class="card3__img" src="assets/images/ver-informatique-ia-attaque-experimentale.jpg" alt="Première attaque expérimentale d’un ver informatique mû par l’IA" loading="lazy"></picture>
           <div class="card3__body">
             <span class="cat cat--tech">TECH</span>
             <h3 class="title-sm">Première attaque expérimentale d’un ver informatique mû par l’IA</h3>
@@ -111,7 +94,7 @@ document.addEventListener('keydown',function(e){if(e.key==='Escape')closeMenu();
         </a>
 
         <a class="card3" href="articles/cartes-gouv-fr-alternative-google-maps.html">
-          <img class="card3__img" src="assets/images/cartes-gouv-fr-alternative-google-maps.jpg" alt="Lancement de Cartes.gouv.fr, alternative française à Google Maps" loading="lazy">
+          <picture><source srcset="assets/images/cartes-gouv-fr-alternative-google-maps.webp" type="image/webp"><img class="card3__img" src="assets/images/cartes-gouv-fr-alternative-google-maps.jpg" alt="Lancement de Cartes.gouv.fr, alternative française à Google Maps" loading="lazy"></picture>
           <div class="card3__body">
             <span class="cat cat--tech">TECH</span>
             <h3 class="title-sm">Lancement de Cartes.gouv.fr, alternative française à Google Maps</h3>
@@ -123,7 +106,7 @@ document.addEventListener('keydown',function(e){if(e.key==='Escape')closeMenu();
         </a>
 
         <a class="card3" href="articles/supernova-etoile-secrets.html">
-          <img class="card3__img" src="assets/images/supernova-etoile-secrets.jpg" alt="Découverte d’une supernova révélant les secrets d’une étoile" loading="lazy">
+          <picture><source srcset="assets/images/supernova-etoile-secrets.webp" type="image/webp"><img class="card3__img" src="assets/images/supernova-etoile-secrets.jpg" alt="Découverte d’une supernova révélant les secrets d’une étoile" loading="lazy"></picture>
           <div class="card3__body">
             <span class="cat cat--tech">TECH</span>
             <h3 class="title-sm">Découverte d’une supernova révélant les secrets d’une étoile</h3>
@@ -134,8 +117,20 @@ document.addEventListener('keydown',function(e){if(e.key==='Escape')closeMenu();
           </div>
         </a>
 
+        <a class="card3" href="articles/washington-reautorise-ia-anthropic.html">
+          <picture><source srcset="assets/images/washington-reautorise-ia-anthropic.webp" type="image/webp"><img class="card3__img" src="assets/images/washington-reautorise-ia-anthropic.jpg" alt="Washington rétablit les IA d’Anthropic sous surveillance" loading="lazy"></picture>
+          <div class="card3__body">
+            <span class="cat cat--tech">TECH</span>
+            <h3 class="title-sm">Washington rétablit les IA d’Anthropic sous surveillance</h3>
+            <div class="meta" style="margin-top:10px">
+              <span class="meta__src">3 sources</span>
+              <span class="meta__sep">·</span><span>1 juillet 2026, 18h00</span>
+            </div>
+          </div>
+        </a>
+
         <a class="card3" href="articles/withings-degage-ses-premiers-benefices.html">
-          <img class="card3__img" src="assets/images/withings-degage-ses-premiers-benefices.jpg" alt="Withings dégage ses premiers bénéfices après dix-huit ans" loading="lazy">
+          <picture><source srcset="assets/images/withings-degage-ses-premiers-benefices.webp" type="image/webp"><img class="card3__img" src="assets/images/withings-degage-ses-premiers-benefices.jpg" alt="Withings dégage ses premiers bénéfices après dix-huit ans" loading="lazy"></picture>
           <div class="card3__body">
             <span class="cat cat--tech">TECH</span>
             <h3 class="title-sm">Withings dégage ses premiers bénéfices après dix-huit ans</h3>
@@ -147,7 +142,7 @@ document.addEventListener('keydown',function(e){if(e.key==='Escape')closeMenu();
         </a>
 
         <a class="card3" href="articles/apple-accelere-mises-a-jour-securite-ia.html">
-          <img class="card3__img" src="assets/images/apple-accelere-mises-a-jour-securite-ia.jpg" alt="Apple accélère ses mises à jour de sécurité face à la menace IA" loading="lazy">
+          <picture><source srcset="assets/images/apple-accelere-mises-a-jour-securite-ia.webp" type="image/webp"><img class="card3__img" src="assets/images/apple-accelere-mises-a-jour-securite-ia.jpg" alt="Apple accélère ses mises à jour de sécurité face à la menace IA" loading="lazy"></picture>
           <div class="card3__body">
             <span class="cat cat--tech">TECH</span>
             <h3 class="title-sm">Apple accélère ses mises à jour de sécurité face à la menace IA</h3>
@@ -158,8 +153,20 @@ document.addEventListener('keydown',function(e){if(e.key==='Escape')closeMenu();
           </div>
         </a>
 
+        <a class="card3" href="articles/coree-du-sud-investit-dans-ia.html">
+          <picture><source srcset="assets/images/coree-du-sud-investit-dans-ia.webp" type="image/webp"><img class="card3__img" src="assets/images/coree-du-sud-investit-dans-ia.jpg" alt="Corée du Sud lance plan colossal pour semi-conducteurs et IA" loading="lazy"></picture>
+          <div class="card3__body">
+            <span class="cat cat--tech">TECH</span>
+            <h3 class="title-sm">Corée du Sud lance plan colossal pour semi-conducteurs et IA</h3>
+            <div class="meta" style="margin-top:10px">
+              <span class="meta__src">3 sources</span>
+              <span class="meta__sep">·</span><span>30 juin 2026, 18h00</span>
+            </div>
+          </div>
+        </a>
+
         <a class="card3" href="articles/chapsvision-remplace-palantir-dgsi-france.html">
-          <img class="card3__img" src="assets/images/chapsvision-remplace-palantir-dgsi-france.jpg" alt="ChapsVision remplace Palantir à la DGSI en France" loading="lazy">
+          <picture><source srcset="assets/images/chapsvision-remplace-palantir-dgsi-france.webp" type="image/webp"><img class="card3__img" src="assets/images/chapsvision-remplace-palantir-dgsi-france.jpg" alt="ChapsVision remplace Palantir à la DGSI en France" loading="lazy"></picture>
           <div class="card3__body">
             <span class="cat cat--tech">TECH</span>
             <h3 class="title-sm">ChapsVision remplace Palantir à la DGSI en France</h3>
@@ -171,7 +178,7 @@ document.addEventListener('keydown',function(e){if(e.key==='Escape')closeMenu();
         </a>
 
         <a class="card3" href="articles/ia-dechiffre-papyrus-antiques.html">
-          <img class="card3__img" src="assets/images/ia-dechiffre-papyrus-antiques.jpg" alt="L’intelligence artificielle déchiffre des papyrus carbonisés de la bibliothèque de Lucius Calpurnius Piso Caesoninus" loading="lazy">
+          <picture><source srcset="assets/images/ia-dechiffre-papyrus-antiques.webp" type="image/webp"><img class="card3__img" src="assets/images/ia-dechiffre-papyrus-antiques.jpg" alt="L’intelligence artificielle déchiffre des papyrus carbonisés de la bibliothèque de Lucius Calpurnius Piso Caesoninus" loading="lazy"></picture>
           <div class="card3__body">
             <span class="cat cat--tech">TECH</span>
             <h3 class="title-sm">L’intelligence artificielle déchiffre des papyrus carbonisés de la bibliothèque de Lucius Calpurnius Piso Caesoninus</h3>
@@ -183,7 +190,7 @@ document.addEventListener('keydown',function(e){if(e.key==='Escape')closeMenu();
         </a>
 
         <a class="card3" href="articles/frugalia-reduit-consommation-energetique-ia.html">
-          <img class="card3__img" src="assets/images/frugalia-reduit-consommation-energetique-ia.jpg" alt="Frugalia réduit consommation énergétique des modèles d’intelligence artificielle" loading="lazy">
+          <picture><source srcset="assets/images/frugalia-reduit-consommation-energetique-ia.webp" type="image/webp"><img class="card3__img" src="assets/images/frugalia-reduit-consommation-energetique-ia.jpg" alt="Frugalia réduit consommation énergétique des modèles d’intelligence artificielle" loading="lazy"></picture>
           <div class="card3__body">
             <span class="cat cat--tech">TECH</span>
             <h3 class="title-sm">Frugalia réduit consommation énergétique des modèles d’intelligence artificielle</h3>
@@ -195,7 +202,7 @@ document.addEventListener('keydown',function(e){if(e.key==='Escape')closeMenu();
         </a>
 
         <a class="card3" href="articles/openai-reporte-introduction-bourse-2027.html">
-          <img class="card3__img" src="assets/images/openai-reporte-introduction-bourse-2027.jpg" alt="OpenAI reporte son introduction en Bourse à 2027" loading="lazy">
+          <picture><source srcset="assets/images/openai-reporte-introduction-bourse-2027.webp" type="image/webp"><img class="card3__img" src="assets/images/openai-reporte-introduction-bourse-2027.jpg" alt="OpenAI reporte son introduction en Bourse à 2027" loading="lazy"></picture>
           <div class="card3__body">
             <span class="cat cat--tech">TECH</span>
             <h3 class="title-sm">OpenAI reporte son introduction en Bourse à 2027</h3>
@@ -207,7 +214,7 @@ document.addEventListener('keydown',function(e){if(e.key==='Escape')closeMenu();
         </a>
 
         <a class="card3" href="articles/redmi-15-5g-smartphone-abordable.html">
-          <img class="card3__img" src="assets/images/redmi-15-5g-smartphone-abordable.jpg" alt="Redmi 15 5G : un smartphone abordable avec écran 144 Hz et batterie 7000 mAh" loading="lazy">
+          <picture><source srcset="assets/images/redmi-15-5g-smartphone-abordable.webp" type="image/webp"><img class="card3__img" src="assets/images/redmi-15-5g-smartphone-abordable.jpg" alt="Redmi 15 5G : un smartphone abordable avec écran 144 Hz et batterie 7000 mAh" loading="lazy"></picture>
           <div class="card3__body">
             <span class="cat cat--tech">TECH</span>
             <h3 class="title-sm">Redmi 15 5G : un smartphone abordable avec écran 144 Hz et batterie 7000 mAh</h3>
@@ -260,13 +267,22 @@ document.addEventListener('keydown',function(e){if(e.key==='Escape')closeMenu();
 (function(){
   var btn=document.getElementById('dark-toggle');
   var dark=document.documentElement.getAttribute('data-theme')==='dark';
-  if(btn){btn.textContent=dark?'☀️':'🌙';btn.setAttribute('aria-label',dark?'Passer en mode clair':'Passer en mode sombre');}
+  if(btn) btn.textContent=dark?'☀️':'🌙';
   if(btn) btn.addEventListener('click',function(){
     var d=document.documentElement.getAttribute('data-theme')==='dark';
     document.documentElement.setAttribute('data-theme',d?'light':'dark');
     localStorage.setItem('theme',d?'light':'dark');
-    btn.textContent=d?'🌙':'☀️';btn.setAttribute('aria-label',d?'Passer en mode sombre':'Passer en mode clair');
+    btn.textContent=d?'🌙':'☀️';
   });
+
+  // Header scroll shadow
+  var hdr=document.querySelector('.header');
+  if(hdr) window.addEventListener('scroll',function(){hdr.classList.toggle('scrolled',window.scrollY>40);},{passive:true});
+  // Scroll fade-in cartes catégorie
+  if('IntersectionObserver' in window){
+    var obs=new IntersectionObserver(function(entries){entries.forEach(function(e){if(e.isIntersecting){e.target.classList.add('is-visible');obs.unobserve(e.target);}});},{threshold:.12,rootMargin:'0px 0px -40px 0px'});
+    document.querySelectorAll('.card3,.list-item,.archive-item').forEach(function(el){el.classList.add('js-reveal');obs.observe(el);});
+  }
 })();
 </script>
 <script defer src="https://cloud.umami.is/script.js" data-website-id="8d68a78f-97ae-4c95-a955-5d3df758f7e2"></script>

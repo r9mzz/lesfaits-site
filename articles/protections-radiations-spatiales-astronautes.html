@@ -26,7 +26,16 @@
   <base href="/"/>
   <link rel="stylesheet" href="src/style.css"/>
   <script>
-(function(){var s=localStorage.getItem('theme'),d=s==='dark'||(s===null&&window.matchMedia('(prefers-color-scheme:dark)').matches);document.documentElement.setAttribute('data-theme',d?'dark':'light');})();
+(function(){var s=localStorage.getItem('theme'),d=s==='dark'||(s===null&&window.matchMedia('(prefers-color-scheme:dark)').matches);document.documentElement.setAttribute('data-theme',d?'dark':'light');
+  // Header scroll shadow
+  var hdr=document.querySelector('.header');
+  if(hdr) window.addEventListener('scroll',function(){hdr.classList.toggle('scrolled',window.scrollY>40);},{passive:true});
+  // Scroll fade-in articles liés
+  if('IntersectionObserver' in window){
+    var obs=new IntersectionObserver(function(entries){entries.forEach(function(e){if(e.isIntersecting){e.target.classList.add('is-visible');obs.unobserve(e.target);}});},{threshold:.12,rootMargin:'0px 0px -40px 0px'});
+    document.querySelectorAll('.art__related-card').forEach(function(el){el.classList.add('js-reveal');obs.observe(el);});
+  }
+})();
 </script>
 </head>
 <body>
@@ -87,7 +96,7 @@ document.addEventListener('keydown',function(e){if(e.key==='Escape')closeMenu();
   <div class="art__verify"><span class="art__verify-item">✓ 4 sources vérifiées</span><span class="art__verify-item">✓ Sources concordantes</span><span class="art__verify-item">✓ Protocole éditorial v1.1</span></div>
   <div class="art__rule"></div>
   <!-- Image source: Wikimedia Commons | Type: wikimedia -->
-<figure class="article__hero" data-img-source="wikimedia" data-img-credit="Wikimedia Commons" style="margin-bottom:28px"><img class="art__hero" src="assets/images/protections-radiations-spatiales-astronautes.jpg" alt="Illustration : Nouvelles protections contre les radiations spatiales pour les astronautes" loading="eager" fetchpriority="high" style="aspect-ratio:16/9;object-fit:cover"/></figure>
+<figure class="article__hero" data-img-source="wikimedia" data-img-credit="Wikimedia Commons" style="margin-bottom:28px"><picture><source srcset="assets/images/protections-radiations-spatiales-astronautes.webp" type="image/webp"><img class="art__hero" src="assets/images/protections-radiations-spatiales-astronautes.jpg" alt="Illustration : Nouvelles protections contre les radiations spatiales pour les astronautes" loading="eager" fetchpriority="high" style="aspect-ratio:16/9;object-fit:cover"/></picture></figure>
   <p class="art__resume">Les astronautes sont exposés à des radiations spatiales qui peuvent avoir des effets néfastes sur leur santé, notamment un risque accru de cancer et de troubles neurologiques, selon des études menées par la NASA et d’autres institutions spatiales. Des chercheurs de l’Institut coréen des sciences et technologies (Kist) ont développé un matériau qui bloque simultanément les ondes électromagnétiques et les rayonnements neutroniques, offrant ainsi une protection potentielle pour les équipages spatiaux, comme indiqué dans une publication récente sur le site de Futura Sciences. D’autres solutions sont également explorées, telles que l’utilisation de champignons découverts à Tchernobyl, qui pourraient avoir des propriétés protectrices contre les radiations cosmiques, ou encore des nano-particules et des matériaux plastiques, comme mentionné dans des articles de Maxi Sciences et de Futura Sciences.</p>
   <h2 class="art__h2">Les faits</h2><p>Selon des études menées par la NASA, les radiations spatiales constituent un risque majeur pour la santé des astronautes, en particulier lors de longues missions spatiales. D’après des recherches publiées sur le site de Leveridique, l’exposition aux radiations reste l’un des principaux obstacles à surmonter pour les missions spatiales prolongées. Des chercheurs de l’Institut coréen des sciences et technologies (Kist) ont développé un matériau qui bloque simultanément les ondes électromagnétiques et les rayonnements neutroniques, offrant ainsi une protection potentielle pour les équipages spatiaux. Ce matériau, décrit dans une publication récente sur le site de Futura Sciences, est si fin qu’il pourrait être utilisé pour protéger les astronautes sans gêner leurs activités. D’autres solutions sont également explorées, telles que l’utilisation de champignons découverts à Tchernobyl, qui pourraient avoir des propriétés protectrices contre les radiations cosmiques, comme mentionné dans un article de Sciences et Avenir. Des nano-particules et des matériaux plastiques sont également étudiés pour leur potentiel de protection contre les radiations spatiales, comme indiqué dans des articles de Maxi Sciences et de Futura Sciences.</p>
   <h2 class="art__h2">Contexte</h2><p>L’exploration spatiale est en constante évolution, avec des missions de plus en plus longues et complexes. Les astronautes sont exposés à des radiations spatiales qui peuvent avoir des effets néfastes sur leur santé, notamment un risque accru de cancer et de troubles neurologiques. Selon des études menées par la NASA, les radiations spatiales constituent un risque majeur pour la santé des astronautes, en particulier lors de longues missions spatiales. D’après des recherches publiées sur le site de Leveridique, l’exposition aux radiations reste l’un des principaux obstacles à surmonter pour les missions spatiales prolongées. Les chercheurs et les institutions spatiales travaillent donc à développer des solutions pour protéger les astronautes contre les radiations spatiales. Des matériaux et des technologies innovantes sont étudiés pour leur potentiel de protection, tels que les champignons, les nano-particules et les matériaux plastiques. Les progrès dans ce domaine pourraient avoir des implications importantes pour l’exploration spatiale future, en permettant des missions plus longues et plus sûres.</p>
@@ -107,9 +116,9 @@ document.addEventListener('keydown',function(e){if(e.key==='Escape')closeMenu();
 <li><cite>Maxi Sciences</cite> · <em>Et si le plastique pouvait protéger les astronautes des radiations spatiales</em> · 2022 · <a href="https://www.maxisciences.com/sciences/et-si-le-plastique-pouvait-proteger-les-astronautes-des-radiations-spatiales_art29810.html" target="_blank" rel="noopener noreferrer external" aria-label="Maxi Sciences (ouvre dans un nouvel onglet)">Lire la source →</a></li>
 <li><cite>Sciences et Avenir</cite> · <em>Un champignon contre les radiations cosmiques</em> · 2022 · <a href="https://www.sciencesetavenir.fr/espace/exploration/un-champignon-decouvert-a-tchernobyl-pour-proteger-les-astronautes-des-radiations-cosmiques_146501" target="_blank" rel="noopener noreferrer external" aria-label="Sciences et Avenir (ouvre dans un nouvel onglet)">Lire la source →</a></li>
 <li><cite>Leveridique</cite> · <em>Comment les radiations spatiales influencent la santé des astronautes</em> · 2022 · <a href="https://www.leveridique.info/radiations-spatiales-et-leur-impact-sur-la-sante-des-astronautes/" target="_blank" rel="noopener noreferrer external" aria-label="Leveridique (ouvre dans un nouvel onglet)">Lire la source →</a></li></ol></section>
-  <div class="art__related"><div class="art__related-title">? LIRE AUSSI</div><div class="art__related-grid"><a class="art__related-card" href="articles/neutrinos-cosmiques-haute-energie.html"><img src="assets/images/neutrinos-cosmiques-haute-energie.jpg" alt="Découverte de la source des neutrinos cosmiques de haute énergie" loading="lazy" style="width:calc(100% + 32px);margin:-14px -16px 12px;height:110px;object-fit:cover;display:block;border-radius:var(--radius) var(--radius) 0 0"><span class="cat">SCIENCE</span><div class="title-sm">Découverte de la source des neutrinos cosmiques de haute énergie</div><div style="font-size:10px;color:var(--muted);margin-top:6px">29 juin 2026, 11h16</div></a>
-<a class="art__related-card" href="articles/retour-acetamipride-france-debat-scientifique-politique.html"><img src="assets/images/retour-acetamipride-france-debat-scientifique-politique.jpg" alt="Retour de l’acétamipride en France, un débat scientifique et politique" loading="lazy" style="width:calc(100% + 32px);margin:-14px -16px 12px;height:110px;object-fit:cover;display:block;border-radius:var(--radius) var(--radius) 0 0"><span class="cat">SCIENCE</span><div class="title-sm">Retour de l’acétamipride en France, un débat scientifique et politique</div><div style="font-size:10px;color:var(--muted);margin-top:6px">29 juin 2026, 11h16</div></a>
-<a class="art__related-card" href="articles/nouvelles-addictions-sante.html"><img src="assets/images/nouvelles-addictions-sante.jpg" alt="Les nouvelles addictions et leur impact sur la santé" loading="lazy" style="width:calc(100% + 32px);margin:-14px -16px 12px;height:110px;object-fit:cover;display:block;border-radius:var(--radius) var(--radius) 0 0"><span class="cat">SCIENCE</span><div class="title-sm">Les nouvelles addictions et leur impact sur la santé</div><div style="font-size:10px;color:var(--muted);margin-top:6px">29 juin 2026, 11h16</div></a></div></div>
+  <div class="art__related"><div class="art__related-title">? LIRE AUSSI</div><div class="art__related-grid"><a class="art__related-card" href="articles/neutrinos-cosmiques-haute-energie.html"><picture><source srcset="assets/images/neutrinos-cosmiques-haute-energie.webp" type="image/webp"><img src="assets/images/neutrinos-cosmiques-haute-energie.jpg" alt="Découverte de la source des neutrinos cosmiques de haute énergie" loading="lazy" style="width:calc(100% + 32px);margin:-14px -16px 12px;height:110px;object-fit:cover;display:block;border-radius:var(--radius) var(--radius) 0 0"></picture><span class="cat">SCIENCE</span><div class="title-sm">Découverte de la source des neutrinos cosmiques de haute énergie</div><div style="font-size:10px;color:var(--muted);margin-top:6px">29 juin 2026, 11h16</div></a>
+<a class="art__related-card" href="articles/retour-acetamipride-france-debat-scientifique-politique.html"><picture><source srcset="assets/images/retour-acetamipride-france-debat-scientifique-politique.webp" type="image/webp"><img src="assets/images/retour-acetamipride-france-debat-scientifique-politique.jpg" alt="Retour de l’acétamipride en France, un débat scientifique et politique" loading="lazy" style="width:calc(100% + 32px);margin:-14px -16px 12px;height:110px;object-fit:cover;display:block;border-radius:var(--radius) var(--radius) 0 0"></picture><span class="cat">SCIENCE</span><div class="title-sm">Retour de l’acétamipride en France, un débat scientifique et politique</div><div style="font-size:10px;color:var(--muted);margin-top:6px">29 juin 2026, 11h16</div></a>
+<a class="art__related-card" href="articles/nouvelles-addictions-sante.html"><picture><source srcset="assets/images/nouvelles-addictions-sante.webp" type="image/webp"><img src="assets/images/nouvelles-addictions-sante.jpg" alt="Les nouvelles addictions et leur impact sur la santé" loading="lazy" style="width:calc(100% + 32px);margin:-14px -16px 12px;height:110px;object-fit:cover;display:block;border-radius:var(--radius) var(--radius) 0 0"></picture><span class="cat">SCIENCE</span><div class="title-sm">Les nouvelles addictions et leur impact sur la santé</div><div style="font-size:10px;color:var(--muted);margin-top:6px">29 juin 2026, 11h16</div></a></div></div>
   <p class="art__badge">Généré par IA · Protocole Les Faits v1.1 · 29 juin 2026, 11h16</p>
   <a class="contest-btn" href="contact.html?article=protections-radiations-spatiales-astronautes#erreur">Signaler une erreur sur cet article</a>
 </div>
@@ -173,6 +182,15 @@ function copyLink(){
     var sh=(h.scrollHeight||b.scrollHeight)-h.clientHeight;
     bar.style.width=sh>0?(st/sh*100)+'%':'0%';
   },{passive:true});
+
+  // Header scroll shadow
+  var hdr=document.querySelector('.header');
+  if(hdr) window.addEventListener('scroll',function(){hdr.classList.toggle('scrolled',window.scrollY>40);},{passive:true});
+  // Scroll fade-in articles liés
+  if('IntersectionObserver' in window){
+    var obs=new IntersectionObserver(function(entries){entries.forEach(function(e){if(e.isIntersecting){e.target.classList.add('is-visible');obs.unobserve(e.target);}});},{threshold:.12,rootMargin:'0px 0px -40px 0px'});
+    document.querySelectorAll('.art__related-card').forEach(function(el){el.classList.add('js-reveal');obs.observe(el);});
+  }
 })();
 // Favoris
 (function(){
@@ -188,6 +206,15 @@ function copyLink(){
     else{f.push(slug);btn.classList.add('active');btn.setAttribute('aria-pressed','true');btn.textContent='Favori';}
     localStorage.setItem('lesfaits_favs',JSON.stringify(f));
   });
+
+  // Header scroll shadow
+  var hdr=document.querySelector('.header');
+  if(hdr) window.addEventListener('scroll',function(){hdr.classList.toggle('scrolled',window.scrollY>40);},{passive:true});
+  // Scroll fade-in articles liés
+  if('IntersectionObserver' in window){
+    var obs=new IntersectionObserver(function(entries){entries.forEach(function(e){if(e.isIntersecting){e.target.classList.add('is-visible');obs.unobserve(e.target);}});},{threshold:.12,rootMargin:'0px 0px -40px 0px'});
+    document.querySelectorAll('.art__related-card').forEach(function(el){el.classList.add('js-reveal');obs.observe(el);});
+  }
 })();
 </script>
 <script>
@@ -201,6 +228,15 @@ function copyLink(){
     localStorage.setItem('theme',d?'light':'dark');
     btn.textContent=d?'🌙':'☀️';btn.setAttribute('aria-label',d?'Passer en mode sombre':'Passer en mode clair');
   });
+
+  // Header scroll shadow
+  var hdr=document.querySelector('.header');
+  if(hdr) window.addEventListener('scroll',function(){hdr.classList.toggle('scrolled',window.scrollY>40);},{passive:true});
+  // Scroll fade-in articles liés
+  if('IntersectionObserver' in window){
+    var obs=new IntersectionObserver(function(entries){entries.forEach(function(e){if(e.isIntersecting){e.target.classList.add('is-visible');obs.unobserve(e.target);}});},{threshold:.12,rootMargin:'0px 0px -40px 0px'});
+    document.querySelectorAll('.art__related-card').forEach(function(el){el.classList.add('js-reveal');obs.observe(el);});
+  }
 })();
 </script>
 <script defer src="https://cloud.umami.is/script.js" data-website-id="8d68a78f-97ae-4c95-a955-5d3df758f7e2"></script>

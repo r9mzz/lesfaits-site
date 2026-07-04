@@ -22,7 +22,16 @@
   <base href="/"/>
   <link rel="stylesheet" href="src/style.css"/>
   <script>
-(function(){var s=localStorage.getItem('theme');document.documentElement.setAttribute('data-theme',s==='dark'?'dark':'light');})();
+(function(){var s=localStorage.getItem('theme');document.documentElement.setAttribute('data-theme',s==='dark'?'dark':'light');
+  // Header scroll shadow
+  var hdr=document.querySelector('.header');
+  if(hdr) window.addEventListener('scroll',function(){hdr.classList.toggle('scrolled',window.scrollY>40);},{passive:true});
+  // Scroll fade-in articles liés
+  if('IntersectionObserver' in window){
+    var obs=new IntersectionObserver(function(entries){entries.forEach(function(e){if(e.isIntersecting){e.target.classList.add('is-visible');obs.unobserve(e.target);}});},{threshold:.12,rootMargin:'0px 0px -40px 0px'});
+    document.querySelectorAll('.art__related-card').forEach(function(el){el.classList.add('js-reveal');obs.observe(el);});
+  }
+})();
 </script>
 <script type="application/ld+json">
 {"@context":"https://schema.org","@graph":[
@@ -40,7 +49,6 @@
 <a href="categories/tech.html">Tech</a>
 <a href="categories/sante.html">Santé</a>
 <a href="categories/environnement.html">Environnement</a>
-<a href="favoris.html">Favoris</a>
 <a href="archive.html">Tous les articles</a>
 <a href="methode.html" class="nav-cta">Comment on travaille →</a>
 </nav>
@@ -65,8 +73,7 @@ document.addEventListener('keydown',function(e){if(e.key==='Escape')closeMenu();
       <a href="categories/tech.html">Tech</a>
       <a href="categories/sante.html">Santé</a>
       <a href="categories/environnement.html">Environnement</a>
-      <a href="favoris.html">Favoris</a>
-<a href="archive.html">Tous les articles</a>
+      <a href="archive.html">Tous les articles</a>
       <a href="methode.html" class="nav-cta">Comment on travaille →</a>
     </nav>
     <button class="dark-toggle" id="dark-toggle" aria-label="Mode sombre" title="Mode sombre">🌙</button>
@@ -85,22 +92,10 @@ document.addEventListener('keydown',function(e){if(e.key==='Escape')closeMenu();
     <span class="meta__sep" aria-hidden="true">·</span>
     <span class="art__reading-time">Lecture : 2 min</span>
   </div>
-  <div class="art__ai-badge" role="note">🤖 Contenu rédigé par intelligence artificielle — <a href="methode.html" style="color:inherit;text-decoration:underline">notre méthode</a></div>
   <div class="art__verify"><span class="art__verify-item">4 sources citées</span><span class="art__verify-item">✓ Protocole éditorial v1.1</span></div>
   <div class="art__rule"></div>
-  <figure style="margin-bottom:28px"><img class="art__hero" src="assets/images/canicule-france-fin-vigilances-rouges.jpg" alt="Illustration : Canicule en France : fin des vigilances rouges prévue pour dimanche" loading="eager" fetchpriority="high" style="aspect-ratio:16/9;object-fit:cover"/></figure>
+  <figure style="margin-bottom:28px"><picture><source srcset="assets/images/canicule-france-fin-vigilances-rouges.webp" type="image/webp"><img class="art__hero" src="assets/images/canicule-france-fin-vigilances-rouges.jpg" alt="Illustration : Canicule en France : fin des vigilances rouges prévue pour dimanche" loading="eager" fetchpriority="high" style="aspect-ratio:16/9;object-fit:cover"/></picture></figure>
   <p class="art__resume">Selon Météo-France, la fin des vigilances rouges est prévue pour dimanche à 22 heures, avec 37 départements encore concernés par le niveau d’alerte maximal. La canicule a commencé à reculer, mais des orages sont attendus samedi, notamment dans les régions du Centre-Val-de-Loire et des Hauts-de-France. Les conséquences sanitaires de la canicule commencent à se faire ressentir, avec une baisse progressive des températures attendue pour la fin du week-end.</p>
-<aside class="dossier-serie" style="border:1px solid var(--border);border-radius:6px;padding:14px 18px;margin:20px 0;background:var(--light)">
-  <div style="font-size:12px;font-weight:700;letter-spacing:.06em;text-transform:uppercase;color:var(--blue);margin-bottom:8px">Dossier &middot; Canicule 2026</div>
-  <ul style="margin:0;padding-left:18px;font-size:.9rem;line-height:1.7">
-    <li><a href="articles/canicule-france-phenomene-meteo.html">La canicule en France, un phénomène de plus en plus fréquent</a></li>
-    <li><a href="articles/canicule-sante-publique-france.html">Canicule : Situation sanitaire en France</a></li>
-    <li><a href="articles/tache-froide-atlantique-canicules.html">La tache froide de l’Atlantique et ses effets sur les canicules</a></li>
-    <li><a href="articles/canicules-meurtrieres-france.html">La France face aux canicules meurtrières</a></li>
-    <li><a href="articles/impreparation-canicules-france.html">Impréparation face aux canicules en France depuis des décennies</a></li>
-    <li><a href="articles/canicule-france-hausse-deces-morts-animaux.html">Canicule en France : Hausse des décès et des morts d’animaux domestiques</a></li>
-  </ul>
-</aside>
   <h2 class="art__h2">Les faits</h2><p>Selon Météo-France, la canicule a touché une grande partie de la France, avec des températures extrêmes atteignant jusqu’à 40°C dans certains départements. D’après le site de Météo-France, 37 départements étaient encore en vigilance rouge samedi matin, principalement dans les régions du centre, de l’est et du nord-est du pays, ainsi que dans la région parisienne. Selon France 24, Météo-France a annoncé une fin des vigilances rouges pour dimanche soir, à 22 heures, après 13 rétrogradations de vigilance depuis samedi matin. D’après Le Monde, la canicule a commencé à reculer, mais des orages sont attendus samedi, notamment dans les régions du Centre-Val-de-Loire et des Hauts-de-France. Selon France Info, la canicule se déplace vers le nord-est et le mercure pourrait encore atteindre entre 40 et 42°C dans les départements en rouge.</p>
   <h2 class="art__h2">Contexte</h2><p>La canicule est un phénomène météorologique qui se produit lorsque les températures sont anormalement élevées pendant une période prolongée. Selon l’Organisation météorologique mondiale (OMM), la canicule est l’un des phénomènes météorologiques les plus meurtriers au monde. En France, la canicule est un phénomène récurrent, avec des épisodes de chaleur extrême qui se produisent régulièrement pendant l’été. D’après l’Institut national de la santé et de la recherche médicale (INSERM), la canicule peut avoir des conséquences graves sur la santé, notamment pour les personnes âgées, les enfants et les personnes souffrant de maladies chroniques. Selon le ministère de la Santé, la canicule peut également avoir des conséquences économiques importantes, notamment dans les secteurs de l’agriculture et de la production d’énergie.</p>
   <h2 class="art__h2">Débats et nuances</h2><p>Il est important de noter que la canicule est un phénomène complexe qui dépend de nombreux facteurs, notamment les conditions météorologiques, la topographie et l’urbanisation. Selon Météo-France, la canicule peut être influencée par des facteurs tels que la température de la mer et les courants aériens. D’après l’OMM, la canicule peut également être influencée par les changements climatiques, qui peuvent entraîner une augmentation des températures moyennes et des épisodes de chaleur extrême. Il est donc important de prendre des mesures pour prévenir et atténuer les effets de la canicule, notamment en améliorant la prévision météorologique et en mettant en place des plans d’urgence pour protéger les populations vulnérables.</p>
@@ -111,16 +106,16 @@ document.addEventListener('keydown',function(e){if(e.key==='Escape')closeMenu();
   <a class="share-btn" href="https://www.linkedin.com/sharing/share-offsite/?url=https://lesfaits.info/articles/canicule-france-fin-vigilances-rouges.html" target="_blank" rel="noopener noreferrer external">in LinkedIn</a>
   <a class="share-btn" href="https://api.whatsapp.com/send?text=Canicule%20en%20France%20:%20fin%20des%20vigilances%20rouges%20prévue%20pour%20dimanche%20https://lesfaits.info/articles/canicule-france-fin-vigilances-rouges.html" target="_blank" rel="noopener noreferrer external">WhatsApp</a>
   <button class="share-btn" onclick="copyLink()" id="copy-btn">Copier le lien</button>
-  <button class="fav-btn" id="fav-btn" aria-pressed="false">Favoris</button>
+  <button class="fav-btn" id="fav-btn" aria-pressed="false">♡ Favoris</button>
 </div>
 <script>if(navigator.share)document.getElementById('native-share').style.display='inline-flex';</script>
   <section class="sources" aria-label="Sources"><h3>SOURCES</h3><ol><li><cite>Météo-France</cite> · <em>Vigilance météo</em> · 2026-06-27 · <a href="https://vigilance.meteofrance.fr/fr/canicule" target="_blank" rel="noopener noreferrer external" aria-label="Météo-France (ouvre dans un nouvel onglet)">Lire la source →</a></li>
 <li><cite>Le Monde</cite> · <em>En direct, canicule : Météo-France prévoit la fin des vigilances rouges dimanche soir</em> · 2026-06-27 · <a href="https://www.lemonde.fr/planete/live/2026/06/27/en-direct-canicule-la-vigilance-rouge-recule-et-devrait-prendre-fin-dimanche-soir-mais-des-orages-arrivent_6710159_3244.html" target="_blank" rel="noopener noreferrer external" aria-label="Le Monde (ouvre dans un nouvel onglet)">Lire la source →</a></li>
 <li><cite>France 24</cite> · <em>En direct : Météo-France prévoit une fin des vigilances rouges dimanche soir</em> · 2026-06-27 · <a href="https://www.france24.com/fr/france/20260627-en-direct-météo-france-prévoit-une-fin-des-vigilances-rouges-dimanche-soir" target="_blank" rel="noopener noreferrer external" aria-label="France 24 (ouvre dans un nouvel onglet)">Lire la source →</a></li>
 <li><cite>France Info</cite> · <em>DIRECT. Canicule : Météo-France maintient 37 départements en vigilance rouge, la fin du pic se précise pour dimanche soir</em> · 2026-06-27 · <a href="https://www.franceinfo.fr/environnement/evenements-meteorologiques-extremes/vagues-de-chaleur-canicules/direct-canicule-meteo-france-maintient-37-departements-en-vigilance-rouge-la-fin-du-pic-se-precise-pour-dimanche-soir_8082254.html" target="_blank" rel="noopener noreferrer external" aria-label="France Info (ouvre dans un nouvel onglet)">Lire la source →</a></li></ol></section>
-  <div class="art__related"><div class="art__related-title">À LIRE AUSSI</div><div class="art__related-grid"><a class="art__related-card" href="articles/openai-participation-gouvernement-americain.html"><img src="assets/images/openai-participation-gouvernement-americain.jpg" alt="" width="400" height="110" loading="lazy" style="width:calc(100% + 32px);margin:-14px -16px 12px;height:110px;object-fit:cover;display:block;border-radius:var(--radius) var(--radius) 0 0"><span class="cat cat--tech">TECH</span><div class="title-sm">OpenAI propose une participation minoritaire au gouvernement américain</div><div style="font-size:10px;color:var(--muted);margin-top:6px">3 juillet 2026, 18h00</div></a>
-<a class="art__related-card" href="articles/accident-jean-pierre-raffarin-paris.html"><img src="assets/images/accident-jean-pierre-raffarin-paris.jpg" alt="" width="400" height="110" loading="lazy" style="width:calc(100% + 32px);margin:-14px -16px 12px;height:110px;object-fit:cover;display:block;border-radius:var(--radius) var(--radius) 0 0"><span class="cat cat--societe">SOCIETE</span><div class="title-sm">Accident de Jean-Pierre Raffarin à Paris</div><div style="font-size:10px;color:var(--muted);margin-top:6px">3 juillet 2026, 18h00</div></a>
-<a class="art__related-card" href="articles/mousses-champignons-symbiose-inattendue.html"><img src="assets/images/mousses-champignons-symbiose-inattendue.jpg" alt="" width="400" height="110" loading="lazy" style="width:calc(100% + 32px);margin:-14px -16px 12px;height:110px;object-fit:cover;display:block;border-radius:var(--radius) var(--radius) 0 0"><span class="cat cat--science">SCIENCE</span><div class="title-sm">Découverte d’une symbiose inattendue entre mousses et champignons</div><div style="font-size:10px;color:var(--muted);margin-top:6px">3 juillet 2026, 18h00</div></a></div></div>
+  <div class="art__related"><div class="art__related-title">À LIRE AUSSI</div><div class="art__related-grid"><a class="art__related-card" href="articles/corruption-narcotrafic-france.html"><picture><source srcset="assets/images/corruption-narcotrafic-france.webp" type="image/webp"><img src="assets/images/corruption-narcotrafic-france.jpg" alt="Corruption liée au narcotrafic en France" width="400" height="110" loading="lazy" style="width:calc(100% + 32px);margin:-14px -16px 12px;height:110px;object-fit:cover;display:block;border-radius:var(--radius) var(--radius) 0 0"></picture><span class="cat cat--societe">SOCIETE</span><div class="title-sm">Corruption liée au narcotrafic en France</div><div style="font-size:10px;color:var(--muted);margin-top:6px">2 juillet 2026, 07h00</div></a>
+<a class="art__related-card" href="articles/vitamine-d-calcium-fractures.html"><picture><source srcset="assets/images/vitamine-d-calcium-fractures.webp" type="image/webp"><img src="assets/images/vitamine-d-calcium-fractures.jpg" alt="Vitamine D et calcium contre les fractures" width="400" height="110" loading="lazy" style="width:calc(100% + 32px);margin:-14px -16px 12px;height:110px;object-fit:cover;display:block;border-radius:var(--radius) var(--radius) 0 0"></picture><span class="cat cat--science">SCIENCE</span><div class="title-sm">Vitamine D et calcium contre les fractures</div><div style="font-size:10px;color:var(--muted);margin-top:6px">2 juillet 2026, 07h00</div></a>
+<a class="art__related-card" href="articles/cartes-gouv-fr-alternative-google-maps.html"><picture><source srcset="assets/images/cartes-gouv-fr-alternative-google-maps.webp" type="image/webp"><img src="assets/images/cartes-gouv-fr-alternative-google-maps.jpg" alt="Lancement de Cartes.gouv.fr, alternative française à Google Maps" width="400" height="110" loading="lazy" style="width:calc(100% + 32px);margin:-14px -16px 12px;height:110px;object-fit:cover;display:block;border-radius:var(--radius) var(--radius) 0 0"></picture><span class="cat cat--tech">TECH</span><div class="title-sm">Lancement de Cartes.gouv.fr, alternative française à Google Maps</div><div style="font-size:10px;color:var(--muted);margin-top:6px">2 juillet 2026, 07h00</div></a></div></div>
 <div class="art__related-card" onclick="window.location='articles/agriculture-defis-climatiques-extremes.html'"><span class="cat cat--environnement">ENVIRONNEMENT</span><div class="title-sm">L’agriculture face aux défis climatiques extrêmes</div><div style="font-size:10px;color:var(--muted);margin-top:6px">24 juin 2026, 17h03</div></div>
 <div class="art__related-card" onclick="window.location='articles/secheresse-estivale-france-changement-climatique.html'"><span class="cat cat--environnement">ENVIRONNEMENT</span><div class="title-sm">Sécheresse estivale en France : les conséquences du changement climatique</div><div style="font-size:10px;color:var(--muted);margin-top:6px">25 juin 2026, 21h50</div></div></div></div>
   <p class="art__badge">Généré par IA · Protocole Les Faits v1.1 · 27 juin 2026, 09h36</p>
@@ -145,8 +140,7 @@ document.addEventListener('keydown',function(e){if(e.key==='Escape')closeMenu();
     <div class="footer__col"><h4>JOURNAL</h4>
       <a href="methode.html">Comment on travaille</a>
       <a href="corrections.html">Corrections publiques</a>
-      <a href="favoris.html">Favoris</a>
-<a href="archive.html">Tous les articles</a>
+      <a href="archive.html">Tous les articles</a>
       <a href="feed.xml" class="footer__rss">Flux RSS</a>
     </div>
     <div class="footer__col"><h4>LÉGAL</h4>
@@ -186,6 +180,15 @@ function copyLink(){
     var sh=(h.scrollHeight||b.scrollHeight)-h.clientHeight;
     bar.style.width=sh>0?(st/sh*100)+'%':'0%';
   },{passive:true});
+
+  // Header scroll shadow
+  var hdr=document.querySelector('.header');
+  if(hdr) window.addEventListener('scroll',function(){hdr.classList.toggle('scrolled',window.scrollY>40);},{passive:true});
+  // Scroll fade-in articles liés
+  if('IntersectionObserver' in window){
+    var obs=new IntersectionObserver(function(entries){entries.forEach(function(e){if(e.isIntersecting){e.target.classList.add('is-visible');obs.unobserve(e.target);}});},{threshold:.12,rootMargin:'0px 0px -40px 0px'});
+    document.querySelectorAll('.art__related-card').forEach(function(el){el.classList.add('js-reveal');obs.observe(el);});
+  }
 })();
 // Favoris
 (function(){
@@ -193,27 +196,45 @@ function copyLink(){
   if(!btn)return;
   var favs=JSON.parse(localStorage.getItem('lesfaits_favs')||'[]');
   var slug='canicule-france-fin-vigilances-rouges';
-  if(favs.indexOf(slug)>-1){btn.classList.add('active');btn.setAttribute('aria-pressed','true');btn.textContent='Favori';}
+  if(favs.indexOf(slug)>-1){btn.classList.add('active');btn.setAttribute('aria-pressed','true');btn.textContent='♥ Favori';}
   btn.addEventListener('click',function(){
     var f=JSON.parse(localStorage.getItem('lesfaits_favs')||'[]');
     var idx=f.indexOf(slug);
-    if(idx>-1){f.splice(idx,1);btn.classList.remove('active');btn.setAttribute('aria-pressed','false');btn.textContent='Favoris';}
-    else{f.push(slug);btn.classList.add('active');btn.setAttribute('aria-pressed','true');btn.textContent='Favori';}
+    if(idx>-1){f.splice(idx,1);btn.classList.remove('active');btn.setAttribute('aria-pressed','false');btn.textContent='♡ Favoris';}
+    else{f.push(slug);btn.classList.add('active');btn.setAttribute('aria-pressed','true');btn.textContent='♥ Favori';}
     localStorage.setItem('lesfaits_favs',JSON.stringify(f));
   });
+
+  // Header scroll shadow
+  var hdr=document.querySelector('.header');
+  if(hdr) window.addEventListener('scroll',function(){hdr.classList.toggle('scrolled',window.scrollY>40);},{passive:true});
+  // Scroll fade-in articles liés
+  if('IntersectionObserver' in window){
+    var obs=new IntersectionObserver(function(entries){entries.forEach(function(e){if(e.isIntersecting){e.target.classList.add('is-visible');obs.unobserve(e.target);}});},{threshold:.12,rootMargin:'0px 0px -40px 0px'});
+    document.querySelectorAll('.art__related-card').forEach(function(el){el.classList.add('js-reveal');obs.observe(el);});
+  }
 })();
 </script>
 <script>
 (function(){
   var btn=document.getElementById('dark-toggle');
   var dark=document.documentElement.getAttribute('data-theme')==='dark';
-  if(btn){btn.textContent=dark?'☀️':'🌙';btn.setAttribute('aria-label',dark?'Passer en mode clair':'Passer en mode sombre');}
+  if(btn) btn.textContent=dark?'☀️':'🌙';
   if(btn) btn.addEventListener('click',function(){
     var d=document.documentElement.getAttribute('data-theme')==='dark';
     document.documentElement.setAttribute('data-theme',d?'light':'dark');
     localStorage.setItem('theme',d?'light':'dark');
-    btn.textContent=d?'🌙':'☀️';btn.setAttribute('aria-label',d?'Passer en mode sombre':'Passer en mode clair');
+    btn.textContent=d?'🌙':'☀️';
   });
+
+  // Header scroll shadow
+  var hdr=document.querySelector('.header');
+  if(hdr) window.addEventListener('scroll',function(){hdr.classList.toggle('scrolled',window.scrollY>40);},{passive:true});
+  // Scroll fade-in articles liés
+  if('IntersectionObserver' in window){
+    var obs=new IntersectionObserver(function(entries){entries.forEach(function(e){if(e.isIntersecting){e.target.classList.add('is-visible');obs.unobserve(e.target);}});},{threshold:.12,rootMargin:'0px 0px -40px 0px'});
+    document.querySelectorAll('.art__related-card').forEach(function(el){el.classList.add('js-reveal');obs.observe(el);});
+  }
 })();
 </script>
 <button class="back-to-top" id="btt" aria-label="Retour en haut" title="Retour en haut">↑</button>

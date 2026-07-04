@@ -27,7 +27,16 @@
   <base href="/"/>
   <link rel="stylesheet" href="src/style.css"/>
   <script>
-(function(){var s=localStorage.getItem('theme'),d=s==='dark'||(s===null&&window.matchMedia('(prefers-color-scheme:dark)').matches);document.documentElement.setAttribute('data-theme',d?'dark':'light');})();
+(function(){var s=localStorage.getItem('theme'),d=s==='dark'||(s===null&&window.matchMedia('(prefers-color-scheme:dark)').matches);document.documentElement.setAttribute('data-theme',d?'dark':'light');
+  // Header scroll shadow
+  var hdr=document.querySelector('.header');
+  if(hdr) window.addEventListener('scroll',function(){hdr.classList.toggle('scrolled',window.scrollY>40);},{passive:true});
+  // Scroll fade-in articles liés
+  if('IntersectionObserver' in window){
+    var obs=new IntersectionObserver(function(entries){entries.forEach(function(e){if(e.isIntersecting){e.target.classList.add('is-visible');obs.unobserve(e.target);}});},{threshold:.12,rootMargin:'0px 0px -40px 0px'});
+    document.querySelectorAll('.art__related-card').forEach(function(el){el.classList.add('js-reveal');obs.observe(el);});
+  }
+})();
 </script>
 </head>
 <body>
@@ -39,7 +48,6 @@
 <a href="categories/tech.html">Tech</a>
 <a href="categories/sante.html">Santé</a>
 <a href="categories/environnement.html">Environnement</a>
-<a href="favoris.html">Favoris</a>
 <a href="archive.html">Tous les articles</a>
 <a href="methode.html" class="nav-cta">Comment on travaille →</a>
 </nav>
@@ -64,8 +72,7 @@ document.addEventListener('keydown',function(e){if(e.key==='Escape')closeMenu();
       <a href="categories/tech.html">Tech</a>
       <a href="categories/sante.html">Santé</a>
       <a href="categories/environnement.html">Environnement</a>
-      <a href="favoris.html">Favoris</a>
-<a href="archive.html">Tous les articles</a>
+      <a href="archive.html">Tous les articles</a>
       <a href="methode.html" class="nav-cta">Comment on travaille →</a>
     </nav>
     <button class="dark-toggle" id="dark-toggle" aria-label="Mode sombre" title="Mode sombre">🌙</button>
@@ -76,7 +83,7 @@ document.addEventListener('keydown',function(e){if(e.key==='Escape')closeMenu();
 <main>
 <div class="art">
   <a class="art__back" href="index.html">← Retour à l'accueil</a>
-  <span class="art__cat cat--societe">SOCIÉTÉ</span>
+  <span class="art__cat cat--societe">SOCIETE</span>
   <h1 class="art__title">KNDS reporte son entrée en Bourse en raison de la volatilité du marché</h1>
   <div class="art__meta">
     <span style="color:var(--blue);font-weight:600">4 sources</span><span class="meta__sep" aria-hidden="true">·</span>
@@ -84,11 +91,10 @@ document.addEventListener('keydown',function(e){if(e.key==='Escape')closeMenu();
     <span class="meta__sep" aria-hidden="true">·</span>
     <span class="art__reading-time">Lecture : 2 min</span>
   </div>
-  <div class="art__ai-badge" role="note">🤖 Contenu rédigé par intelligence artificielle — <a href="methode.html" style="color:inherit;text-decoration:underline">notre méthode</a></div>
   <div class="art__verify"><span class="art__verify-item">4 sources citées</span><span class="art__verify-item">✓ Protocole éditorial v1.1</span></div>
   <div class="art__rule"></div>
   <!-- Image source: Pexels / Mizuno K | Type: pexels -->
-<figure class="article__hero" data-img-source="pexels" data-img-credit="Pexels / Mizuno K" style="margin-bottom:28px"><img class="art__hero" src="assets/images/knds-reporte-entree-bourse-volatilite-marche.jpg" alt="Illustration : KNDS reporte son entrée en Bourse en raison de la volatilité du marché" loading="eager" fetchpriority="high" style="aspect-ratio:16/9;object-fit:cover"/></figure>
+<figure class="article__hero" data-img-source="pexels" data-img-credit="Pexels / Mizuno K" style="margin-bottom:28px"><picture><source srcset="assets/images/knds-reporte-entree-bourse-volatilite-marche.webp" type="image/webp"><img class="art__hero" src="assets/images/knds-reporte-entree-bourse-volatilite-marche.jpg" alt="Illustration : KNDS reporte son entrée en Bourse en raison de la volatilité du marché" loading="eager" fetchpriority="high" style="aspect-ratio:16/9;object-fit:cover"/></picture></figure>
   <p class="art__resume">Le géant franco-allemand de l’armement KNDS a annoncé mercredi reporter son entrée en Bourse, initialement prévue pour cette semaine, en raison de la volatilité actuelle du marché dans le secteur européen de la défense. Cette décision a été prise par les actionnaires de l’entreprise, l’Etat français et la famille allemande Bode-Wegmann, qui ont demandé à KNDS de décaler l’opération en attendant des conditions de marché plus favorables. Le report de l’entrée en Bourse de KNDS est une conséquence directe de la baisse des cours de Bourse des sociétés européennes de défense, qui a rendu difficile la valorisation de l’entreprise à un niveau satisfaisant pour ses actionnaires.</p>
   <h2 class="art__h2">Les faits</h2><p>Selon Le Monde, KNDS a annoncé mercredi que ses actionnaires lui avaient demandé de décaler l’opération d’entrée en Bourse en raison de la volatilité actuelle du marché dans le secteur européen de la défense. D’après Les Echos, le groupe d’armement, fabricant des canons Caesar et des chars Leopard, a décidé de reporter son entrée en Bourse en attendant des conditions de marché plus favorables. Selon La DH/Les Sports+, le groupe franco-allemand KNDS a annoncé mercredi soir repousser son entrée en Bourse en attendant le retour de conditions de marché plus favorables face à la volatilité du secteur européen de la défense. D’après Le Temps, le groupe KNDS explique la «volatilité du secteur européen de la défense» pour justifier sa décision de retarder son entrée en bourse. Selon L’Agefi, KNDS a annoncé le report de son projet d’introduction en Bourse en raison «de la volatilité actuelle des marchés dans le secteur européen de la défense». Selon Zonebourse Suisse, le groupe de défense franco-allemand KNDS a annoncé mercredi suspendre son projet d’introduction en bourse en attendant une amélioration des conditions de marché.</p>
   <h2 class="art__h2">Contexte</h2><p>Le secteur de la défense est actuellement en pleine mutation, avec des changements importants dans les marchés et les technologies. Selon Le Monde, la valorisation de KNDS est bloquée à 12 milliards d’euros, ce qui rend difficile l’entrée en Bourse de l’entreprise. D’après Les Echos, le groupe franco-allemand KNDS est l’un des principaux acteurs du secteur de la défense en Europe, avec une gamme de produits allant des canons Caesar aux chars Leopard. Selon La DH/Les Sports+, le secteur de la défense est actuellement en pleine croissance, avec des besoins importants en matière de modernisation et de renouvellement des équipements. D’après Le Temps, le marché de la défense est très concurrentiel, avec de nombreux acteurs en présence, ce qui rend difficile la valorisation d’une entreprise comme KNDS.</p>
@@ -101,16 +107,16 @@ document.addEventListener('keydown',function(e){if(e.key==='Escape')closeMenu();
   <a class="share-btn" href="https://www.linkedin.com/sharing/share-offsite/?url=https://lesfaits.info/articles/knds-reporte-entree-bourse-volatilite-marche.html" target="_blank" rel="noopener noreferrer external">in LinkedIn</a>
   <a class="share-btn" href="https://api.whatsapp.com/send?text=KNDS%20reporte%20son%20entrée%20en%20Bourse%20en%20raison%20de%20la%20volatilité%20du%20marché%20https://lesfaits.info/articles/knds-reporte-entree-bourse-volatilite-marche.html" target="_blank" rel="noopener noreferrer external">WhatsApp</a>
   <button class="share-btn" onclick="copyLink()" id="copy-btn">Copier le lien</button>
-  <button class="fav-btn" id="fav-btn" aria-pressed="false">Favoris</button>
+  <button class="fav-btn" id="fav-btn" aria-pressed="false">♡ Favoris</button>
 </div>
 <script>if(navigator.share)document.getElementById('native-share').style.display='inline-flex';</script>
   <section class="sources" aria-label="Sources"><h3>SOURCES</h3><ol><li><cite>Le Monde</cite> · <em>Le géant franco-allemand de l’armement KNDS reporte son entrée en Bourse… annoncée une semaine plus tôt</em> · 2026-07-02 · <a href="https://www.lemonde.fr/economie/article/2026/07/02/le-geant-franco-allemand-de-l-armement-knds-reporte-son-entree-en-bourse-annoncee-une-semaine-plus-tot_6717679_3234.html" target="_blank" rel="noopener noreferrer external" aria-label="Le Monde (ouvre dans un nouvel onglet)">Lire la source →</a></li>
 <li><cite>Les Echos</cite> · <em>Défense : le groupe franco-allemand KNDS reporte son entrée en Bourse dans l'attente de « conditions plus favorables »</em> · 2026-07-02 · <a href="https://www.lesechos.fr/industrie-services/air-defense/defense-le-groupe-franco-allemand-knds-reporte-son-entree-en-bourse-dans-lattente-de-conditions-plus-favorables-2240281" target="_blank" rel="noopener noreferrer external" aria-label="Les Echos (ouvre dans un nouvel onglet)">Lire la source →</a></li>
 <li><cite>La DH/Les Sports+</cite> · <em>Défense: le groupe franco-allemand KNDS repousse son entrée en Bourse</em> · 2026-07-02 · <a href="https://www.dhnet.be/dernieres-depeches/2026/07/02/defense-le-groupe-franco-allemand-knds-repousse-son-entree-en-bourse-QN6UVHQ4CJBTJCI4Q2HASALNK4/" target="_blank" rel="noopener noreferrer external" aria-label="La DH/Les Sports+ (ouvre dans un nouvel onglet)">Lire la source →</a></li>
 <li><cite>Le Temps</cite> · <em>Le groupe franco-allemand KNDS repousse son entrée en Bourse</em> · 2026-07-02 · <a href="https://www.letemps.ch/economie/le-groupe-franco-allemand-knds-repousse-son-entree-en-bourse" target="_blank" rel="noopener noreferrer external" aria-label="Le Temps (ouvre dans un nouvel onglet)">Lire la source →</a></li></ol></section>
-  <div class="art__related"><div class="art__related-title">À LIRE AUSSI</div><div class="art__related-grid"><a class="art__related-card" href="articles/openai-participation-gouvernement-americain.html"><img src="assets/images/openai-participation-gouvernement-americain.jpg" alt="" width="400" height="110" loading="lazy" style="width:calc(100% + 32px);margin:-14px -16px 12px;height:110px;object-fit:cover;display:block;border-radius:var(--radius) var(--radius) 0 0"><span class="cat cat--tech">TECH</span><div class="title-sm">OpenAI propose une participation minoritaire au gouvernement américain</div><div style="font-size:10px;color:var(--muted);margin-top:6px">3 juillet 2026, 18h00</div></a>
-<a class="art__related-card" href="articles/mousses-champignons-symbiose-inattendue.html"><img src="assets/images/mousses-champignons-symbiose-inattendue.jpg" alt="" width="400" height="110" loading="lazy" style="width:calc(100% + 32px);margin:-14px -16px 12px;height:110px;object-fit:cover;display:block;border-radius:var(--radius) var(--radius) 0 0"><span class="cat cat--science">SCIENCE</span><div class="title-sm">Découverte d’une symbiose inattendue entre mousses et champignons</div><div style="font-size:10px;color:var(--muted);margin-top:6px">3 juillet 2026, 18h00</div></a>
-<a class="art__related-card" href="articles/reformes-economiques-allemagne-merz.html"><img src="assets/images/reformes-economiques-allemagne-merz.jpg" alt="" width="400" height="110" loading="lazy" style="width:calc(100% + 32px);margin:-14px -16px 12px;height:110px;object-fit:cover;display:block;border-radius:var(--radius) var(--radius) 0 0"><span class="cat cat--economie">ECONOMIE</span><div class="title-sm">Allemagne : le chancelier Friedrich Merz annonce des réformes économiques</div><div style="font-size:10px;color:var(--muted);margin-top:6px">2 juillet 2026, 18h00</div></a></div></div>
+  <div class="art__related"><div class="art__related-title">À LIRE AUSSI</div><div class="art__related-grid"><a class="art__related-card" href="articles/vitamine-d-calcium-fractures.html"><picture><source srcset="assets/images/vitamine-d-calcium-fractures.webp" type="image/webp"><img src="assets/images/vitamine-d-calcium-fractures.jpg" alt="Vitamine D et calcium contre les fractures" width="400" height="110" loading="lazy" style="width:calc(100% + 32px);margin:-14px -16px 12px;height:110px;object-fit:cover;display:block;border-radius:var(--radius) var(--radius) 0 0"></picture><span class="cat cat--science">SCIENCE</span><div class="title-sm">Vitamine D et calcium contre les fractures</div><div style="font-size:10px;color:var(--muted);margin-top:6px">2 juillet 2026, 07h00</div></a>
+<a class="art__related-card" href="articles/cartes-gouv-fr-alternative-google-maps.html"><picture><source srcset="assets/images/cartes-gouv-fr-alternative-google-maps.webp" type="image/webp"><img src="assets/images/cartes-gouv-fr-alternative-google-maps.jpg" alt="Lancement de Cartes.gouv.fr, alternative française à Google Maps" width="400" height="110" loading="lazy" style="width:calc(100% + 32px);margin:-14px -16px 12px;height:110px;object-fit:cover;display:block;border-radius:var(--radius) var(--radius) 0 0"></picture><span class="cat cat--tech">TECH</span><div class="title-sm">Lancement de Cartes.gouv.fr, alternative française à Google Maps</div><div style="font-size:10px;color:var(--muted);margin-top:6px">2 juillet 2026, 07h00</div></a>
+<a class="art__related-card" href="articles/construction-ponts-autoroutes-chine.html"><picture><source srcset="assets/images/construction-ponts-autoroutes-chine.webp" type="image/webp"><img src="assets/images/construction-ponts-autoroutes-chine.jpg" alt="Construction de ponts et d’autoroutes en Chine, un modèle de développement à bout de souffle" width="400" height="110" loading="lazy" style="width:calc(100% + 32px);margin:-14px -16px 12px;height:110px;object-fit:cover;display:block;border-radius:var(--radius) var(--radius) 0 0"></picture><span class="cat cat--environnement">ENVIRONNEMENT</span><div class="title-sm">Construction de ponts et d’autoroutes en Chine, un modèle de développement à bout de souffle</div><div style="font-size:10px;color:var(--muted);margin-top:6px">2 juillet 2026, 07h00</div></a></div></div>
   <p class="art__badge">Généré par IA · Protocole Les Faits v1.1 · 2 juillet 2026, 07h00</p>
   <a class="contest-btn" href="contact.html?article=knds-reporte-entree-bourse-volatilite-marche#erreur">Signaler une erreur sur cet article</a>
 </div>
@@ -134,8 +140,7 @@ document.addEventListener('keydown',function(e){if(e.key==='Escape')closeMenu();
     <div class="footer__col"><h4>JOURNAL</h4>
       <a href="methode.html">Comment on travaille</a>
       <a href="corrections.html">Corrections publiques</a>
-      <a href="favoris.html">Favoris</a>
-<a href="archive.html">Tous les articles</a>
+      <a href="archive.html">Tous les articles</a>
       <a href="feed.xml" class="footer__rss">Flux RSS</a>
     </div>
     <div class="footer__col"><h4>LÉGAL</h4>
@@ -175,6 +180,15 @@ function copyLink(){
     var sh=(h.scrollHeight||b.scrollHeight)-h.clientHeight;
     bar.style.width=sh>0?(st/sh*100)+'%':'0%';
   },{passive:true});
+
+  // Header scroll shadow
+  var hdr=document.querySelector('.header');
+  if(hdr) window.addEventListener('scroll',function(){hdr.classList.toggle('scrolled',window.scrollY>40);},{passive:true});
+  // Scroll fade-in articles liés
+  if('IntersectionObserver' in window){
+    var obs=new IntersectionObserver(function(entries){entries.forEach(function(e){if(e.isIntersecting){e.target.classList.add('is-visible');obs.unobserve(e.target);}});},{threshold:.12,rootMargin:'0px 0px -40px 0px'});
+    document.querySelectorAll('.art__related-card').forEach(function(el){el.classList.add('js-reveal');obs.observe(el);});
+  }
 })();
 // Favoris
 (function(){
@@ -182,14 +196,23 @@ function copyLink(){
   if(!btn)return;
   var favs=JSON.parse(localStorage.getItem('lesfaits_favs')||'[]');
   var slug='knds-reporte-entree-bourse-volatilite-marche';
-  if(favs.indexOf(slug)>-1){btn.classList.add('active');btn.setAttribute('aria-pressed','true');btn.textContent='Favori';}
+  if(favs.indexOf(slug)>-1){btn.classList.add('active');btn.setAttribute('aria-pressed','true');btn.textContent='♥ Favori';}
   btn.addEventListener('click',function(){
     var f=JSON.parse(localStorage.getItem('lesfaits_favs')||'[]');
     var idx=f.indexOf(slug);
-    if(idx>-1){f.splice(idx,1);btn.classList.remove('active');btn.setAttribute('aria-pressed','false');btn.textContent='Favoris';}
-    else{f.push(slug);btn.classList.add('active');btn.setAttribute('aria-pressed','true');btn.textContent='Favori';}
+    if(idx>-1){f.splice(idx,1);btn.classList.remove('active');btn.setAttribute('aria-pressed','false');btn.textContent='♡ Favoris';}
+    else{f.push(slug);btn.classList.add('active');btn.setAttribute('aria-pressed','true');btn.textContent='♥ Favori';}
     localStorage.setItem('lesfaits_favs',JSON.stringify(f));
   });
+
+  // Header scroll shadow
+  var hdr=document.querySelector('.header');
+  if(hdr) window.addEventListener('scroll',function(){hdr.classList.toggle('scrolled',window.scrollY>40);},{passive:true});
+  // Scroll fade-in articles liés
+  if('IntersectionObserver' in window){
+    var obs=new IntersectionObserver(function(entries){entries.forEach(function(e){if(e.isIntersecting){e.target.classList.add('is-visible');obs.unobserve(e.target);}});},{threshold:.12,rootMargin:'0px 0px -40px 0px'});
+    document.querySelectorAll('.art__related-card').forEach(function(el){el.classList.add('js-reveal');obs.observe(el);});
+  }
 })();
 </script>
 <script>
@@ -199,19 +222,37 @@ function copyLink(){
     btn.classList.toggle('visible',window.scrollY>300);
   },{passive:true});
   btn.addEventListener('click',function(){window.scrollTo({top:0,behavior:'smooth'});});
+
+  // Header scroll shadow
+  var hdr=document.querySelector('.header');
+  if(hdr) window.addEventListener('scroll',function(){hdr.classList.toggle('scrolled',window.scrollY>40);},{passive:true});
+  // Scroll fade-in articles liés
+  if('IntersectionObserver' in window){
+    var obs=new IntersectionObserver(function(entries){entries.forEach(function(e){if(e.isIntersecting){e.target.classList.add('is-visible');obs.unobserve(e.target);}});},{threshold:.12,rootMargin:'0px 0px -40px 0px'});
+    document.querySelectorAll('.art__related-card').forEach(function(el){el.classList.add('js-reveal');obs.observe(el);});
+  }
 })();
 </script>
 <script>
 (function(){
   var btn=document.getElementById('dark-toggle');
   var dark=document.documentElement.getAttribute('data-theme')==='dark';
-  if(btn){btn.textContent=dark?'☀️':'🌙';btn.setAttribute('aria-label',dark?'Passer en mode clair':'Passer en mode sombre');}
+  if(btn) btn.textContent=dark?'☀️':'🌙';
   if(btn) btn.addEventListener('click',function(){
     var d=document.documentElement.getAttribute('data-theme')==='dark';
     document.documentElement.setAttribute('data-theme',d?'light':'dark');
     localStorage.setItem('theme',d?'light':'dark');
-    btn.textContent=d?'🌙':'☀️';btn.setAttribute('aria-label',d?'Passer en mode sombre':'Passer en mode clair');
+    btn.textContent=d?'🌙':'☀️';
   });
+
+  // Header scroll shadow
+  var hdr=document.querySelector('.header');
+  if(hdr) window.addEventListener('scroll',function(){hdr.classList.toggle('scrolled',window.scrollY>40);},{passive:true});
+  // Scroll fade-in articles liés
+  if('IntersectionObserver' in window){
+    var obs=new IntersectionObserver(function(entries){entries.forEach(function(e){if(e.isIntersecting){e.target.classList.add('is-visible');obs.unobserve(e.target);}});},{threshold:.12,rootMargin:'0px 0px -40px 0px'});
+    document.querySelectorAll('.art__related-card').forEach(function(el){el.classList.add('js-reveal');obs.observe(el);});
+  }
 })();
 </script>
 <script defer src="https://cloud.umami.is/script.js" data-website-id="8d68a78f-97ae-4c95-a955-5d3df758f7e2"></script>
