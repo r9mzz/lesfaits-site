@@ -9,6 +9,14 @@
   <meta property="og:description" content="Journal numérique français rédigé par IA. Sans publicité. Sans actionnaires."/>
   <meta property="og:type" content="website"/>
   <meta property="og:url" content="https://lesfaits.info/"/>
+  <meta property="og:image" content="https://lesfaits.info/assets/images/og-default.jpg"/>
+  <meta property="og:image:width" content="1200"/>
+  <meta property="og:image:height" content="630"/>
+  <meta name="twitter:card" content="summary_large_image"/>
+  <meta name="twitter:title" content="Les Faits — Juste les faits. Aucun parti pris."/>
+  <meta name="twitter:description" content="Journal numérique français rédigé par IA. Sans publicité. Sans actionnaires."/>
+  <meta name="twitter:image" content="https://lesfaits.info/assets/images/og-default.jpg"/>
+  <link rel="canonical" href="https://lesfaits.info/"/>
   <link rel="alternate" type="application/rss+xml" title="Les Faits — RSS" href="/feed.xml"/>
   <title>Les Faits — Juste les faits. Aucun parti pris.</title>
   <base href="/"/>
@@ -28,6 +36,7 @@
 <a href="categories/tech.html">Tech</a>
 <a href="categories/sante.html">Santé</a>
 <a href="categories/environnement.html">Environnement</a>
+<a href="favoris.html">Favoris</a>
 <a href="archive.html">Tous les articles</a>
 <a href="methode.html" class="nav-cta">Comment on travaille →</a>
 </nav>
@@ -52,6 +61,7 @@ document.addEventListener('keydown',function(e){if(e.key==='Escape')closeMenu();
       <a href="categories/tech.html">Tech</a>
       <a href="categories/sante.html">Santé</a>
       <a href="categories/environnement.html">Environnement</a>
+      <a href="favoris.html">Favoris</a>
       <a href="archive.html">Tous les articles</a>
       <a href="methode.html" class="nav-cta">Comment on travaille →</a>
     </nav>
@@ -74,44 +84,44 @@ document.addEventListener('keydown',function(e){if(e.key==='Escape')closeMenu();
     <div class="une__label">À LA UNE</div>
     <div style="height:2px;background:var(--blue);margin-bottom:1px"></div>
     <div class="une__grid">
-      <a class="une__main" href="articles/vatican-sanctionne-schisme-fraternite-saint-pie-x.html">
-        <picture><source srcset="assets/images/vatican-sanctionne-schisme-fraternite-saint-pie-x.webp" type="image/webp"><img src="assets/images/vatican-sanctionne-schisme-fraternite-saint-pie-x.jpg" alt="Le Vatican sanctionne le schisme de la Fraternité Saint-Pie X" loading="eager" style="width:calc(100% + 72px);margin:-32px -36px 20px;height:240px;object-fit:cover;display:block"></picture>
-        <span class="cat cat--societe">SOCIETE</span>
-        <h2 class="title-xl">Le Vatican sanctionne le schisme de la Fraternité Saint-Pie X</h2>
-        <p class="excerpt">Le Vatican a confirmé jeudi l'excommunication de six évêques de la Fraternité Saint-Pie X, actant le schisme de ce mouvement traditionaliste avec Rome, selon des sources officielles. La Fraternité Saint-Pie X, fondée par Mgr Marcel Lefebvre, compte environ 600 000 fidèles dans le monde et défend un modèle de société patriarcal et un idéal d'Etat théocratique, en opposition aux évolutions de l'Eglise catholique depuis le concile Vatican II. Cette décision intervient après la consécration de quatre nouveaux évêques par la Fraternité Saint-Pie X, ce qui a été considéré comme un acte de schisme par le Vatican, selon des déclarations officielles.</p>
+      <a class="une__main" href="articles/openai-participation-gouvernement-americain.html">
+        <img src="assets/images/openai-participation-gouvernement-americain.jpg" alt="OpenAI propose une participation minoritaire au gouvernement américain" loading="eager" style="width:calc(100% + 72px);margin:-32px -36px 20px;height:240px;object-fit:cover;display:block">
+        <span class="cat cat--tech">TECH</span>
+        <h2 class="title-xl">OpenAI propose une participation minoritaire au gouvernement américain</h2>
+        <p class="excerpt">La start-up d'intelligence artificielle OpenAI tente de renforcer ses liens avec l'administration américaine en offrant une participation financière, dans un contexte de régulation croissante de l'IA. Cette démarche s'inscrit dans une stratégie visant à établir un dialogue constructif avec les autorités, alors que les préoccupations concernant les implications sociétales de l'intelligence artificielle grandissent. La proposition d'OpenAI soulève des questions sur les modalités de gouvernance et de régulation de l'IA, ainsi que sur les conséquences potentielles d'une implication accrue des pouvoirs publics dans le secteur.</p>
         <div class="meta">
           <span class="meta__src">4 sources</span>
-          <span class="meta__sep">·</span><span>2 juillet 2026, 18h00</span>
+          <span class="meta__sep">·</span><span>3 juillet 2026, 18h00</span>
           <span class="meta__sep">·</span><span>Protocole v1.1</span>
           <span class="meta__push"></span>
         </div>
         <p class="ai-badge">Rédigé par IA · Protocole Les Faits v1.1</p>
       </a>
-      <div class="une__side"><a class="une__side-item" href="articles/reformes-economiques-allemagne-merz.html" style="display:grid;grid-template-columns:64px 1fr;gap:14px;align-items:center">
-          <picture><source srcset="assets/images/reformes-economiques-allemagne-merz.webp" type="image/webp"><img src="assets/images/reformes-economiques-allemagne-merz.jpg" alt="Allemagne : le chancelier Friedrich Merz annonce des réformes économiques" loading="lazy" style="width:64px;height:64px;object-fit:cover;border-radius:4px;display:block"></picture>
+      <div class="une__side"><a class="une__side-item" href="articles/accident-jean-pierre-raffarin-paris.html" style="display:grid;grid-template-columns:64px 1fr;gap:14px;align-items:center">
+          <img src="assets/images/accident-jean-pierre-raffarin-paris.jpg" alt="Accident de Jean-Pierre Raffarin à Paris" loading="lazy" style="width:64px;height:64px;object-fit:cover;border-radius:4px;display:block">
           <div>
-          <span class="cat cat--economie">ECONOMIE</span>
-          <h3 class="title-md">Allemagne : le chancelier Friedrich Merz annonce des réformes économiques</h3>
+          <span class="cat cat--societe">SOCIÉTÉ</span>
+          <h3 class="title-md">Accident de Jean-Pierre Raffarin à Paris</h3>
           <div class="meta"><span class="meta__src">4 sources</span>
-          <span class="meta__sep">·</span><span>2 juillet 2026, 18h00</span></div>
+          <span class="meta__sep">·</span><span>3 juillet 2026, 18h00</span></div>
           </div>
         </a>
-<a class="une__side-item" href="articles/transport-aerien-crise-detroit-ormuz.html" style="display:grid;grid-template-columns:64px 1fr;gap:14px;align-items:center">
-          <picture><source srcset="assets/images/transport-aerien-crise-detroit-ormuz.webp" type="image/webp"><img src="assets/images/transport-aerien-crise-detroit-ormuz.jpg" alt="Transport aérien affecté par la crise du détroit d’Ormuz" loading="lazy" style="width:64px;height:64px;object-fit:cover;border-radius:4px;display:block"></picture>
-          <div>
-          <span class="cat cat--societe">SOCIETE</span>
-          <h3 class="title-md">Transport aérien affecté par la crise du détroit d’Ormuz</h3>
-          <div class="meta"><span class="meta__src">4 sources</span>
-          <span class="meta__sep">·</span><span>2 juillet 2026, 18h00</span></div>
-          </div>
-        </a>
-<a class="une__side-item" href="articles/marc-bloch-historien-majeur-xxe-siecle.html" style="display:grid;grid-template-columns:64px 1fr;gap:14px;align-items:center">
-          <picture><source srcset="assets/images/marc-bloch-historien-majeur-xxe-siecle.webp" type="image/webp"><img src="assets/images/marc-bloch-historien-majeur-xxe-siecle.jpg" alt="Marc Bloch, un historien majeur du XXe siècle" loading="lazy" style="width:64px;height:64px;object-fit:cover;border-radius:4px;display:block"></picture>
+<a class="une__side-item" href="articles/mousses-champignons-symbiose-inattendue.html" style="display:grid;grid-template-columns:64px 1fr;gap:14px;align-items:center">
+          <img src="assets/images/mousses-champignons-symbiose-inattendue.jpg" alt="Découverte d’une symbiose inattendue entre mousses et champignons" loading="lazy" style="width:64px;height:64px;object-fit:cover;border-radius:4px;display:block">
           <div>
           <span class="cat cat--science">SCIENCE</span>
-          <h3 class="title-md">Marc Bloch, un historien majeur du XXe siècle</h3>
+          <h3 class="title-md">Découverte d’une symbiose inattendue entre mousses et champignons</h3>
           <div class="meta"><span class="meta__src">4 sources</span>
-          <span class="meta__sep">·</span><span>2 juillet 2026, 18h00</span></div>
+          <span class="meta__sep">·</span><span>3 juillet 2026, 18h00</span></div>
+          </div>
+        </a>
+<a class="une__side-item" href="articles/sommeil-et-hypertension-symptomes.html" style="display:grid;grid-template-columns:64px 1fr;gap:14px;align-items:center">
+          <img src="assets/images/sommeil-et-hypertension-symptomes.jpg" alt="Sommeil et hypertension : les symptômes à ne pas négliger" loading="lazy" style="width:64px;height:64px;object-fit:cover;border-radius:4px;display:block">
+          <div>
+          <span class="cat cat--sante">SANTÉ</span>
+          <h3 class="title-md">Sommeil et hypertension : les symptômes à ne pas négliger</h3>
+          <div class="meta"><span class="meta__src">4 sources</span>
+          <span class="meta__sep">·</span><span>1 juillet 2026, 18h00</span></div>
           </div>
         </a></div>
     </div>
@@ -120,126 +130,126 @@ document.addEventListener('keydown',function(e){if(e.key==='Escape')closeMenu();
   <div class="section">
     <div class="section__head"><span class="section__title">DERNIERS ARTICLES</span></div>
     <div class="section__rule"></div>
-    <div class="grid3"><a class="card3" href="articles/eutrophisation-baie-guanabara-rio.html">
-          <picture><source srcset="assets/images/eutrophisation-baie-guanabara-rio.webp" type="image/webp"><img class="card3__img" src="assets/images/eutrophisation-baie-guanabara-rio.jpg" alt="Eutrophisation de la baie de Guanabara à Rio de Janeiro" loading="lazy"></picture>
+    <div class="grid3"><a class="card3" href="articles/exoplanete-proche-terre-conditions-vie.html">
+          <img class="card3__img" src="assets/images/exoplanete-proche-terre-conditions-vie.jpg" alt="Découverte d’une exoplanète proche de la Terre avec conditions propices à la vie" loading="lazy">
           <div class="card3__body">
-            <span class="cat cat--environnement">ENVIRONNEMENT</span>
-            <h3 class="title-sm">Eutrophisation de la baie de Guanabara à Rio de Janeiro</h3>
+            <span class="cat cat--societe">SOCIÉTÉ</span>
+            <h3 class="title-sm">Découverte d’une exoplanète proche de la Terre avec conditions propices à la vie</h3>
             <div class="meta" style="margin-top:10px">
-              <span class="meta__src">3 sources</span>
-              <span class="meta__sep">·</span><span>2 juillet 2026, 18h00</span>
+              <span class="meta__src">4 sources</span>
+              <span class="meta__sep">·</span><span>3 juillet 2026, 07h00</span>
             </div>
           </div>
         </a>
-<a class="card3" href="articles/ver-informatique-ia-attaque-experimentale.html">
-          <picture><source srcset="assets/images/ver-informatique-ia-attaque-experimentale.webp" type="image/webp"><img class="card3__img" src="assets/images/ver-informatique-ia-attaque-experimentale.jpg" alt="Première attaque expérimentale d’un ver informatique mû par l’IA" loading="lazy"></picture>
+<a class="card3" href="articles/fin-jeux-sur-disque-xbox-playstation.html">
+          <img class="card3__img" src="assets/images/fin-jeux-sur-disque-xbox-playstation.jpg" alt="Fin des jeux sur disque pour Xbox et PlayStation" loading="lazy">
           <div class="card3__body">
             <span class="cat cat--tech">TECH</span>
-            <h3 class="title-sm">Première attaque expérimentale d’un ver informatique mû par l’IA</h3>
+            <h3 class="title-sm">Fin des jeux sur disque pour Xbox et PlayStation</h3>
             <div class="meta" style="margin-top:10px">
               <span class="meta__src">4 sources</span>
               <span class="meta__sep">·</span><span>2 juillet 2026, 18h00</span>
             </div>
           </div>
         </a>
-<a class="card3" href="articles/seismes-au-venezuela-sauvetage-en-cours.html">
-          <picture><source srcset="assets/images/seismes-au-venezuela-sauvetage-en-cours.webp" type="image/webp"><img class="card3__img" src="assets/images/seismes-au-venezuela-sauvetage-en-cours.jpg" alt="Séismes au Venezuela, opérations de sauvetage en cours" loading="lazy"></picture>
+<a class="card3" href="articles/dell-16-nouvelle-generation-perd-350-euros.html">
+          <img class="card3__img" src="assets/images/dell-16-nouvelle-generation-perd-350-euros.jpg" alt="Dell 16 nouvelle génération perd 350 euros avec Core Ultra 5" loading="lazy">
           <div class="card3__body">
-            <span class="cat cat--societe">SOCIETE</span>
-            <h3 class="title-sm">Séismes au Venezuela, opérations de sauvetage en cours</h3>
+            <span class="cat cat--societe">SOCIÉTÉ</span>
+            <h3 class="title-sm">Dell 16 nouvelle génération perd 350 euros avec Core Ultra 5</h3>
             <div class="meta" style="margin-top:10px">
               <span class="meta__src">4 sources</span>
               <span class="meta__sep">·</span><span>2 juillet 2026, 18h00</span>
             </div>
           </div>
         </a>
-<a class="card3" href="articles/t-rex-exceptionnel-presentation-new-york.html">
-          <picture><source srcset="assets/images/t-rex-exceptionnel-presentation-new-york.webp" type="image/webp"><img class="card3__img" src="assets/images/t-rex-exceptionnel-presentation-new-york.jpg" alt="Présentation à New York d’un T-Rex exceptionnel avant sa vente aux enchères" loading="lazy"></picture>
+<a class="card3" href="articles/la-vie-sur-terre-plus-longue-que-prevu.html">
+          <img class="card3__img" src="assets/images/la-vie-sur-terre-plus-longue-que-prevu.jpg" alt="La vie sur Terre pourrait durer plus longtemps que prévu" loading="lazy">
           <div class="card3__body">
-            <span class="cat cat--environnement">ENVIRONNEMENT</span>
-            <h3 class="title-sm">Présentation à New York d’un T-Rex exceptionnel avant sa vente aux enchères</h3>
+            <span class="cat cat--science">SCIENCE</span>
+            <h3 class="title-sm">La vie sur Terre pourrait durer plus longtemps que prévu</h3>
             <div class="meta" style="margin-top:10px">
-              <span class="meta__src">3 sources</span>
+              <span class="meta__src">4 sources</span>
               <span class="meta__sep">·</span><span>2 juillet 2026, 18h00</span>
             </div>
           </div>
         </a>
-<a class="card3" href="articles/danemark-priorite-services-essentiels.html">
-          <picture><source srcset="assets/images/danemark-priorite-services-essentiels.webp" type="image/webp"><img class="card3__img" src="assets/images/danemark-priorite-services-essentiels.jpg" alt="Danemark priorise services essentiels sur centres de données" loading="lazy"></picture>
+<a class="card3" href="articles/incendies-forets-aude-science-impacts.html">
+          <img class="card3__img" src="assets/images/incendies-forets-aude-science-impacts.jpg" alt="Incendies de forêts dans l’Aude : la science étudie les impacts" loading="lazy">
           <div class="card3__body">
-            <span class="cat cat--environnement">ENVIRONNEMENT</span>
-            <h3 class="title-sm">Danemark priorise services essentiels sur centres de données</h3>
+            <span class="cat cat--science">SCIENCE</span>
+            <h3 class="title-sm">Incendies de forêts dans l’Aude : la science étudie les impacts</h3>
             <div class="meta" style="margin-top:10px">
-              <span class="meta__src">3 sources</span>
+              <span class="meta__src">4 sources</span>
               <span class="meta__sep">·</span><span>2 juillet 2026, 18h00</span>
             </div>
           </div>
         </a>
-<a class="card3" href="articles/squelette-d-artagnan-decouvert-maastricht.html">
-          <picture><source srcset="assets/images/squelette-d-artagnan-decouvert-maastricht.webp" type="image/webp"><img class="card3__img" src="assets/images/squelette-d-artagnan-decouvert-maastricht.jpg" alt="Découverte d’un squelette à Maastricht aux Pays-Bas" loading="lazy"></picture>
+<a class="card3" href="articles/hantavirus-oms-declare-fin-episode-mv-hondius.html">
+          <img class="card3__img" src="assets/images/hantavirus-oms-declare-fin-episode-mv-hondius.jpg" alt="Hantavirus : l’OMS déclare la fin de l’épisode lié au navire de croisière MV Hondius" loading="lazy">
           <div class="card3__body">
-            <span class="cat cat--societe">SOCIETE</span>
-            <h3 class="title-sm">Découverte d’un squelette à Maastricht aux Pays-Bas</h3>
+            <span class="cat cat--science">SCIENCE</span>
+            <h3 class="title-sm">Hantavirus : l’OMS déclare la fin de l’épisode lié au navire de croisière MV Hondius</h3>
             <div class="meta" style="margin-top:10px">
-              <span class="meta__src">3 sources</span>
+              <span class="meta__src">4 sources</span>
               <span class="meta__sep">·</span><span>2 juillet 2026, 18h00</span>
             </div>
           </div>
         </a></div>
   </div>
 
-  <div class="list-section" style="padding-top:40px"><div class="section__head" style="margin-bottom:16px"><span class="section__title">À LIRE AUSSI</span></div><div class="section__rule"></div><div class="list-grid"><a class="list-item" href="articles/corruption-narcotrafic-france.html">
+  <div class="list-section" style="padding-top:40px"><div class="section__head" style="margin-bottom:16px"><span class="section__title">À LIRE AUSSI</span></div><div class="section__rule"></div><div class="list-grid"><a class="list-item" href="articles/vatican-sanctionne-schisme-fraternite-saint-pie-x.html">
           <span class="list-item__num">01</span>
-          <div><span class="cat cat--societe">SOCIETE</span>
-          <h3 class="title-sm">Corruption liée au narcotrafic en France</h3>
+          <div><span class="cat cat--societe">SOCIÉTÉ</span>
+          <h3 class="title-sm">Le Vatican sanctionne le schisme de la Fraternité Saint-Pie X</h3>
           <div class="meta" style="margin-top:6px">
             <span class="meta__src">4 sources</span>
-            <span class="meta__sep">·</span><span>2 juillet 2026, 07h00</span>
+            <span class="meta__sep">·</span><span>2 juillet 2026, 18h00</span>
           </div></div>
         </a>
-<a class="list-item" href="articles/france-dette-publique-insoutenable.html">
+<a class="list-item" href="articles/reformes-economiques-allemagne-merz.html">
           <span class="list-item__num">02</span>
-          <div><span class="cat cat--economie">ECONOMIE</span>
-          <h3 class="title-sm">La France face à une dette publique non soutenable selon Jean Peyrelevade</h3>
+          <div><span class="cat cat--economie">ÉCONOMIE</span>
+          <h3 class="title-sm">Allemagne : le chancelier Friedrich Merz annonce des réformes économiques</h3>
           <div class="meta" style="margin-top:6px">
             <span class="meta__src">4 sources</span>
-            <span class="meta__sep">·</span><span>1 juillet 2026, 18h00</span>
+            <span class="meta__sep">·</span><span>2 juillet 2026, 18h00</span>
           </div></div>
         </a>
-<a class="list-item" href="articles/vitamine-d-calcium-fractures.html">
+<a class="list-item" href="articles/danemark-priorite-services-essentiels.html">
           <span class="list-item__num">03</span>
-          <div><span class="cat cat--science">SCIENCE</span>
-          <h3 class="title-sm">Vitamine D et calcium contre les fractures</h3>
-          <div class="meta" style="margin-top:6px">
-            <span class="meta__src">4 sources</span>
-            <span class="meta__sep">·</span><span>2 juillet 2026, 07h00</span>
-          </div></div>
-        </a>
-<a class="list-item" href="articles/sommeil-et-hypertension-symptomes.html">
-          <span class="list-item__num">04</span>
-          <div><span class="cat cat--sante">SANTE</span>
-          <h3 class="title-sm">Sommeil et hypertension : les symptômes à ne pas négliger</h3>
-          <div class="meta" style="margin-top:6px">
-            <span class="meta__src">4 sources</span>
-            <span class="meta__sep">·</span><span>1 juillet 2026, 18h00</span>
-          </div></div>
-        </a>
-<a class="list-item" href="articles/construction-ponts-autoroutes-chine.html">
-          <span class="list-item__num">05</span>
           <div><span class="cat cat--environnement">ENVIRONNEMENT</span>
-          <h3 class="title-sm">Construction de ponts et d’autoroutes en Chine, un modèle de développement à bout de souffle</h3>
+          <h3 class="title-sm">Danemark priorise services essentiels sur centres de données</h3>
           <div class="meta" style="margin-top:6px">
-            <span class="meta__src">4 sources</span>
-            <span class="meta__sep">·</span><span>2 juillet 2026, 07h00</span>
+            <span class="meta__src">3 sources</span>
+            <span class="meta__sep">·</span><span>2 juillet 2026, 18h00</span>
           </div></div>
         </a>
-<a class="list-item" href="articles/cartes-gouv-fr-alternative-google-maps.html">
-          <span class="list-item__num">06</span>
-          <div><span class="cat cat--tech">TECH</span>
-          <h3 class="title-sm">Lancement de Cartes.gouv.fr, alternative française à Google Maps</h3>
+<a class="list-item" href="articles/marc-bloch-historien-majeur-xxe-siecle.html">
+          <span class="list-item__num">04</span>
+          <div><span class="cat cat--science">SCIENCE</span>
+          <h3 class="title-sm">Marc Bloch, un historien majeur du XXe siècle</h3>
           <div class="meta" style="margin-top:6px">
             <span class="meta__src">4 sources</span>
-            <span class="meta__sep">·</span><span>2 juillet 2026, 07h00</span>
+            <span class="meta__sep">·</span><span>2 juillet 2026, 18h00</span>
+          </div></div>
+        </a>
+<a class="list-item" href="articles/ver-informatique-ia-attaque-experimentale.html">
+          <span class="list-item__num">05</span>
+          <div><span class="cat cat--tech">TECH</span>
+          <h3 class="title-sm">Première attaque expérimentale d’un ver informatique mû par l’IA</h3>
+          <div class="meta" style="margin-top:6px">
+            <span class="meta__src">4 sources</span>
+            <span class="meta__sep">·</span><span>2 juillet 2026, 18h00</span>
+          </div></div>
+        </a>
+<a class="list-item" href="articles/demence-senile-alzheimer-differences.html">
+          <span class="list-item__num">06</span>
+          <div><span class="cat cat--sante">SANTÉ</span>
+          <h3 class="title-sm">Démence sénile et Alzheimer, comprendre les différences</h3>
+          <div class="meta" style="margin-top:6px">
+            <span class="meta__src">4 sources</span>
+            <span class="meta__sep">·</span><span>29 juin 2026, 18h00</span>
           </div></div>
         </a></div></div>
 </div>
@@ -284,21 +294,13 @@ document.addEventListener('keydown',function(e){if(e.key==='Escape')closeMenu();
 (function(){
   var btn=document.getElementById('dark-toggle');
   var dark=document.documentElement.getAttribute('data-theme')==='dark';
-  if(btn) btn.textContent=dark?'☀️':'🌙';
+  if(btn){btn.textContent=dark?'☀️':'🌙';btn.setAttribute('aria-label',dark?'Passer en mode clair':'Passer en mode sombre');}
   if(btn) btn.addEventListener('click',function(){
     var d=document.documentElement.getAttribute('data-theme')==='dark';
     document.documentElement.setAttribute('data-theme',d?'light':'dark');
     localStorage.setItem('theme',d?'light':'dark');
-    btn.textContent=d?'🌙':'☀️';
+    btn.textContent=d?'🌙':'☀️';btn.setAttribute('aria-label',d?'Passer en mode sombre':'Passer en mode clair');
   });
-  // Header scroll shadow
-  var hdr=document.querySelector('.header');
-  if(hdr) window.addEventListener('scroll',function(){hdr.classList.toggle('scrolled',window.scrollY>40);},{passive:true});
-  // Scroll fade-in
-  if('IntersectionObserver' in window){
-    var obs=new IntersectionObserver(function(entries){entries.forEach(function(e){if(e.isIntersecting){e.target.classList.add('is-visible');obs.unobserve(e.target);}});},{threshold:.12,rootMargin:'0px 0px -40px 0px'});
-    document.querySelectorAll('.card3,.une__side-item,.list-item').forEach(function(el){el.classList.add('js-reveal');obs.observe(el);});
-  }
 })();
 </script>
 <script defer src="https://cloud.umami.is/script.js" data-website-id="8d68a78f-97ae-4c95-a955-5d3df758f7e2"></script>

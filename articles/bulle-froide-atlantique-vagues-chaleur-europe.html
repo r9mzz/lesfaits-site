@@ -47,6 +47,7 @@
 <a href="categories/tech.html">Tech</a>
 <a href="categories/sante.html">Santé</a>
 <a href="categories/environnement.html">Environnement</a>
+<a href="favoris.html">Favoris</a>
 <a href="archive.html">Tous les articles</a>
 <a href="methode.html" class="nav-cta">Comment on travaille →</a>
 </nav>
@@ -71,7 +72,8 @@ document.addEventListener('keydown',function(e){if(e.key==='Escape')closeMenu();
       <a href="categories/tech.html">Tech</a>
       <a href="categories/sante.html">Santé</a>
       <a href="categories/environnement.html">Environnement</a>
-      <a href="archive.html">Tous les articles</a>
+      <a href="favoris.html">Favoris</a>
+<a href="archive.html">Tous les articles</a>
       <a href="methode.html" class="nav-cta">Comment on travaille →</a>
     </nav>
     <button class="dark-toggle" id="dark-toggle" aria-label="Mode sombre" title="Mode sombre">🌙</button>
@@ -90,10 +92,11 @@ document.addEventListener('keydown',function(e){if(e.key==='Escape')closeMenu();
     <span class="meta__sep" aria-hidden="true">·</span>
     <span class="art__reading-time">Lecture : 2 min</span>
   </div>
+  <div class="art__ai-badge" role="note">🤖 Contenu rédigé par intelligence artificielle — <a href="methode.html" style="color:inherit;text-decoration:underline">notre méthode</a></div>
   <div class="art__verify"><span class="art__verify-item">3 sources citées</span><span class="art__verify-item">✓ Protocole éditorial v1.1</span></div>
   <div class="art__rule"></div>
   <!-- Image source: Les Faits | Type: pillow -->
-<figure class="article__hero" data-img-source="pillow" data-img-credit="Les Faits" style="margin-bottom:28px"><picture><source srcset="assets/images/bulle-froide-atlantique-vagues-chaleur-europe.webp" type="image/webp"><img class="art__hero" src="assets/images/bulle-froide-atlantique-vagues-chaleur-europe.jpg" alt="Illustration : La bulle froide de l’Atlantique et ses effets sur les vagues de chaleur en Europe" loading="eager" fetchpriority="high" style="aspect-ratio:16/9;object-fit:cover"/></picture></figure>
+<figure class="article__hero" data-img-source="pillow" data-img-credit="Les Faits" style="margin-bottom:28px"><img class="art__hero" src="assets/images/bulle-froide-atlantique-vagues-chaleur-europe.jpg" alt="Illustration : La bulle froide de l’Atlantique et ses effets sur les vagues de chaleur en Europe" loading="eager" fetchpriority="high" style="aspect-ratio:16/9;object-fit:cover"/></figure>
   <p class="art__resume">La bulle froide de l’Atlantique, une zone de refroidissement anormal de l’océan, pourrait accentuer les vagues de chaleur en Europe, selon des études récentes. Les scientifiques ont constaté que les épisodes de chaleur extrême coïncidaient souvent avec des périodes où les eaux à l’ouest de la Grande-Bretagne étaient anormalement froides. Le phénomène de la bulle froide est lié à l’affaiblissement de la circulation méridienne de retournement de l’Atlantique (AMOC), un système de courants océaniques qui contribue à réguler le climat de la planète. Les émissions de gaz à effet de serre constituent la principale cause du changement climatique, qui rend les vagues de chaleur plus fréquentes et plus intenses. Les conséquences d’un arrêt de l’AMOC seraient considérables dans de nombreuses régions du monde, notamment en Europe, où les hivers pourraient devenir plus rigoureux et les sécheresses plus fréquentes. Les scientifiques estiment que la probabilité d’un arrêt de l’AMOC dépasse 50%.</p>
   <h2 class="art__h2">Les faits</h2><p>Selon une étude récente, la bulle froide de l’Atlantique pourrait s’expliquer par l’affaiblissement de l’AMOC. Les chercheurs ont constaté que les épisodes de chaleur extrême coïncidaient souvent avec des périodes où les eaux à l’ouest de la Grande-Bretagne étaient anormalement froides. D’après Marilena Oltmanns, physicienne spécialiste de l’océan et du climat, la fonte de la calotte glaciaire du Groenland déverse de grandes quantités d’eau douce dans l’océan, créant des eaux de surface plus froides dans l’Atlantique Nord. Selon Stefan Rahmstorf, principal auteur d’une étude récente, la bulle froide de l’Atlantique est causée par des courants océaniques qui acheminent moins de chaleur vers cette région, et non par une perte accrue de chaleur à la surface de la mer.</p>
   <h2 class="art__h2">Contexte</h2><p>Le phénomène de la bulle froide est lié à l’affaiblissement de l’AMOC, un système de courants océaniques qui contribue à réguler le climat de la planète. Les émissions de gaz à effet de serre constituent la principale cause du changement climatique, qui rend les vagues de chaleur plus fréquentes et plus intenses. Selon des études, la température moyenne de la surface des océans a augmenté d’environ 1°C dans le monde depuis 1900, tandis que la région de la bulle froide s’est refroidie de jusqu’à 0,9°C. Les conséquences d’un arrêt de l’AMOC seraient considérables dans de nombreuses régions du monde, notamment en Europe, où les hivers pourraient devenir plus rigoureux et les sécheresses plus fréquentes.</p>
@@ -106,15 +109,15 @@ document.addEventListener('keydown',function(e){if(e.key==='Escape')closeMenu();
   <a class="share-btn" href="https://www.linkedin.com/sharing/share-offsite/?url=https://lesfaits.info/articles/bulle-froide-atlantique-vagues-chaleur-europe.html" target="_blank" rel="noopener noreferrer external">in LinkedIn</a>
   <a class="share-btn" href="https://api.whatsapp.com/send?text=La%20bulle%20froide%20de%20l’Atlantique%20et%20ses%20effets%20sur%20les%20vagues%20de%20chaleur%20en%20Europe%20https://lesfaits.info/articles/bulle-froide-atlantique-vagues-chaleur-europe.html" target="_blank" rel="noopener noreferrer external">WhatsApp</a>
   <button class="share-btn" onclick="copyLink()" id="copy-btn">Copier le lien</button>
-  <button class="fav-btn" id="fav-btn" aria-pressed="false">♡ Favoris</button>
+  <button class="fav-btn" id="fav-btn" aria-pressed="false">Favoris</button>
 </div>
 <script>if(navigator.share)document.getElementById('native-share').style.display='inline-flex';</script>
   <section class="sources" aria-label="Sources"><h3>SOURCES</h3><ol><li><cite>20 Minutes</cite> · <em>L'intrigante bulle froide de l'Atlantique qui pourrait accentuer les vagues de chaleur</em> · 2026-06-28 · <a href="https://www.20minutes.fr/planete/canicule/4231605-20260628-intrigante-bulle-froide-atlantique-pourrait-accentuer-vagues-chaleur" target="_blank" rel="noopener noreferrer external" aria-label="20 Minutes (ouvre dans un nouvel onglet)">Lire la source →</a></li>
 <li><cite>Sud Ouest</cite> · <em>Canicule : pourquoi l'intrigante bulle froide de l'Atlantique pourrait accentuer les vagues de chaleur</em> · 2026-06-28 · <a href="https://www.sudouest.fr/environnement/canicule-pourquoi-l-intrigante-bulle-froide-de-l-atlantique-pourrait-accentuer-les-vagues-de-chaleur-29696783.php" target="_blank" rel="noopener noreferrer external" aria-label="Sud Ouest (ouvre dans un nouvel onglet)">Lire la source →</a></li>
 <li><cite>La Croix</cite> · <em>L'intrigante bulle froide de l'Atlantique qui pourrait accentuer les vagues de chaleur</em> · 2026-06-27 · <a href="https://www.la-croix.com/l-intrigante-bulle-froide-de-l-atlantique-qui-pourrait-accentuer-les-vagues-de-chaleur-20260627" target="_blank" rel="noopener noreferrer external" aria-label="La Croix (ouvre dans un nouvel onglet)">Lire la source →</a></li></ol></section>
-  <div class="art__related"><div class="art__related-title">? LIRE AUSSI</div><div class="art__related-grid"><a class="art__related-card" href="articles/loi-urgence-agricole-acetamipride.html"><picture><source srcset="assets/images/loi-urgence-agricole-acetamipride.webp" type="image/webp"><img src="assets/images/loi-urgence-agricole-acetamipride.jpg" alt="Loi d’urgence agricole : le Sénat rouvre le débat sur l’acétamipride" loading="lazy" style="width:calc(100% + 32px);margin:-14px -16px 12px;height:110px;object-fit:cover;display:block;border-radius:var(--radius) var(--radius) 0 0"></picture><span class="cat">ENVIRONNEMENT</span><div class="title-sm">Loi d’urgence agricole : le Sénat rouvre le débat sur l’acétamipride</div><div style="font-size:10px;color:var(--muted);margin-top:6px">29 juin 2026, 11h16</div></a>
-<a class="art__related-card" href="articles/refuges-climatiques-espagne-canicules.html"><picture><source srcset="assets/images/refuges-climatiques-espagne-canicules.webp" type="image/webp"><img src="assets/images/refuges-climatiques-espagne-canicules.jpg" alt="L&#x27;Espagne met en place des refuges climatiques pour lutter contre les canicules" loading="lazy" style="width:calc(100% + 32px);margin:-14px -16px 12px;height:110px;object-fit:cover;display:block;border-radius:var(--radius) var(--radius) 0 0"></picture><span class="cat">ENVIRONNEMENT</span><div class="title-sm">L'Espagne met en place des refuges climatiques pour lutter contre les canicules</div><div style="font-size:10px;color:var(--muted);margin-top:6px">27 juin 2026, 09h36</div></a>
-<a class="art__related-card" href="articles/rechauffement-climatique-biodiversite-en-danger.html"><picture><source srcset="assets/images/rechauffement-climatique-biodiversite-en-danger.webp" type="image/webp"><img src="assets/images/rechauffement-climatique-biodiversite-en-danger.jpg" alt="Réchauffement climatique et biodiversité en danger" loading="lazy" style="width:calc(100% + 32px);margin:-14px -16px 12px;height:110px;object-fit:cover;display:block;border-radius:var(--radius) var(--radius) 0 0"></picture><span class="cat">ENVIRONNEMENT</span><div class="title-sm">Réchauffement climatique et biodiversité en danger</div><div style="font-size:10px;color:var(--muted);margin-top:6px">27 juin 2026, 09h36</div></a></div></div>
+  <div class="art__related"><div class="art__related-title">? LIRE AUSSI</div><div class="art__related-grid"><a class="art__related-card" href="articles/loi-urgence-agricole-acetamipride.html"><img src="assets/images/loi-urgence-agricole-acetamipride.jpg" alt="Loi d’urgence agricole : le Sénat rouvre le débat sur l’acétamipride" loading="lazy" style="width:calc(100% + 32px);margin:-14px -16px 12px;height:110px;object-fit:cover;display:block;border-radius:var(--radius) var(--radius) 0 0"><span class="cat">ENVIRONNEMENT</span><div class="title-sm">Loi d’urgence agricole : le Sénat rouvre le débat sur l’acétamipride</div><div style="font-size:10px;color:var(--muted);margin-top:6px">29 juin 2026, 11h16</div></a>
+<a class="art__related-card" href="articles/refuges-climatiques-espagne-canicules.html"><img src="assets/images/refuges-climatiques-espagne-canicules.jpg" alt="L&#x27;Espagne met en place des refuges climatiques pour lutter contre les canicules" loading="lazy" style="width:calc(100% + 32px);margin:-14px -16px 12px;height:110px;object-fit:cover;display:block;border-radius:var(--radius) var(--radius) 0 0"><span class="cat">ENVIRONNEMENT</span><div class="title-sm">L'Espagne met en place des refuges climatiques pour lutter contre les canicules</div><div style="font-size:10px;color:var(--muted);margin-top:6px">27 juin 2026, 09h36</div></a>
+<a class="art__related-card" href="articles/rechauffement-climatique-biodiversite-en-danger.html"><img src="assets/images/rechauffement-climatique-biodiversite-en-danger.jpg" alt="Réchauffement climatique et biodiversité en danger" loading="lazy" style="width:calc(100% + 32px);margin:-14px -16px 12px;height:110px;object-fit:cover;display:block;border-radius:var(--radius) var(--radius) 0 0"><span class="cat">ENVIRONNEMENT</span><div class="title-sm">Réchauffement climatique et biodiversité en danger</div><div style="font-size:10px;color:var(--muted);margin-top:6px">27 juin 2026, 09h36</div></a></div></div>
   <p class="art__badge">Généré par IA · Protocole Les Faits v1.1 · 29 juin 2026, 11h16</p>
   <a class="contest-btn" href="contact.html?article=bulle-froide-atlantique-vagues-chaleur-europe#erreur">Signaler une erreur sur cet article</a>
 </div>
@@ -137,7 +140,8 @@ document.addEventListener('keydown',function(e){if(e.key==='Escape')closeMenu();
     <div class="footer__col"><h4>JOURNAL</h4>
       <a href="methode.html">Comment on travaille</a>
       <a href="corrections.html">Corrections publiques</a>
-      <a href="archive.html">Tous les articles</a>
+      <a href="favoris.html">Favoris</a>
+<a href="archive.html">Tous les articles</a>
       <a href="feed.xml" class="footer__rss">Flux RSS</a>
     </div>
     <div class="footer__col"><h4>LÉGAL</h4>
@@ -193,12 +197,12 @@ function copyLink(){
   if(!btn)return;
   var favs=JSON.parse(localStorage.getItem('lesfaits_favs')||'[]');
   var slug='bulle-froide-atlantique-vagues-chaleur-europe';
-  if(favs.indexOf(slug)>-1){btn.classList.add('active');btn.setAttribute('aria-pressed','true');btn.textContent='♥ Favori';}
+  if(favs.indexOf(slug)>-1){btn.classList.add('active');btn.setAttribute('aria-pressed','true');btn.textContent='Favori';}
   btn.addEventListener('click',function(){
     var f=JSON.parse(localStorage.getItem('lesfaits_favs')||'[]');
     var idx=f.indexOf(slug);
-    if(idx>-1){f.splice(idx,1);btn.classList.remove('active');btn.setAttribute('aria-pressed','false');btn.textContent='♡ Favoris';}
-    else{f.push(slug);btn.classList.add('active');btn.setAttribute('aria-pressed','true');btn.textContent='♥ Favori';}
+    if(idx>-1){f.splice(idx,1);btn.classList.remove('active');btn.setAttribute('aria-pressed','false');btn.textContent='Favoris';}
+    else{f.push(slug);btn.classList.add('active');btn.setAttribute('aria-pressed','true');btn.textContent='Favori';}
     localStorage.setItem('lesfaits_favs',JSON.stringify(f));
   });
 

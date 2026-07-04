@@ -12,16 +12,7 @@
   <link rel="icon" type="image/svg+xml" href="/favicon.svg"/>
   <link rel="manifest" href="/manifest.json"/>
   <script>
-(function(){var s=localStorage.getItem('theme'),d=s==='dark'||(s===null&&window.matchMedia('(prefers-color-scheme:dark)').matches);document.documentElement.setAttribute('data-theme',d?'dark':'light');
-  // Header scroll shadow
-  var hdr=document.querySelector('.header');
-  if(hdr) window.addEventListener('scroll',function(){hdr.classList.toggle('scrolled',window.scrollY>40);},{passive:true});
-  // Scroll fade-in cartes catégorie
-  if('IntersectionObserver' in window){
-    var obs=new IntersectionObserver(function(entries){entries.forEach(function(e){if(e.isIntersecting){e.target.classList.add('is-visible');obs.unobserve(e.target);}});},{threshold:.12,rootMargin:'0px 0px -40px 0px'});
-    document.querySelectorAll('.card3,.list-item,.archive-item').forEach(function(el){el.classList.add('js-reveal');obs.observe(el);});
-  }
-})();
+(function(){var s=localStorage.getItem('theme'),d=s==='dark'||(s===null&&window.matchMedia('(prefers-color-scheme:dark)').matches);document.documentElement.setAttribute('data-theme',d?'dark':'light');})();
 </script>
 </head>
 <body>
@@ -33,6 +24,7 @@
 <a href="categories/tech.html">Tech</a>
 <a href="categories/sante.html">Santé</a>
 <a href="categories/environnement.html">Environnement</a>
+<a href="favoris.html">Favoris</a>
 <a href="archive.html">Tous les articles</a>
 <a href="methode.html" class="nav-cta">Comment on travaille →</a>
 </nav>
@@ -57,6 +49,7 @@ document.addEventListener('keydown',function(e){if(e.key==='Escape')closeMenu();
       <a href="categories/tech.html">Tech</a>
       <a href="categories/sante.html">Santé</a>
       <a href="categories/environnement.html">Environnement</a>
+      <a href="favoris.html">Favoris</a>
       <a href="archive.html">Tous les articles</a>
       <a href="methode.html" class="nav-cta">Comment on travaille →</a>
     </nav>
@@ -69,7 +62,7 @@ document.addEventListener('keydown',function(e){if(e.key==='Escape')closeMenu();
   <div style="margin-bottom:32px;border-bottom:1px solid var(--rule);padding-bottom:24px">
     <span style="font-size:.8rem;font-weight:700;letter-spacing:.1em;color:var(--muted);text-transform:uppercase">Rubrique</span>
     <h1 style="font-size:2.4rem;font-weight:700;margin:8px 0 4px">Science</h1>
-    <p style="color:var(--muted);font-size:.9rem">20 articles</p>
+    <p style="color:var(--muted);font-size:.9rem">22 articles</p>
   </div>
   <nav style="display:flex;gap:24px;margin-bottom:48px;flex-wrap:wrap;font-size:.9rem">
     <a href="categories/science.html" style="font-weight:700;color:var(--blue)">Science</a>
@@ -81,8 +74,56 @@ document.addEventListener('keydown',function(e){if(e.key==='Escape')closeMenu();
   </nav>
   <div style="display:grid;grid-template-columns:repeat(auto-fill,minmax(280px,1fr));gap:24px">
     
+        <a class="card3" href="articles/mousses-champignons-symbiose-inattendue.html">
+          <img class="card3__img" src="assets/images/mousses-champignons-symbiose-inattendue.jpg" alt="Découverte d’une symbiose inattendue entre mousses et champignons" loading="lazy">
+          <div class="card3__body">
+            <span class="cat cat--science">SCIENCE</span>
+            <h3 class="title-sm">Découverte d’une symbiose inattendue entre mousses et champignons</h3>
+            <div class="meta" style="margin-top:10px">
+              <span class="meta__src">4 sources</span>
+              <span class="meta__sep">·</span><span>3 juillet 2026, 18h00</span>
+            </div>
+          </div>
+        </a>
+
+        <a class="card3" href="articles/la-vie-sur-terre-plus-longue-que-prevu.html">
+          <img class="card3__img" src="assets/images/la-vie-sur-terre-plus-longue-que-prevu.jpg" alt="La vie sur Terre pourrait durer plus longtemps que prévu" loading="lazy">
+          <div class="card3__body">
+            <span class="cat cat--science">SCIENCE</span>
+            <h3 class="title-sm">La vie sur Terre pourrait durer plus longtemps que prévu</h3>
+            <div class="meta" style="margin-top:10px">
+              <span class="meta__src">4 sources</span>
+              <span class="meta__sep">·</span><span>2 juillet 2026, 18h00</span>
+            </div>
+          </div>
+        </a>
+
+        <a class="card3" href="articles/incendies-forets-aude-science-impacts.html">
+          <img class="card3__img" src="assets/images/incendies-forets-aude-science-impacts.jpg" alt="Incendies de forêts dans l’Aude : la science étudie les impacts" loading="lazy">
+          <div class="card3__body">
+            <span class="cat cat--science">SCIENCE</span>
+            <h3 class="title-sm">Incendies de forêts dans l’Aude : la science étudie les impacts</h3>
+            <div class="meta" style="margin-top:10px">
+              <span class="meta__src">4 sources</span>
+              <span class="meta__sep">·</span><span>2 juillet 2026, 18h00</span>
+            </div>
+          </div>
+        </a>
+
+        <a class="card3" href="articles/hantavirus-oms-declare-fin-episode-mv-hondius.html">
+          <img class="card3__img" src="assets/images/hantavirus-oms-declare-fin-episode-mv-hondius.jpg" alt="Hantavirus : l’OMS déclare la fin de l’épisode lié au navire de croisière MV Hondius" loading="lazy">
+          <div class="card3__body">
+            <span class="cat cat--science">SCIENCE</span>
+            <h3 class="title-sm">Hantavirus : l’OMS déclare la fin de l’épisode lié au navire de croisière MV Hondius</h3>
+            <div class="meta" style="margin-top:10px">
+              <span class="meta__src">4 sources</span>
+              <span class="meta__sep">·</span><span>2 juillet 2026, 18h00</span>
+            </div>
+          </div>
+        </a>
+
         <a class="card3" href="articles/marc-bloch-historien-majeur-xxe-siecle.html">
-          <picture><source srcset="assets/images/marc-bloch-historien-majeur-xxe-siecle.webp" type="image/webp"><img class="card3__img" src="assets/images/marc-bloch-historien-majeur-xxe-siecle.jpg" alt="Marc Bloch, un historien majeur du XXe siècle" loading="lazy"></picture>
+          <img class="card3__img" src="assets/images/marc-bloch-historien-majeur-xxe-siecle.jpg" alt="Marc Bloch, un historien majeur du XXe siècle" loading="lazy">
           <div class="card3__body">
             <span class="cat cat--science">SCIENCE</span>
             <h3 class="title-sm">Marc Bloch, un historien majeur du XXe siècle</h3>
@@ -94,7 +135,7 @@ document.addEventListener('keydown',function(e){if(e.key==='Escape')closeMenu();
         </a>
 
         <a class="card3" href="articles/vitamine-d-calcium-fractures.html">
-          <picture><source srcset="assets/images/vitamine-d-calcium-fractures.webp" type="image/webp"><img class="card3__img" src="assets/images/vitamine-d-calcium-fractures.jpg" alt="Vitamine D et calcium contre les fractures" loading="lazy"></picture>
+          <img class="card3__img" src="assets/images/vitamine-d-calcium-fractures.jpg" alt="Vitamine D et calcium contre les fractures" loading="lazy">
           <div class="card3__body">
             <span class="cat cat--science">SCIENCE</span>
             <h3 class="title-sm">Vitamine D et calcium contre les fractures</h3>
@@ -106,7 +147,7 @@ document.addEventListener('keydown',function(e){if(e.key==='Escape')closeMenu();
         </a>
 
         <a class="card3" href="articles/satellites-orbite-basse-menacent-ciel-etoile.html">
-          <picture><source srcset="assets/images/satellites-orbite-basse-menacent-ciel-etoile.webp" type="image/webp"><img class="card3__img" src="assets/images/satellites-orbite-basse-menacent-ciel-etoile.jpg" alt="Prolifération de satellites en orbite basse menace le ciel étoilé" loading="lazy"></picture>
+          <img class="card3__img" src="assets/images/satellites-orbite-basse-menacent-ciel-etoile.jpg" alt="Prolifération de satellites en orbite basse menace le ciel étoilé" loading="lazy">
           <div class="card3__body">
             <span class="cat cat--science">SCIENCE</span>
             <h3 class="title-sm">Prolifération de satellites en orbite basse menace le ciel étoilé</h3>
@@ -118,7 +159,7 @@ document.addEventListener('keydown',function(e){if(e.key==='Escape')closeMenu();
         </a>
 
         <a class="card3" href="articles/peintures-rupestres-anciennes-grande-bretagne.html">
-          <picture><source srcset="assets/images/peintures-rupestres-anciennes-grande-bretagne.webp" type="image/webp"><img class="card3__img" src="assets/images/peintures-rupestres-anciennes-grande-bretagne.jpg" alt="Découverte de peintures rupestres anciennes en Grande-Bretagne" loading="lazy"></picture>
+          <img class="card3__img" src="assets/images/peintures-rupestres-anciennes-grande-bretagne.jpg" alt="Découverte de peintures rupestres anciennes en Grande-Bretagne" loading="lazy">
           <div class="card3__body">
             <span class="cat cat--science">SCIENCE</span>
             <h3 class="title-sm">Découverte de peintures rupestres anciennes en Grande-Bretagne</h3>
@@ -130,7 +171,7 @@ document.addEventListener('keydown',function(e){if(e.key==='Escape')closeMenu();
         </a>
 
         <a class="card3" href="articles/climat-changement-scientifiques-alertent.html">
-          <picture><source srcset="assets/images/climat-changement-scientifiques-alertent.webp" type="image/webp"><img class="card3__img" src="assets/images/climat-changement-scientifiques-alertent.jpg" alt="Le climat de nos parents n’existe plus selon 26 scientifiques" loading="lazy"></picture>
+          <img class="card3__img" src="assets/images/climat-changement-scientifiques-alertent.jpg" alt="Le climat de nos parents n’existe plus selon 26 scientifiques" loading="lazy">
           <div class="card3__body">
             <span class="cat cat--science">SCIENCE</span>
             <h3 class="title-sm">Le climat de nos parents n’existe plus selon 26 scientifiques</h3>
@@ -141,20 +182,8 @@ document.addEventListener('keydown',function(e){if(e.key==='Escape')closeMenu();
           </div>
         </a>
 
-        <a class="card3" href="articles/nouvelles-addictions-sante.html">
-          <picture><source srcset="assets/images/nouvelles-addictions-sante.webp" type="image/webp"><img class="card3__img" src="assets/images/nouvelles-addictions-sante.jpg" alt="Les nouvelles addictions et leur impact sur la santé" loading="lazy"></picture>
-          <div class="card3__body">
-            <span class="cat cat--science">SCIENCE</span>
-            <h3 class="title-sm">Les nouvelles addictions et leur impact sur la santé</h3>
-            <div class="meta" style="margin-top:10px">
-              <span class="meta__src">4 sources</span>
-              <span class="meta__sep">·</span><span>1 juillet 2026, 07h00</span>
-            </div>
-          </div>
-        </a>
-
         <a class="card3" href="articles/emergence-cellules-eucaryotes.html">
-          <picture><source srcset="assets/images/emergence-cellules-eucaryotes.webp" type="image/webp"><img class="card3__img" src="assets/images/emergence-cellules-eucaryotes.jpg" alt="L’émergence des cellules eucaryotes il y a plus de 2 milliards d’années" loading="lazy"></picture>
+          <img class="card3__img" src="assets/images/emergence-cellules-eucaryotes.jpg" alt="L’émergence des cellules eucaryotes il y a plus de 2 milliards d’années" loading="lazy">
           <div class="card3__body">
             <span class="cat cat--science">SCIENCE</span>
             <h3 class="title-sm">L’émergence des cellules eucaryotes il y a plus de 2 milliards d’années</h3>
@@ -166,7 +195,7 @@ document.addEventListener('keydown',function(e){if(e.key==='Escape')closeMenu();
         </a>
 
         <a class="card3" href="articles/zuckerberg-devoile-atlas-proteines.html">
-          <picture><source srcset="assets/images/zuckerberg-devoile-atlas-proteines.webp" type="image/webp"><img class="card3__img" src="assets/images/zuckerberg-devoile-atlas-proteines.jpg" alt="Zuckerberg dévoile un atlas d’un milliard de protéines" loading="lazy"></picture>
+          <img class="card3__img" src="assets/images/zuckerberg-devoile-atlas-proteines.jpg" alt="Zuckerberg dévoile un atlas d’un milliard de protéines" loading="lazy">
           <div class="card3__body">
             <span class="cat cat--science">SCIENCE</span>
             <h3 class="title-sm">Zuckerberg dévoile un atlas d’un milliard de protéines</h3>
@@ -178,7 +207,7 @@ document.addEventListener('keydown',function(e){if(e.key==='Escape')closeMenu();
         </a>
 
         <a class="card3" href="articles/asteroide-paris-impact.html">
-          <picture><source srcset="assets/images/asteroide-paris-impact.webp" type="image/webp"><img class="card3__img" src="assets/images/asteroide-paris-impact.jpg" alt="Impact d’un astéroïde sur Paris : conséquences et probabilités" loading="lazy"></picture>
+          <img class="card3__img" src="assets/images/asteroide-paris-impact.jpg" alt="Impact d’un astéroïde sur Paris : conséquences et probabilités" loading="lazy">
           <div class="card3__body">
             <span class="cat cat--science">SCIENCE</span>
             <h3 class="title-sm">Impact d’un astéroïde sur Paris : conséquences et probabilités</h3>
@@ -190,7 +219,7 @@ document.addEventListener('keydown',function(e){if(e.key==='Escape')closeMenu();
         </a>
 
         <a class="card3" href="articles/impreparation-canicules-france.html">
-          <picture><source srcset="assets/images/impreparation-canicules-france.webp" type="image/webp"><img class="card3__img" src="assets/images/impreparation-canicules-france.jpg" alt="Impréparation face aux canicules en France depuis des décennies" loading="lazy"></picture>
+          <img class="card3__img" src="assets/images/impreparation-canicules-france.jpg" alt="Impréparation face aux canicules en France depuis des décennies" loading="lazy">
           <div class="card3__body">
             <span class="cat cat--science">SCIENCE</span>
             <h3 class="title-sm">Impréparation face aux canicules en France depuis des décennies</h3>
@@ -202,7 +231,7 @@ document.addEventListener('keydown',function(e){if(e.key==='Escape')closeMenu();
         </a>
 
         <a class="card3" href="articles/congres-international-des-mathematiciens-2026.html">
-          <picture><source srcset="assets/images/congres-international-des-mathematiciens-2026.webp" type="image/webp"><img class="card3__img" src="assets/images/congres-international-des-mathematiciens-2026.jpg" alt="Congrès international des mathématiciens à Philadelphie" loading="lazy"></picture>
+          <img class="card3__img" src="assets/images/congres-international-des-mathematiciens-2026.jpg" alt="Congrès international des mathématiciens à Philadelphie" loading="lazy">
           <div class="card3__body">
             <span class="cat cat--science">SCIENCE</span>
             <h3 class="title-sm">Congrès international des mathématiciens à Philadelphie</h3>
@@ -214,7 +243,7 @@ document.addEventListener('keydown',function(e){if(e.key==='Escape')closeMenu();
         </a>
 
         <a class="card3" href="articles/deux-planetes-geantes-moins-denses-que-barbe-a-papa.html">
-          <picture><source srcset="assets/images/deux-planetes-geantes-moins-denses-que-barbe-a-papa.webp" type="image/webp"><img class="card3__img" src="assets/images/deux-planetes-geantes-moins-denses-que-barbe-a-papa.jpg" alt="Découverte de deux planètes géantes moins denses que la barbe à papa" loading="lazy"></picture>
+          <img class="card3__img" src="assets/images/deux-planetes-geantes-moins-denses-que-barbe-a-papa.jpg" alt="Découverte de deux planètes géantes moins denses que la barbe à papa" loading="lazy">
           <div class="card3__body">
             <span class="cat cat--science">SCIENCE</span>
             <h3 class="title-sm">Découverte de deux planètes géantes moins denses que la barbe à papa</h3>
@@ -226,7 +255,7 @@ document.addEventListener('keydown',function(e){if(e.key==='Escape')closeMenu();
         </a>
 
         <a class="card3" href="articles/desensibilisation-sublinguale-allergies-respiratoires.html">
-          <picture><source srcset="assets/images/desensibilisation-sublinguale-allergies-respiratoires.webp" type="image/webp"><img class="card3__img" src="assets/images/desensibilisation-sublinguale-allergies-respiratoires.jpg" alt="Désensibilisation sublinguale contre les allergies respiratoires" loading="lazy"></picture>
+          <img class="card3__img" src="assets/images/desensibilisation-sublinguale-allergies-respiratoires.jpg" alt="Désensibilisation sublinguale contre les allergies respiratoires" loading="lazy">
           <div class="card3__body">
             <span class="cat cat--science">SCIENCE</span>
             <h3 class="title-sm">Désensibilisation sublinguale contre les allergies respiratoires</h3>
@@ -238,7 +267,7 @@ document.addEventListener('keydown',function(e){if(e.key==='Escape')closeMenu();
         </a>
 
         <a class="card3" href="articles/cern-modernise-accelerateur-particules-matiere-noire.html">
-          <picture><source srcset="assets/images/cern-modernise-accelerateur-particules-matiere-noire.webp" type="image/webp"><img class="card3__img" src="assets/images/cern-modernise-accelerateur-particules-matiere-noire.jpg" alt="Le CERN modernise son accélérateur de particules pour traquer la matière noire" loading="lazy"></picture>
+          <img class="card3__img" src="assets/images/cern-modernise-accelerateur-particules-matiere-noire.jpg" alt="Le CERN modernise son accélérateur de particules pour traquer la matière noire" loading="lazy">
           <div class="card3__body">
             <span class="cat cat--science">SCIENCE</span>
             <h3 class="title-sm">Le CERN modernise son accélérateur de particules pour traquer la matière noire</h3>
@@ -249,20 +278,8 @@ document.addEventListener('keydown',function(e){if(e.key==='Escape')closeMenu();
           </div>
         </a>
 
-        <a class="card3" href="articles/chine-aimant-fusion-nucleaire.html">
-          <picture><source srcset="assets/images/chine-aimant-fusion-nucleaire.webp" type="image/webp"><img class="card3__img" src="assets/images/chine-aimant-fusion-nucleaire.jpg" alt="La Chine présente l’aimant le plus puissant pour la fusion nucléaire" loading="lazy"></picture>
-          <div class="card3__body">
-            <span class="cat cat--science">SCIENCE</span>
-            <h3 class="title-sm">La Chine présente l’aimant le plus puissant pour la fusion nucléaire</h3>
-            <div class="meta" style="margin-top:10px">
-              <span class="meta__src">3 sources</span>
-              <span class="meta__sep">·</span><span>29 juin 2026, 18h00</span>
-            </div>
-          </div>
-        </a>
-
         <a class="card3" href="articles/regime-alimentaire-anti-inflammatoire-demence.html">
-          <picture><source srcset="assets/images/regime-alimentaire-anti-inflammatoire-demence.webp" type="image/webp"><img class="card3__img" src="assets/images/regime-alimentaire-anti-inflammatoire-demence.jpg" alt="Régime alimentaire anti-inflammatoire réduit le risque de démence" loading="lazy"></picture>
+          <img class="card3__img" src="assets/images/regime-alimentaire-anti-inflammatoire-demence.jpg" alt="Régime alimentaire anti-inflammatoire réduit le risque de démence" loading="lazy">
           <div class="card3__body">
             <span class="cat cat--science">SCIENCE</span>
             <h3 class="title-sm">Régime alimentaire anti-inflammatoire réduit le risque de démence</h3>
@@ -274,7 +291,7 @@ document.addEventListener('keydown',function(e){if(e.key==='Escape')closeMenu();
         </a>
 
         <a class="card3" href="articles/arreter-de-fumer-reduit-les-risques-de-demence.html">
-          <picture><source srcset="assets/images/arreter-de-fumer-reduit-les-risques-de-demence.webp" type="image/webp"><img class="card3__img" src="assets/images/arreter-de-fumer-reduit-les-risques-de-demence.jpg" alt="Arrêter de fumer réduit les risques de démence même tard dans la vie" loading="lazy"></picture>
+          <img class="card3__img" src="assets/images/arreter-de-fumer-reduit-les-risques-de-demence.jpg" alt="Arrêter de fumer réduit les risques de démence même tard dans la vie" loading="lazy">
           <div class="card3__body">
             <span class="cat cat--science">SCIENCE</span>
             <h3 class="title-sm">Arrêter de fumer réduit les risques de démence même tard dans la vie</h3>
@@ -286,7 +303,7 @@ document.addEventListener('keydown',function(e){if(e.key==='Escape')closeMenu();
         </a>
 
         <a class="card3" href="articles/recherche-publique-en-crise.html">
-          <picture><source srcset="assets/images/recherche-publique-en-crise.webp" type="image/webp"><img class="card3__img" src="assets/images/recherche-publique-en-crise.jpg" alt="La recherche publique en crise financière et politique" loading="lazy"></picture>
+          <img class="card3__img" src="assets/images/recherche-publique-en-crise.jpg" alt="La recherche publique en crise financière et politique" loading="lazy">
           <div class="card3__body">
             <span class="cat cat--science">SCIENCE</span>
             <h3 class="title-sm">La recherche publique en crise financière et politique</h3>
@@ -298,7 +315,7 @@ document.addEventListener('keydown',function(e){if(e.key==='Escape')closeMenu();
         </a>
 
         <a class="card3" href="articles/nasa-lance-mission-sauvetage-telescope-swift.html">
-          <picture><source srcset="assets/images/nasa-lance-mission-sauvetage-telescope-swift.webp" type="image/webp"><img class="card3__img" src="assets/images/nasa-lance-mission-sauvetage-telescope-swift.jpg" alt="La NASA lance mission sauvetage pour le télescope Swift" loading="lazy"></picture>
+          <img class="card3__img" src="assets/images/nasa-lance-mission-sauvetage-telescope-swift.jpg" alt="La NASA lance mission sauvetage pour le télescope Swift" loading="lazy">
           <div class="card3__body">
             <span class="cat cat--science">SCIENCE</span>
             <h3 class="title-sm">La NASA lance mission sauvetage pour le télescope Swift</h3>
@@ -310,10 +327,10 @@ document.addEventListener('keydown',function(e){if(e.key==='Escape')closeMenu();
         </a>
 
         <a class="card3" href="articles/theorie-evolution-darwin.html">
-          <picture><source srcset="assets/images/theorie-evolution-darwin.webp" type="image/webp"><img class="card3__img" src="assets/images/theorie-evolution-darwin.jpg" alt="La Théorie de l'Évolution de Darwin" loading="lazy"></picture>
+          <img class="card3__img" src="assets/images/theorie-evolution-darwin.jpg" alt="La Théorie de l&#x27;Évolution de Darwin" loading="lazy">
           <div class="card3__body">
             <span class="cat cat--science">SCIENCE</span>
-            <h3 class="title-sm">La Théorie de l'Évolution de Darwin</h3>
+            <h3 class="title-sm">La Théorie de l&#x27;Évolution de Darwin</h3>
             <div class="meta" style="margin-top:10px">
               <span class="meta__src">5 sources</span>
               <span class="meta__sep">·</span><span>25 juin 2026, 21h51</span>
@@ -363,22 +380,13 @@ document.addEventListener('keydown',function(e){if(e.key==='Escape')closeMenu();
 (function(){
   var btn=document.getElementById('dark-toggle');
   var dark=document.documentElement.getAttribute('data-theme')==='dark';
-  if(btn) btn.textContent=dark?'☀️':'🌙';
+  if(btn){btn.textContent=dark?'☀️':'🌙';btn.setAttribute('aria-label',dark?'Passer en mode clair':'Passer en mode sombre');}
   if(btn) btn.addEventListener('click',function(){
     var d=document.documentElement.getAttribute('data-theme')==='dark';
     document.documentElement.setAttribute('data-theme',d?'light':'dark');
     localStorage.setItem('theme',d?'light':'dark');
-    btn.textContent=d?'🌙':'☀️';
+    btn.textContent=d?'🌙':'☀️';btn.setAttribute('aria-label',d?'Passer en mode sombre':'Passer en mode clair');
   });
-
-  // Header scroll shadow
-  var hdr=document.querySelector('.header');
-  if(hdr) window.addEventListener('scroll',function(){hdr.classList.toggle('scrolled',window.scrollY>40);},{passive:true});
-  // Scroll fade-in cartes catégorie
-  if('IntersectionObserver' in window){
-    var obs=new IntersectionObserver(function(entries){entries.forEach(function(e){if(e.isIntersecting){e.target.classList.add('is-visible');obs.unobserve(e.target);}});},{threshold:.12,rootMargin:'0px 0px -40px 0px'});
-    document.querySelectorAll('.card3,.list-item,.archive-item').forEach(function(el){el.classList.add('js-reveal');obs.observe(el);});
-  }
 })();
 </script>
 <script defer src="https://cloud.umami.is/script.js" data-website-id="8d68a78f-97ae-4c95-a955-5d3df758f7e2"></script>

@@ -27,16 +27,7 @@
   <base href="/"/>
   <link rel="stylesheet" href="src/style.css"/>
   <script>
-(function(){var s=localStorage.getItem('theme'),d=s==='dark'||(s===null&&window.matchMedia('(prefers-color-scheme:dark)').matches);document.documentElement.setAttribute('data-theme',d?'dark':'light');
-  // Header scroll shadow
-  var hdr=document.querySelector('.header');
-  if(hdr) window.addEventListener('scroll',function(){hdr.classList.toggle('scrolled',window.scrollY>40);},{passive:true});
-  // Scroll fade-in articles liés
-  if('IntersectionObserver' in window){
-    var obs=new IntersectionObserver(function(entries){entries.forEach(function(e){if(e.isIntersecting){e.target.classList.add('is-visible');obs.unobserve(e.target);}});},{threshold:.12,rootMargin:'0px 0px -40px 0px'});
-    document.querySelectorAll('.art__related-card').forEach(function(el){el.classList.add('js-reveal');obs.observe(el);});
-  }
-})();
+(function(){var s=localStorage.getItem('theme'),d=s==='dark'||(s===null&&window.matchMedia('(prefers-color-scheme:dark)').matches);document.documentElement.setAttribute('data-theme',d?'dark':'light');})();
 </script>
 </head>
 <body>
@@ -99,8 +90,8 @@ document.addEventListener('keydown',function(e){if(e.key==='Escape')closeMenu();
   <!-- Image source: Pexels / panumas nikhomkhai | Type: pexels -->
 <figure class="article__hero" data-img-source="pexels" data-img-credit="Pexels / panumas nikhomkhai" style="margin-bottom:28px"><img class="art__hero" src="assets/images/openai-participation-gouvernement-americain.jpg" alt="Illustration : OpenAI propose une participation minoritaire au gouvernement américain" loading="eager" fetchpriority="high" style="aspect-ratio:16/9;object-fit:cover"/></figure>
   <p class="art__resume">La start-up d’intelligence artificielle OpenAI tente de renforcer ses liens avec l’administration américaine en offrant une participation financière, dans un contexte de régulation croissante de l’IA. Cette démarche s’inscrit dans une stratégie visant à établir un dialogue constructif avec les autorités, alors que les préoccupations concernant les implications sociétales de l’intelligence artificielle grandissent. La proposition d’OpenAI soulève des questions sur les modalités de gouvernance et de régulation de l’IA, ainsi que sur les conséquences potentielles d’une implication accrue des pouvoirs publics dans le secteur.</p>
-  <h2 class="art__h2">Les faits</h2><p>Selon le Financial Times, OpenAI a proposé au gouvernement américain d’acquérir 5 % de son capital. D’après Les Echos, cette initiative vise à encadrer le développement de l’intelligence artificielle et à partager les retombées économiques de cette technologie. Selon RFI, la start-up américaine discute avec l’administration Trump de cette possibilité, qui pourrait valoriser la participation à environ 42,6 milliards de dollars, selon TradingView. OpenAI, créateur de ChatGPT, tente ainsi de répondre aux préoccupations croissantes concernant l’impact de l’IA sur la société. D’après Euronews, cette proposition s’inscrit dans une réflexion plus large sur la gouvernance de l’intelligence artificielle. Selon Sciences et Avenir, OpenAI souhaite céder 5 % de son capital aux États-Unis pour encadrer le développement de l’IA. D’après Europe1, la start-up américaine envisage une participation de l’État américain à son capital, dans un contexte de régulation croissante de l’IA.</p>
-  <h2 class="art__h2">Contexte</h2><p>L’intelligence artificielle est devenue un enjeu majeur pour les pouvoirs publics, qui doivent trouver un équilibre entre la promotion de l’innovation et la protection des citoyens. Selon des études récentes, l’IA pourrait avoir des impacts significatifs sur l’emploi, la santé et la sécurité. D’après le Financial Times, les gouvernements doivent élaborer des réglementations pour encadrer le développement de l’IA. Les Echos soulignent que la régulation de l’IA est un défi complexe, qui nécessite une coopération internationale. RFI rappelle que l’IA est déjà utilisée dans de nombreux domaines, tels que la santé, la finance et les transports. Euronews note que l’IA pourrait également avoir des implications géopolitiques, notamment en termes de sécurité nationale. Sciences et Avenir soulignent que la recherche en IA est en constante évolution, avec des avancées régulières dans des domaines tels que la reconnaissance d’images et la traduction automatique.</p>
+  <h2 class="art__h2">Les faits</h2><p>Selon le Sciences et Avenir, OpenAI a proposé au gouvernement américain d’acquérir 5 % de son capital. D’après Les Echos, cette initiative vise à encadrer le développement de l’intelligence artificielle et à partager les retombées économiques de cette technologie. Selon RFI, la start-up américaine discute avec l’administration Trump de cette possibilité, qui pourrait valoriser la participation à environ 42,6 milliards de dollars, selon TradingView. OpenAI, créateur de ChatGPT, tente ainsi de répondre aux préoccupations croissantes concernant l’impact de l’IA sur la société. D’après Euronews, cette proposition s’inscrit dans une réflexion plus large sur la gouvernance de l’intelligence artificielle. Selon Sciences et Avenir, OpenAI souhaite céder 5 % de son capital aux États-Unis pour encadrer le développement de l’IA. D’après Europe1, la start-up américaine envisage une participation de l’État américain à son capital, dans un contexte de régulation croissante de l’IA.</p>
+  <h2 class="art__h2">Contexte</h2><p>L’intelligence artificielle est devenue un enjeu majeur pour les pouvoirs publics, qui doivent trouver un équilibre entre la promotion de l’innovation et la protection des citoyens. Selon des études récentes, l’IA pourrait avoir des impacts significatifs sur l’emploi, la santé et la sécurité. D’après le Sciences et Avenir, les gouvernements doivent élaborer des réglementations pour encadrer le développement de l’IA. Les Echos soulignent que la régulation de l’IA est un défi complexe, qui nécessite une coopération internationale. RFI rappelle que l’IA est déjà utilisée dans de nombreux domaines, tels que la santé, la finance et les transports. Euronews note que l’IA pourrait également avoir des implications géopolitiques, notamment en termes de sécurité nationale. Sciences et Avenir soulignent que la recherche en IA est en constante évolution, avec des avancées régulières dans des domaines tels que la reconnaissance d’images et la traduction automatique.</p>
   <h2 class="art__h2">Débats et nuances</h2><p>La proposition d’OpenAI soulève des questions sur les modalités de gouvernance et de régulation de l’IA. D’après Les Echos, il est difficile de déterminer si une participation minoritaire du gouvernement américain à OpenAI serait suffisante pour garantir une régulation efficace de l’IA. RFI note que la régulation de l’IA doit prendre en compte les intérêts des différents acteurs, notamment les entreprises, les gouvernements et les citoyens. Euronews souligne que la coopération internationale est essentielle pour élaborer des réglementations efficaces en matière d’IA. Sciences et Avenir rappellent que la recherche en IA doit être menée de manière responsable, en tenant compte des implications éthiques et sociétales de cette technologie.</p>
   <div class="spectrum">
   <div class="spectrum__title">POSITIONS DES ACTEURS</div>
@@ -120,7 +111,7 @@ document.addEventListener('keydown',function(e){if(e.key==='Escape')closeMenu();
   <button class="fav-btn" id="fav-btn" aria-pressed="false">Favoris</button>
 </div>
 <script>if(navigator.share)document.getElementById('native-share').style.display='inline-flex';</script>
-  <section class="sources" aria-label="Sources"><h3>SOURCES</h3><ol><li><cite>Financial Times</cite> · <em>OpenAI propose 5% de son capital au gouvernement américain</em> · 2026-07-02 · <a href="https://www.sciencesetavenir.fr/high-tech/intelligence-artificielle/openai-veut-ceder-5-de-son-capital-aux-etats-unis-pour-encadrer-le-developpement-de-l-ia_193557?xtor=RSS-12" target="_blank" rel="noopener noreferrer external" aria-label="Financial Times (ouvre dans un nouvel onglet)">Lire la source →</a></li>
+  <section class="sources" aria-label="Sources"><h3>SOURCES</h3><ol><li><cite>Sciences et Avenir</cite> · <em>OpenAI propose 5% de son capital au gouvernement américain</em> · 2026-07-02 · <a href="https://www.sciencesetavenir.fr/high-tech/intelligence-artificielle/openai-veut-ceder-5-de-son-capital-aux-etats-unis-pour-encadrer-le-developpement-de-l-ia_193557?xtor=RSS-12" target="_blank" rel="noopener noreferrer external" aria-label="Sciences et Avenir (ouvre dans un nouvel onglet)">Lire la source →</a></li>
 <li><cite>Les Echos</cite> · <em>OpenAI ouvre la porte à une entrée de l&#x27;Etat américain à son capital</em> · 2026-07-02 · <a href="https://www.lesechos.fr/tech-medias/intelligence-artificielle/openai-ouvre-la-porte-a-une-entree-de-letat-americain-a-son-capital-2240326" target="_blank" rel="noopener noreferrer external" aria-label="Les Echos (ouvre dans un nouvel onglet)">Lire la source →</a></li>
 <li><cite>RFI</cite> · <em>OpenAI discute de la possibilité de céder 5% de son capital au gouvernement américain</em> · 2026-07-02 · <a href="https://www.rfi.fr/fr/économie/20260702-openai-discute-de-la-possibilité-de-céder-5-de-son-capital-au-gouvernement-américain" target="_blank" rel="noopener noreferrer external" aria-label="RFI (ouvre dans un nouvel onglet)">Lire la source →</a></li>
 <li><cite>Euronews</cite> · <em>OpenAI propose au gouvernement américain 5 % du capital</em> · 2026-07-02 · <a href="https://www.euronews.com/next/2026/07/02/openai-offers-the-us-government-a-5-ownership-stake" target="_blank" rel="noopener noreferrer external" aria-label="Euronews (ouvre dans un nouvel onglet)">Lire la source →</a></li></ol></section>
@@ -191,15 +182,6 @@ function copyLink(){
     var sh=(h.scrollHeight||b.scrollHeight)-h.clientHeight;
     bar.style.width=sh>0?(st/sh*100)+'%':'0%';
   },{passive:true});
-
-  // Header scroll shadow
-  var hdr=document.querySelector('.header');
-  if(hdr) window.addEventListener('scroll',function(){hdr.classList.toggle('scrolled',window.scrollY>40);},{passive:true});
-  // Scroll fade-in articles liés
-  if('IntersectionObserver' in window){
-    var obs=new IntersectionObserver(function(entries){entries.forEach(function(e){if(e.isIntersecting){e.target.classList.add('is-visible');obs.unobserve(e.target);}});},{threshold:.12,rootMargin:'0px 0px -40px 0px'});
-    document.querySelectorAll('.art__related-card').forEach(function(el){el.classList.add('js-reveal');obs.observe(el);});
-  }
 })();
 // Favoris
 (function(){
@@ -215,15 +197,6 @@ function copyLink(){
     else{f.push(slug);btn.classList.add('active');btn.setAttribute('aria-pressed','true');btn.textContent='Favori';}
     localStorage.setItem('lesfaits_favs',JSON.stringify(f));
   });
-
-  // Header scroll shadow
-  var hdr=document.querySelector('.header');
-  if(hdr) window.addEventListener('scroll',function(){hdr.classList.toggle('scrolled',window.scrollY>40);},{passive:true});
-  // Scroll fade-in articles liés
-  if('IntersectionObserver' in window){
-    var obs=new IntersectionObserver(function(entries){entries.forEach(function(e){if(e.isIntersecting){e.target.classList.add('is-visible');obs.unobserve(e.target);}});},{threshold:.12,rootMargin:'0px 0px -40px 0px'});
-    document.querySelectorAll('.art__related-card').forEach(function(el){el.classList.add('js-reveal');obs.observe(el);});
-  }
 })();
 </script>
 <script>
@@ -233,15 +206,6 @@ function copyLink(){
     btn.classList.toggle('visible',window.scrollY>300);
   },{passive:true});
   btn.addEventListener('click',function(){window.scrollTo({top:0,behavior:'smooth'});});
-
-  // Header scroll shadow
-  var hdr=document.querySelector('.header');
-  if(hdr) window.addEventListener('scroll',function(){hdr.classList.toggle('scrolled',window.scrollY>40);},{passive:true});
-  // Scroll fade-in articles liés
-  if('IntersectionObserver' in window){
-    var obs=new IntersectionObserver(function(entries){entries.forEach(function(e){if(e.isIntersecting){e.target.classList.add('is-visible');obs.unobserve(e.target);}});},{threshold:.12,rootMargin:'0px 0px -40px 0px'});
-    document.querySelectorAll('.art__related-card').forEach(function(el){el.classList.add('js-reveal');obs.observe(el);});
-  }
 })();
 </script>
 <script>
@@ -255,15 +219,6 @@ function copyLink(){
     localStorage.setItem('theme',d?'light':'dark');
     btn.textContent=d?'🌙':'☀️';
   });
-
-  // Header scroll shadow
-  var hdr=document.querySelector('.header');
-  if(hdr) window.addEventListener('scroll',function(){hdr.classList.toggle('scrolled',window.scrollY>40);},{passive:true});
-  // Scroll fade-in articles liés
-  if('IntersectionObserver' in window){
-    var obs=new IntersectionObserver(function(entries){entries.forEach(function(e){if(e.isIntersecting){e.target.classList.add('is-visible');obs.unobserve(e.target);}});},{threshold:.12,rootMargin:'0px 0px -40px 0px'});
-    document.querySelectorAll('.art__related-card').forEach(function(el){el.classList.add('js-reveal');obs.observe(el);});
-  }
 })();
 </script>
 <script defer src="https://cloud.umami.is/script.js" data-website-id="8d68a78f-97ae-4c95-a955-5d3df758f7e2"></script>

@@ -48,6 +48,7 @@
 <a href="categories/tech.html">Tech</a>
 <a href="categories/sante.html">Santé</a>
 <a href="categories/environnement.html">Environnement</a>
+<a href="favoris.html">Favoris</a>
 <a href="archive.html">Tous les articles</a>
 <a href="methode.html" class="nav-cta">Comment on travaille →</a>
 </nav>
@@ -72,7 +73,8 @@ document.addEventListener('keydown',function(e){if(e.key==='Escape')closeMenu();
       <a href="categories/tech.html">Tech</a>
       <a href="categories/sante.html">Santé</a>
       <a href="categories/environnement.html">Environnement</a>
-      <a href="archive.html">Tous les articles</a>
+      <a href="favoris.html">Favoris</a>
+<a href="archive.html">Tous les articles</a>
       <a href="methode.html" class="nav-cta">Comment on travaille →</a>
     </nav>
     <button class="dark-toggle" id="dark-toggle" aria-label="Mode sombre" title="Mode sombre">🌙</button>
@@ -91,10 +93,11 @@ document.addEventListener('keydown',function(e){if(e.key==='Escape')closeMenu();
     <span class="meta__sep" aria-hidden="true">·</span>
     <span class="art__reading-time">Lecture : 2 min</span>
   </div>
+  <div class="art__ai-badge" role="note">🤖 Contenu rédigé par intelligence artificielle — <a href="methode.html" style="color:inherit;text-decoration:underline">notre méthode</a></div>
   <div class="art__verify"><span class="art__verify-item">3 sources citées</span><span class="art__verify-item">✓ Protocole éditorial v1.1</span></div>
   <div class="art__rule"></div>
   <!-- Image source: Pexels / Jonathan Cooper | Type: pexels -->
-<figure class="article__hero" data-img-source="pexels" data-img-credit="Pexels / Jonathan Cooper" style="margin-bottom:28px"><picture><source srcset="assets/images/t-rex-exceptionnel-presentation-new-york.webp" type="image/webp"><img class="art__hero" src="assets/images/t-rex-exceptionnel-presentation-new-york.jpg" alt="Illustration : Présentation à New York d’un T-Rex exceptionnel avant sa vente aux enchères" loading="eager" fetchpriority="high" style="aspect-ratio:16/9;object-fit:cover"/></picture></figure>
+<figure class="article__hero" data-img-source="pexels" data-img-credit="Pexels / Jonathan Cooper" style="margin-bottom:28px"><img class="art__hero" src="assets/images/t-rex-exceptionnel-presentation-new-york.jpg" alt="Illustration : Présentation à New York d’un T-Rex exceptionnel avant sa vente aux enchères" loading="eager" fetchpriority="high" style="aspect-ratio:16/9;object-fit:cover"/></figure>
   <p class="art__resume">Un spécimen de Tyrannosaurus rex exceptionnel, surnommé 'Gus’, a été présenté à New York avant sa vente aux enchères prévue pour le 14 juillet, avec une estimation de 20 à 30 millions de dollars. Ce T-Rex, découvert dans le Dakota du Sud entre 2021 et 2023, est considéré comme l’un des plus grands et des plus complets spécimens de son genre, avec 183 os fossilisés et une taille de 11,6 mètres. La vente de ce fossile par Sotheby’s suscite un grand intérêt, notamment en raison de sa rareté et de son état de conservation exceptionnel, qui en fait un objet de désir pour les collectionneurs et les institutions scientifiques.</p>
   <h2 class="art__h2">Les faits</h2><p>Selon Sotheby’s, 'Gus' est l’un des plus grands T-Rex jamais découverts, avec une taille de 11,6 mètres. D’après les informations fournies par la maison de vente, ce spécimen est complet à environ 63%, ce qui en fait l’un des mieux conservés de sa catégorie. Les fouilles qui ont permis de découvrir 'Gus' ont eu lieu entre 2021 et 2023 dans le Dakota du Sud, aux États-Unis. Le T-Rex vivait durant le Maastrichtien, une période caractérisée par un climat chaud, un niveau de la mer élevé et de vastes plaines côtières inondables, il y a environ 72 à 66 millions d’années. Selon Cassandra Hatton, vice-présidente de Sotheby’s, 'Gus' appartient au 'haut de gamme du marché' et pourrait intéresser des musées ou des collectionneurs privés. La vente aux enchères de 'Gus' est prévue pour le 14 juillet à New York, avec une estimation de 20 à 30 millions de dollars, ce qui constitue la plus haute estimation jamais attribuée à un dinosaure.</p>
   <h2 class="art__h2">Contexte</h2><p>La découverte et la vente de fossiles de dinosaures sont des événements rares et exceptionnels. Les T-Rex, en particulier, sont considérés comme des spécimens de grande valeur en raison de leur rareté et de leur intérêt scientifique. La période du Maastrichtien, à laquelle remonte 'Gus’, est une période géologique bien documentée, caractérisée par des changements climatiques importants et des évolutions dans la faune et la flore. Les découvertes de fossiles de dinosaures comme 'Gus' contribuent à notre connaissance de l’histoire de la vie sur Terre et offrent des opportunités précieuses pour les scientifiques et les chercheurs. Le marché des fossiles de dinosaures est également un marché en constante évolution, avec des ventes aux enchères de plus en plus fréquentes et des prix de plus en plus élevés. Cela reflète l’intérêt croissant pour la paléontologie et la conservation du patrimoine scientifique.</p>
@@ -107,15 +110,13 @@ document.addEventListener('keydown',function(e){if(e.key==='Escape')closeMenu();
   <a class="share-btn" href="https://www.linkedin.com/sharing/share-offsite/?url=https://lesfaits.info/articles/t-rex-exceptionnel-presentation-new-york.html" target="_blank" rel="noopener noreferrer external">in LinkedIn</a>
   <a class="share-btn" href="https://api.whatsapp.com/send?text=Présentation%20à%20New%20York%20d’un%20T-Rex%20exceptionnel%20avant%20sa%20vente%20aux%20enchères%20https://lesfaits.info/articles/t-rex-exceptionnel-presentation-new-york.html" target="_blank" rel="noopener noreferrer external">WhatsApp</a>
   <button class="share-btn" onclick="copyLink()" id="copy-btn">Copier le lien</button>
-  <button class="fav-btn" id="fav-btn" aria-pressed="false">♡ Favoris</button>
+  <button class="fav-btn" id="fav-btn" aria-pressed="false">Favoris</button>
 </div>
 <script>if(navigator.share)document.getElementById('native-share').style.display='inline-flex';</script>
   <section class="sources" aria-label="Sources"><h3>SOURCES</h3><ol><li><cite>Boursorama</cite> · <em>Un T-Rex parmi les mieux conservés présenté à New York avant sa vente</em> · 01/07/2026 · <a href="https://www.boursorama.com/actualite-economique/actualites/un-t-rex-parmi-les-mieux-conserves-presente-a-new-york-avant-sa-vente-412126c6e07e7a8eb3ea3841bdf01074" target="_blank" rel="noopener noreferrer external" aria-label="Boursorama (ouvre dans un nouvel onglet)">Lire la source →</a></li>
 <li><cite>TV5MONDE</cite> · <em>Un T-Rex parmi les mieux conservés présenté à New York avant sa vente</em> · 01/07/2026 · <a href="https://information.tv5monde.com/science/un-t-rex-parmi-les-mieux-conserves-presente-new-york-avant-sa-vente-2828583" target="_blank" rel="noopener noreferrer external" aria-label="TV5MONDE (ouvre dans un nouvel onglet)">Lire la source →</a></li>
 <li><cite>Nouvelles Du Monde</cite> · <em>T. Rex 'Gus' de 67 millions d'années mis aux enchères à New York pour 20-30 millions</em> · 28/05/2026 · <a href="https://www.nouvelles-du-monde.com/t-rex-gus-de-67-millions-dannees-mis-aux-encheres-a-new-york-pour-20-30-millions/" target="_blank" rel="noopener noreferrer external" aria-label="Nouvelles Du Monde (ouvre dans un nouvel onglet)">Lire la source →</a></li></ol></section>
-  <div class="art__related"><div class="art__related-title">À LIRE AUSSI</div><div class="art__related-grid"><a class="art__related-card" href="articles/vatican-sanctionne-schisme-fraternite-saint-pie-x.html"><picture><source srcset="assets/images/vatican-sanctionne-schisme-fraternite-saint-pie-x.webp" type="image/webp"><img src="assets/images/vatican-sanctionne-schisme-fraternite-saint-pie-x.jpg" alt="Le Vatican sanctionne le schisme de la Fraternité Saint-Pie X" width="400" height="110" loading="lazy" style="width:calc(100% + 32px);margin:-14px -16px 12px;height:110px;object-fit:cover;display:block;border-radius:var(--radius) var(--radius) 0 0"></picture><span class="cat cat--societe">SOCIETE</span><div class="title-sm">Le Vatican sanctionne le schisme de la Fraternité Saint-Pie X</div><div style="font-size:10px;color:var(--muted);margin-top:6px">2 juillet 2026, 18h00</div></a>
-<a class="art__related-card" href="articles/reformes-economiques-allemagne-merz.html"><picture><source srcset="assets/images/reformes-economiques-allemagne-merz.webp" type="image/webp"><img src="assets/images/reformes-economiques-allemagne-merz.jpg" alt="Allemagne : le chancelier Friedrich Merz annonce des réformes économiques" width="400" height="110" loading="lazy" style="width:calc(100% + 32px);margin:-14px -16px 12px;height:110px;object-fit:cover;display:block;border-radius:var(--radius) var(--radius) 0 0"></picture><span class="cat cat--economie">ECONOMIE</span><div class="title-sm">Allemagne : le chancelier Friedrich Merz annonce des réformes économiques</div><div style="font-size:10px;color:var(--muted);margin-top:6px">2 juillet 2026, 18h00</div></a>
-<a class="art__related-card" href="articles/marc-bloch-historien-majeur-xxe-siecle.html"><picture><source srcset="assets/images/marc-bloch-historien-majeur-xxe-siecle.webp" type="image/webp"><img src="assets/images/marc-bloch-historien-majeur-xxe-siecle.jpg" alt="Marc Bloch, un historien majeur du XXe siècle" width="400" height="110" loading="lazy" style="width:calc(100% + 32px);margin:-14px -16px 12px;height:110px;object-fit:cover;display:block;border-radius:var(--radius) var(--radius) 0 0"></picture><span class="cat cat--science">SCIENCE</span><div class="title-sm">Marc Bloch, un historien majeur du XXe siècle</div><div style="font-size:10px;color:var(--muted);margin-top:6px">2 juillet 2026, 18h00</div></a></div></div>
+  <div class="art__related"><div class="art__related-title">À LIRE AUSSI</div><div class="art__related-grid"><a class="art__related-card" href="articles/vatican-sanctionne-schisme-fraternite-saint-pie-x.html"><img src="assets/images/vatican-sanctionne-schisme-fraternite-saint-pie-x.jpg" alt="Le Vatican sanctionne le schisme de la Fraternité Saint-Pie X" width="400" height="110" loading="lazy" style="width:calc(100% + 32px);margin:-14px -16px 12px;height:110px;object-fit:cover;display:block;border-radius:var(--radius) var(--radius) 0 0"><span class="cat cat--societe">SOCIETE</span><div class="title-sm">Le Vatican sanctionne le schisme de la Fraternité Saint-Pie X</div><div style="font-size:10px;color:var(--muted);margin-top:6px">2 juillet 2026, 18h00</div></a><a class="art__related-card" href="articles/reformes-economiques-allemagne-merz.html"><img src="assets/images/reformes-economiques-allemagne-merz.jpg" alt="Allemagne : le chancelier Friedrich Merz annonce des réformes économiques" width="400" height="110" loading="lazy" style="width:calc(100% + 32px);margin:-14px -16px 12px;height:110px;object-fit:cover;display:block;border-radius:var(--radius) var(--radius) 0 0"><span class="cat cat--economie">ECONOMIE</span><div class="title-sm">Allemagne : le chancelier Friedrich Merz annonce des réformes économiques</div><div style="font-size:10px;color:var(--muted);margin-top:6px">2 juillet 2026, 18h00</div></a><a class="art__related-card" href="articles/marc-bloch-historien-majeur-xxe-siecle.html"><img src="assets/images/marc-bloch-historien-majeur-xxe-siecle.jpg" alt="Marc Bloch, un historien majeur du XXe siècle" width="400" height="110" loading="lazy" style="width:calc(100% + 32px);margin:-14px -16px 12px;height:110px;object-fit:cover;display:block;border-radius:var(--radius) var(--radius) 0 0"><span class="cat cat--science">SCIENCE</span><div class="title-sm">Marc Bloch, un historien majeur du XXe siècle</div><div style="font-size:10px;color:var(--muted);margin-top:6px">2 juillet 2026, 18h00</div></a></div></div>
   <p class="art__badge">Généré par IA · Protocole Les Faits v1.1 · 2 juillet 2026, 18h00</p>
   <a class="contest-btn" href="contact.html?article=t-rex-exceptionnel-presentation-new-york#erreur">Signaler une erreur sur cet article</a>
 </div>
@@ -139,7 +140,8 @@ document.addEventListener('keydown',function(e){if(e.key==='Escape')closeMenu();
     <div class="footer__col"><h4>JOURNAL</h4>
       <a href="methode.html">Comment on travaille</a>
       <a href="corrections.html">Corrections publiques</a>
-      <a href="archive.html">Tous les articles</a>
+      <a href="favoris.html">Favoris</a>
+<a href="archive.html">Tous les articles</a>
       <a href="feed.xml" class="footer__rss">Flux RSS</a>
     </div>
     <div class="footer__col"><h4>LÉGAL</h4>
@@ -195,12 +197,12 @@ function copyLink(){
   if(!btn)return;
   var favs=JSON.parse(localStorage.getItem('lesfaits_favs')||'[]');
   var slug='t-rex-exceptionnel-presentation-new-york';
-  if(favs.indexOf(slug)>-1){btn.classList.add('active');btn.setAttribute('aria-pressed','true');btn.textContent='♥ Favori';}
+  if(favs.indexOf(slug)>-1){btn.classList.add('active');btn.setAttribute('aria-pressed','true');btn.textContent='Favori';}
   btn.addEventListener('click',function(){
     var f=JSON.parse(localStorage.getItem('lesfaits_favs')||'[]');
     var idx=f.indexOf(slug);
-    if(idx>-1){f.splice(idx,1);btn.classList.remove('active');btn.setAttribute('aria-pressed','false');btn.textContent='♡ Favoris';}
-    else{f.push(slug);btn.classList.add('active');btn.setAttribute('aria-pressed','true');btn.textContent='♥ Favori';}
+    if(idx>-1){f.splice(idx,1);btn.classList.remove('active');btn.setAttribute('aria-pressed','false');btn.textContent='Favoris';}
+    else{f.push(slug);btn.classList.add('active');btn.setAttribute('aria-pressed','true');btn.textContent='Favori';}
     localStorage.setItem('lesfaits_favs',JSON.stringify(f));
   });
 

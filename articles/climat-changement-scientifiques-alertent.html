@@ -48,6 +48,7 @@
 <a href="categories/tech.html">Tech</a>
 <a href="categories/sante.html">Santé</a>
 <a href="categories/environnement.html">Environnement</a>
+<a href="favoris.html">Favoris</a>
 <a href="archive.html">Tous les articles</a>
 <a href="methode.html" class="nav-cta">Comment on travaille →</a>
 </nav>
@@ -72,7 +73,8 @@ document.addEventListener('keydown',function(e){if(e.key==='Escape')closeMenu();
       <a href="categories/tech.html">Tech</a>
       <a href="categories/sante.html">Santé</a>
       <a href="categories/environnement.html">Environnement</a>
-      <a href="archive.html">Tous les articles</a>
+      <a href="favoris.html">Favoris</a>
+<a href="archive.html">Tous les articles</a>
       <a href="methode.html" class="nav-cta">Comment on travaille →</a>
     </nav>
     <button class="dark-toggle" id="dark-toggle" aria-label="Mode sombre" title="Mode sombre">🌙</button>
@@ -91,10 +93,11 @@ document.addEventListener('keydown',function(e){if(e.key==='Escape')closeMenu();
     <span class="meta__sep" aria-hidden="true">·</span>
     <span class="art__reading-time">Lecture : 2 min</span>
   </div>
+  <div class="art__ai-badge" role="note">🤖 Contenu rédigé par intelligence artificielle — <a href="methode.html" style="color:inherit;text-decoration:underline">notre méthode</a></div>
   <div class="art__verify"><span class="art__verify-item">4 sources citées</span><span class="art__verify-item">✓ Protocole éditorial v1.1</span></div>
   <div class="art__rule"></div>
   <!-- Image source: Pexels / David Kouakou | Type: pexels -->
-<figure class="article__hero" data-img-source="pexels" data-img-credit="Pexels / David Kouakou" style="margin-bottom:28px"><picture><source srcset="assets/images/climat-changement-scientifiques-alertent.webp" type="image/webp"><img class="art__hero" src="assets/images/climat-changement-scientifiques-alertent.jpg" alt="Illustration : Le climat de nos parents n’existe plus selon 26 scientifiques" loading="eager" fetchpriority="high" style="aspect-ratio:16/9;object-fit:cover"/></picture></figure>
+<figure class="article__hero" data-img-source="pexels" data-img-credit="Pexels / David Kouakou" style="margin-bottom:28px"><img class="art__hero" src="assets/images/climat-changement-scientifiques-alertent.jpg" alt="Illustration : Le climat de nos parents n’existe plus selon 26 scientifiques" loading="eager" fetchpriority="high" style="aspect-ratio:16/9;object-fit:cover"/></figure>
   <p class="art__resume">Le 29 juin 2026, 26 scientifiques ont publié une tribune dans Le Figaro pour répondre aux propos d’Emmanuel Macron sur le climat, affirmant que le pic de chaleur actuel n’a pas d’équivalent en Europe. Les scientifiques estiment que les politiques publiques actuelles sont insuffisantes pour faire face au changement climatique, et que la canicule de 2003 ne peut plus servir de référence pour le climat actuel. Selon les scientifiques, il est nécessaire de prendre des mesures pour anticiper et atténuer les effets du changement climatique, et de prendre en compte les inégalités socio-économiques qui se creusent lors d’épisodes extrêmes.</p>
   <h2 class="art__h2">Les faits</h2><p>Selon Philippe Drobinski, climatologue et directeur de recherche au CNRS, les scientifiques alertent depuis 30 ans sur l’évolution du climat et les épisodes extrêmes de chaleur. Le rapport du GIEC de 1995 annonçait déjà qu’un réchauffement climatique dû à l’activité humaine rendrait les épisodes extrêmes de chaleur plus fréquents. Les signataires de la tribune estiment que les mesures prises après la canicule de 2003 sont insuffisantes et que la France doit passer d’une culture de l’urgence à une planification pour faire face au changement climatique. D’après Philippe Drobinski, les inégalités socio-économiques se creusent lors d’épisodes extrêmes, et les populations les plus vulnérables sont les plus exposées. Les scientifiques rappellent que la réduction des émissions permet de limiter l’ampleur du réchauffement futur, tandis que l’adaptation prépare les sociétés aux effets déjà inévitables.</p>
   <h2 class="art__h2">Contexte</h2><p>Le changement climatique est un phénomène mondial qui affecte tous les pays. Selon le GIEC, le réchauffement climatique est causé principalement par les émissions de gaz à effet de serre dues à l’activité humaine. Les épisodes extrêmes de chaleur, comme la canicule de 2003, sont de plus en plus fréquents et intenses. La France, comme d’autres pays, doit prendre des mesures pour s’adapter au changement climatique et réduire ses émissions de gaz à effet de serre. Les scientifiques estiment que la planification et l’anticipation sont essentielles pour faire face au changement climatique. D’après les données du CNRS, les épisodes extrêmes de chaleur ont augmenté de 50% en France entre 1990 et 2020.</p>
@@ -106,16 +109,16 @@ document.addEventListener('keydown',function(e){if(e.key==='Escape')closeMenu();
   <a class="share-btn" href="https://www.linkedin.com/sharing/share-offsite/?url=https://lesfaits.info/articles/climat-changement-scientifiques-alertent.html" target="_blank" rel="noopener noreferrer external">in LinkedIn</a>
   <a class="share-btn" href="https://api.whatsapp.com/send?text=Le%20climat%20de%20nos%20parents%20n’existe%20plus%20selon%2026%20scientifiques%20https://lesfaits.info/articles/climat-changement-scientifiques-alertent.html" target="_blank" rel="noopener noreferrer external">WhatsApp</a>
   <button class="share-btn" onclick="copyLink()" id="copy-btn">Copier le lien</button>
-  <button class="fav-btn" id="fav-btn" aria-pressed="false">♡ Favoris</button>
+  <button class="fav-btn" id="fav-btn" aria-pressed="false">Favoris</button>
 </div>
 <script>if(navigator.share)document.getElementById('native-share').style.display='inline-flex';</script>
   <section class="sources" aria-label="Sources"><h3>SOURCES</h3><ol><li><cite>Sciences et Avenir</cite> · <em>Le climat de nos parents n'existe plus</em> · 29 juin 2026 · <a href="https://www.sciencesetavenir.fr/nature-environnement/climat/le-climat-de-nos-parents-n-existe-plus-alertent-26-scientifiques_193497" target="_blank" rel="noopener noreferrer external" aria-label="Sciences et Avenir (ouvre dans un nouvel onglet)">Lire la source →</a></li>
 <li><cite>Sciences et Avenir</cite> · <em>Actualités du 1er juillet 2026</em> · 1er juillet 2026 · <a href="https://www.sciencesetavenir.fr/index/2026/07/01/" target="_blank" rel="noopener noreferrer external" aria-label="Sciences et Avenir (ouvre dans un nouvel onglet)">Lire la source →</a></li>
-<li><cite>Sciences et Avenir</cite> · <em>Climat : actu, infos et vidéos</em> · None · <a href="https://www.sciencesetavenir.fr/nature-environnement/climat/" target="_blank" rel="noopener noreferrer external" aria-label="Sciences et Avenir (ouvre dans un nouvel onglet)">Lire la source →</a></li>
-<li><cite>Sciences et Avenir</cite> · <em>Nature et Environnement : actu, infos et vidéos</em> · None · <a href="https://www.sciencesetavenir.fr/nature-environnement/" target="_blank" rel="noopener noreferrer external" aria-label="Sciences et Avenir (ouvre dans un nouvel onglet)">Lire la source →</a></li></ol></section>
-  <div class="art__related"><div class="art__related-title">À LIRE AUSSI</div><div class="art__related-grid"><a class="art__related-card" href="articles/corruption-narcotrafic-france.html"><picture><source srcset="assets/images/corruption-narcotrafic-france.webp" type="image/webp"><img src="assets/images/corruption-narcotrafic-france.jpg" alt="Corruption liée au narcotrafic en France" width="400" height="110" loading="lazy" style="width:calc(100% + 32px);margin:-14px -16px 12px;height:110px;object-fit:cover;display:block;border-radius:var(--radius) var(--radius) 0 0"></picture><span class="cat cat--societe">SOCIETE</span><div class="title-sm">Corruption liée au narcotrafic en France</div><div style="font-size:10px;color:var(--muted);margin-top:6px">2 juillet 2026, 07h00</div></a>
-<a class="art__related-card" href="articles/cartes-gouv-fr-alternative-google-maps.html"><picture><source srcset="assets/images/cartes-gouv-fr-alternative-google-maps.webp" type="image/webp"><img src="assets/images/cartes-gouv-fr-alternative-google-maps.jpg" alt="Lancement de Cartes.gouv.fr, alternative française à Google Maps" width="400" height="110" loading="lazy" style="width:calc(100% + 32px);margin:-14px -16px 12px;height:110px;object-fit:cover;display:block;border-radius:var(--radius) var(--radius) 0 0"></picture><span class="cat cat--tech">TECH</span><div class="title-sm">Lancement de Cartes.gouv.fr, alternative française à Google Maps</div><div style="font-size:10px;color:var(--muted);margin-top:6px">2 juillet 2026, 07h00</div></a>
-<a class="art__related-card" href="articles/construction-ponts-autoroutes-chine.html"><picture><source srcset="assets/images/construction-ponts-autoroutes-chine.webp" type="image/webp"><img src="assets/images/construction-ponts-autoroutes-chine.jpg" alt="Construction de ponts et d’autoroutes en Chine, un modèle de développement à bout de souffle" width="400" height="110" loading="lazy" style="width:calc(100% + 32px);margin:-14px -16px 12px;height:110px;object-fit:cover;display:block;border-radius:var(--radius) var(--radius) 0 0"></picture><span class="cat cat--environnement">ENVIRONNEMENT</span><div class="title-sm">Construction de ponts et d’autoroutes en Chine, un modèle de développement à bout de souffle</div><div style="font-size:10px;color:var(--muted);margin-top:6px">2 juillet 2026, 07h00</div></a></div></div>
+<li><cite>Sciences et Avenir</cite> · <em>Climat : actu, infos et vidéos</em> · <a href="https://www.sciencesetavenir.fr/nature-environnement/climat/" target="_blank" rel="noopener noreferrer external" aria-label="Sciences et Avenir (ouvre dans un nouvel onglet)">Lire la source →</a></li>
+<li><cite>Sciences et Avenir</cite> · <em>Nature et Environnement : actu, infos et vidéos</em> · <a href="https://www.sciencesetavenir.fr/nature-environnement/" target="_blank" rel="noopener noreferrer external" aria-label="Sciences et Avenir (ouvre dans un nouvel onglet)">Lire la source →</a></li></ol></section>
+  <div class="art__related"><div class="art__related-title">À LIRE AUSSI</div><div class="art__related-grid"><a class="art__related-card" href="articles/openai-participation-gouvernement-americain.html"><img src="assets/images/openai-participation-gouvernement-americain.jpg" alt="" width="400" height="110" loading="lazy" style="width:calc(100% + 32px);margin:-14px -16px 12px;height:110px;object-fit:cover;display:block;border-radius:var(--radius) var(--radius) 0 0"><span class="cat cat--tech">TECH</span><div class="title-sm">OpenAI propose une participation minoritaire au gouvernement américain</div><div style="font-size:10px;color:var(--muted);margin-top:6px">3 juillet 2026, 18h00</div></a>
+<a class="art__related-card" href="articles/accident-jean-pierre-raffarin-paris.html"><img src="assets/images/accident-jean-pierre-raffarin-paris.jpg" alt="" width="400" height="110" loading="lazy" style="width:calc(100% + 32px);margin:-14px -16px 12px;height:110px;object-fit:cover;display:block;border-radius:var(--radius) var(--radius) 0 0"><span class="cat cat--societe">SOCIETE</span><div class="title-sm">Accident de Jean-Pierre Raffarin à Paris</div><div style="font-size:10px;color:var(--muted);margin-top:6px">3 juillet 2026, 18h00</div></a>
+<a class="art__related-card" href="articles/reformes-economiques-allemagne-merz.html"><img src="assets/images/reformes-economiques-allemagne-merz.jpg" alt="" width="400" height="110" loading="lazy" style="width:calc(100% + 32px);margin:-14px -16px 12px;height:110px;object-fit:cover;display:block;border-radius:var(--radius) var(--radius) 0 0"><span class="cat cat--economie">ECONOMIE</span><div class="title-sm">Allemagne : le chancelier Friedrich Merz annonce des réformes économiques</div><div style="font-size:10px;color:var(--muted);margin-top:6px">2 juillet 2026, 18h00</div></a></div></div>
   <p class="art__badge">Généré par IA · Protocole Les Faits v1.1 · 1 juillet 2026, 18h00</p>
   <a class="contest-btn" href="contact.html?article=climat-changement-scientifiques-alertent#erreur">Signaler une erreur sur cet article</a>
 </div>
@@ -139,7 +142,8 @@ document.addEventListener('keydown',function(e){if(e.key==='Escape')closeMenu();
     <div class="footer__col"><h4>JOURNAL</h4>
       <a href="methode.html">Comment on travaille</a>
       <a href="corrections.html">Corrections publiques</a>
-      <a href="archive.html">Tous les articles</a>
+      <a href="favoris.html">Favoris</a>
+<a href="archive.html">Tous les articles</a>
       <a href="feed.xml" class="footer__rss">Flux RSS</a>
     </div>
     <div class="footer__col"><h4>LÉGAL</h4>
@@ -195,12 +199,12 @@ function copyLink(){
   if(!btn)return;
   var favs=JSON.parse(localStorage.getItem('lesfaits_favs')||'[]');
   var slug='climat-changement-scientifiques-alertent';
-  if(favs.indexOf(slug)>-1){btn.classList.add('active');btn.setAttribute('aria-pressed','true');btn.textContent='♥ Favori';}
+  if(favs.indexOf(slug)>-1){btn.classList.add('active');btn.setAttribute('aria-pressed','true');btn.textContent='Favori';}
   btn.addEventListener('click',function(){
     var f=JSON.parse(localStorage.getItem('lesfaits_favs')||'[]');
     var idx=f.indexOf(slug);
-    if(idx>-1){f.splice(idx,1);btn.classList.remove('active');btn.setAttribute('aria-pressed','false');btn.textContent='♡ Favoris';}
-    else{f.push(slug);btn.classList.add('active');btn.setAttribute('aria-pressed','true');btn.textContent='♥ Favori';}
+    if(idx>-1){f.splice(idx,1);btn.classList.remove('active');btn.setAttribute('aria-pressed','false');btn.textContent='Favoris';}
+    else{f.push(slug);btn.classList.add('active');btn.setAttribute('aria-pressed','true');btn.textContent='Favori';}
     localStorage.setItem('lesfaits_favs',JSON.stringify(f));
   });
 
@@ -241,7 +245,7 @@ function copyLink(){
     var d=document.documentElement.getAttribute('data-theme')==='dark';
     document.documentElement.setAttribute('data-theme',d?'light':'dark');
     localStorage.setItem('theme',d?'light':'dark');
-    btn.textContent=d?'🌙':'☀️';
+    btn.textContent=d?'🌙':'☀️';btn.setAttribute('aria-label',d?'Passer en mode sombre':'Passer en mode clair');
   });
 
   // Header scroll shadow

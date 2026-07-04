@@ -48,6 +48,7 @@
 <a href="categories/tech.html">Tech</a>
 <a href="categories/sante.html">Santé</a>
 <a href="categories/environnement.html">Environnement</a>
+<a href="favoris.html">Favoris</a>
 <a href="archive.html">Tous les articles</a>
 <a href="methode.html" class="nav-cta">Comment on travaille →</a>
 </nav>
@@ -72,7 +73,8 @@ document.addEventListener('keydown',function(e){if(e.key==='Escape')closeMenu();
       <a href="categories/tech.html">Tech</a>
       <a href="categories/sante.html">Santé</a>
       <a href="categories/environnement.html">Environnement</a>
-      <a href="archive.html">Tous les articles</a>
+      <a href="favoris.html">Favoris</a>
+<a href="archive.html">Tous les articles</a>
       <a href="methode.html" class="nav-cta">Comment on travaille →</a>
     </nav>
     <button class="dark-toggle" id="dark-toggle" aria-label="Mode sombre" title="Mode sombre">🌙</button>
@@ -91,10 +93,11 @@ document.addEventListener('keydown',function(e){if(e.key==='Escape')closeMenu();
     <span class="meta__sep" aria-hidden="true">·</span>
     <span class="art__reading-time">Lecture : 2 min</span>
   </div>
+  <div class="art__ai-badge" role="note">🤖 Contenu rédigé par intelligence artificielle — <a href="methode.html" style="color:inherit;text-decoration:underline">notre méthode</a></div>
   <div class="art__verify"><span class="art__verify-item">4 sources citées</span><span class="art__verify-item">✓ Protocole éditorial v1.1</span></div>
   <div class="art__rule"></div>
   <!-- Image source: Wikimedia Commons | Type: wikimedia -->
-<figure class="article__hero" data-img-source="wikimedia" data-img-credit="Wikimedia Commons" style="margin-bottom:28px"><picture><source srcset="assets/images/deux-planetes-geantes-moins-denses-que-barbe-a-papa.webp" type="image/webp"><img class="art__hero" src="assets/images/deux-planetes-geantes-moins-denses-que-barbe-a-papa.jpg" alt="Illustration : Découverte de deux planètes géantes moins denses que la barbe à papa" loading="eager" fetchpriority="high" style="aspect-ratio:16/9;object-fit:cover"/></picture></figure>
+<figure class="article__hero" data-img-source="wikimedia" data-img-credit="Wikimedia Commons" style="margin-bottom:28px"><img class="art__hero" src="assets/images/deux-planetes-geantes-moins-denses-que-barbe-a-papa.jpg" alt="Illustration : Découverte de deux planètes géantes moins denses que la barbe à papa" loading="eager" fetchpriority="high" style="aspect-ratio:16/9;object-fit:cover"/></figure>
   <p class="art__resume">Le 28 juin 2026, les astronomes ont confirmé l’existence de 8 228 exoplanètes dans la Voie lactée, dont deux planètes géantes situées à 1 110 années-lumière de la Terre, qui sont moins denses que la barbe à papa. Ces planètes, appelées « super-puffs », sont plus grosses que Jupiter, mais leur densité est inférieure à celle de la barbe à papa, ce qui les rend uniques dans l’univers observé. Les astronomes cherchent à comprendre la formation de ces planètes et les mécanismes qui les rendent si légères, avec des théories suggérant des atmosphères riches en hydrogène et en hélium.</p>
   <h2 class="art__h2">Les faits</h2><p>Selon les données recueillies par les astronomes, ces deux planètes géantes sont situées à 1 110 années-lumière de la Terre, dans la constellation de la Voie lactée. D’après les observations, elles sont plus grosses que Jupiter, mais leur densité est inférieure à celle de la barbe à papa. Selon l’astronome Tristan Gu, ces planètes sont appelées « super-puffs » en raison de leur faible densité. D’après les études, ces planètes pourraient avoir des atmosphères riches en hydrogène et en hélium, ce qui les rendrait si légères. Selon les scientifiques, la découverte de ces planètes est importante pour la compréhension de la formation des planètes et des mécanismes qui les rendent si légères. D’après les données, ces planètes sont parmi les moins denses jamais observées, avec une densité inférieure à celle de la barbe à papa.</p>
   <h2 class="art__h2">Contexte</h2><p>La découverte de ces planètes géantes moins denses que la barbe à papa est un événement important dans le domaine de l’astronomie. Selon les données, il y a plus de 8 000 exoplanètes découvertes dans la Voie lactée, mais ces deux planètes sont uniques en raison de leur faible densité. D’après les études, les planètes géantes sont formées à partir de disques de gaz et de poussière qui entourent les étoiles. Cependant, les mécanismes qui les rendent si légères sont encore mal compris. Selon les scientifiques, la découverte de ces planètes pourrait aider à comprendre la formation des planètes et les mécanismes qui les rendent si légères. D’après les données, les planètes géantes sont importantes pour la compréhension de la formation des systèmes solaires et des mécanismes qui les rendent si stables.</p>
@@ -107,16 +110,16 @@ document.addEventListener('keydown',function(e){if(e.key==='Escape')closeMenu();
   <a class="share-btn" href="https://www.linkedin.com/sharing/share-offsite/?url=https://lesfaits.info/articles/deux-planetes-geantes-moins-denses-que-barbe-a-papa.html" target="_blank" rel="noopener noreferrer external">in LinkedIn</a>
   <a class="share-btn" href="https://api.whatsapp.com/send?text=Découverte%20de%20deux%20planètes%20géantes%20moins%20denses%20que%20la%20barbe%20à%20papa%20https://lesfaits.info/articles/deux-planetes-geantes-moins-denses-que-barbe-a-papa.html" target="_blank" rel="noopener noreferrer external">WhatsApp</a>
   <button class="share-btn" onclick="copyLink()" id="copy-btn">Copier le lien</button>
-  <button class="fav-btn" id="fav-btn" aria-pressed="false">♡ Favoris</button>
+  <button class="fav-btn" id="fav-btn" aria-pressed="false">Favoris</button>
 </div>
 <script>if(navigator.share)document.getElementById('native-share').style.display='inline-flex';</script>
   <section class="sources" aria-label="Sources"><h3>SOURCES</h3><ol><li><cite>Futura Sciences</cite> · <em>Ces 2 planètes géantes à 1 110 années-lumière sont moins denses que la barbe à papa</em> · 28 juin 2026 · <a href="https://www.futura-sciences.com/sciences/actualites/exoplanete-ces-2-planetes-geantes-1-110-annees-lumiere-sont-moins-denses-barbe-papa-astronomes-cherchent-explication-135729/" target="_blank" rel="noopener noreferrer external" aria-label="Futura Sciences (ouvre dans un nouvel onglet)">Lire la source →</a></li>
 <li><cite>Euronews</cite> · <em>Plus grosses que Jupiter, plus légères que la barbe à papa : deux planètes super-puff</em> · 25 juin 2026 · <a href="https://fr.euronews.com/next/2026/06/25/plus-grosses-que-jupiter-plus-legeres-que-la-barbe-a-papa-deux-planetes-super-puff" target="_blank" rel="noopener noreferrer external" aria-label="Euronews (ouvre dans un nouvel onglet)">Lire la source →</a></li>
 <li><cite>Galaktikuzay</cite> · <em>Découverte de deux planètes géantes plus légères que la barbe à papa</em> · 2026 · <a href="https://galaktikuzay.com/fr/decouverte-de-deux-planetes-geantes-plus-legeres-que-la-barbe-a-papa/" target="_blank" rel="noopener noreferrer external" aria-label="Galaktikuzay (ouvre dans un nouvel onglet)">Lire la source →</a></li>
 <li><cite>Numerama</cite> · <em>Ces exoplanètes à la texture de « barbe à papa » font partie des moins denses jamais observées</em> · 2026 · <a href="https://www.numerama.com/sciences/594931-ces-exoplanetes-a-la-texture-de-barbe-a-papa-font-partie-des-moins-denses-jamais-observees.html" target="_blank" rel="noopener noreferrer external" aria-label="Numerama (ouvre dans un nouvel onglet)">Lire la source →</a></li></ol></section>
-  <div class="art__related"><div class="art__related-title">À LIRE AUSSI</div><div class="art__related-grid"><a class="art__related-card" href="articles/corruption-narcotrafic-france.html"><picture><source srcset="assets/images/corruption-narcotrafic-france.webp" type="image/webp"><img src="assets/images/corruption-narcotrafic-france.jpg" alt="Corruption liée au narcotrafic en France" width="400" height="110" loading="lazy" style="width:calc(100% + 32px);margin:-14px -16px 12px;height:110px;object-fit:cover;display:block;border-radius:var(--radius) var(--radius) 0 0"></picture><span class="cat cat--societe">SOCIETE</span><div class="title-sm">Corruption liée au narcotrafic en France</div><div style="font-size:10px;color:var(--muted);margin-top:6px">2 juillet 2026, 07h00</div></a>
-<a class="art__related-card" href="articles/cartes-gouv-fr-alternative-google-maps.html"><picture><source srcset="assets/images/cartes-gouv-fr-alternative-google-maps.webp" type="image/webp"><img src="assets/images/cartes-gouv-fr-alternative-google-maps.jpg" alt="Lancement de Cartes.gouv.fr, alternative française à Google Maps" width="400" height="110" loading="lazy" style="width:calc(100% + 32px);margin:-14px -16px 12px;height:110px;object-fit:cover;display:block;border-radius:var(--radius) var(--radius) 0 0"></picture><span class="cat cat--tech">TECH</span><div class="title-sm">Lancement de Cartes.gouv.fr, alternative française à Google Maps</div><div style="font-size:10px;color:var(--muted);margin-top:6px">2 juillet 2026, 07h00</div></a>
-<a class="art__related-card" href="articles/construction-ponts-autoroutes-chine.html"><picture><source srcset="assets/images/construction-ponts-autoroutes-chine.webp" type="image/webp"><img src="assets/images/construction-ponts-autoroutes-chine.jpg" alt="Construction de ponts et d’autoroutes en Chine, un modèle de développement à bout de souffle" width="400" height="110" loading="lazy" style="width:calc(100% + 32px);margin:-14px -16px 12px;height:110px;object-fit:cover;display:block;border-radius:var(--radius) var(--radius) 0 0"></picture><span class="cat cat--environnement">ENVIRONNEMENT</span><div class="title-sm">Construction de ponts et d’autoroutes en Chine, un modèle de développement à bout de souffle</div><div style="font-size:10px;color:var(--muted);margin-top:6px">2 juillet 2026, 07h00</div></a></div></div>
+  <div class="art__related"><div class="art__related-title">À LIRE AUSSI</div><div class="art__related-grid"><a class="art__related-card" href="articles/openai-participation-gouvernement-americain.html"><img src="assets/images/openai-participation-gouvernement-americain.jpg" alt="" width="400" height="110" loading="lazy" style="width:calc(100% + 32px);margin:-14px -16px 12px;height:110px;object-fit:cover;display:block;border-radius:var(--radius) var(--radius) 0 0"><span class="cat cat--tech">TECH</span><div class="title-sm">OpenAI propose une participation minoritaire au gouvernement américain</div><div style="font-size:10px;color:var(--muted);margin-top:6px">3 juillet 2026, 18h00</div></a>
+<a class="art__related-card" href="articles/accident-jean-pierre-raffarin-paris.html"><img src="assets/images/accident-jean-pierre-raffarin-paris.jpg" alt="" width="400" height="110" loading="lazy" style="width:calc(100% + 32px);margin:-14px -16px 12px;height:110px;object-fit:cover;display:block;border-radius:var(--radius) var(--radius) 0 0"><span class="cat cat--societe">SOCIETE</span><div class="title-sm">Accident de Jean-Pierre Raffarin à Paris</div><div style="font-size:10px;color:var(--muted);margin-top:6px">3 juillet 2026, 18h00</div></a>
+<a class="art__related-card" href="articles/reformes-economiques-allemagne-merz.html"><img src="assets/images/reformes-economiques-allemagne-merz.jpg" alt="" width="400" height="110" loading="lazy" style="width:calc(100% + 32px);margin:-14px -16px 12px;height:110px;object-fit:cover;display:block;border-radius:var(--radius) var(--radius) 0 0"><span class="cat cat--economie">ECONOMIE</span><div class="title-sm">Allemagne : le chancelier Friedrich Merz annonce des réformes économiques</div><div style="font-size:10px;color:var(--muted);margin-top:6px">2 juillet 2026, 18h00</div></a></div></div>
   <p class="art__badge">Généré par IA · Protocole Les Faits v1.1 · 30 juin 2026, 07h00</p>
   <a class="contest-btn" href="contact.html?article=deux-planetes-geantes-moins-denses-que-barbe-a-papa#erreur">Signaler une erreur sur cet article</a>
 </div>
@@ -140,7 +143,8 @@ document.addEventListener('keydown',function(e){if(e.key==='Escape')closeMenu();
     <div class="footer__col"><h4>JOURNAL</h4>
       <a href="methode.html">Comment on travaille</a>
       <a href="corrections.html">Corrections publiques</a>
-      <a href="archive.html">Tous les articles</a>
+      <a href="favoris.html">Favoris</a>
+<a href="archive.html">Tous les articles</a>
       <a href="feed.xml" class="footer__rss">Flux RSS</a>
     </div>
     <div class="footer__col"><h4>LÉGAL</h4>
@@ -196,12 +200,12 @@ function copyLink(){
   if(!btn)return;
   var favs=JSON.parse(localStorage.getItem('lesfaits_favs')||'[]');
   var slug='deux-planetes-geantes-moins-denses-que-barbe-a-papa';
-  if(favs.indexOf(slug)>-1){btn.classList.add('active');btn.setAttribute('aria-pressed','true');btn.textContent='♥ Favori';}
+  if(favs.indexOf(slug)>-1){btn.classList.add('active');btn.setAttribute('aria-pressed','true');btn.textContent='Favori';}
   btn.addEventListener('click',function(){
     var f=JSON.parse(localStorage.getItem('lesfaits_favs')||'[]');
     var idx=f.indexOf(slug);
-    if(idx>-1){f.splice(idx,1);btn.classList.remove('active');btn.setAttribute('aria-pressed','false');btn.textContent='♡ Favoris';}
-    else{f.push(slug);btn.classList.add('active');btn.setAttribute('aria-pressed','true');btn.textContent='♥ Favori';}
+    if(idx>-1){f.splice(idx,1);btn.classList.remove('active');btn.setAttribute('aria-pressed','false');btn.textContent='Favoris';}
+    else{f.push(slug);btn.classList.add('active');btn.setAttribute('aria-pressed','true');btn.textContent='Favori';}
     localStorage.setItem('lesfaits_favs',JSON.stringify(f));
   });
 
@@ -237,12 +241,12 @@ function copyLink(){
 (function(){
   var btn=document.getElementById('dark-toggle');
   var dark=document.documentElement.getAttribute('data-theme')==='dark';
-  if(btn) btn.textContent=dark?'☀️':'🌙';
+  if(btn){btn.textContent=dark?'☀️':'🌙';btn.setAttribute('aria-label',dark?'Passer en mode clair':'Passer en mode sombre');}
   if(btn) btn.addEventListener('click',function(){
     var d=document.documentElement.getAttribute('data-theme')==='dark';
     document.documentElement.setAttribute('data-theme',d?'light':'dark');
     localStorage.setItem('theme',d?'light':'dark');
-    btn.textContent=d?'🌙':'☀️';
+    btn.textContent=d?'🌙':'☀️';btn.setAttribute('aria-label',d?'Passer en mode sombre':'Passer en mode clair');
   });
 
   // Header scroll shadow

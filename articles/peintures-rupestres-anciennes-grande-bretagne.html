@@ -48,6 +48,7 @@
 <a href="categories/tech.html">Tech</a>
 <a href="categories/sante.html">Santé</a>
 <a href="categories/environnement.html">Environnement</a>
+<a href="favoris.html">Favoris</a>
 <a href="archive.html">Tous les articles</a>
 <a href="methode.html" class="nav-cta">Comment on travaille →</a>
 </nav>
@@ -72,7 +73,8 @@ document.addEventListener('keydown',function(e){if(e.key==='Escape')closeMenu();
       <a href="categories/tech.html">Tech</a>
       <a href="categories/sante.html">Santé</a>
       <a href="categories/environnement.html">Environnement</a>
-      <a href="archive.html">Tous les articles</a>
+      <a href="favoris.html">Favoris</a>
+<a href="archive.html">Tous les articles</a>
       <a href="methode.html" class="nav-cta">Comment on travaille →</a>
     </nav>
     <button class="dark-toggle" id="dark-toggle" aria-label="Mode sombre" title="Mode sombre">🌙</button>
@@ -91,10 +93,11 @@ document.addEventListener('keydown',function(e){if(e.key==='Escape')closeMenu();
     <span class="meta__sep" aria-hidden="true">·</span>
     <span class="art__reading-time">Lecture : 2 min</span>
   </div>
+  <div class="art__ai-badge" role="note">🤖 Contenu rédigé par intelligence artificielle — <a href="methode.html" style="color:inherit;text-decoration:underline">notre méthode</a></div>
   <div class="art__verify"><span class="art__verify-item">4 sources citées</span><span class="art__verify-item">✓ Protocole éditorial v1.1</span></div>
   <div class="art__rule"></div>
   <!-- Image source: fr.wikipedia.org | Type: institutional -->
-<figure class="article__hero" data-img-source="institutional" data-img-credit="fr.wikipedia.org" style="margin-bottom:28px"><picture><source srcset="assets/images/peintures-rupestres-anciennes-grande-bretagne.webp" type="image/webp"><img class="art__hero" src="assets/images/peintures-rupestres-anciennes-grande-bretagne.jpg" alt="Illustration : Découverte de peintures rupestres anciennes en Grande-Bretagne" loading="eager" fetchpriority="high" style="aspect-ratio:16/9;object-fit:cover"/></picture></figure>
+<figure class="article__hero" data-img-source="institutional" data-img-credit="fr.wikipedia.org" style="margin-bottom:28px"><img class="art__hero" src="assets/images/peintures-rupestres-anciennes-grande-bretagne.jpg" alt="Illustration : Découverte de peintures rupestres anciennes en Grande-Bretagne" loading="eager" fetchpriority="high" style="aspect-ratio:16/9;object-fit:cover"/></figure>
   <p class="art__resume">Des traces rouges observées dans une grotte du sud du Pays de Galles pourraient être les plus anciennes peintures rupestres connues de Grande-Bretagne, avec une estimation de création il y a près de 17 000 ans. Ces marques rouges ont longtemps été considérées comme de simples dépôts minéraux, mais une nouvelle étude suggère qu’il pourrait s’agir d’art rupestre préhistorique, ce qui relancerait un débat vieux de plus d’un siècle. L’étude de ces traces rouges et leur possible interprétation comme art rupestre soulèvent des questions sur les origines de la créativité humaine et la signification de ces peintures dans le contexte de l’histoire de l’art préhistorique.</p>
   <h2 class="art__h2">Les faits</h2><p>Selon une étude récente, des traces rouges visibles sur les parois d’une grotte du sud du Pays de Galles pourraient être les plus anciennes peintures rupestres connues de Grande-Bretagne. D’après les chercheurs, ces marques rouges ont été réalisées par des humains il y a près de 17 000 ans, ce qui en ferait les plus anciennes peintures rupestres de Grande-Bretagne. Selon les scientifiques, ces traces étaient initialement considérées comme des dépôts minéraux naturels, mais de nouvelles recherches suggèrent qu’il pourrait s’agir d’art rupestre préhistorique. D’après les données fournies par les chercheurs, onze lignes rouges tracées il y a environ 17 100 ans ont été identifiées dans la grotte. Selon les experts, l’art rupestre en question a été créé il y a 17 100 ans, ce qui en fait le plus ancien exemple en Grande-Bretagne ainsi que dans le nord-ouest de l’Europe. Selon les informations disponibles, ces peintures rupestres pourraient réécrire les origines de la créativité humaine.</p>
   <h2 class="art__h2">Contexte</h2><p>L’art rupestre est un ensemble d’œuvres d’art créées par les premiers humains, qui ont laissé des traces de leur présence sur les parois des grottes et des rochers. Selon les historiens de l’art, l’art rupestre est l’un des plus anciens exemples d’expression artistique humaine. D’après les données archéologiques, les premières peintures rupestres ont été créées il y a environ 40 000 ans. L’art rupestre a été découvert dans différentes parties du monde, notamment en Europe, en Asie et en Afrique. Selon les experts, les peintures rupestres sont importantes pour comprendre l’histoire de l’humanité et les origines de la créativité humaine. D’après les informations disponibles, les peintures rupestres découvertes en Dordogne ouvrent la voie à une datation précise au radiocarbone. Selon les chercheurs, une étude publiée dans la revue 'Scientific Reports' fait écho à la découverte de peintures rupestres dans la grotte de Font-de-Gaume (Dordogne).</p>
@@ -107,16 +110,16 @@ document.addEventListener('keydown',function(e){if(e.key==='Escape')closeMenu();
   <a class="share-btn" href="https://www.linkedin.com/sharing/share-offsite/?url=https://lesfaits.info/articles/peintures-rupestres-anciennes-grande-bretagne.html" target="_blank" rel="noopener noreferrer external">in LinkedIn</a>
   <a class="share-btn" href="https://api.whatsapp.com/send?text=Découverte%20de%20peintures%20rupestres%20anciennes%20en%20Grande-Bretagne%20https://lesfaits.info/articles/peintures-rupestres-anciennes-grande-bretagne.html" target="_blank" rel="noopener noreferrer external">WhatsApp</a>
   <button class="share-btn" onclick="copyLink()" id="copy-btn">Copier le lien</button>
-  <button class="fav-btn" id="fav-btn" aria-pressed="false">♡ Favoris</button>
+  <button class="fav-btn" id="fav-btn" aria-pressed="false">Favoris</button>
 </div>
 <script>if(navigator.share)document.getElementById('native-share').style.display='inline-flex';</script>
   <section class="sources" aria-label="Sources"><h3>SOURCES</h3><ol><li><cite>Futura Sciences</cite> · <em>Ces mystérieuses traces rouges pourraient être les plus anciennes peintures rupestres de Grande-Bretagne</em> · 2026 · <a href="https://www.futura-sciences.com/sciences/actualites/art-ces-mysterieuses-traces-rouges-pourraient-etre-plus-anciennes-peintures-rupestres-grande-bretagne-135039/" target="_blank" rel="noopener noreferrer external" aria-label="Futura Sciences (ouvre dans un nouvel onglet)">Lire la source →</a></li>
 <li><cite>Wikipédia</cite> · <em>Art rupestre</em> · 2026 · <a href="https://fr.wikipedia.org/wiki/Art_rupestre" target="_blank" rel="noopener noreferrer external" aria-label="Wikipédia (ouvre dans un nouvel onglet)">Lire la source →</a></li>
 <li><cite>Science et vie</cite> · <em>Pendant près d'un siècle, ces traces étaient jugées naturelles : une étude suggère qu'il pourrait s'agir du plus ancien art rupestre de Grande-Bretagne, peint il y a 17 100 ans</em> · 2026 · <a href="https://www.science-et-vie.com/science-et-culture/pendant-pres-dun-siecle-ces-traces-etaient-jugees-naturelles-une-etude-suggere-quil-pourrait-sagir-du-plus-ancien-art-rupestre-de-grande-bretagne-peint-il-y-a-17-100-ans-242906.html" target="_blank" rel="noopener noreferrer external" aria-label="Science et vie (ouvre dans un nouvel onglet)">Lire la source →</a></li>
 <li><cite>Geo.fr</cite> · <em>Ces traces prises pour un phénomène naturel étaient de l’art préhistorique</em> · 2026 · <a href="https://www.geo.fr/histoire/des-stries-presentes-sur-les-parois-dune-grotte-au-royaume-uni-finalement-reconnues-comme-de-l-art-rupestre-paleolithique-232255" target="_blank" rel="noopener noreferrer external" aria-label="Geo.fr (ouvre dans un nouvel onglet)">Lire la source →</a></li></ol></section>
-  <div class="art__related"><div class="art__related-title">À LIRE AUSSI</div><div class="art__related-grid"><a class="art__related-card" href="articles/corruption-narcotrafic-france.html"><picture><source srcset="assets/images/corruption-narcotrafic-france.webp" type="image/webp"><img src="assets/images/corruption-narcotrafic-france.jpg" alt="Corruption liée au narcotrafic en France" width="400" height="110" loading="lazy" style="width:calc(100% + 32px);margin:-14px -16px 12px;height:110px;object-fit:cover;display:block;border-radius:var(--radius) var(--radius) 0 0"></picture><span class="cat cat--societe">SOCIETE</span><div class="title-sm">Corruption liée au narcotrafic en France</div><div style="font-size:10px;color:var(--muted);margin-top:6px">2 juillet 2026, 07h00</div></a>
-<a class="art__related-card" href="articles/cartes-gouv-fr-alternative-google-maps.html"><picture><source srcset="assets/images/cartes-gouv-fr-alternative-google-maps.webp" type="image/webp"><img src="assets/images/cartes-gouv-fr-alternative-google-maps.jpg" alt="Lancement de Cartes.gouv.fr, alternative française à Google Maps" width="400" height="110" loading="lazy" style="width:calc(100% + 32px);margin:-14px -16px 12px;height:110px;object-fit:cover;display:block;border-radius:var(--radius) var(--radius) 0 0"></picture><span class="cat cat--tech">TECH</span><div class="title-sm">Lancement de Cartes.gouv.fr, alternative française à Google Maps</div><div style="font-size:10px;color:var(--muted);margin-top:6px">2 juillet 2026, 07h00</div></a>
-<a class="art__related-card" href="articles/construction-ponts-autoroutes-chine.html"><picture><source srcset="assets/images/construction-ponts-autoroutes-chine.webp" type="image/webp"><img src="assets/images/construction-ponts-autoroutes-chine.jpg" alt="Construction de ponts et d’autoroutes en Chine, un modèle de développement à bout de souffle" width="400" height="110" loading="lazy" style="width:calc(100% + 32px);margin:-14px -16px 12px;height:110px;object-fit:cover;display:block;border-radius:var(--radius) var(--radius) 0 0"></picture><span class="cat cat--environnement">ENVIRONNEMENT</span><div class="title-sm">Construction de ponts et d’autoroutes en Chine, un modèle de développement à bout de souffle</div><div style="font-size:10px;color:var(--muted);margin-top:6px">2 juillet 2026, 07h00</div></a></div></div>
+  <div class="art__related"><div class="art__related-title">À LIRE AUSSI</div><div class="art__related-grid"><a class="art__related-card" href="articles/openai-participation-gouvernement-americain.html"><img src="assets/images/openai-participation-gouvernement-americain.jpg" alt="" width="400" height="110" loading="lazy" style="width:calc(100% + 32px);margin:-14px -16px 12px;height:110px;object-fit:cover;display:block;border-radius:var(--radius) var(--radius) 0 0"><span class="cat cat--tech">TECH</span><div class="title-sm">OpenAI propose une participation minoritaire au gouvernement américain</div><div style="font-size:10px;color:var(--muted);margin-top:6px">3 juillet 2026, 18h00</div></a>
+<a class="art__related-card" href="articles/accident-jean-pierre-raffarin-paris.html"><img src="assets/images/accident-jean-pierre-raffarin-paris.jpg" alt="" width="400" height="110" loading="lazy" style="width:calc(100% + 32px);margin:-14px -16px 12px;height:110px;object-fit:cover;display:block;border-radius:var(--radius) var(--radius) 0 0"><span class="cat cat--societe">SOCIETE</span><div class="title-sm">Accident de Jean-Pierre Raffarin à Paris</div><div style="font-size:10px;color:var(--muted);margin-top:6px">3 juillet 2026, 18h00</div></a>
+<a class="art__related-card" href="articles/reformes-economiques-allemagne-merz.html"><img src="assets/images/reformes-economiques-allemagne-merz.jpg" alt="" width="400" height="110" loading="lazy" style="width:calc(100% + 32px);margin:-14px -16px 12px;height:110px;object-fit:cover;display:block;border-radius:var(--radius) var(--radius) 0 0"><span class="cat cat--economie">ECONOMIE</span><div class="title-sm">Allemagne : le chancelier Friedrich Merz annonce des réformes économiques</div><div style="font-size:10px;color:var(--muted);margin-top:6px">2 juillet 2026, 18h00</div></a></div></div>
   <p class="art__badge">Généré par IA · Protocole Les Faits v1.1 · 2 juillet 2026, 07h00</p>
   <a class="contest-btn" href="contact.html?article=peintures-rupestres-anciennes-grande-bretagne#erreur">Signaler une erreur sur cet article</a>
 </div>
@@ -140,7 +143,8 @@ document.addEventListener('keydown',function(e){if(e.key==='Escape')closeMenu();
     <div class="footer__col"><h4>JOURNAL</h4>
       <a href="methode.html">Comment on travaille</a>
       <a href="corrections.html">Corrections publiques</a>
-      <a href="archive.html">Tous les articles</a>
+      <a href="favoris.html">Favoris</a>
+<a href="archive.html">Tous les articles</a>
       <a href="feed.xml" class="footer__rss">Flux RSS</a>
     </div>
     <div class="footer__col"><h4>LÉGAL</h4>
@@ -196,12 +200,12 @@ function copyLink(){
   if(!btn)return;
   var favs=JSON.parse(localStorage.getItem('lesfaits_favs')||'[]');
   var slug='peintures-rupestres-anciennes-grande-bretagne';
-  if(favs.indexOf(slug)>-1){btn.classList.add('active');btn.setAttribute('aria-pressed','true');btn.textContent='♥ Favori';}
+  if(favs.indexOf(slug)>-1){btn.classList.add('active');btn.setAttribute('aria-pressed','true');btn.textContent='Favori';}
   btn.addEventListener('click',function(){
     var f=JSON.parse(localStorage.getItem('lesfaits_favs')||'[]');
     var idx=f.indexOf(slug);
-    if(idx>-1){f.splice(idx,1);btn.classList.remove('active');btn.setAttribute('aria-pressed','false');btn.textContent='♡ Favoris';}
-    else{f.push(slug);btn.classList.add('active');btn.setAttribute('aria-pressed','true');btn.textContent='♥ Favori';}
+    if(idx>-1){f.splice(idx,1);btn.classList.remove('active');btn.setAttribute('aria-pressed','false');btn.textContent='Favoris';}
+    else{f.push(slug);btn.classList.add('active');btn.setAttribute('aria-pressed','true');btn.textContent='Favori';}
     localStorage.setItem('lesfaits_favs',JSON.stringify(f));
   });
 
@@ -237,12 +241,12 @@ function copyLink(){
 (function(){
   var btn=document.getElementById('dark-toggle');
   var dark=document.documentElement.getAttribute('data-theme')==='dark';
-  if(btn) btn.textContent=dark?'☀️':'🌙';
+  if(btn){btn.textContent=dark?'☀️':'🌙';btn.setAttribute('aria-label',dark?'Passer en mode clair':'Passer en mode sombre');}
   if(btn) btn.addEventListener('click',function(){
     var d=document.documentElement.getAttribute('data-theme')==='dark';
     document.documentElement.setAttribute('data-theme',d?'light':'dark');
     localStorage.setItem('theme',d?'light':'dark');
-    btn.textContent=d?'🌙':'☀️';
+    btn.textContent=d?'🌙':'☀️';btn.setAttribute('aria-label',d?'Passer en mode sombre':'Passer en mode clair');
   });
 
   // Header scroll shadow
