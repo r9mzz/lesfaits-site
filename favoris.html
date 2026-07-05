@@ -36,6 +36,7 @@
 <a href="categories/tech.html">Tech</a>
 <a href="categories/sante.html">Santé</a>
 <a href="categories/environnement.html">Environnement</a>
+<a href="categories/sport.html">Sport</a>
 <a href="favoris.html">Favoris</a>
 <a href="archive.html">Tous les articles</a>
 <a href="methode.html" class="nav-cta">Comment on travaille →</a>
@@ -59,6 +60,7 @@ document.addEventListener('keydown',function(e){if(e.key==='Escape')closeMenu();
       <a href="categories/tech.html">Tech</a>
       <a href="categories/sante.html">Santé</a>
       <a href="categories/environnement.html">Environnement</a>
+      <a href="categories/sport.html">Sport</a>
       <a href="favoris.html">Favoris</a>
       <a href="archive.html">Tous les articles</a>
       <a href="methode.html" class="nav-cta">Comment on travaille →</a>
@@ -97,6 +99,7 @@ document.addEventListener('keydown',function(e){if(e.key==='Escape')closeMenu();
       <a href="categories/tech.html">Tech</a>
       <a href="categories/sante.html">Santé</a>
       <a href="categories/environnement.html">Environnement</a>
+      <a href="categories/sport.html">Sport</a>
     </div>
     <div class="footer__col"><h4>JOURNAL</h4>
       <a href="methode.html">Comment on travaille</a>
@@ -163,7 +166,7 @@ document.addEventListener('keydown',function(e){if(e.key==='Escape')closeMenu();
     }).join('');
   });
   function escapeHtml(s){return String(s).replace(/[&<>"']/g,function(c){return {'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c];});}
-  function _cat_up_js(c){var m={"science": "SCIENCE", "economie": "ÉCONOMIE", "tech": "TECH", "sante": "SANTÉ", "environnement": "ENVIRONNEMENT", "societe": "SOCIÉTÉ"};return (m[c]||c).toUpperCase();}
+  function _cat_up_js(c){var m={"science": "SCIENCE", "economie": "ÉCONOMIE", "tech": "TECH", "sante": "SANTÉ", "environnement": "ENVIRONNEMENT", "societe": "SOCIÉTÉ", "sport": "SPORT"};return (m[c]||c).toUpperCase();}
 })();
 </script>
 </body>
