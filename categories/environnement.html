@@ -22,6 +22,7 @@
 <body>
 <div class="nav-overlay" id="nav-overlay" onclick="closeMenu()"></div>
 <nav class="nav-mobile" id="nav-mobile">
+<div class="nav-mobile__search"><input type="search" class="header__search-input" aria-label="Rechercher un article" placeholder="Rechercher…" autocomplete="off" onkeydown="if(event.key==='Enter'&&this.value.trim())window.location=(document.querySelector('base').href)+'recherche.html?q='+encodeURIComponent(this.value.trim())"/></div>
 <a href="categories/societe.html">Société</a>
 <a href="categories/science.html">Science</a>
 <a href="categories/economie.html">Économie</a>
