@@ -1,5 +1,47 @@
 [
   {
+    "slug": "francois-petit-mathematiques-medecine-personnalisee",
+    "titre": "François Petit : mathématicien et directeur de recherche en médecine personnalisée",
+    "categorie": "sante",
+    "nb_sources": 3,
+    "date": "11 juillet 2026, 14h00",
+    "resume": [
+      "La carrière de François Petit illustre la convergence de la mathématique et de la médecine pour améliorer les soins de santé.",
+      "Ses travaux visent à intégrer les données cliniques et les avancées technologiques pour offrir des traitements plus efficaces et personnalisés.",
+      "Ses recherches portent notamment sur l'IA générative et l'analyse topologique des données appliquées aux trajectoires des patients."
+    ],
+    "image_keyword": "medical research laboratory",
+    "statut_verification": "corrige_automatiquement"
+  },
+  {
+    "slug": "nettoyage-toilettes-erreurs",
+    "titre": "Les erreurs de nettoyage des toilettes selon les spécialistes",
+    "categorie": "societe",
+    "nb_sources": 8,
+    "date": "11 juillet 2026, 14h00",
+    "resume": [
+      "L'hygiène des toilettes est souvent compromise par des erreurs de nettoyage, qui peuvent avoir des conséquences sur la santé.",
+      "Selon MSN et 18h39, les professionnels du ménage mettent en avant l'importance de nettoyer régulièrement les toilettes, en particulier les parties souvent négligées.",
+      "Selon 18h39, les professionnels du ménage recommandent de nettoyer les toilettes au moins une fois par semaine pour éviter la propagation des bactéries et des germes."
+    ],
+    "image_keyword": "toilettes propres",
+    "statut_verification": "corrige_automatiquement"
+  },
+  {
+    "slug": "technique-communication-chats",
+    "titre": "Une technique simple pour communiquer avec les chats",
+    "categorie": "science",
+    "nb_sources": 4,
+    "date": "11 juillet 2026, 14h00",
+    "resume": [
+      "Une étude suggère que les chats communiquent par des clignements d'yeux lents, ce qui pourrait transformer la relation avec votre compagnon à quatre pattes.",
+      "Les recherches existantes sur la communication féline montrent que les chats utilisent des signaux non verbaux pour interagir avec leur environnement.",
+      "Cependant, il reste à prouver si cette technique est efficace pour tous les chats et dans toutes les situations."
+    ],
+    "image_keyword": "chat communication",
+    "statut_verification": "corrige_automatiquement"
+  },
+  {
     "slug": "tiktok-lutte-contre-ai-slop",
     "titre": "TikTok renforce la détection des vidéos générées par IA",
     "categorie": "tech",
@@ -43,14 +85,14 @@
   },
   {
     "slug": "europe-dependance-economique",
-    "titre": "L’Europe face à sa dépendance économique",
+    "titre": "Dépendance économique de l’Europe : le plaidoyer de l’économiste Jean Pisani-Ferry",
     "categorie": "economie",
     "nb_sources": 3,
     "date": "11 juillet 2026, 05h31",
     "resume": [
-      "L'économiste Jean Pisani-Ferry plaide pour que l'Europe se libère de sa double dépendance envers la Chine et les Etats-Unis, soulignant que le commerce international se transforme en profondeur sous l'effet des tensions géopolitiques et de l'essor des services, indique Le Monde.",
-      "Jean Pisani-Ferry estime que la France est frappée par une instabilité politique, et que les institutions ne garantissent pas la stabilité, ce qui oblige chacun à s'interroger sur sa responsabilité dans l'état actuel du pays, selon Legrandcontinent.",
-      "Jean Pisani-Ferry préconise l'établissement d'un nouveau cadre de gouvernance multilatérale pour permettre à l'Europe et à ses partenaires de faire face aux défis géopolitiques actuels, selon Project Syndicate, bien que les détails précis de cette proposition ne soient pas entièrement vérifiables dans la source disponible."
+      "Dans une chronique publiée par Le Monde, l’économiste Jean Pisani-Ferry plaide pour que l’Europe se libère de sa double dépendance envers la Chine et les États-Unis, alors que le commerce international se transforme sous l’effet des tensions géopolitiques et de l’essor des services.",
+      "Ancien commissaire général de France Stratégie, l’auteur défend de longue date une refonte du cadre économique européen — il préconisait déjà en avril, dans Project Syndicate, une gouvernance multilatérale rénovée.",
+      "Il s’agit d’une prise de position, pas d’un constat établi : les trois sources citées sont des écrits ou entretiens de l’économiste lui-même, sans point de vue contradictoire documenté."
     ],
     "image_keyword": "european parliament building",
     "statut_verification": "corrige_automatiquement"
