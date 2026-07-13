@@ -194,7 +194,7 @@ document.addEventListener('DOMContentLoaded',function(){var btn=document.getElem
     <span>© 2026 Les Faits · <a href="https://creativecommons.org/licenses/by-nc-nd/4.0/deed.fr" rel="noopener noreferrer external" target="_blank" style="color:inherit">CC BY-NC-ND 4.0</a></span>
     <span>Protocole éditorial v1.1</span>
   </div>
-</footer><!-- LF_AUDIO_GLOBAL_START v5 --><div class="audio-float" id="audio-float" style="display:none" role="region" aria-label="Lecture audio en cours">
+</footer><!-- LF_AUDIO_GLOBAL_START v6 --><div class="audio-float" id="audio-float" style="display:none" role="region" aria-label="Lecture audio en cours">
   <button type="button" class="audio-float__ctrl" id="audio-float-prev" aria-label="Phrase précédente"><svg viewBox="0 0 16 16" aria-hidden="true"><path d="M4.6 3v10" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/><path d="M12.4 3.6v8.8a.5.5 0 0 1-.8.4L6.2 8.4a.5.5 0 0 1 0-.8l5.4-4.4a.5.5 0 0 1 .8.4z" fill="currentColor"/></svg></button>
   <button type="button" class="audio-float__ctrl audio-float__ctrl--play" id="audio-float-play" aria-label="Lecture/Pause">
     <span id="audio-float-icon"><svg viewBox="0 0 16 16" aria-hidden="true"><path d="M5.2 3.2v9.6M10.8 3.2v9.6" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"/></svg></span>
@@ -540,7 +540,19 @@ document.addEventListener('DOMContentLoaded',function(){var btn=document.getElem
         inserted.push(imported);
       });
       if(!isPop)history.pushState({},'',url);
+      // Respecter l'ancre de destination (ex: /a-propos.html#reseaux) :
+      // scroller vers l'élément cible plutôt qu'en haut de page. Différé
+      // d'une frame : scroller pendant que le navigateur calcule encore la
+      // mise en page des nœuds fraîchement insérés donne une position fausse.
+      var hash='';
+      try{hash=new URL(url,location.origin).hash;}catch(err){}
       window.scrollTo(0,0);
+      if(hash){
+        requestAnimationFrame(function(){
+          var target=document.querySelector(hash);
+          if(target)target.scrollIntoView();
+        });
+      }
       inserted.forEach(function(n){
         if(n.nodeType!==1)return;
         if(n.tagName==='SCRIPT'){
