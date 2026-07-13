@@ -201,7 +201,7 @@ document.addEventListener('DOMContentLoaded',function(){var btn=document.getElem
     <span>© 2026 Les Faits · <a href="https://creativecommons.org/licenses/by-nc-nd/4.0/deed.fr" rel="noopener noreferrer external" target="_blank" style="color:inherit">CC BY-NC-ND 4.0</a></span>
     <span>Protocole éditorial v1.1</span>
   </div>
-</footer><!-- LF_AUDIO_GLOBAL_START v2 --><div class="audio-float" id="audio-float" style="display:none" role="region" aria-label="Lecture audio en cours">
+</footer><!-- LF_AUDIO_GLOBAL_START v3 --><div class="audio-float" id="audio-float" style="display:none" role="region" aria-label="Lecture audio en cours">
   <button type="button" class="audio-float__ctrl" id="audio-float-prev" aria-label="Phrase précédente">⏮</button>
   <button type="button" class="audio-float__ctrl audio-float__ctrl--play" id="audio-float-play" aria-label="Lecture/Pause">
     <span id="audio-float-icon">⏸</span>
@@ -335,6 +335,7 @@ document.addEventListener('DOMContentLoaded',function(){var btn=document.getElem
     setLocalPlayingUI(true);
     if(floatBar)floatBar.style.display='flex';
     setFloatIcon(true);
+    updateProgress(); // affiche le temps restant dès l'ouverture du menu, pas après la 1re phrase
     speakNext();
   }
   function stop(){
