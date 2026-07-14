@@ -75,7 +75,7 @@ document.addEventListener('DOMContentLoaded',function(){var btn=document.getElem
   <div style="margin-bottom:32px;border-bottom:1px solid var(--rule);padding-bottom:24px">
     <span style="font-size:.8rem;font-weight:700;letter-spacing:.1em;color:var(--muted);text-transform:uppercase">Rubrique</span>
     <h1 style="font-size:2.4rem;font-weight:700;margin:8px 0 4px">Science</h1>
-    <p style="color:var(--muted);font-size:.9rem">26 articles</p>
+    <p style="color:var(--muted);font-size:.9rem">27 articles</p>
   </div>
   <nav style="display:flex;gap:24px;margin-bottom:48px;flex-wrap:wrap;font-size:.9rem">
     <a href="categories/science.html" style="font-weight:700;color:var(--blue)">Science</a>
@@ -87,6 +87,18 @@ document.addEventListener('DOMContentLoaded',function(){var btn=document.getElem
   </nav>
   <div style="display:grid;grid-template-columns:repeat(auto-fill,minmax(280px,1fr));gap:24px">
     
+        <a class="card3" href="articles/jeune-intermittent-perte-poids-long-terme.html">
+          <img class="card3__img" src="assets/images/jeune-intermittent-perte-poids-long-terme-480.webp" alt="Jeûne intermittent : une étude explore son impact sur la perte de poids à long terme" loading="lazy">
+          <div class="card3__body">
+            <span class="cat cat--science">SCIENCE</span>
+            <h3 class="title-sm">Jeûne intermittent : une étude explore son impact sur la perte de poids à long terme</h3>
+            <div class="meta" style="margin-top:10px">
+              <span class="meta__src">8 sources</span>
+              <span class="meta__sep">·</span><span>14 juillet 2026, 18h00</span>
+            </div>
+          </div>
+        </a>
+
         <a class="card3" href="articles/couper-atome-couteau.html">
           <img class="card3__img" src="assets/images/couper-atome-couteau-480.webp" alt="La possibilité de couper un atome avec un couteau" loading="lazy">
           <div class="card3__body">
@@ -507,7 +519,7 @@ document.addEventListener('DOMContentLoaded',function(){var btn=document.getElem
     <span>© 2026 Les Faits · <a href="https://creativecommons.org/licenses/by-nc-nd/4.0/deed.fr" rel="noopener noreferrer external" target="_blank" style="color:inherit">CC BY-NC-ND 4.0</a></span>
     <span>Protocole éditorial v1.1</span>
   </div>
-</footer><!-- LF_AUDIO_GLOBAL_START v6 --><div class="audio-float" id="audio-float" style="display:none" role="region" aria-label="Lecture audio en cours">
+</footer><!-- LF_AUDIO_GLOBAL_START v8 --><div class="audio-float" id="audio-float" style="display:none" role="region" aria-label="Lecture audio en cours">
   <button type="button" class="audio-float__ctrl" id="audio-float-prev" aria-label="Phrase précédente"><svg viewBox="0 0 16 16" aria-hidden="true"><path d="M4.6 3v10" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/><path d="M12.4 3.6v8.8a.5.5 0 0 1-.8.4L6.2 8.4a.5.5 0 0 1 0-.8l5.4-4.4a.5.5 0 0 1 .8.4z" fill="currentColor"/></svg></button>
   <button type="button" class="audio-float__ctrl audio-float__ctrl--play" id="audio-float-play" aria-label="Lecture/Pause">
     <span id="audio-float-icon"><svg viewBox="0 0 16 16" aria-hidden="true"><path d="M5.2 3.2v9.6M10.8 3.2v9.6" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"/></svg></span>
@@ -859,12 +871,19 @@ document.addEventListener('DOMContentLoaded',function(){var btn=document.getElem
       // mise en page des nœuds fraîchement insérés donne une position fausse.
       var hash='';
       try{hash=new URL(url,location.origin).hash;}catch(err){}
-      window.scrollTo(0,0);
       if(hash){
+        // Ancre : ne pas remonter en haut (évite le flash top→bas sur mobile)
+        // Deux rAF + délai pour laisser le layout se stabiliser après insertion.
         requestAnimationFrame(function(){
-          var target=document.querySelector(hash);
-          if(target)target.scrollIntoView();
+          requestAnimationFrame(function(){
+            setTimeout(function(){
+              var target=document.querySelector(hash);
+              if(target)target.scrollIntoView({behavior:'smooth'});
+            },300);
+          });
         });
+      } else {
+        window.scrollTo(0,0);
       }
       inserted.forEach(function(n){
         if(n.nodeType!==1)return;
