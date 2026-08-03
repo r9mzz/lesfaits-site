@@ -25,6 +25,9 @@
     .contact-tab.active { color:var(--blue); border-bottom-color:var(--blue); }
     .contact-panel { display:none; }
     .contact-panel.active { display:block; }
+    /* `hidden` doit primer sur toute règle display, sinon un panneau
+       masqué en HTML pourrait être réaffiché par une classe. */
+    [hidden] { display:none !important; }
     .form-group { margin-bottom:24px; }
     .form-label { display:block; font-size:.85rem; font-weight:700; margin-bottom:8px; color:var(--ink); }
     .form-input, .form-textarea, .form-select {
@@ -124,9 +127,9 @@ document.addEventListener('DOMContentLoaded',function(){var btn=document.getElem
   </p>
 
   <div class="contact-tabs">
-    <button class="contact-tab active" onclick="switchTab('general', this)">Message général</button>
-    <button class="contact-tab" onclick="switchTab('erreur', this)">Signaler une erreur</button>
-    <button class="contact-tab" onclick="switchTab('sujet', this)">Proposer un sujet</button>
+    <button id="general" class="contact-tab active" onclick="switchTab('general', this)">Message général</button>
+    <button id="erreur" class="contact-tab" onclick="switchTab('erreur', this)">Signaler une erreur</button>
+    <button id="sujet" class="contact-tab" onclick="switchTab('sujet', this)">Proposer un sujet</button>
   </div>
 
   <!-- Onglet 1 : Message général -->
@@ -157,7 +160,7 @@ document.addEventListener('DOMContentLoaded',function(){var btn=document.getElem
   </div>
 
   <!-- Onglet 2 : Signaler une erreur -->
-  <div id="panel-erreur" class="contact-panel">
+  <div id="panel-erreur" class="contact-panel" hidden>
     <p style="color:var(--muted);font-size:.9rem;line-height:1.7;margin-bottom:28px">
       Vous avez repéré une erreur factuelle ? Précisez l'article, le passage concerné et la source que vous proposez. Nous répondons sous 48h.
     </p>
@@ -192,7 +195,7 @@ document.addEventListener('DOMContentLoaded',function(){var btn=document.getElem
   </div>
 
   <!-- Onglet 3 : Proposer un sujet -->
-  <div id="panel-sujet" class="contact-panel">
+  <div id="panel-sujet" class="contact-panel" hidden>
     <p style="color:var(--muted);font-size:.9rem;line-height:1.7;margin-bottom:28px">
       Un sujet vous semble important et peu couvert ? Partagez-le avec nous. Nous ne pouvons pas garantir de publication, mais nous lisons toutes les suggestions.
     </p>
@@ -682,17 +685,47 @@ document.addEventListener('DOMContentLoaded',function(){var btn=document.getElem
 const ACCESS_KEY = 'd6261129-264c-4d22-a287-b0117a195d22';
 
 function switchTab(id, btn) {
-  document.querySelectorAll('.contact-panel').forEach(p => p.classList.remove('active'));
-  document.querySelectorAll('.contact-tab').forEach(b => b.classList.remove('active'));
-  document.getElementById('panel-' + id).classList.add('active');
+  // L'attribut `hidden` est la source de vérité, pas la classe CSS.
+  // Constat 02/08 : la page s'affichait avec les TROIS formulaires empilés en
+  // vrac — le masquage reposait uniquement sur `.contact-panel{display:none}`
+  // défini dans un <style> inline, donc dès que la feuille de style ne
+  // s'appliquait pas, tout le contenu masqué apparaissait d'un coup.
+  // `hidden` est un attribut HTML : il masque même sans aucune CSS.
+  document.querySelectorAll('.contact-panel').forEach(p => {
+    p.classList.remove('active');
+    p.hidden = true;
+  });
+  document.querySelectorAll('.contact-tab').forEach(b => {
+    b.classList.remove('active');
+    b.setAttribute('aria-selected', 'false');
+  });
+  const panneau = document.getElementById('panel-' + id);
+  panneau.classList.add('active');
+  panneau.hidden = false;
   btn.classList.add('active');
+  btn.setAttribute('aria-selected', 'true');
 }
 
-if (window.location.hash === '#erreur') {
-  document.querySelectorAll('.contact-tab')[1].click();
-} else if (window.location.hash === '#sujet') {
-  document.querySelectorAll('.contact-tab')[2].click();
+// Ouverture de l'onglet demandé par l'ancre (#erreur, #sujet).
+// BUG CORRIGÉ (02/08) : ce code ne tournait qu'au CHARGEMENT. Depuis la page
+// contact elle-même, cliquer sur « Signaler une erreur » (href
+// contact.html#erreur) ne recharge pas la page — le navigateur se contente de
+// changer le hash. Le JS ne se rejouait donc jamais et l'utilisateur restait
+// sur l'onglet courant, avec l'impression que le lien ne faisait rien.
+// On écoute désormais aussi `hashchange`.
+function ouvrirOngletDepuisHash() {
+  const onglets = document.querySelectorAll('.contact-tab');
+  const cible = {'#erreur': 1, '#sujet': 2, '#general': 0}[window.location.hash];
+  if (cible === undefined || !onglets[cible]) return;
+  onglets[cible].click();
+  // La page ne défile pas d'elle-même vers une ancre qui n'existe pas comme
+  // id : on ramène l'utilisateur sur les onglets pour qu'il voie le changement.
+  const tabs = document.querySelector('.contact-tabs');
+  if (tabs) tabs.scrollIntoView({behavior: 'smooth', block: 'start'});
 }
+
+ouvrirOngletDepuisHash();
+window.addEventListener('hashchange', ouvrirOngletDepuisHash);
 
 function showAlert(id, type, msg) {
   const el = document.getElementById('alert-' + id);
