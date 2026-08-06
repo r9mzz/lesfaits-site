@@ -19,6 +19,15 @@
     <p>Deux publications couvraient le même événement. Pour éviter les doublons, cette page renvoie désormais vers la version retenue :</p>
     <p><a href="/articles/fusee-spacex-ecrase-lune.html" style="font-weight:700;color:var(--blue)">Fusée SpaceX s’écrase sur la Lune →</a></p>
     <p style="color:var(--muted);font-size:.9rem"><strong>Motif :</strong> Doublon du même événement publié deux minutes avant une version plus complète et plus récente.<br/><strong>Date :</strong> 2026-08-06</p>
-  </main>
+  <div class="newsletter-block"><div><div class="newsletter-block__label">NEWSLETTER</div><div class="newsletter-block__text"><strong>Le résumé du jour dans votre boîte mail</strong><span>Chaque soir, les articles du jour en un email. Gratuit. Sans pub.</span></div></div><a class="newsletter-block__btn" href="/#newsletter">S'abonner →</a></div>
+</main>
+<button class="back-to-top" id="btt" aria-label="Retour en haut" title="Retour en haut">↑</button>
+<script>
+(function(){
+  var btn=document.getElementById("btt");
+  window.addEventListener("scroll",function(){btn.classList.toggle("visible",window.scrollY>300);},{passive:true});
+  btn.addEventListener("click",function(){window.scrollTo({top:0,behavior:"smooth"});});
+})();
+</script>
 </body>
 </html>
