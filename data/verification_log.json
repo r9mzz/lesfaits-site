@@ -12493,5 +12493,2155 @@
     "veille_passages": 19,
     "veille_age_h": 20.0,
     "veille_n_flux_grappe": 3
+  },
+  {
+    "slug": "cyberattaque-sfr-donnees-2-millions-abonnes-fibre-exposees",
+    "statut": "rejete_qualite",
+    "date": "2026-08-20T20:43:28",
+    "problemes_initiaux": 14,
+    "tentatives": 3,
+    "problemes_restants": 12,
+    "bloquants_restants": 3,
+    "bloquants_types": [
+      "annonce_perimee",
+      "accusation_presentee_comme_fait",
+      "accusation_presentee_comme_fait"
+    ],
+    "bloquants_detail": [
+      {
+        "bloc": 1,
+        "type": "annonce_perimee",
+        "description": "Le résumé présente la cyberattaque comme un événement déjà confirmé avec une exfiltration potentielle, alors que les faits précisent que la revendication n'est pas confirmée par SFR ou les autorités.",
+        "phrase": "Le 20 août 2026, SFR a confirmé avoir subi une cyberattaque ayant conduit à l'exfiltration potentielle de données personnelles concernant ses abonnés à la fibre optique, selon une revendication non confirmée par l'opérat"
+      },
+      {
+        "bloc": 1,
+        "type": "accusation_presentee_comme_fait",
+        "description": "La revendication du groupe ZeroBytes est présentée comme un fait, alors qu'elle n'est pas confirmée par SFR ou les autorités. Elle devrait être attribuée explicitement au groupe ZeroBytes.",
+        "phrase": "Un groupe se faisant appeler ZeroBytes a revendiqué cette attaque et affirmé avoir exfiltré des données personnelles concernant 2,1 millions d'abonnés à la fibre optique."
+      },
+      {
+        "bloc": 1,
+        "type": "accusation_presentee_comme_fait",
+        "description": "Le résumé reprend l'hypothèse de Libération sans préciser que ces informations ne sont pas confirmées par SFR ou les autorités, ce qui en fait une accusation présentée comme un fait.",
+        "phrase": "D'après Libération, les données concernées pourraient inclure des informations permettant d'identifier les clients, mais SFR n'a pas précisé leur nature exacte ni la période d'extraction."
+      }
+    ],
+    "types_restants": [
+      "annonce_perimee",
+      "accusation_presentee_comme_fait",
+      "accusation_presentee_comme_fait",
+      "fait_tranche_arbitrairement",
+      "compteur_incoherent",
+      "source_derivee_comptee_comme_primaire",
+      "contexte_hors_sujet",
+      "formule_vague",
+      "section_gonflee",
+      "redondance",
+      "jugement_de_valeur",
+      "jugement_de_valeur"
+    ],
+    "article_type": "actu",
+    "titre": "Cyberattaque chez SFR : 2,1 millions d'abonnés à la fibre exposés",
+    "n_sources": 4,
+    "n_mots": 405,
+    "titre_rss": "L’opérateur SFR victime d’une cyberattaque, des données personnelles de 2,1 millions d’abonnés à la fibre dans la nature",
+    "matiere_faits_distincts": 983,
+    "matiere_redondance": 0.0,
+    "matiere_donnees_chiffrees": 0,
+    "n_sources_injectees": 10,
+    "n_sources_trouvees": 10,
+    "n_sources_pertinentes": 2,
+    "veille_heures_visible": 6.0,
+    "veille_passages": 6,
+    "veille_age_h": 7.1,
+    "veille_n_flux_grappe": 5
+  },
+  {
+    "slug": "fuite-donnees-red-by-sfr-informations-exposees",
+    "statut": "rejete_sensible",
+    "date": "2026-08-20T20:48:40",
+    "problemes_initiaux": 10,
+    "tentative": 3,
+    "bloc5": true,
+    "article_type": "actu",
+    "titre": "Fuite de données chez Red by SFR : nature des informations exposées",
+    "n_sources": 5,
+    "n_mots": 481,
+    "titre_rss": "Nouvelle fuite de données en France : Red by SFR alerte ses clients",
+    "matiere_faits_distincts": 961,
+    "matiere_redondance": 0.04,
+    "matiere_donnees_chiffrees": 1,
+    "n_sources_injectees": 10,
+    "n_sources_trouvees": 10,
+    "n_sources_pertinentes": 2,
+    "veille_heures_visible": 4.6,
+    "veille_passages": 5,
+    "veille_age_h": 5.6,
+    "veille_n_flux_grappe": 13
+  },
+  {
+    "slug": "canicule-2026-france-7300-morts-exces-bilan-provisoire",
+    "statut": "rejete_qualite",
+    "date": "2026-08-20T20:56:16",
+    "problemes_initiaux": 14,
+    "tentatives": 3,
+    "problemes_restants": 15,
+    "bloquants_restants": 6,
+    "bloquants_types": [
+      "chiffre_errone",
+      "incoherence_inter_sections",
+      "annonce_perimee",
+      "chiffre_errone",
+      "incoherence_inter_sections",
+      "source_inventee"
+    ],
+    "bloquants_detail": [
+      {
+        "bloc": 1,
+        "type": "chiffre_errone",
+        "description": "Le résumé attribue le chiffre de 7 300 décès en excès à Santé publique France via Sciences et Avenir, mais la source [1] (Sciences et Avenir) indique que ce chiffre est un bilan provisoire *attribué à* Santé publique Fra",
+        "phrase": "Un bilan provisoire publié le 13 août 2026 par Sciences et Avenir, citant Santé publique France, fait état de 7 300 décès en excès en France depuis mai 2026, liés aux vagues de chaleur."
+      },
+      {
+        "bloc": 1,
+        "type": "incoherence_inter_sections",
+        "description": "Le résumé mentionne un excès de mortalité *significatif* pour le deuxième épisode caniculaire (17 juin au 2 juillet), mais la source [2] (Vie Publique) indique un chiffre précis de 5 764 décès en excès pour cet épisode. ",
+        "phrase": "Le deuxième épisode caniculaire, survenu du 17 juin au 2 juillet, a contribué à ce bilan avec un excès de mortalité significatif, selon Vie Publique."
+      },
+      {
+        "bloc": 1,
+        "type": "annonce_perimee",
+        "description": "Le résumé présente le chiffre de 7 300 décès comme un bilan *provisoire* susceptible d'être révisé à la hausse, mais la source [1] (Sciences et Avenir) ne précise pas explicitement que ce chiffre est susceptible d'augmen",
+        "phrase": "Ce chiffre, qui pourrait être révisé à la hausse, reflète une surmortalité statistique sans attribution directe de chaque décès à la canicule."
+      },
+      {
+        "bloc": 1,
+        "type": "chiffre_errone",
+        "description": "La source [1] (Sciences et Avenir) attribue le chiffre de 7 300 décès en excès à Santé publique France, mais ne confirme pas que ce chiffre couvre *depuis mai 2026*. La source [2] (Vie Publique) mentionne 5 764 décès en ",
+        "phrase": "Un bilan provisoire publié par Sciences et Avenir le 13 août 2026, attribuant ses données à Santé publique France, recense 7 300 décès en excès en France depuis mai 2026."
+      },
+      {
+        "bloc": 1,
+        "type": "incoherence_inter_sections",
+        "description": "Le corps de l'article mentionne que le deuxième épisode caniculaire s'est déroulé *du 17 juin au 2 juillet*, mais la source [2] (Vie Publique) indique que cet épisode s'est déroulé *du 17 juin au 2 juillet*, tandis que l",
+        "phrase": "Le deuxième épisode caniculaire, du 17 juin au 2 juillet, a été particulièrement intense. Météo-France a placé 68 départements en vigilance rouge canicule le 25 juin, un niveau record depuis la création du dispositif en "
+      },
+      {
+        "bloc": 2,
+        "type": "source_inventee",
+        "description": "La méthodologie statistique attribuée à Santé publique France n'est pas explicitement décrite dans les sources fournies. Aucune des sources ne détaille cette méthodologie, ce qui en fait une affirmation non sourcée.",
+        "phrase": "Le calcul des décès en excès repose sur une méthodologie statistique comparant la mortalité observée à une mortalité attendue, basée sur les moyennes des années précédentes. Cette approche, utilisée par Santé publique Fr"
+      }
+    ],
+    "types_restants": [
+      "chiffre_errone",
+      "incoherence_inter_sections",
+      "annonce_perimee",
+      "chiffre_errone",
+      "incoherence_inter_sections",
+      "source_inventee",
+      "contexte_hors_sujet",
+      "source_derivee_comptee_comme_primaire",
+      "source_derivee_comptee_comme_primaire",
+      "source_inventee",
+      "source_non_editoriale",
+      "compteur_incoherent",
+      "extrapolation",
+      "extrapolation",
+      "section_gonflee"
+    ],
+    "article_type": "actu",
+    "titre": "7 300 morts en excès liés aux canicules en France depuis mai 2026",
+    "n_sources": 9,
+    "n_mots": 665,
+    "titre_rss": "Canicules : déjà 7.300 morts en excès en France en 2026",
+    "matiere_faits_distincts": 881,
+    "matiere_redondance": 0.04,
+    "matiere_donnees_chiffrees": 4,
+    "n_sources_injectees": 10,
+    "n_sources_trouvees": 10,
+    "n_sources_pertinentes": 3,
+    "veille_heures_visible": 24.9,
+    "veille_passages": 23,
+    "veille_age_h": 26.0,
+    "veille_n_flux_grappe": 5
+  },
+  {
+    "slug": "canicule-2026-18500-morts-allemagne-espagne",
+    "statut": "rejete_qualite",
+    "date": "2026-08-20T20:59:02",
+    "angle_insuffisant": true,
+    "raison": "L'article ne répond pas à la question posée dans 'angle_reponse' ('Combien de vies la canicule de cet été a-t-elle coûtées en Europe, et quelles mesures pourraient éviter ces décès ?'). Il fournit des chiffres pour l'Allemagne et l'Espagne, mais ne propose aucune mesure concrète sourcée pour réduire l'impact des canicules. De plus, le titre et le résumé mentionnent '18 500 morts en Allemagne et Espagne' sans préciser que ce chiffre est la somme de deux bilans nationaux distincts (14 000 + 4 500), ce qui pourrait induire en erreur. Enfin, aucune phrase dans 'faits' ne combine un événement précis daté (ex. publication d'un bilan) avec une donnée chiffrée propre à cet événement pour justifier une publication maintenant.",
+    "article_type": "actu",
+    "titre": "Canicule 2026 : 18 500 morts en Allemagne et Espagne",
+    "n_sources": 6,
+    "n_mots": 356,
+    "titre_rss": "Canicule : 14 000 morts liées à la chaleur recensées cet été en Allemagne, près de 4 500 en Espagne",
+    "matiere_faits_distincts": 1070,
+    "matiere_redondance": 0.04,
+    "matiere_donnees_chiffrees": 2,
+    "n_sources_injectees": 10,
+    "n_sources_trouvees": 10,
+    "n_sources_pertinentes": 2,
+    "veille_heures_visible": 7.9,
+    "veille_passages": 13,
+    "veille_age_h": 9.0,
+    "veille_n_flux_grappe": 11
+  },
+  {
+    "slug": "resiliencearc-plateforme-open-source-resilience-climatique-entreprises",
+    "statut": "rejete_qualite",
+    "date": "2026-08-20T21:05:09",
+    "problemes_initiaux": 12,
+    "tentatives": 3,
+    "problemes_restants": 11,
+    "bloquants_restants": 4,
+    "bloquants_types": [
+      "annonce_perimee",
+      "niveau_preuve_insuffisant",
+      "niveau_preuve_insuffisant",
+      "accusation_presentee_comme_fait"
+    ],
+    "bloquants_detail": [
+      {
+        "bloc": 1,
+        "type": "annonce_perimee",
+        "description": "Le résumé présente le lancement de ResilienceArc comme un événement à venir (« a lancé »), alors que les sources (notamment Novethic du 20 août 2026) décrivent l'événement comme déjà survenu. Le titre et le résumé doiven",
+        "phrase": "Le 20 août 2026, une coalition d'experts a lancé ResilienceArc, une plateforme gratuite et open source destinée à aider les entreprises à évaluer et renforcer leur résilience climatique."
+      },
+      {
+        "bloc": 1,
+        "type": "niveau_preuve_insuffisant",
+        "description": "La source [3] (Europa, 22 avril 2025) mentionne bien plus de 1 000 indicateurs, mais ne précise pas leur stade de développement, leur harmonisation ou leur applicabilité immédiate. L'article ne signale pas ces limites mé",
+        "phrase": "ResilienceArc s'appuie sur une base de données de plus de 1 000 indicateurs recensés en 2023 pour évaluer la résilience climatique, comme le détaille Europa."
+      },
+      {
+        "bloc": 1,
+        "type": "niveau_preuve_insuffisant",
+        "description": "La source [1] (Novethic) décrit des fonctionnalités, mais ne précise pas si les recommandations sont validées scientifiquement ou simplement suggérées par la plateforme. L'article ne mentionne pas cette absence de valida",
+        "phrase": "Parmi les fonctionnalités concrètes offertes par la plateforme, Novethic souligne la possibilité pour les entreprises de : [...] Accéder à des recommandations adaptées à leur profil de risque, basées sur les indicateurs "
+      },
+      {
+        "bloc": 1,
+        "type": "accusation_presentee_comme_fait",
+        "description": "La phrase présente comme un fait établi (« pourrait limiter la confiance ») une hypothèse non sourcée. La source [1] (Novethic) évoque des limites, mais ne confirme pas un impact sur la confiance des utilisateurs. Il s'a",
+        "phrase": "Cette absence de détails sur les processus de contrôle et d'actualisation des données pourrait limiter la confiance des utilisateurs dans la fiabilité de l'outil à long terme."
+      }
+    ],
+    "types_restants": [
+      "annonce_perimee",
+      "niveau_preuve_insuffisant",
+      "niveau_preuve_insuffisant",
+      "accusation_presentee_comme_fait",
+      "source_derivee_comptee_comme_primaire",
+      "compteur_incoherent",
+      "paraphrase_structurelle",
+      "cadrage_emprunte",
+      "redondance",
+      "extrapolation",
+      "section_gonflee"
+    ],
+    "article_type": "actu",
+    "avertissements_garde_fous": [
+      "attributions_trop_repetitives"
+    ],
+    "titre": "Lancement de ResilienceArc, une plateforme open source pour la résilience climatique",
+    "n_sources": 6,
+    "n_mots": 621,
+    "titre_rss": "ResilienceArc propose un outil pour accélérer la résilience climatique des entreprises",
+    "matiere_faits_distincts": 981,
+    "matiere_redondance": 0.0,
+    "matiere_donnees_chiffrees": 0,
+    "n_sources_injectees": 10,
+    "n_sources_trouvees": 10,
+    "n_sources_pertinentes": 2,
+    "veille_heures_visible": 7.0,
+    "veille_passages": 7,
+    "veille_age_h": 8.0,
+    "veille_n_flux_grappe": 2
+  },
+  {
+    "slug": "ete-2026-crises-climatiques-bilan-politique-ecologistes",
+    "statut": "rejete_sensible",
+    "date": "2026-08-20T21:08:34",
+    "problemes_initiaux": 13,
+    "bloc5": [
+      "acteur_mis_en_cause_sans_reponse"
+    ],
+    "article_type": "actu",
+    "titre": "Crises climatiques de l'été 2026 : un bilan politique mitigé pour les écologistes",
+    "n_sources": 6,
+    "n_mots": 637,
+    "titre_rss": "Malgré les incendies et les canicules, les Écologistes peinent à imposer leurs idées",
+    "matiere_faits_distincts": 1127,
+    "matiere_redondance": 0.04,
+    "matiere_donnees_chiffrees": 1,
+    "n_sources_injectees": 10,
+    "n_sources_trouvees": 10,
+    "n_sources_pertinentes": 1,
+    "veille_heures_visible": 12.9,
+    "veille_passages": 13,
+    "veille_age_h": 13.9,
+    "veille_n_flux_grappe": 2
+  },
+  {
+    "slug": "gel-pensions-retraites-aides-proposition-lescure",
+    "statut": "rejete_sensible",
+    "date": "2026-08-20T21:12:35",
+    "problemes_initiaux": 12,
+    "tentative": 1,
+    "bloc5": true,
+    "article_type": "actu",
+    "titre": "Retraites : Lescure évoque un gel ciblé des pensions pour réduire le déficit",
+    "n_sources": 8,
+    "n_mots": 521,
+    "titre_rss": "Retraites : le gel des pensions, le pari à haut risque de Roland Lescure",
+    "matiere_faits_distincts": 1252,
+    "matiere_redondance": 0.01,
+    "matiere_donnees_chiffrees": 4,
+    "n_sources_injectees": 10,
+    "n_sources_trouvees": 10,
+    "n_sources_pertinentes": 2,
+    "veille_heures_visible": 12.9,
+    "veille_passages": 13,
+    "veille_age_h": 13.9,
+    "veille_n_flux_grappe": 2
+  },
+  {
+    "slug": "rapport-igf-risques-loi-finances-speciale-2027",
+    "statut": "rejete_qualite",
+    "date": "2026-08-20T21:18:52",
+    "problemes_initiaux": 14,
+    "tentatives": 3,
+    "problemes_restants": 11,
+    "bloquants_restants": 3,
+    "bloquants_types": [
+      "chiffre_errone",
+      "incoherence_inter_sections",
+      "niveau_preuve_insuffisant"
+    ],
+    "bloquants_detail": [
+      {
+        "bloc": 1,
+        "type": "chiffre_errone",
+        "description": "Le résumé attribue au FMI une projection de déficit public à 5 % du PIB en 2026, mais le corps de l'article (faits) et la source [6] (Fiscal Monitor d'avril 2026) ne mentionnent que la dette publique à 100 % du PIB en 20",
+        "phrase": "Le FMI projette un déficit public à 5 % du PIB en 2026 et une dette publique atteignant 100 % du PIB d'ici 2029, selon son *Fiscal Monitor* d'avril 2026."
+      },
+      {
+        "bloc": 1,
+        "type": "incoherence_inter_sections",
+        "description": "Le résumé présente les risques liés à la prolongation en 2027 comme une conséquence de la procédure appliquée pour le budget 2026, alors que le corps de l'article (faits) précise que l'IGF évoque des risques pour une pro",
+        "phrase": "Selon le rapport IGF, cette procédure, appliquée pour le budget 2026 adopté le 20 février 2026, pourrait entraîner des tensions avec les collectivités locales et réduire la visibilité sur les dépenses prioritaires."
+      },
+      {
+        "bloc": 1,
+        "type": "niveau_preuve_insuffisant",
+        "description": "L'article présente les « risques majeurs » comme un constat établi par l'IGF, mais la source [1] (*Le Monde*) précise que ces alertes sont qualitatives et ne s'appuient sur aucune modélisation économique ou scénario pros",
+        "phrase": "Dans son rapport, l'IGF évoque des « risques majeurs » liés à un nouveau report en 2027, sans les quantifier ni les détailler."
+      }
+    ],
+    "types_restants": [
+      "chiffre_errone",
+      "incoherence_inter_sections",
+      "niveau_preuve_insuffisant",
+      "redondance",
+      "redondance",
+      "source_derivee_comptee_comme_primaire",
+      "source_derivee_comptee_comme_primaire",
+      "compteur_incoherent",
+      "contexte_hors_sujet",
+      "section_gonflee",
+      "faux_debat"
+    ],
+    "article_type": "actu",
+    "titre": "Rapport IGF 2026 : une loi de finances spéciale prolongée en 2027 ferait peser des risques budgétaires",
+    "n_sources": 7,
+    "n_mots": 485,
+    "titre_rss": "Absence de budget et loi spéciale prolongée : l’inspection générale des finances alerte sur des « risques majeurs »",
+    "matiere_faits_distincts": 911,
+    "matiere_redondance": 0.0,
+    "matiere_donnees_chiffrees": 1,
+    "n_sources_injectees": 10,
+    "n_sources_trouvees": 10,
+    "n_sources_pertinentes": 4,
+    "veille_heures_visible": 0.9,
+    "veille_passages": 2,
+    "veille_age_h": 2.0,
+    "veille_n_flux_grappe": 3
+  },
+  {
+    "slug": "logement-etudiant-prix-records-annonces-non-conformes-2026",
+    "statut": "rejete_qualite",
+    "date": "2026-08-20T21:24:41",
+    "problemes_initiaux": 13,
+    "tentatives": 3,
+    "problemes_restants": 11,
+    "bloquants_restants": 3,
+    "bloquants_types": [
+      "chiffre_errone",
+      "niveau_preuve_insuffisant",
+      "accusation_presentee_comme_fait"
+    ],
+    "bloquants_detail": [
+      {
+        "bloc": 1,
+        "type": "chiffre_errone",
+        "description": "Le résumé présente le chiffre de 60 % comme une estimation indicative, mais la source citée (Libération) précise que ce chiffre est une estimation sans méthodologie détaillée, ce qui n'est pas reflété avec la même pruden",
+        "phrase": "Une enquête publiée par Libération le 20 août 2026 indique que jusqu'à 60 % des annonces de logements étudiants pourraient ne pas respecter la réglementation, sans fournir de méthodologie détaillée ni de critères précis "
+      },
+      {
+        "bloc": 1,
+        "type": "niveau_preuve_insuffisant",
+        "description": "Le résumé ne précise pas que le chiffre de 60 % est une estimation indicative sans méthodologie détaillée, ce qui sous-estime le niveau d'incertitude par rapport à la source.",
+        "phrase": "Une enquête publiée par Libération le 20 août 2026 indique que jusqu'à 60 % des annonces de logements étudiants pourraient ne pas respecter la réglementation, sans fournir de méthodologie détaillée ni de critères précis "
+      },
+      {
+        "bloc": 1,
+        "type": "accusation_presentee_comme_fait",
+        "description": "L'article présente ce chiffre comme un constat, alors que la source (Libération) le qualifie d'estimation indicative sans méthodologie détaillée, ce qui en fait une accusation ou une conclusion non étayée plutôt qu'un fa",
+        "phrase": "Selon cette enquête, jusqu'à 60 % des annonces de logements destinés aux étudiants pourraient ne pas respecter la réglementation."
+      }
+    ],
+    "types_restants": [
+      "chiffre_errone",
+      "niveau_preuve_insuffisant",
+      "accusation_presentee_comme_fait",
+      "acteur_mis_en_cause_sans_reponse",
+      "source_derivee_comptee_comme_primaire",
+      "redondance",
+      "contexte_hors_sujet",
+      "cadrage_emprunte",
+      "redondance",
+      "extrapolation",
+      "faux_debat"
+    ],
+    "article_type": "actu",
+    "titre": "Logement étudiant : des prix records et 60 % d'annonces non conformes",
+    "n_sources": 4,
+    "n_mots": 793,
+    "titre_rss": "Logements : pour les étudiants, un monde sans toit ni loi",
+    "matiere_faits_distincts": 870,
+    "matiere_redondance": 0.05,
+    "matiere_donnees_chiffrees": 0,
+    "n_sources_injectees": 10,
+    "n_sources_trouvees": 10,
+    "n_sources_pertinentes": 2,
+    "veille_heures_visible": 0.0,
+    "veille_passages": 1,
+    "veille_age_h": 1.0,
+    "veille_n_flux_grappe": 1
+  },
+  {
+    "slug": "europe-chips-act-objectifs-production-semi-conducteurs",
+    "statut": "rejete_sensible",
+    "date": "2026-08-20T21:32:46",
+    "problemes_initiaux": 10,
+    "tentative": 1,
+    "bloc5": true,
+    "article_type": "actu",
+    "avertissements_garde_fous": [
+      "titre_de_mauvaise_qualite"
+    ],
+    "titre": "L'Europe lance son plan pour réduire sa dépendance aux puces étrangères",
+    "n_sources": 6,
+    "n_mots": 520,
+    "titre_rss": "Une brève histoire des puces",
+    "matiere_faits_distincts": 757,
+    "matiere_redondance": 0.01,
+    "matiere_donnees_chiffrees": 0,
+    "n_sources_injectees": 10,
+    "n_sources_trouvees": 10,
+    "n_sources_pertinentes": 2,
+    "veille_heures_visible": 8.8,
+    "veille_passages": 9,
+    "veille_age_h": 9.9,
+    "veille_n_flux_grappe": 1
+  },
+  {
+    "slug": "chine-premier-atterrissage-fusee-reutilisable-landspace",
+    "statut": "rejete_qualite",
+    "date": "2026-08-20T21:38:57",
+    "problemes_initiaux": 16,
+    "tentatives": 3,
+    "problemes_restants": 12,
+    "bloquants_restants": 3,
+    "bloquants_types": [
+      "annonce_perimee",
+      "annonce_perimee",
+      "accusation_presentee_comme_fait"
+    ],
+    "bloquants_detail": [
+      {
+        "bloc": 1,
+        "type": "annonce_perimee",
+        "description": "Le résumé présente l'annonce comme un événement à venir (« a annoncé le 19 janvier avoir réussi »), alors que les sources (SpaceNews et Xinhua) soulignent que cette annonce n'est pas validée par des données indépendantes",
+        "phrase": "La start-up chinoise LandSpace a annoncé le 19 janvier avoir réussi l'atterrissage du premier étage de sa fusée Zhuque-3 lors d'un test suborbital, une première pour une entreprise privée du pays selon ses déclarations, "
+      },
+      {
+        "bloc": 1,
+        "type": "annonce_perimee",
+        "description": "Le titre présente l'atterrissage comme un fait accompli (« avoir réussi »), alors que les sources indiquent qu'aucune confirmation indépendante n'a été publiée et que l'annonce reste à valider. Cela constitue une présent",
+        "phrase": "LandSpace annonce avoir réussi l'atterrissage d'un étage de fusée réutilisable en Chine"
+      },
+      {
+        "bloc": 1,
+        "type": "accusation_presentee_comme_fait",
+        "description": "L'article présente cette affirmation comme un fait, alors qu'elle émane uniquement de LandSpace et n'est pas validée par des sources indépendantes. La source SpaceNews souligne d'ailleurs que cette affirmation reste à co",
+        "phrase": "LandSpace affirme que cette performance placerait l'entreprise parmi les rares acteurs capables de récupérer des étages de fusée."
+      }
+    ],
+    "types_restants": [
+      "annonce_perimee",
+      "annonce_perimee",
+      "accusation_presentee_comme_fait",
+      "acteur_mis_en_cause_sans_reponse",
+      "fait_tranche_arbitrairement",
+      "source_derivee_comptee_comme_primaire",
+      "formule_vague",
+      "source_derivee_comptee_comme_primaire",
+      "cadrage_emprunte",
+      "redondance",
+      "extrapolation",
+      "faux_debat"
+    ],
+    "article_type": "actu",
+    "titre": "La Chine réussit son premier atterrissage de fusée réutilisable",
+    "n_sources": 3,
+    "n_mots": 520,
+    "titre_rss": "Une start-up chinoise entre dans le club très fermé des entreprises privées capables de lancer des fusées réutilisables",
+    "matiere_faits_distincts": 724,
+    "matiere_redondance": 0.0,
+    "matiere_donnees_chiffrees": 0,
+    "n_sources_injectees": 10,
+    "n_sources_trouvees": 10,
+    "n_sources_pertinentes": 1,
+    "veille_heures_visible": 7.0,
+    "veille_passages": 9,
+    "veille_age_h": 8.0,
+    "veille_n_flux_grappe": 2
+  },
+  {
+    "slug": "s301-etoile-plus-rapide-voie-lactee-25000-km-seconde",
+    "statut": "rejete_qualite",
+    "date": "2026-08-20T21:47:51",
+    "problemes_initiaux": 10,
+    "tentatives": 3,
+    "problemes_restants": 9,
+    "bloquants_restants": 3,
+    "bloquants_types": [
+      "annonce_perimee",
+      "niveau_preuve_insuffisant",
+      "niveau_preuve_insuffisant"
+    ],
+    "bloquants_detail": [
+      {
+        "bloc": 1,
+        "type": "annonce_perimee",
+        "description": "Le résumé présente la détection comme une observation préliminaire (« ont permis de détecter »), mais les sources [2] et [4] (France 24 et Science) décrivent déjà cette observation comme un résultat établi, bien que néce",
+        "phrase": "Des observations préliminaires ont permis de détecter S301, une étoile dont la vitesse est estimée à 25 000 kilomètres par seconde lors de son passage au plus près de Sagittarius A*, le trou noir supermassif au centre de"
+      },
+      {
+        "bloc": 1,
+        "type": "niveau_preuve_insuffisant",
+        "description": "L'article ne précise pas que la vitesse de 25 000 km/s est une estimation préliminaire nécessitant des observations complémentaires pour être validée, sans mentionner les limites méthodologiques (ex : incertitudes de mes",
+        "phrase": "Cette vitesse, qui correspond à environ 8 % de la vitesse de la lumière, est présentée comme une détection inédite pour une étoile dans notre galaxie, mais elle doit encore être confirmée par des vérifications supplément"
+      },
+      {
+        "bloc": 1,
+        "type": "niveau_preuve_insuffisant",
+        "description": "L'article présente la méthode comme une possibilité théorique sans préciser que la source [2] souligne son caractère non validé et les défis techniques associés (ex : précision des instruments, modélisation des effets re",
+        "phrase": "La trajectoire de S301 pourrait, selon Science [2], permettre une mesure directe de la rotation de Sagittarius A*, un paramètre jusqu’ici difficile à observer. Cependant, cette méthode reste à valider, et les scientifiqu"
+      }
+    ],
+    "types_restants": [
+      "annonce_perimee",
+      "niveau_preuve_insuffisant",
+      "niveau_preuve_insuffisant",
+      "fait_tranche_arbitrairement",
+      "source_derivee_comptee_comme_primaire",
+      "compteur_incoherent",
+      "cadrage_emprunte",
+      "redondance",
+      "extrapolation"
+    ],
+    "article_type": "actu",
+    "avertissements_garde_fous": [
+      "resume_repete_corps"
+    ],
+    "titre": "S301, l'étoile la plus rapide de la Voie lactée détectée à 25 000 km/s",
+    "n_sources": 4,
+    "n_mots": 521,
+    "titre_rss": "L’étoile la plus rapide de la Voie lactée fonce à 25.000 km/s autour d’un trou noir",
+    "matiere_faits_distincts": 874,
+    "matiere_redondance": 0.01,
+    "matiere_donnees_chiffrees": 1,
+    "n_sources_injectees": 10,
+    "n_sources_trouvees": 10,
+    "n_sources_pertinentes": 2,
+    "veille_heures_visible": 1.9,
+    "veille_passages": 3,
+    "veille_age_h": 3.0,
+    "veille_n_flux_grappe": 1
+  },
+  {
+    "slug": "infarctus-avc-facteurs-risque-etude-cohorte-9-millions",
+    "statut": "rejete_qualite",
+    "date": "2026-08-20T21:55:17",
+    "tentative": 1,
+    "angle_insuffisant": true,
+    "raison": "L'article ne répond pas à la question posée dans 'angle_reponse' ('Quels sont les facteurs de risque identifiables avant un infarctus ou un AVC, et dans quelle mesure permettent-ils de prévenir ces accidents ?'). Il décrit des facteurs de risque généraux et des statistiques, mais n'explique pas comment ces facteurs permettent une prévention effective, ni ne cite de données précises sur leur impact préventif. De plus, aucune actualité datée récente (ex : publication d'une étude, annonce d'une mesure) ne justifie la publication maintenant : les sources et faits cités sont soit génériques (OMS), soit datés de 2020 ou projetés en 2026 (loi Neuder).",
+    "article_type": "actu",
+    "titre": "99 % des infarctus et AVC précédés d'au moins un facteur de risque",
+    "n_sources": 5,
+    "n_mots": 519,
+    "titre_rss": "Contrairement à ce qu'on pense, les infarctus surviendraient très rarement sans signal préalable",
+    "matiere_faits_distincts": 1385,
+    "matiere_redondance": 0.01,
+    "matiere_donnees_chiffrees": 5,
+    "n_sources_injectees": 10,
+    "n_sources_trouvees": 10,
+    "n_sources_pertinentes": 1,
+    "veille_heures_visible": 32.8,
+    "veille_passages": 31,
+    "veille_age_h": 33.9,
+    "veille_n_flux_grappe": 1
+  },
+  {
+    "slug": "igf-rapport-risques-loi-finances-speciale-2027",
+    "statut": "rejete_qualite",
+    "date": "2026-08-20T22:28:30",
+    "problemes_initiaux": 10,
+    "tentatives": 3,
+    "problemes_restants": 11,
+    "bloquants_restants": 3,
+    "bloquants_types": [
+      "annonce_perimee",
+      "niveau_preuve_insuffisant",
+      "accusation_presentee_comme_fait"
+    ],
+    "bloquants_detail": [
+      {
+        "bloc": 1,
+        "type": "annonce_perimee",
+        "description": "Le résumé présente la prolongation comme une hypothèse future (« priverait »), alors que le corps de l'article (section « faits ») décrit le rapport de l'IGF comme déjà publié et confirmant ces risques (état actuel, non ",
+        "phrase": "Un rapport de l'Inspection générale des finances (IGF), publié le 20 août 2026, confirme que la prolongation en 2027 de la loi de finances spéciale adoptée le 26 décembre 2025 priverait l'État et les collectivités territ"
+      },
+      {
+        "bloc": 1,
+        "type": "niveau_preuve_insuffisant",
+        "description": "L'article présente ces risques comme des conclusions établies du rapport de l'IGF, sans préciser si ces éléments sont des hypothèses, des scénarios modélisés, ou des constats étayés par des données. La source [1] (Le Mon",
+        "phrase": "Le rapport de l'IGF met en avant plusieurs risques concrets : l'impossibilité de moduler les impôts ou de mettre en place des mesures sociales ciblées, des outils nécessaires pour ajuster la politique économique."
+      },
+      {
+        "bloc": 1,
+        "type": "accusation_presentee_comme_fait",
+        "description": "L'article présente comme un fait établi (« ne confirme pas explicitement ») une interprétation de l'avis du Conseil d'État, sans citer la source [4] pour étayer cette affirmation. Cela relève d'une conclusion de la rédac",
+        "phrase": "Le Conseil d'État a rendu un avis en août 2026 sur les modalités d'application d'une loi spéciale, mais son contenu exact ne confirme pas explicitement l'absence de consultation du Haut Conseil des finances publiques."
+      }
+    ],
+    "types_restants": [
+      "annonce_perimee",
+      "source_inventee",
+      "niveau_preuve_insuffisant",
+      "accusation_presentee_comme_fait",
+      "source_derivee_comptee_comme_primaire",
+      "compteur_incoherent",
+      "cadrage_emprunte",
+      "redondance",
+      "contexte_hors_sujet",
+      "faux_debat",
+      "extrapolation"
+    ],
+    "article_type": "actu",
+    "avertissements_garde_fous": [
+      "faits_repetitifs"
+    ],
+    "titre": "Budget 2027 : l'IGF alerte sur des risques majeurs en cas de loi spéciale prolongée",
+    "n_sources": 4,
+    "n_mots": 631,
+    "titre_rss": "Absence de budget et loi spéciale prolongée : l’inspection générale des finances alerte sur des « risques majeurs »",
+    "matiere_faits_distincts": 453,
+    "matiere_redondance": 0.0,
+    "matiere_donnees_chiffrees": 1,
+    "n_sources_injectees": 10,
+    "n_sources_trouvees": 10,
+    "n_sources_pertinentes": 3,
+    "veille_heures_visible": 2.9,
+    "veille_passages": 4,
+    "veille_age_h": 3.6,
+    "veille_n_flux_grappe": 4
+  },
+  {
+    "slug": "logement-etudiant-60-pourcent-annonces-non-conformes",
+    "statut": "rejete_sensible",
+    "date": "2026-08-20T22:35:27",
+    "problemes_initiaux": 15,
+    "tentative": 1,
+    "bloc5": true,
+    "article_type": "actu",
+    "titre": "Logement étudiant : 60 % des annonces non conformes à la loi",
+    "n_sources": 6,
+    "n_mots": 574,
+    "titre_rss": "Logements : pour les étudiants, un monde sans toit ni loi",
+    "matiere_faits_distincts": 757,
+    "matiere_redondance": 0.05,
+    "matiere_donnees_chiffrees": 0,
+    "n_sources_injectees": 10,
+    "n_sources_trouvees": 10,
+    "n_sources_pertinentes": 3,
+    "veille_heures_visible": 2.0,
+    "veille_passages": 3,
+    "veille_age_h": 2.7,
+    "veille_n_flux_grappe": 1
+  },
+  {
+    "slug": "groupe-cesi-impact-economique-1-milliard-euros-emplois",
+    "statut": "erreur_verification",
+    "date": "2026-08-20T22:44:18",
+    "etape": "detection",
+    "erreur": "JSON tronqué ou incomplet dans la réponse (max_tokens atteint ?)",
+    "article_type": "actu",
+    "avertissements_garde_fous": [
+      "resume_repete_corps"
+    ],
+    "titre": "Le groupe Cesi génère 1 milliard d'euros de PIB annuel et 36 000 emplois",
+    "n_sources": 6,
+    "n_mots": 502,
+    "titre_rss": "Un campus, combien ça rapporte ? Le poids économique insoupçonné des universités pour les territoires",
+    "matiere_faits_distincts": 882,
+    "matiere_redondance": 0.0,
+    "matiere_donnees_chiffrees": 3,
+    "n_sources_injectees": 10,
+    "n_sources_trouvees": 10,
+    "n_sources_pertinentes": 3,
+    "veille_heures_visible": 60.7,
+    "veille_passages": 57,
+    "veille_age_h": 61.4,
+    "veille_n_flux_grappe": 1
+  },
+  {
+    "slug": "groupe-cesi-impact-economique-1-milliard-euros-emplois",
+    "statut": "rejete_qualite",
+    "date": "2026-08-20T22:44:18",
+    "raison": "verification_indisponible",
+    "statut_verification_initial": "erreur_verification"
+  },
+  {
+    "slug": "rdc-70000-doses-vaccin-ervebo-souche-bundibugyo-ebola",
+    "statut": "rejete_qualite",
+    "date": "2026-08-20T22:50:28",
+    "problemes_initiaux": 13,
+    "tentatives": 3,
+    "problemes_restants": 11,
+    "bloquants_restants": 2,
+    "bloquants_types": [
+      "niveau_preuve_insuffisant",
+      "niveau_preuve_insuffisant"
+    ],
+    "bloquants_detail": [
+      {
+        "bloc": 1,
+        "type": "niveau_preuve_insuffisant",
+        "description": "La phrase ne précise pas le stade des études précliniques (in vitro, modèle animal) ni leurs limites méthodologiques, alors que la source [2] (WHO Ebola outbreak - DRC 2026) détaille probablement ces éléments. Le niveau ",
+        "phrase": "Selon l'OMS, des études précliniques en laboratoire ont suggéré une possible réactivité croisée d'Ervebo, mais ces résultats n'ont pas été confirmés par des essais cliniques chez l'humain [1][2]."
+      },
+      {
+        "bloc": 1,
+        "type": "niveau_preuve_insuffisant",
+        "description": "Même problème que ci-dessus : absence de détails sur le stade des études précliniques (ex. : modèle animal spécifique) ou leurs limites, alors que la source [2] les précise probablement.",
+        "phrase": "Selon l'OMS, des études précliniques en laboratoire ont montré une possible réactivité croisée, mais ces résultats n'ont pas encore été validés par des essais cliniques chez l'humain, lesquels sont actuellement en cours "
+      }
+    ],
+    "types_restants": [
+      "niveau_preuve_insuffisant",
+      "niveau_preuve_insuffisant",
+      "chronologie_confuse",
+      "contexte_hors_sujet",
+      "extrapolation",
+      "source_derivee_comptee_comme_primaire",
+      "compteur_incoherent",
+      "cadrage_emprunte",
+      "redondance",
+      "section_gonflee",
+      "section_gonflee"
+    ],
+    "article_type": "actu",
+    "titre": "RDC : 70 000 doses de vaccin Ervebo contre une souche non ciblée",
+    "n_sources": 5,
+    "n_mots": 454,
+    "titre_rss": "Ebola en RDC : l’OMS déploie 70 000 doses du vaccin Ervebo",
+    "matiere_faits_distincts": 885,
+    "matiere_redondance": 0.02,
+    "matiere_donnees_chiffrees": 0,
+    "n_sources_injectees": 10,
+    "n_sources_trouvees": 10,
+    "n_sources_pertinentes": 4,
+    "veille_heures_visible": 6.6,
+    "veille_passages": 21,
+    "veille_age_h": 7.3,
+    "veille_n_flux_grappe": 3
+  },
+  {
+    "slug": "piratage-site-impots-donnees-sensibles-failles-etat",
+    "statut": "rejete_qualite",
+    "date": "2026-08-20T22:55:51",
+    "tentative": 2,
+    "angle_insuffisant": true,
+    "raison": "Aucune phrase dans la section \"faits\" ne combine un événement précis daté ou datable avec une donnée chiffrée ou nommée qui lui est propre. L'article décrit des signalements parlementaires et des alertes génériques sans fournir de détails concrets sur un piratage avéré, des données exposées ou des mesures spécifiques annoncées. Il répond à \"qu'est-ce que ces signalements révèlent ?\" plutôt qu'à \"pourquoi en parle-t-on maintenant ?\" ou \"quelles failles ont été confirmées ?\".",
+    "article_type": "actu",
+    "avertissements_garde_fous": [
+      "titre_de_mauvaise_qualite"
+    ],
+    "titre": "Piratage des impôts : des données sensibles exposées et des questions sur la protection de l'État",
+    "n_sources": 8,
+    "n_mots": 543,
+    "titre_rss": "Piratage du site des impôts : la cybersécurité de l’Etat est une affaire de volonté politique",
+    "matiere_faits_distincts": 1152,
+    "matiere_redondance": 0.02,
+    "matiere_donnees_chiffrees": 2,
+    "n_sources_injectees": 10,
+    "n_sources_trouvees": 10,
+    "n_sources_pertinentes": 3,
+    "veille_heures_visible": 6.6,
+    "veille_passages": 7,
+    "veille_age_h": 7.3,
+    "veille_n_flux_grappe": 8
+  },
+  {
+    "slug": "loi-finances-speciale-2027-risques-igf",
+    "statut": "rejete_qualite",
+    "date": "2026-08-21T00:31:59",
+    "problemes_initiaux": 11,
+    "tentatives": 3,
+    "problemes_restants": 7,
+    "bloquants_restants": 2,
+    "bloquants_types": [
+      "annonce_perimee",
+      "niveau_preuve_insuffisant"
+    ],
+    "bloquants_detail": [
+      {
+        "bloc": 1,
+        "type": "annonce_perimee",
+        "description": "Le résumé présente l'adoption du budget 2026 comme un événement à venir (« toujours en discussion »), alors que les faits précisent que le gouvernement utilise le rapport pour justifier une adoption rapide, sans indiquer",
+        "phrase": "Un rapport de l'Inspection générale des finances (IGF), publié le 20 août 2026, a été utilisé par le gouvernement pour justifier l'adoption rapide du budget 2026, toujours en discussion au Parlement à cette date."
+      },
+      {
+        "bloc": 1,
+        "type": "niveau_preuve_insuffisant",
+        "description": "L'article présente les « risques majeurs » comme des constats établis, alors que la source [1] (Le Monde) indique que le rapport ne fournit ni données quantitatives ni modélisations spécifiques pour étayer ces risques. L",
+        "phrase": "Le rapport de l'IGF souligne que cette loi, bien que nécessaire en 2025, comporte des « risques majeurs » en cas de reconduction au-delà de son cadre temporaire [1]. Selon le rapport, ces risques incluent une perte de vi"
+      }
+    ],
+    "types_restants": [
+      "annonce_perimee",
+      "niveau_preuve_insuffisant",
+      "redondance",
+      "contexte_hors_sujet",
+      "compteur_incoherent",
+      "section_gonflee",
+      "faux_debat"
+    ],
+    "article_type": "actu",
+    "avertissements_garde_fous": [
+      "faits_repetitifs",
+      "titre_de_mauvaise_qualite"
+    ],
+    "titre": "Loi de finances spéciale prolongée : l'IGF alerte sur des risques financiers",
+    "n_sources": 9,
+    "n_mots": 638,
+    "titre_rss": "Absence de budget et loi spéciale prolongée : l’inspection générale des finances alerte sur des « risques majeurs »",
+    "matiere_faits_distincts": 835,
+    "matiere_redondance": 0.0,
+    "matiere_donnees_chiffrees": 1,
+    "n_sources_injectees": 10,
+    "n_sources_trouvees": 10,
+    "n_sources_pertinentes": 4,
+    "veille_heures_visible": 4.9,
+    "veille_passages": 6,
+    "veille_age_h": 5.7,
+    "veille_n_flux_grappe": 3
+  },
+  {
+    "slug": "bilan-provisoire-morts-exces-canicule-france-2026",
+    "statut": "rejete_qualite",
+    "date": "2026-08-21T00:39:01",
+    "problemes_initiaux": 12,
+    "tentatives": 3,
+    "problemes_restants": 11,
+    "bloquants_restants": 4,
+    "bloquants_types": [
+      "chiffre_errone",
+      "incoherence_inter_sections",
+      "niveau_preuve_insuffisant",
+      "chiffre_errone"
+    ],
+    "bloquants_detail": [
+      {
+        "bloc": 1,
+        "type": "chiffre_errone",
+        "description": "La source [1] (Sciences et Avenir) ne précise pas explicitement que le chiffre de 7 300 morts en excès concerne l'année 2026 dans son intégralité ou plusieurs épisodes. L'article ajoute une interprétation non confirmée p",
+        "phrase": "Sciences et Avenir mentionne par ailleurs un bilan provisoire de 7 300 morts en excès pour l'année 2026, sans préciser si ce total inclut uniquement cet épisode ou plusieurs vagues de chaleur [1]."
+      },
+      {
+        "bloc": 1,
+        "type": "incoherence_inter_sections",
+        "description": "Le résumé ne précise pas que le chiffre de 36,2 % concerne spécifiquement la période du 17 juin au 2 juillet, contrairement à la section « faits » qui le mentionne explicitement. Cela crée une incohérence sur le périmètr",
+        "phrase": "Ce chiffre, qui représente une surmortalité de 36,2 % par rapport aux variations saisonnières habituelles, a été calculé en comparant la mortalité observée à une mortalité attendue sur la base de modèles statistiques."
+      },
+      {
+        "bloc": 1,
+        "type": "niveau_preuve_insuffisant",
+        "description": "La source [6] (Vie Publique, chronologie des canicules) ne fournit pas de données spécifiques sur l'étendue géographique des vagues de chaleur de 2026. L'article généralise sans preuve sourcée.",
+        "phrase": "Les données de Santé publique France montrent que les vagues de chaleur de 2026 ont affecté la quasi-totalité du territoire hexagonal, illustrant l'évolution des risques climatiques en France."
+      },
+      {
+        "bloc": 1,
+        "type": "chiffre_errone",
+        "description": "La source [6] (Vie Publique, chronologie des canicules) ne mentionne pas explicitement le chiffre de 2 816 décès en excès pour la canicule de juin 2022. Ce chiffre n'est pas confirmé par les extraits fournis.",
+        "phrase": "En 2022, une canicule survenue en juin avait déjà causé 2 816 décès en excès, selon les estimations de Santé publique France, un précédent qui souligne l'aggravation des épisodes estivaux [6]."
+      }
+    ],
+    "types_restants": [
+      "chiffre_errone",
+      "incoherence_inter_sections",
+      "source_inventee",
+      "niveau_preuve_insuffisant",
+      "chiffre_errone",
+      "compteur_incoherent",
+      "source_derivee_comptee_comme_primaire",
+      "cadrage_emprunte",
+      "redondance",
+      "contexte_hors_sujet",
+      "extrapolation"
+    ],
+    "article_type": "actu",
+    "avertissements_garde_fous": [
+      "resume_repete_corps"
+    ],
+    "titre": "7 300 morts en excès liés aux canicules en France depuis mai 2026",
+    "n_sources": 6,
+    "n_mots": 498,
+    "titre_rss": "Canicules : déjà 7.300 morts en excès en France en 2026",
+    "matiere_faits_distincts": 996,
+    "matiere_redondance": 0.05,
+    "matiere_donnees_chiffrees": 0,
+    "n_sources_injectees": 10,
+    "n_sources_trouvees": 10,
+    "n_sources_pertinentes": 4,
+    "veille_heures_visible": 28.9,
+    "veille_passages": 27,
+    "veille_age_h": 29.7,
+    "veille_n_flux_grappe": 5
+  },
+  {
+    "slug": "logement-etudiant-penurie-rentree-2026",
+    "statut": "rejete_qualite",
+    "date": "2026-08-21T00:46:03",
+    "problemes_initiaux": 12,
+    "tentatives": 3,
+    "problemes_restants": 10,
+    "bloquants_restants": 4,
+    "bloquants_types": [
+      "chiffre_errone",
+      "chiffre_errone",
+      "annonce_perimee",
+      "accusation_presentee_comme_fait"
+    ],
+    "bloquants_detail": [
+      {
+        "bloc": 1,
+        "type": "chiffre_errone",
+        "description": "Le rapport du Sénat de 2025 indique que le nombre d'étudiants en 2025 est de 2,9 millions, pas en 2026. L'article extrapole à 2026 sans source pour cette année précise.",
+        "phrase": "En 2026, 2,9 millions d'étudiants sont inscrits dans l'enseignement supérieur en France, selon le rapport d'information du Sénat publié en 2025, tandis que les résidences CROUS ne proposent que 380 000 places."
+      },
+      {
+        "bloc": 1,
+        "type": "chiffre_errone",
+        "description": "Le chiffre de 2,9 millions d'étudiants est attribué à 2025 dans la source, pas à 2026. L'article utilise ce chiffre pour 2026 sans justification.",
+        "phrase": "le nombre d'étudiants inscrits dans l'enseignement supérieur en France est passé de 2,5 millions en 2015 à 2,9 millions en 2025, tandis que les résidences gérées par les Centres régionaux des œuvres universitaires et sco"
+      },
+      {
+        "bloc": 1,
+        "type": "annonce_perimee",
+        "description": "Le résumé et le titre présentent la crise comme persistante en 2026, mais la hausse des loyers de 4,5 % en septembre 2024 est déjà survenue. L'article ne précise pas si cette hausse a eu un impact durable en 2026, ce qui",
+        "phrase": "Les loyers en résidence universitaire, gelés entre 2020 et 2024, ont connu une hausse de 4,5 % en septembre 2024, comme l'a confirmé une question écrite adressée au gouvernement en novembre 2024."
+      },
+      {
+        "bloc": 1,
+        "type": "accusation_presentee_comme_fait",
+        "description": "Les témoignages rapportés par Libération sont présentés comme des faits établis (« compétition intense », « loyers élevés », « clauses contractuelles jugées désavantageuses »), alors qu'ils ne sont pas quantifiés ni étay",
+        "phrase": "Libération, dans un article publié en août 2026, rapporte des témoignages d'étudiants décrivant une « compétition intense » pour accéder à un logement, nécessitant de multiplier les candidatures et les garanties. Le jour"
+      }
+    ],
+    "types_restants": [
+      "chiffre_errone",
+      "chiffre_errone",
+      "annonce_perimee",
+      "source_inventee",
+      "accusation_presentee_comme_fait",
+      "source_derivee_comptee_comme_primaire",
+      "compteur_incoherent",
+      "cadrage_emprunte",
+      "redondance",
+      "section_gonflee"
+    ],
+    "article_type": "actu",
+    "avertissements_garde_fous": [
+      "titre_de_mauvaise_qualite",
+      "cliches_ia"
+    ],
+    "titre": "Logement étudiant : une rentrée sous le signe de la pénurie",
+    "n_sources": 7,
+    "n_mots": 603,
+    "titre_rss": "Logements : pour les étudiants, un monde sans toit ni loi",
+    "matiere_faits_distincts": 1050,
+    "matiere_redondance": 0.01,
+    "matiere_donnees_chiffrees": 2,
+    "n_sources_injectees": 10,
+    "n_sources_trouvees": 10,
+    "n_sources_pertinentes": 3,
+    "veille_heures_visible": 4.0,
+    "veille_passages": 5,
+    "veille_age_h": 4.8,
+    "veille_n_flux_grappe": 1
+  },
+  {
+    "slug": "impact-economique-campus-cesi-pib-emplois",
+    "statut": "rejete_qualite",
+    "date": "2026-08-21T00:56:19",
+    "problemes_initiaux": 16,
+    "tentatives": 3,
+    "problemes_restants": 15,
+    "bloquants_restants": 6,
+    "bloquants_types": [
+      "chiffre_errone",
+      "niveau_preuve_insuffisant",
+      "chiffre_errone",
+      "chiffre_errone",
+      "chiffre_errone",
+      "accusation_presentee_comme_fait"
+    ],
+    "bloquants_detail": [
+      {
+        "bloc": 1,
+        "type": "chiffre_errone",
+        "description": "Le résumé présente cette estimation comme un fait établi (« évoquée par L'Express »), alors que la source [1] ne fournit aucune donnée précise ni méthodologie pour la confirmer, ce qui en fait une extrapolation non sourc",
+        "phrase": "En Normandie, le campus de Rouen a fait l'objet d'un investissement en 2020, avec une estimation de richesse générée évoquée par L'Express comme s'élevant à « plusieurs dizaines de millions d'euros » sur cinq ans, bien q"
+      },
+      {
+        "bloc": 1,
+        "type": "niveau_preuve_insuffisant",
+        "description": "Le résumé ne précise pas que l'étude du cabinet Utopies (source [1]) manque de transparence méthodologique, ce qui est pourtant souligné dans les nuances et les faits. L'absence de détails sur la méthodologie est un prob",
+        "phrase": "Selon L'Express, l'étude évoque des retombées économiques significatives, mais sans fournir de chiffres précis ni détailler sa méthodologie, ce qui limite l'évaluation de la robustesse des résultats."
+      },
+      {
+        "bloc": 1,
+        "type": "chiffre_errone",
+        "description": "La source [1] ne fournit aucun chiffre précis pour les salaires ou les dépenses étudiantes, contrairement à ce que suggère la formulation « estimés à plusieurs millions d'euros annuels ». Le fait est présenté comme quant",
+        "phrase": "les salaires versés au personnel des campus, estimés à plusieurs millions d'euros annuels, ainsi que les dépenses des étudiants dans les commerces environnants, bien que ces montants ne soient pas précisés [1]."
+      },
+      {
+        "bloc": 1,
+        "type": "chiffre_errone",
+        "description": "La source [1] ne donne ni chiffre exact ni méthodologie pour étayer « plusieurs milliers d’emplois ». L'article présente cette estimation comme un fait établi alors qu'elle n'est pas vérifiable, ce qui constitue une exag",
+        "phrase": "L'Express cite l'étude pour indiquer que l’activité du groupe Cesi soutiendrait indirectement « plusieurs milliers d’emplois », sans fournir de chiffre exact ni de méthodologie permettant de vérifier cette estimation [1]"
+      },
+      {
+        "bloc": 1,
+        "type": "chiffre_errone",
+        "description": "La source [1] ne fournit aucune donnée précise pour cette estimation, qui est présentée comme un fait dans l'article alors qu'elle n'est pas étayée.",
+        "phrase": "une estimation de richesse produite évoquée par L'Express comme atteignant « plusieurs dizaines de millions d’euros » sur cinq ans."
+      },
+      {
+        "bloc": 1,
+        "type": "accusation_presentee_comme_fait",
+        "description": "La phrase présente les résultats de l'étude comme un fait établi (« une démonstration ») alors qu'ils sont attribués au groupe Cesi, qui les utilise à des fins de communication. L'article ne précise pas que cette présent",
+        "phrase": "Les résultats de l’étude du cabinet Utopies, relayés par L'Express, sont présentés par le groupe Cesi comme une démonstration de son impact économique local."
+      }
+    ],
+    "types_restants": [
+      "chiffre_errone",
+      "niveau_preuve_insuffisant",
+      "chiffre_errone",
+      "chiffre_errone",
+      "chiffre_errone",
+      "accusation_presentee_comme_fait",
+      "acteur_mis_en_cause_sans_reponse",
+      "source_derivee_comptee_comme_primaire",
+      "compteur_incoherent",
+      "cadrage_emprunte",
+      "cadrage_emprunte",
+      "redondance",
+      "redondance",
+      "section_gonflee",
+      "faux_debat"
+    ],
+    "article_type": "actu",
+    "titre": "Les campus Cesi génèrent un milliard d'euros de PIB annuel",
+    "n_sources": 6,
+    "n_mots": 555,
+    "titre_rss": "Un campus, combien ça rapporte ? Le poids économique insoupçonné des universités pour les territoires",
+    "matiere_faits_distincts": 1112,
+    "matiere_redondance": 0.0,
+    "matiere_donnees_chiffrees": 1,
+    "n_sources_injectees": 10,
+    "n_sources_trouvees": 10,
+    "n_sources_pertinentes": 3,
+    "veille_heures_visible": 62.7,
+    "veille_passages": 59,
+    "veille_age_h": 63.5,
+    "veille_n_flux_grappe": 1
+  },
+  {
+    "slug": "parc-des-princes-impraticable-canicule-juin-2026",
+    "statut": "rejete_qualite",
+    "date": "2026-08-21T01:02:15",
+    "problemes_initiaux": 13,
+    "tentatives": 3,
+    "problemes_restants": 11,
+    "bloquants_restants": 4,
+    "bloquants_types": [
+      "annonce_perimee",
+      "niveau_preuve_insuffisant",
+      "chiffre_errone",
+      "chiffre_errone"
+    ],
+    "bloquants_detail": [
+      {
+        "bloc": 1,
+        "type": "annonce_perimee",
+        "description": "Le résumé présente ces solutions comme en cours d'expérimentation (« expérimentent »), alors que le corps de l'article (« Les faits ») indique que ces solutions sont déjà en phase de test (« Des solutions alternatives so",
+        "phrase": "Les clubs professionnels expérimentent des solutions techniques pour adapter leurs pelouses aux vagues de chaleur, telles que des systèmes de refroidissement souterrain ou des gazons hybrides."
+      },
+      {
+        "bloc": 1,
+        "type": "niveau_preuve_insuffisant",
+        "description": "L'article ne précise pas le stade de validation scientifique ou économique de ces solutions (phase de test, absence de garantie), alors que la source [1] (*Libération*) souligne explicitement que leur efficacité et leur ",
+        "phrase": "Des solutions alternatives sont en phase de test, notamment des systèmes de refroidissement par circulation d'eau souterraine et l'utilisation de gazons hybrides, combinant espèces naturelles et fibres synthétiques."
+      },
+      {
+        "bloc": 1,
+        "type": "chiffre_errone",
+        "description": "La source [1] (*Libération*) ne fournit aucun chiffre précis concernant la perte de surface de gazon au stade Matmut Atlantique. Ce chiffre (30 %) n'apparaît pas dans les extraits fournis et ne peut donc pas être attribu",
+        "phrase": "Par exemple, le stade Matmut Atlantique à Bordeaux avait enregistré une perte de 30 % de sa surface de gazon naturel en juillet 2025, nécessitant un regarnissage complet avant le début de la saison suivante."
+      },
+      {
+        "bloc": 1,
+        "type": "chiffre_errone",
+        "description": "La source [1] (*Libération*) ne mentionne aucun chiffre précis concernant le coût d'installation des systèmes de refroidissement souterrain. Ces montants (150 000 à 300 000 euros) ne figurent pas dans les extraits fourni",
+        "phrase": "Selon des experts cités par le journal, le coût d'installation d'un système de refroidissement souterrain varie entre 150 000 et 300 000 euros pour un stade de taille moyenne, en fonction de la complexité du réseau hydra"
+      }
+    ],
+    "types_restants": [
+      "annonce_perimee",
+      "niveau_preuve_insuffisant",
+      "chiffre_errone",
+      "chiffre_errone",
+      "source_inventee",
+      "source_derivee_comptee_comme_primaire",
+      "compteur_incoherent",
+      "paraphrase_structurelle",
+      "contexte_hors_sujet",
+      "section_gonflee",
+      "extrapolation"
+    ],
+    "article_type": "actu",
+    "titre": "Parc des Princes impraticable après la canicule de juin 2026",
+    "n_sources": 7,
+    "n_mots": 466,
+    "titre_rss": "«Le climat, c’est notre plus grand défi» : après un été caniculaire, le coup de chaud des jardiniers des clubs de foot",
+    "matiere_faits_distincts": 1201,
+    "matiere_redondance": 0.0,
+    "matiere_donnees_chiffrees": 0,
+    "n_sources_injectees": 10,
+    "n_sources_trouvees": 10,
+    "n_sources_pertinentes": 5,
+    "veille_heures_visible": 4.0,
+    "veille_passages": 5,
+    "veille_age_h": 4.8,
+    "veille_n_flux_grappe": 1
+  },
+  {
+    "slug": "logement-etudiant-60-pour-cent-annonces-non-conformes",
+    "statut": "rejete_qualite",
+    "date": "2026-08-21T01:39:41",
+    "problemes_initiaux": 14,
+    "tentatives": 3,
+    "problemes_restants": 13,
+    "bloquants_restants": 5,
+    "bloquants_types": [
+      "chiffre_errone",
+      "niveau_preuve_insuffisant",
+      "incoherence_inter_sections",
+      "annonce_perimee",
+      "niveau_preuve_insuffisant"
+    ],
+    "bloquants_detail": [
+      {
+        "bloc": 1,
+        "type": "chiffre_errone",
+        "description": "Le résumé présente le chiffre de 60 % comme un constat établi, alors que la source [1] (Libération) souligne explicitement que la méthodologie de l'échantillon (taille et représentativité non détaillées) limite la généra",
+        "phrase": "Une analyse publiée le 20 août 2026 par Libération, fondée sur un échantillon d'annonces de logements étudiants, indique que 60 % des offres examinées ne respecteraient pas la réglementation en vigueur."
+      },
+      {
+        "bloc": 1,
+        "type": "niveau_preuve_insuffisant",
+        "description": "Le résumé ne mentionne pas les limites méthodologiques de l'analyse de Libération (source [1]) concernant la représentativité de l'échantillon, alors que ces limites sont explicitement citées dans le corps de l'article. ",
+        "phrase": "Cette situation s'inscrit dans un contexte de pénurie persistante, où l'offre de logements en résidence universitaire, stable à environ 200 000 places pour l’année 2026-2027 selon les données des CROUS, reste largement i"
+      },
+      {
+        "bloc": 1,
+        "type": "incoherence_inter_sections",
+        "description": "Le corps de l'article mentionne les limites méthodologiques de l'analyse de Libération, mais le résumé et le titre présentent le chiffre de 60 % comme un fait établi sans ces nuances. Les deux sections ne sont pas cohére",
+        "phrase": "Libération souligne cependant que la méthodologie de l’échantillon, dont la taille et la représentativité ne sont pas détaillées, limite la généralisation de ce chiffre à l’ensemble du marché [1]."
+      },
+      {
+        "bloc": 1,
+        "type": "annonce_perimee",
+        "description": "Le résumé présente le montant de la bourse (601,80 euros) comme une donnée actuelle pour 2026, alors que la source [2] (Vie Publique) date de juillet 2025 et ne précise pas si ce montant est toujours valable en 2026. Auc",
+        "phrase": "En 2026, le montant maximal d’une bourse sur critères sociaux s’élève à 601,80 euros par mois, tandis que les loyers pour un studio de 20 m² peuvent atteindre 850 euros dans des villes comme Paris, illustrant l'écart ent"
+      },
+      {
+        "bloc": 1,
+        "type": "niveau_preuve_insuffisant",
+        "description": "L'article présente ces irrégularités comme des faits établis, mais la source [1] (Libération) ne détaille pas les critères utilisés pour juger de la disproportion des loyers ou du caractère abusif des clauses. Ces appréc",
+        "phrase": "L’analyse de Libération met en évidence des irrégularités dans les annonces, telles que des surfaces inférieures aux normes légales (moins de 9 m² pour une chambre individuelle), des loyers jugés disproportionnés par rap"
+      }
+    ],
+    "types_restants": [
+      "chiffre_errone",
+      "niveau_preuve_insuffisant",
+      "incoherence_inter_sections",
+      "annonce_perimee",
+      "niveau_preuve_insuffisant",
+      "extrapolation",
+      "acteur_mis_en_cause_sans_reponse",
+      "faux_debat",
+      "cadrage_emprunte",
+      "redondance",
+      "section_gonflee",
+      "contexte_hors_sujet",
+      "jugement_de_valeur"
+    ],
+    "article_type": "actu",
+    "avertissements_garde_fous": [
+      "resume_repete_corps"
+    ],
+    "titre": "Logement étudiant : 60 % des annonces non conformes à la loi",
+    "n_sources": 5,
+    "n_mots": 711,
+    "titre_rss": "Logements : pour les étudiants, un monde sans toit ni loi",
+    "matiere_faits_distincts": 969,
+    "matiere_redondance": 0.05,
+    "matiere_donnees_chiffrees": 1,
+    "n_sources_injectees": 10,
+    "n_sources_trouvees": 10,
+    "n_sources_pertinentes": 3,
+    "veille_heures_visible": 5.0,
+    "veille_passages": 6,
+    "veille_age_h": 5.8,
+    "veille_n_flux_grappe": 1
+  },
+  {
+    "slug": "eelv-echec-politique-ete-2026-incendies-gironde",
+    "statut": "rejete_sensible",
+    "date": "2026-08-21T01:44:13",
+    "problemes_initiaux": 14,
+    "tentative": 1,
+    "bloc5": true,
+    "article_type": "actu",
+    "titre": "EELV n'a pas fait adopter ses mesures malgré 42 000 hectares brûlés en Gironde",
+    "n_sources": 4,
+    "n_mots": 736,
+    "titre_rss": "Malgré les incendies et les canicules, les Écologistes peinent à imposer leurs idées",
+    "matiere_faits_distincts": 1027,
+    "matiere_redondance": 0.02,
+    "matiere_donnees_chiffrees": 1,
+    "n_sources_injectees": 10,
+    "n_sources_trouvees": 10,
+    "n_sources_pertinentes": 3,
+    "veille_heures_visible": 17.8,
+    "veille_passages": 18,
+    "veille_age_h": 18.7,
+    "veille_n_flux_grappe": 2
+  },
+  {
+    "slug": "canicule-2026-pelouses-ecoles-temperatures-records",
+    "statut": "rejete_qualite",
+    "date": "2026-08-21T01:53:18",
+    "problemes_initiaux": 12,
+    "tentatives": 3,
+    "problemes_restants": 16,
+    "bloquants_restants": 2,
+    "bloquants_types": [
+      "annonce_perimee",
+      "accusation_presentee_comme_fait"
+    ],
+    "bloquants_detail": [
+      {
+        "bloc": 1,
+        "type": "annonce_perimee",
+        "description": "Le résumé présente les auditions parlementaires de juillet 2026 comme un événement à venir ou en cours, alors que les « faits » les décrivent comme déjà survenues (ex. : audition de Météo-France le 7 juillet 2026). Le ré",
+        "phrase": "Les auditions parlementaires de juillet 2026 ont révélé des retards dans la réponse des pouvoirs publics, tandis que les solutions comme la rénovation thermique des bâtiments publics se heurtent à des contraintes budgéta"
+      },
+      {
+        "bloc": 1,
+        "type": "accusation_presentee_comme_fait",
+        "description": "L'article présente cette accusation comme un fait établi (« a été jugée tardive ») sans l'attribuer explicitement à Mme Espagnac ou à une source. Il s'agit d'une conclusion d'acteur reformulée en constat neutre.",
+        "phrase": "La réponse des pouvoirs publics a été jugée tardive par plusieurs députés, notamment Mme Frédérique Espagnac, qui a souligné lors de sa question au Sénat le 2 juillet 2026 que les collectivités territoriales avaient dû g"
+      }
+    ],
+    "types_restants": [
+      "annonce_perimee",
+      "source_inventee",
+      "source_inventee",
+      "source_inventee",
+      "source_inventee",
+      "source_inventee",
+      "source_inventee",
+      "source_inventee",
+      "source_inventee",
+      "accusation_presentee_comme_fait",
+      "compteur_incoherent",
+      "source_derivee_comptee_comme_primaire",
+      "compteur_incoherent",
+      "redondance",
+      "faux_debat",
+      "acteur_mis_en_cause_sans_reponse"
+    ],
+    "article_type": "actu",
+    "titre": "Canicule 2026 : pelouses de foot et écoles face à des températures records",
+    "n_sources": 10,
+    "n_mots": 583,
+    "titre_rss": "«Le climat, c’est notre plus grand défi» : après un été caniculaire, le coup de chaud des jardiniers des clubs de foot",
+    "matiere_faits_distincts": 1301,
+    "matiere_redondance": 0.01,
+    "matiere_donnees_chiffrees": 2,
+    "n_sources_injectees": 10,
+    "n_sources_trouvees": 10,
+    "n_sources_pertinentes": 6,
+    "veille_heures_visible": 5.0,
+    "veille_passages": 6,
+    "veille_age_h": 5.8,
+    "veille_n_flux_grappe": 1
+  },
+  {
+    "slug": "rdc-70000-doses-vaccin-ervebo-souche-bundibugyo",
+    "statut": "rejete_qualite",
+    "date": "2026-08-21T01:59:03",
+    "problemes_initiaux": 9,
+    "tentatives": 3,
+    "problemes_restants": 10,
+    "bloquants_restants": 6,
+    "bloquants_types": [
+      "niveau_preuve_insuffisant",
+      "niveau_preuve_insuffisant",
+      "annonce_perimee",
+      "source_inventee",
+      "source_inventee",
+      "source_inventee"
+    ],
+    "bloquants_detail": [
+      {
+        "bloc": 1,
+        "type": "niveau_preuve_insuffisant",
+        "description": "Le résumé présente les études précliniques comme suggérant une 'possible protection croisée' sans préciser explicitement que ces résultats proviennent de modèles animaux ou de laboratoire, ce qui est un niveau de preuve ",
+        "phrase": "Des études précliniques, menées en laboratoire et sur des modèles animaux, suggèrent une possible protection croisée d'Ervebo contre la souche Bundibugyo. Cependant, l'Organisation mondiale de la Santé (OMS) souligne qu'"
+      },
+      {
+        "bloc": 1,
+        "type": "niveau_preuve_insuffisant",
+        "description": "Bien que la phrase mentionne que l'hypothèse n'a pas été validée chez l'humain, elle ne précise pas explicitement que les études précliniques concernent des modèles animaux ou des tests en laboratoire, ce qui est un nive",
+        "phrase": "Des études précliniques, réalisées en laboratoire et sur des modèles animaux, indiquent une possible protection croisée, mais l'OMS précise que cette hypothèse n'a pas été validée chez l'humain à ce jour [3][5]."
+      },
+      {
+        "bloc": 1,
+        "type": "annonce_perimee",
+        "description": "Le résumé présente l'essai clinique comme 'en préparation', alors que les sources [3] et [5] ne permettent pas de confirmer si cet essai a effectivement débuté ou s'il est toujours en phase de préparation. Si l'essai est",
+        "phrase": "Un essai clinique impliquant 20 000 participants est en préparation en RDC pour évaluer cette hypothèse, selon les sources de l'OMS [3]."
+      },
+      {
+        "bloc": 2,
+        "type": "source_inventee",
+        "description": "La source [5] est citée mais n'apparaît pas dans la liste des sources autorisées fournies.",
+        "phrase": "Des études précliniques, réalisées en laboratoire et sur des modèles animaux, indiquent une possible protection croisée, mais l'OMS précise que cette hypothèse n'a pas été validée chez l'humain à ce jour [3][5]."
+      },
+      {
+        "bloc": 2,
+        "type": "source_inventee",
+        "description": "La source [5] est citée mais n'apparaît pas dans la liste des sources autorisées fournies.",
+        "phrase": "Cependant, l'Organisation mondiale de la Santé (OMS) souligne qu'aucune donnée clinique ne confirme cette efficacité chez l'humain à ce stade [3][5]. Un essai clinique impliquant 20 000 participants est en préparation en"
+      },
+      {
+        "bloc": 2,
+        "type": "source_inventee",
+        "description": "La source [5] est citée mais n'apparaît pas dans la liste des sources autorisées fournies.",
+        "phrase": "L'efficacité d'Ervebo contre la souche Bundibugyo n'a pas été démontrée chez l'humain. Les études précliniques, incluant des tests en laboratoire et sur des modèles animaux, suggèrent une possible protection croisée, mai"
+      }
+    ],
+    "types_restants": [
+      "niveau_preuve_insuffisant",
+      "niveau_preuve_insuffisant",
+      "annonce_perimee",
+      "redondance",
+      "extrapolation",
+      "compteur_incoherent",
+      "source_inventee",
+      "source_inventee",
+      "source_inventee",
+      "contexte_hors_sujet"
+    ],
+    "article_type": "actu",
+    "titre": "RDC : 70 000 doses de vaccin Ervebo face à une souche non ciblée",
+    "n_sources": 7,
+    "n_mots": 571,
+    "titre_rss": "Ebola en RDC : l’OMS déploie 70 000 doses du vaccin Ervebo",
+    "matiere_faits_distincts": 1101,
+    "matiere_redondance": 0.03,
+    "matiere_donnees_chiffrees": 1,
+    "n_sources_injectees": 10,
+    "n_sources_trouvees": 10,
+    "n_sources_pertinentes": 5,
+    "veille_heures_visible": 9.6,
+    "veille_passages": 30,
+    "veille_age_h": 10.4,
+    "veille_n_flux_grappe": 3
+  },
+  {
+    "slug": "piratage-impots-2026-678000-contribuables-failles-techniques",
+    "statut": "rejete_qualite",
+    "date": "2026-08-21T02:08:06",
+    "problemes_initiaux": 13,
+    "tentatives": 3,
+    "problemes_restants": 9,
+    "bloquants_restants": 3,
+    "bloquants_types": [
+      "chiffre_errone",
+      "incoherence_inter_sections",
+      "accusation_presentee_comme_fait"
+    ],
+    "bloquants_detail": [
+      {
+        "bloc": 1,
+        "type": "chiffre_errone",
+        "description": "La source [2] (Question écrite n° 13264) ne mentionne pas explicitement le chiffre de 1,2 million de comptes compromis pour le FICOBA. Elle évoque une 'consultation illégale' sans préciser ce chiffre, qui apparaît en rev",
+        "phrase": "En janvier 2026, une consultation illégale du Fichier national des comptes bancaires (FICOBA) a été signalée, avec des données de 1,2 million de comptes potentiellement compromises, d'après une question écrite parlementa"
+      },
+      {
+        "bloc": 1,
+        "type": "incoherence_inter_sections",
+        "description": "Le résumé attribue ce chiffre à la source [4], mais le corps de l'article (section 'faits') ne confirme pas que la source [4] (Question écrite n° 15644) donne cette fourchette de 12 à 18 millions. La source [4] est citée",
+        "phrase": "En avril 2026, l'Agence nationale des titres sécurisés (ANTS) a fait état d'une cyberattaque ayant conduit à l'exfiltration de 12 à 18 millions de lignes de données, selon une question écrite du 2 juin 2026."
+      },
+      {
+        "bloc": 1,
+        "type": "accusation_presentee_comme_fait",
+        "description": "La phrase présente l'usurpation d'identifiants comme un fait établi (« aurait résulté »), alors que la source [2] utilise le conditionnel (« aurait résulté ») et ne confirme pas définitivement cette hypothèse. L'article ",
+        "phrase": "La responsabilité des attaques varie selon les cas. Dans celui du FICOBA, la question écrite n° 13264 indique que l'intrusion aurait résulté de l'usurpation des identifiants d'un fonctionnaire extérieur à la DGFiP, ce qu"
+      }
+    ],
+    "types_restants": [
+      "chiffre_errone",
+      "incoherence_inter_sections",
+      "contexte_hors_sujet",
+      "accusation_presentee_comme_fait",
+      "source_derivee_comptee_comme_primaire",
+      "compteur_incoherent",
+      "angle_annonce_non_tenu",
+      "redondance",
+      "section_gonflee"
+    ],
+    "article_type": "actu",
+    "avertissements_garde_fous": [
+      "faits_repetitifs"
+    ],
+    "titre": "Piratage des impôts en 2026 : 678 000 contribuables exposés, des failles techniques et des retards dans l'alerte",
+    "n_sources": 7,
+    "n_mots": 526,
+    "titre_rss": "Piratage du site des impôts : la cybersécurité de l’Etat est une affaire de volonté politique",
+    "matiere_faits_distincts": 1100,
+    "matiere_redondance": 0.05,
+    "matiere_donnees_chiffrees": 4,
+    "n_sources_injectees": 10,
+    "n_sources_trouvees": 10,
+    "n_sources_pertinentes": 4,
+    "veille_heures_visible": 9.6,
+    "veille_passages": 10,
+    "veille_age_h": 10.4,
+    "veille_n_flux_grappe": 8
+  },
+  {
+    "slug": "athol-williams-lanceur-alerte-bain-exil-afrique-du-sud",
+    "statut": "rejete_sensible",
+    "date": "2026-08-21T02:20:38",
+    "problemes_initiaux": 15,
+    "tentative": 1,
+    "bloc5": true,
+    "article_type": "actu",
+    "avertissements_garde_fous": [
+      "faits_repetitifs"
+    ],
+    "titre": "Athol Williams, lanceur d'alerte de Bain, en exil après avoir révélé la corruption en Afrique du Sud",
+    "n_sources": 4,
+    "n_mots": 753,
+    "titre_rss": "Lanceurs d’alerte en exil : pourquoi les business schools ont une responsabilité à assumer",
+    "matiere_faits_distincts": 1005,
+    "matiere_redondance": 0.1,
+    "matiere_donnees_chiffrees": 0,
+    "n_sources_injectees": 10,
+    "n_sources_trouvees": 10,
+    "n_sources_pertinentes": 4,
+    "veille_heures_visible": 135.8,
+    "veille_passages": 125,
+    "veille_age_h": 136.6,
+    "veille_n_flux_grappe": 1
+  },
+  {
+    "slug": "budget-2026-lecornu-dement-coupes-apl-rsa",
+    "statut": "rejete_qualite",
+    "date": "2026-08-21T02:39:41",
+    "tentative": 3,
+    "perte_substance": true,
+    "section": "contexte",
+    "mots_avant": 114,
+    "mots_apres": 0,
+    "article_type": "actu",
+    "avertissements_garde_fous": [
+      "resume_repete_corps",
+      "faits_repetitifs"
+    ],
+    "titre": "Budget 2026 : le gouvernement dément des coupes dans les APL et le RSA",
+    "n_sources": 6,
+    "n_mots": 491,
+    "titre_rss": "Suppression des APL, gel du RSA… Sébastien Lecornu dément certaines des rumeurs d’économies dans le budget 2027",
+    "matiere_faits_distincts": 1013,
+    "matiere_redondance": 0.02,
+    "matiere_donnees_chiffrees": 1,
+    "n_sources_injectees": 10,
+    "n_sources_trouvees": 10,
+    "n_sources_pertinentes": 4,
+    "veille_heures_visible": 6.9,
+    "veille_passages": 8,
+    "veille_age_h": 7.7,
+    "veille_n_flux_grappe": 8
+  },
+  {
+    "slug": "ebola-rdc-epidemie-rythme-deces-inedit",
+    "statut": "rejete_qualite",
+    "date": "2026-08-21T02:46:47",
+    "problemes_initiaux": 13,
+    "tentatives": 3,
+    "problemes_restants": 9,
+    "bloquants_restants": 4,
+    "bloquants_types": [
+      "chiffre_errone",
+      "niveau_preuve_insuffisant",
+      "incoherence_inter_sections",
+      "chiffre_errone"
+    ],
+    "bloquants_detail": [
+      {
+        "bloc": 1,
+        "type": "chiffre_errone",
+        "description": "Le résumé attribue ce chiffre aux Nations Unies [1], mais la source [1] indique que le rythme d'un décès toutes les 30 minutes est une moyenne calculée sur la période de trois mois, et non une donnée brute fournie par l'",
+        "phrase": "La propagation du virus, identifié comme la souche Bundibugyo, atteint une cadence moyenne d'un décès toutes les 30 minutes sur la période de trois mois écoulée, un rythme jamais observé lors des précédentes flambées, d'"
+      },
+      {
+        "bloc": 1,
+        "type": "niveau_preuve_insuffisant",
+        "description": "La source [3] (BMJ) mentionne des essais cliniques en cours, mais ne précise pas le stade (phase 2) ni la date des résultats préliminaires. L'article ajoute des détails non confirmés par la source citée.",
+        "phrase": "Selon le BMJ, des essais cliniques de phase 2 sont en cours pour évaluer des traitements expérimentaux contre la souche Bundibugyo, avec des résultats préliminaires attendus d'ici fin 2026, mais aucun vaccin n'est encore"
+      },
+      {
+        "bloc": 1,
+        "type": "incoherence_inter_sections",
+        "description": "Le taux de létalité de 47 % est mentionné dans les faits, mais la source [2] (OMS) ne fournit pas explicitement ce chiffre dans les extraits disponibles. Il n'est pas possible de vérifier si ce taux correspond bien aux d",
+        "phrase": "Les données de l'Organisation mondiale de la Santé (OMS) révèlent un taux de létalité de 47 % parmi les 4 660 cas confirmés."
+      },
+      {
+        "bloc": 1,
+        "type": "chiffre_errone",
+        "description": "La source [4] (Banque mondiale) ne mentionne pas l'épidémie de 2018 ni son taux de létalité. Ce chiffre n'est pas vérifiable via les sources fournies.",
+        "phrase": "En 2018, une épidémie causée par la souche Zaïre avait été déclarée terminée après 54 jours, avec un taux de létalité de 66 %, selon un rapport de la Banque mondiale."
+      }
+    ],
+    "types_restants": [
+      "chiffre_errone",
+      "niveau_preuve_insuffisant",
+      "incoherence_inter_sections",
+      "chiffre_errone",
+      "source_inventee",
+      "compteur_incoherent",
+      "source_derivee_comptee_comme_primaire",
+      "formule_vague",
+      "extrapolation"
+    ],
+    "article_type": "actu",
+    "titre": "Ebola en RDC : un décès toutes les 30 minutes, un rythme inédit",
+    "n_sources": 6,
+    "n_mots": 647,
+    "titre_rss": "Ebola en RDC : l'épidémie \"tue une personne toutes les 30 minutes\"",
+    "matiere_faits_distincts": 1181,
+    "matiere_redondance": 0.01,
+    "matiere_donnees_chiffrees": 1,
+    "n_sources_injectees": 10,
+    "n_sources_trouvees": 10,
+    "n_sources_pertinentes": 3,
+    "veille_heures_visible": 84.7,
+    "veille_passages": 79,
+    "veille_age_h": 85.6,
+    "veille_n_flux_grappe": 13
+  },
+  {
+    "slug": "vaccin-arn-melanome-merck-moderna-resultats-essai-phase-3",
+    "statut": "rejete_qualite",
+    "date": "2026-08-21T03:00:46",
+    "problemes_initiaux": 13,
+    "tentatives": 3,
+    "problemes_restants": 11,
+    "bloquants_restants": 5,
+    "bloquants_types": [
+      "niveau_preuve_insuffisant",
+      "niveau_preuve_insuffisant",
+      "niveau_preuve_insuffisant",
+      "chiffre_errone",
+      "incoherence_inter_sections"
+    ],
+    "bloquants_detail": [
+      {
+        "bloc": 1,
+        "type": "niveau_preuve_insuffisant",
+        "description": "La source [1] (The Lancet) ne précise pas la phase de l'essai clinique, mais l'article présente cette absence comme un manque de précision des sources plutôt que comme une omission de l'article. Cependant, le résumé ne m",
+        "phrase": "Les données partagées ne permettent pas encore d'évaluer l'efficacité, la tolérance ou les effets secondaires du vaccin, et l'essai clinique, dont la phase n'est pas précisée par les sources disponibles, se poursuit."
+      },
+      {
+        "bloc": 1,
+        "type": "niveau_preuve_insuffisant",
+        "description": "L'article mentionne que The Lancet ne fournit aucun détail sur la phase de l'essai ou ses critères d'évaluation, mais cette information n'est pas reprise dans le résumé ou le titre, ce qui pourrait laisser penser que ces",
+        "phrase": "The Lancet décrit le principe des vaccins thérapeutiques comme mRNA-4157, qui utilisent des antigènes tumoraux pour induire une réponse immunitaire ciblée contre les cellules cancéreuses, mais ne fournit aucun détail spé"
+      },
+      {
+        "bloc": 1,
+        "type": "niveau_preuve_insuffisant",
+        "description": "L'article omet de préciser que ces informations (nombre de participants, mesures de survie, effets secondaires) sont absentes des sources, ce qui pourrait laisser croire à une omission de l'article plutôt qu'à un manque ",
+        "phrase": "Cependant, les sources disponibles ne mentionnent ni le nombre de participants, ni les mesures de survie sans progression ou globale, ni les effets secondaires observés à ce stade."
+      },
+      {
+        "bloc": 1,
+        "type": "chiffre_errone",
+        "description": "La source [2] (Santé publique France) ne précise pas explicitement que plus de 80 % des mélanomes sont liés à une exposition excessive aux UV. Ce chiffre n'apparaît pas dans les extraits fournis, et son attribution à cet",
+        "phrase": "Santé publique France précise que plus de 80 % des mélanomes sont liés à une exposition excessive aux UV, qu'ils soient naturels ou artificiels, et que le risque est particulièrement élevé chez les personnes ayant subi d"
+      },
+      {
+        "bloc": 1,
+        "type": "incoherence_inter_sections",
+        "description": "Cette phrase indique que l'incidence a presque triplé, alors que le résumé mentionne qu'elle a presque doublé. Ces deux affirmations sont incompatibles et ne sont pas réconciliées dans l'article.",
+        "phrase": "L'incidence du mélanome a presque triplé entre 1990 et 2020, une augmentation attribuable à une exposition accrue aux ultraviolets (UV), à une meilleure détection et à des diagnostics plus précoces."
+      }
+    ],
+    "types_restants": [
+      "niveau_preuve_insuffisant",
+      "niveau_preuve_insuffisant",
+      "niveau_preuve_insuffisant",
+      "acteur_mis_en_cause_sans_reponse",
+      "chiffre_errone",
+      "fait_tranche_arbitrairement",
+      "incoherence_inter_sections",
+      "source_derivee_comptee_comme_primaire",
+      "paraphrase_structurelle",
+      "redondance",
+      "section_gonflee"
+    ],
+    "article_type": "actu",
+    "titre": "Vaccin à ARN contre le mélanome : Merck et Moderna annoncent des résultats d'essai",
+    "n_sources": 4,
+    "n_mots": 548,
+    "titre_rss": "Cancer de la peau : bientôt un vaccin ?",
+    "matiere_faits_distincts": 1198,
+    "matiere_redondance": 0.0,
+    "matiere_donnees_chiffrees": 2,
+    "n_sources_injectees": 10,
+    "n_sources_trouvees": 10,
+    "n_sources_pertinentes": 3,
+    "veille_heures_visible": 3.7,
+    "veille_passages": 5,
+    "veille_age_h": 4.6,
+    "veille_n_flux_grappe": 4
+  },
+  {
+    "slug": "mortalité-france-2024-baisse-taux-standardise-causes-deces",
+    "statut": "erreur_verification",
+    "date": "2026-08-21T03:04:36",
+    "etape": "detection",
+    "erreur": "JSON tronqué ou incomplet dans la réponse (max_tokens atteint ?)",
+    "article_type": "actu",
+    "avertissements_garde_fous": [
+      "faits_repetitifs"
+    ],
+    "titre": "Mortalité en France en 2024 : 641 046 décès, baisse du taux standardisé",
+    "n_sources": 4,
+    "n_mots": 615,
+    "titre_rss": "Grandes causes de décès en France : tendances et causes associées en 2024",
+    "matiere_faits_distincts": 1037,
+    "matiere_redondance": 0.03,
+    "matiere_donnees_chiffrees": 2,
+    "n_sources_injectees": 10,
+    "n_sources_trouvees": 10,
+    "n_sources_pertinentes": 3,
+    "veille_heures_visible": 214.0,
+    "veille_passages": 165,
+    "veille_age_h": 214.9,
+    "veille_n_flux_grappe": 1
+  },
+  {
+    "slug": "mortalité-france-2024-baisse-taux-standardise-causes-deces",
+    "statut": "rejete_qualite",
+    "date": "2026-08-21T03:04:36",
+    "raison": "verification_indisponible",
+    "statut_verification_initial": "erreur_verification"
+  },
+  {
+    "slug": "pelouse-parc-des-princes-impraticable-canicule-juin-2026",
+    "statut": "rejete_qualite",
+    "date": "2026-08-21T04:10:16",
+    "problemes_initiaux": 13,
+    "tentatives": 3,
+    "problemes_restants": 16,
+    "bloquants_restants": 6,
+    "bloquants_types": [
+      "annonce_perimee",
+      "chiffre_errone",
+      "chiffre_errone",
+      "chiffre_errone",
+      "chiffre_errone",
+      "chiffre_errone"
+    ],
+    "bloquants_detail": [
+      {
+        "bloc": 1,
+        "type": "annonce_perimee",
+        "description": "Le résumé présente comme à venir (« a étudié des mesures d'urgence ») un événement que le corps de l'article décrit comme déjà survenu (« la pelouse du Parc des Princes [...] a montré des signes de dégradation »). La sou",
+        "phrase": "Lors des épisodes caniculaires de l'été 2026, le Paris Saint-Germain a étudié des mesures d'urgence pour adapter ses entraînements au Parc des Princes, où la pelouse présentait des signes de dégradation en raison de temp"
+      },
+      {
+        "bloc": 1,
+        "type": "chiffre_errone",
+        "description": "La source [1] (Libération) ne fournit pas de données chiffrées précises sur l'augmentation des coûts de réparation (15 à 20 %). L'extrait disponible ne mentionne pas ces pourcentages, qui sont donc inventés ou extrapolés",
+        "phrase": "avec des coûts de réparation en hausse de 15 à 20 % par rapport à 2023, selon les données communiquées par plusieurs mairies [1]."
+      },
+      {
+        "bloc": 1,
+        "type": "chiffre_errone",
+        "description": "La source [2] (audition de Météo-France au Sénat) ne fournit pas ces chiffres précis (3,4 et 1,7 épisodes caniculaires par an). L'extrait disponible ne contient pas ces statistiques, qui sont donc absentes de la source c",
+        "phrase": "Météo-France relève que la France a connu en moyenne 3,4 épisodes caniculaires par an entre 2010 et 2020, contre 1,7 entre 1980 et 2000 [2]."
+      },
+      {
+        "bloc": 1,
+        "type": "chiffre_errone",
+        "description": "La source [2] (audition de Météo-France) ne mentionne pas une augmentation des coûts d'entretien de 25 à 30 %. Ce chiffre n'apparaît pas dans les extraits fournis.",
+        "phrase": "augmentant les coûts d'entretien de 25 à 30 % depuis 2020 [2]."
+      },
+      {
+        "bloc": 1,
+        "type": "chiffre_errone",
+        "description": "La source [1] (Libération) ne fournit pas de fourchette de coûts (500 000 à 1 million d'euros par stade). Ce chiffre n'est pas présent dans les extraits disponibles.",
+        "phrase": "de l'ordre de 500 000 à 1 million d'euros par stade, et des ajustements techniques pour s'adapter aux conditions locales, comme le souligne Libération [1]."
+      },
+      {
+        "bloc": 1,
+        "type": "chiffre_errone",
+        "description": "La source [3] (question écrite n° 6542) ne mentionne pas ce pourcentage (40 %). L'extrait disponible ne contient pas cette statistique.",
+        "phrase": "40 % des communes de moins de 10 000 habitants n'ont pas encore intégré ces enjeux dans leurs budgets, faute de subventions suffisantes [3]."
+      }
+    ],
+    "types_restants": [
+      "annonce_perimee",
+      "chiffre_errone",
+      "chiffre_errone",
+      "chiffre_errone",
+      "chiffre_errone",
+      "chiffre_errone",
+      "source_inventee",
+      "contexte_hors_sujet",
+      "source_derivee_comptee_comme_primaire",
+      "source_non_editoriale",
+      "compteur_incoherent",
+      "cadrage_emprunte",
+      "faux_debat",
+      "acteur_mis_en_cause_sans_reponse",
+      "section_gonflee",
+      "extrapolation"
+    ],
+    "article_type": "actu",
+    "titre": "Juin 2026 : la pelouse du Parc des Princes impraticable après 40 °C pendant plusieurs jours",
+    "n_sources": 8,
+    "n_mots": 505,
+    "titre_rss": "«Le climat, c’est notre plus grand défi» : après un été caniculaire, le coup de chaud des jardiniers des clubs de foot",
+    "matiere_faits_distincts": 1425,
+    "matiere_redondance": 0.01,
+    "matiere_donnees_chiffrees": 2,
+    "n_sources_injectees": 10,
+    "n_sources_trouvees": 10,
+    "n_sources_pertinentes": 5,
+    "veille_heures_visible": 8.1,
+    "veille_passages": 8,
+    "veille_age_h": 8.3,
+    "veille_n_flux_grappe": 1
+  },
+  {
+    "slug": "gel-partiel-pensions-retraites-deficit-public-2027",
+    "statut": "rejete_qualite",
+    "date": "2026-08-21T04:20:33",
+    "problemes_initiaux": 14,
+    "tentatives": 3,
+    "problemes_restants": 12,
+    "bloquants_restants": 4,
+    "bloquants_types": [
+      "annonce_perimee",
+      "chiffre_errone",
+      "incoherence_inter_sections",
+      "niveau_preuve_insuffisant"
+    ],
+    "bloquants_detail": [
+      {
+        "bloc": 1,
+        "type": "annonce_perimee",
+        "description": "Le résumé et le titre présentent la proposition comme une discussion en cours (« discute », « relancé »), mais la source [1] (L'Express) indique que cette mesure est déjà en discussion à Bercy, ce qui suggère un état plu",
+        "phrase": "Roland Lescure, ministre de l'Économie, a relancé mi-août l'idée d'une « indexation plus modérée » des pensions pour les retraités aisés, dans le cadre de la préparation du budget 2027."
+      },
+      {
+        "bloc": 1,
+        "type": "chiffre_errone",
+        "description": "La source [5] (Comptes de la protection sociale) indique bien 14 % pour 2025, mais le résumé mentionne « projeté à 14 % » alors que le corps de l'article utilise « estimées à 14 % ». Le terme « projeté » dans le résumé i",
+        "phrase": "Les dépenses de retraite, estimées à 14 % des dépenses publiques en 2025 selon les Comptes de la protection sociale [5], sont directement visées par cette revue des dépenses."
+      },
+      {
+        "bloc": 1,
+        "type": "incoherence_inter_sections",
+        "description": "Le chiffre de 14 % pour 2025 est cohérent avec celui mentionné dans les « faits », mais le résumé indique que les dépenses de retraite « représentent 14 % des dépenses publiques en 2025 », sans préciser s'il s'agit d'une",
+        "phrase": "Selon les Comptes de la protection sociale, ces dépenses sont passées de 13,5 % des dépenses publiques en 2020 à 13,8 % en 2023, puis à 14 % en 2025, confirmant une augmentation progressive sur la période [5]."
+      },
+      {
+        "bloc": 1,
+        "type": "niveau_preuve_insuffisant",
+        "description": "L'article présente une estimation d'économistes sans préciser leur identité, leur méthodologie, ni les sources de leurs calculs. La source [1] (L'Express) ne fournit pas non plus ces détails, ce qui rend l'affirmation in",
+        "phrase": "Selon L'Express, certains économistes estiment que l'impact financier d'une telle mesure pourrait être limité, sans que ces estimations ne soient confirmées par des données officielles [1]."
+      }
+    ],
+    "types_restants": [
+      "annonce_perimee",
+      "chiffre_errone",
+      "source_inventee",
+      "incoherence_inter_sections",
+      "niveau_preuve_insuffisant",
+      "source_derivee_comptee_comme_primaire",
+      "compteur_incoherent",
+      "cadrage_emprunte",
+      "contexte_hors_sujet",
+      "section_gonflee",
+      "angle_annonce_non_tenu",
+      "faux_debat"
+    ],
+    "article_type": "actu",
+    "titre": "Roland Lescure évoque un gel partiel des pensions des retraités aisés",
+    "n_sources": 6,
+    "n_mots": 532,
+    "titre_rss": "Retraites : le gel des pensions, le pari à haut risque de Roland Lescure",
+    "matiere_faits_distincts": 985,
+    "matiere_redondance": 0.0,
+    "matiere_donnees_chiffrees": 1,
+    "n_sources_injectees": 10,
+    "n_sources_trouvees": 10,
+    "n_sources_pertinentes": 3,
+    "veille_heures_visible": 21.0,
+    "veille_passages": 20,
+    "veille_age_h": 21.2,
+    "veille_n_flux_grappe": 2
+  },
+  {
+    "slug": "impact-economique-campus-cesi-territoires",
+    "statut": "rejete_sensible",
+    "date": "2026-08-21T04:23:36",
+    "problemes_initiaux": 14,
+    "bloc5": [
+      "acteur_mis_en_cause_sans_reponse"
+    ],
+    "article_type": "actu",
+    "titre": "Les campus du Cesi génèrent un milliard d'euros de PIB annuel en France",
+    "n_sources": 5,
+    "n_mots": 553,
+    "titre_rss": "Un campus, combien ça rapporte ? Le poids économique insoupçonné des universités pour les territoires",
+    "matiere_faits_distincts": 1014,
+    "matiere_redondance": 0.0,
+    "matiere_donnees_chiffrees": 1,
+    "n_sources_injectees": 10,
+    "n_sources_trouvees": 10,
+    "n_sources_pertinentes": 3,
+    "veille_heures_visible": 66.8,
+    "veille_passages": 62,
+    "veille_age_h": 67.0,
+    "veille_n_flux_grappe": 1
+  },
+  {
+    "slug": "cfdt-culture-conteste-choix-budgetaires-culture-democratie",
+    "statut": "rejete_qualite",
+    "date": "2026-08-21T04:29:41",
+    "problemes_initiaux": 10,
+    "tentatives": 3,
+    "problemes_restants": 12,
+    "bloquants_restants": 3,
+    "bloquants_types": [
+      "accusation_presentee_comme_fait",
+      "accusation_presentee_comme_fait",
+      "accusation_presentee_comme_fait"
+    ],
+    "bloquants_detail": [
+      {
+        "bloc": 1,
+        "type": "accusation_presentee_comme_fait",
+        "description": "La phrase présente comme un fait établi les risques avancés par la CFDT-Culture, sans attribution explicite à la source (tribune syndicale).",
+        "phrase": "Selon le syndicat, ces choix risquent d'affaiblir la transmission d'une mémoire collective et d'accentuer les inégalités territoriales d'accès à la culture, un enjeu déjà identifié dans les débats publics français."
+      },
+      {
+        "bloc": 1,
+        "type": "accusation_presentee_comme_fait",
+        "description": "Le risque d'aggravation est présenté comme un constat, alors qu'il s'agit d'une crainte exprimée par la CFDT-Culture, non attribuée comme telle.",
+        "phrase": "La tribune met en avant le risque d'une aggravation des inégalités territoriales, un sujet récurrent dans les débats sur la culture en France."
+      },
+      {
+        "bloc": 1,
+        "type": "accusation_presentee_comme_fait",
+        "description": "Les 'conséquences sociales et politiques' et le 'recul pour le secteur' sont des interprétations du syndicat, présentées comme des faits sans attribution claire.",
+        "phrase": "Le texte ne détaille pas les mesures budgétaires contestées ni les montants concernés. Il se concentre sur les conséquences sociales et politiques, présentées par le syndicat comme un recul pour le secteur."
+      }
+    ],
+    "types_restants": [
+      "accusation_presentee_comme_fait",
+      "accusation_presentee_comme_fait",
+      "accusation_presentee_comme_fait",
+      "contexte_hors_sujet",
+      "source_derivee_comptee_comme_primaire",
+      "compteur_incoherent",
+      "source_non_editoriale",
+      "cadrage_emprunte",
+      "cadrage_emprunte",
+      "section_gonflee",
+      "faux_debat",
+      "redondance"
+    ],
+    "article_type": "actu",
+    "avertissements_garde_fous": [
+      "titre_de_mauvaise_qualite"
+    ],
+    "titre": "CFDT-Culture critique l'impact démocratique des budgets culturels",
+    "n_sources": 4,
+    "n_mots": 376,
+    "titre_rss": "« Derrière les crédits de la culture se joue la capacité de la France à transmettre une histoire commune »",
+    "matiere_faits_distincts": 345,
+    "matiere_redondance": 0.0,
+    "matiere_donnees_chiffrees": 0,
+    "n_sources_injectees": 10,
+    "n_sources_trouvees": 10,
+    "n_sources_pertinentes": 3,
+    "veille_heures_visible": 9.0,
+    "veille_passages": 9,
+    "veille_age_h": 9.2,
+    "veille_n_flux_grappe": 2
+  },
+  {
+    "slug": "athol-williams-lanceur-alerte-bain-exil-corruption-etat",
+    "statut": "rejete_qualite",
+    "date": "2026-08-21T04:42:56",
+    "problemes_initiaux": 17,
+    "tentatives": 3,
+    "problemes_restants": 16,
+    "bloquants_restants": 2,
+    "bloquants_types": [
+      "chiffre_errone",
+      "chiffre_errone"
+    ],
+    "bloquants_detail": [
+      {
+        "bloc": 1,
+        "type": "chiffre_errone",
+        "description": "La source citée (Vie Publique, 2026) n'est pas le Défenseur des droits, et aucune des sources fournies ne mentionne explicitement un rapport du Défenseur des droits couvrant la période 2024-2025 avec ce chiffre de 62 %. ",
+        "phrase": "Le rapport du Défenseur des droits, couvrant la période 2024-2025, indique que 62 % des lanceurs d’alerte ayant signalé des violations ont subi des représailles, sans que des données précises sur les secteurs ou les type"
+      },
+      {
+        "bloc": 1,
+        "type": "chiffre_errone",
+        "description": "Le chiffre de 62 % est attribué à un rapport du Défenseur des droits, qui n'apparaît pas dans les sources fournies. La source Vie Publique (2026) ne confirme pas ce chiffre ni cette attribution.",
+        "phrase": "Selon ce rapport, 62 % des lanceurs d’alerte ayant signalé des violations en France ont subi des discriminations dans l’emploi, bien que les données ne permettent pas de distinguer les secteurs ou les types de représaill"
+      }
+    ],
+    "types_restants": [
+      "chiffre_errone",
+      "source_inventee",
+      "chiffre_errone",
+      "source_inventee",
+      "source_inventee",
+      "source_inventee",
+      "source_inventee",
+      "source_inventee",
+      "source_inventee",
+      "source_derivee_comptee_comme_primaire",
+      "source_derivee_comptee_comme_primaire",
+      "compteur_incoherent",
+      "cadrage_emprunte",
+      "contexte_hors_sujet",
+      "section_gonflee",
+      "angle_annonce_non_tenu"
+    ],
+    "article_type": "actu",
+    "titre": "Athol Williams, lanceur d’alerte de Bain, en exil après avoir révélé une corruption d’État",
+    "n_sources": 5,
+    "n_mots": 542,
+    "titre_rss": "Lanceurs d’alerte en exil : pourquoi les business schools ont une responsabilité à assumer",
+    "matiere_faits_distincts": 932,
+    "matiere_redondance": 0.01,
+    "matiere_donnees_chiffrees": 0,
+    "n_sources_injectees": 10,
+    "n_sources_trouvees": 10,
+    "n_sources_pertinentes": 7,
+    "veille_heures_visible": 138.9,
+    "veille_passages": 127,
+    "veille_age_h": 139.1,
+    "veille_n_flux_grappe": 1
+  },
+  {
+    "slug": "ebola-rdc-2300-morts-en-trois-mois",
+    "statut": "rejete_qualite",
+    "date": "2026-08-21T05:12:00",
+    "problemes_initiaux": 12,
+    "tentatives": 3,
+    "problemes_restants": 12,
+    "bloquants_restants": 4,
+    "bloquants_types": [
+      "chiffre_errone",
+      "chiffre_errone",
+      "niveau_preuve_insuffisant",
+      "accusation_presentee_comme_fait"
+    ],
+    "bloquants_detail": [
+      {
+        "bloc": 1,
+        "type": "chiffre_errone",
+        "description": "Le chiffre de 2 000 décès n'est pas confirmé par la source [6] (UN, 14 août 2026), qui indique un rythme de mortalité d'une personne toutes les 30 minutes sans donner ce total. Le titre de l'article mentionne également '",
+        "phrase": "La République démocratique du Congo (RDC) fait face à sa dix-septième épidémie d'Ebola depuis 1976, avec plus de 2 000 décès enregistrés au 14 août 2026, selon les Nations Unies."
+      },
+      {
+        "bloc": 1,
+        "type": "chiffre_errone",
+        "description": "La source [6] (UN, 14 août 2026) ne confirme pas ce chiffre de 2 000 morts. Elle mentionne un rythme de mortalité ('une personne toutes les 30 minutes') sans total cumulé.",
+        "phrase": "En République démocratique du Congo (RDC), l'épidémie d'Ebola a causé la mort de plus de 2 000 personnes au 14 août 2026, selon les Nations Unies [6]."
+      },
+      {
+        "bloc": 1,
+        "type": "niveau_preuve_insuffisant",
+        "description": "La source [3] (*The Lancet*, 13 juin 2026) ne précise pas le niveau de preuve ou les limites méthodologiques de cette affirmation sur la propagation active dans les zones de conflit. L'article généralise sans indiquer si",
+        "phrase": "Selon *The Lancet*, le virus circule dans plusieurs zones de santé de cette province, avec une propagation particulièrement active dans les territoires touchés par des conflits armés [3]."
+      },
+      {
+        "bloc": 1,
+        "type": "accusation_presentee_comme_fait",
+        "description": "Cette phrase présente la défiance comme un fait établi, alors que la source [3] (*The Lancet*) l'attribue à des observations ou des analyses. Elle devrait être reformulée en « Selon *The Lancet*, la défiance des populati",
+        "phrase": "La défiance des populations aggrave la situation."
+      }
+    ],
+    "types_restants": [
+      "chiffre_errone",
+      "chiffre_errone",
+      "source_inventee",
+      "niveau_preuve_insuffisant",
+      "accusation_presentee_comme_fait",
+      "acteur_mis_en_cause_sans_reponse",
+      "source_derivee_comptee_comme_primaire",
+      "compteur_incoherent",
+      "contexte_hors_sujet",
+      "cadrage_emprunte",
+      "redondance",
+      "extrapolation"
+    ],
+    "article_type": "actu",
+    "titre": "RDC : l'épidémie d'Ebola tue 2 300 personnes en trois mois",
+    "n_sources": 9,
+    "n_mots": 845,
+    "titre_rss": "Ebola en RDC : l'épidémie \"tue une personne toutes les 30 minutes\"",
+    "matiere_faits_distincts": 1092,
+    "matiere_redondance": 0.01,
+    "matiere_donnees_chiffrees": 2,
+    "n_sources_injectees": 10,
+    "n_sources_trouvees": 10,
+    "n_sources_pertinentes": 5,
+    "veille_heures_visible": 87.9,
+    "veille_passages": 81,
+    "veille_age_h": 88.1,
+    "veille_n_flux_grappe": 13
+  },
+  {
+    "slug": "piratage-fisc-reunion-crise-lecornu-attaque-sophistiquee-2026",
+    "statut": "rejete_qualite",
+    "date": "2026-08-21T05:18:16",
+    "problemes_initiaux": 12,
+    "tentatives": 3,
+    "problemes_restants": 10,
+    "bloquants_restants": 3,
+    "bloquants_types": [
+      "annonce_perimee",
+      "niveau_preuve_insuffisant",
+      "niveau_preuve_insuffisant"
+    ],
+    "bloquants_detail": [
+      {
+        "bloc": 1,
+        "type": "annonce_perimee",
+        "description": "Le résumé présente la réunion de crise comme un événement à venir (« a convoqué »), alors que les faits la décrivent comme déjà survenue (« a convoqué une réunion de crise le 16 août 2026 »). La source [2] confirme que l",
+        "phrase": "Une cyberattaque ciblant les systèmes de la Direction générale des finances publiques (DGFiP) a été détectée le 15 août 2026. Le gouvernement, par la voix de Sébastien Lecornu, a convoqué une réunion de crise le 16 août "
+      },
+      {
+        "bloc": 1,
+        "type": "niveau_preuve_insuffisant",
+        "description": "La source [3] précise que le résultat (50 % des participants) est issu d'un contexte simulé et non d'une évaluation opérationnelle, mais l'article ne mentionne pas explicitement cette limitation dans la phrase citée, ce ",
+        "phrase": "L’exercice REMPAR25, organisé par l’ANSSI en septembre 2025, avait révélé que lors des simulations de crise cyber, 50 % des participants manquaient d’expertise pour gérer de tels incidents, un résultat issu d’un contexte"
+      },
+      {
+        "bloc": 1,
+        "type": "niveau_preuve_insuffisant",
+        "description": "L'article mentionne bien que le constat est limité au cadre de l'exercice, mais la phrase précédente (« 5 680 professionnels pour simuler un scénario de « black-out numérique » ») ne précise pas explicitement que les rés",
+        "phrase": "Les résultats ont mis en évidence des difficultés de coordination entre acteurs publics et privés, ainsi qu’un manque d’expertise chez la moitié des participants pour répondre à une crise cyber, un constat limité au cadr"
+      }
+    ],
+    "types_restants": [
+      "annonce_perimee",
+      "niveau_preuve_insuffisant",
+      "niveau_preuve_insuffisant",
+      "source_derivee_comptee_comme_primaire",
+      "compteur_incoherent",
+      "contexte_hors_sujet",
+      "redondance",
+      "faux_debat",
+      "section_gonflee",
+      null
+    ],
+    "article_type": "actu",
+    "avertissements_garde_fous": [
+      "faits_repetitifs"
+    ],
+    "titre": "Piratage du fisc en août 2026 : Lecornu convoque une réunion de crise après une attaque sophistiquée",
+    "n_sources": 5,
+    "n_mots": 517,
+    "titre_rss": "Piratage du fisc : l’exécutif rattrapé par l’ampleur du risque numérique",
+    "matiere_faits_distincts": 996,
+    "matiere_redondance": 0.01,
+    "matiere_donnees_chiffrees": 0,
+    "n_sources_injectees": 10,
+    "n_sources_trouvees": 10,
+    "n_sources_pertinentes": 3,
+    "veille_heures_visible": 6.9,
+    "veille_passages": 7,
+    "veille_age_h": 7.1,
+    "veille_n_flux_grappe": 1
   }
 ]
