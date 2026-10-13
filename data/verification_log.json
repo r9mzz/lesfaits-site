@@ -25720,5 +25720,1360 @@
     "n_sources_injectees": 10,
     "n_sources_trouvees": 10,
     "nature_contenu": "actualite_factuelle"
+  },
+  {
+    "slug": "lfi-critique-loi-integrale-moyens-insuffisants-violences-sexuelles",
+    "statut": "rejete_sensible",
+    "date": "2026-10-13T17:04:07",
+    "problemes_initiaux": 13,
+    "bloc5": [
+      "acteur_mis_en_cause_sans_reponse"
+    ],
+    "article_type": "actu",
+    "avertissements_garde_fous": [
+      "cliches_ia"
+    ],
+    "titre": "Loi intégrale : LFI critique moyens insuffisants et approche répressive",
+    "n_sources": 3,
+    "n_mots": 775,
+    "titre_rss": "Derrière la loi intégrale, la guerre des féministes : \"Si on s'écarte un peu de LFI, on est vite traité de facho\"",
+    "matiere_faits_distincts": 770,
+    "matiere_redondance": 0.0,
+    "matiere_donnees_chiffrees": 2,
+    "n_sources_injectees": 10,
+    "n_sources_trouvees": 10,
+    "nature_contenu": "actualite_factuelle"
+  },
+  {
+    "slug": "saisie-petrolier-russe-df-peak-condamnee-par-moscou",
+    "statut": "rejete_sensible",
+    "date": "2026-10-13T17:13:33",
+    "problemes_initiaux": 15,
+    "bloc5": [
+      "faux_debat"
+    ],
+    "article_type": "actu",
+    "avertissements_garde_fous": [
+      "cliches_ia"
+    ],
+    "titre": "Saisie du DF Peak : la Russie dénonce une violation du droit maritime",
+    "n_sources": 4,
+    "n_mots": 384,
+    "titre_rss": "La Russie condamne la saisie par la France d'un pétrolier au large de la Réunion",
+    "matiere_faits_distincts": 1189,
+    "matiere_redondance": 0.0,
+    "matiere_donnees_chiffrees": 3,
+    "n_sources_injectees": 10,
+    "n_sources_trouvees": 10,
+    "nature_contenu": "actualite_factuelle"
+  },
+  {
+    "slug": "bei-defense-armes-munitions-exclusion-senat-proposition-2026",
+    "statut": "rejete_sensible",
+    "date": "2026-10-13T17:19:55",
+    "problemes_initiaux": 20,
+    "bloc5": [
+      "faux_debat"
+    ],
+    "article_type": "actu",
+    "avertissements_garde_fous": [
+      "resume_repete_corps",
+      "faits_repetitifs"
+    ],
+    "titre": "La BEI exclut toujours les armes malgré un élargissement à la défense",
+    "n_sources": 3,
+    "n_mots": 902,
+    "titre_rss": "Armes et munitions produites par les industries européennes de la défense - Rapport n° 879",
+    "matiere_faits_distincts": 300,
+    "matiere_redondance": 0.0,
+    "matiere_donnees_chiffrees": 0,
+    "n_sources_injectees": 10,
+    "n_sources_trouvees": 10,
+    "veille_heures_visible": 517.7,
+    "veille_passages": 326,
+    "veille_age_h": 1502.5,
+    "veille_n_flux_grappe": 4,
+    "nature_contenu": "actualite_factuelle"
+  },
+  {
+    "slug": "baisse-emissions-gaz-effet-serre-france-rythme-insuffisant-progres-sectoriels",
+    "statut": "rejete_sensible",
+    "date": "2026-10-13T17:22:50",
+    "problemes_initiaux": 17,
+    "bloc5": [
+      "faux_debat"
+    ],
+    "article_type": "actu",
+    "avertissements_garde_fous": [
+      "resume_repete_corps"
+    ],
+    "titre": "Baisse des émissions de GES en France : un rythme insuffisant malgré des progrès sectoriels",
+    "n_sources": 5,
+    "n_mots": 460,
+    "titre_rss": "Les émissions de gaz à effet de serre en France diminuent du fait de l’envolée des prix des carburants",
+    "matiere_faits_distincts": 1079,
+    "matiere_redondance": 0.04,
+    "matiere_donnees_chiffrees": 1,
+    "n_sources_injectees": 10,
+    "n_sources_trouvees": 10,
+    "nature_contenu": "actualite_factuelle"
+  },
+  {
+    "slug": "etude-genetique-mangareva-origine-peuplement-pacifique",
+    "statut": "rejete_sensible",
+    "date": "2026-10-13T17:27:35",
+    "problemes_initiaux": 20,
+    "bloc5": [
+      "compteur_incoherent"
+    ],
+    "article_type": "actu",
+    "titre": "Mangareva identifiée comme origine génétique des Polynésiens de Rapa Nui et Hawaii",
+    "n_sources": 3,
+    "n_mots": 651,
+    "titre_rss": "Du nouveau sur le peuplement des îles du Pacifique",
+    "matiere_faits_distincts": 799,
+    "matiere_redondance": 0.0,
+    "matiere_donnees_chiffrees": 3,
+    "n_sources_injectees": 10,
+    "n_sources_trouvees": 10,
+    "nature_contenu": "etude_scientifique"
+  },
+  {
+    "slug": "canicules-records-diplomatie-climatique-propositions-senat-juillet-2026",
+    "statut": "rejete_sensible",
+    "date": "2026-10-13T17:30:35",
+    "problemes_initiaux": 13,
+    "bloc5": [
+      "compteur_incoherent"
+    ],
+    "article_type": "actu",
+    "titre": "Canicules records et diplomatie climatique : les propositions du Sénat pour une France plus influente",
+    "n_sources": 3,
+    "n_mots": 817,
+    "titre_rss": "Climat : La France, puissance océanique au coeur des défis du siècle - Rapport d'information n° 859",
+    "matiere_faits_distincts": 857,
+    "matiere_redondance": 0.0,
+    "matiere_donnees_chiffrees": 1,
+    "n_sources_injectees": 10,
+    "n_sources_trouvees": 10,
+    "veille_heures_visible": 517.7,
+    "veille_passages": 326,
+    "veille_age_h": 1502.5,
+    "veille_n_flux_grappe": 5,
+    "nature_contenu": "rapport"
+  },
+  {
+    "slug": "vaccins-ebola-immunite-croisee-souche-bundibugyo-epidemie-actuelle",
+    "statut": "rejete_sensible",
+    "date": "2026-10-13T17:33:56",
+    "problemes_initiaux": 14,
+    "bloc5": [
+      "compteur_incoherent"
+    ],
+    "article_type": "actu",
+    "avertissements_garde_fous": [
+      "faits_repetitifs"
+    ],
+    "titre": "Vaccins Ebola : une immunité croisée détectée contre la souche Bundibugyo",
+    "n_sources": 4,
+    "n_mots": 900,
+    "titre_rss": "Épidémie d’Ebola Bundibugyo : des premiers résultats pour guider la recherche d’un vaccin efficace",
+    "matiere_faits_distincts": 879,
+    "matiere_redondance": 0.03,
+    "matiere_donnees_chiffrees": 2,
+    "n_sources_injectees": 10,
+    "n_sources_trouvees": 10,
+    "veille_heures_visible": 517.7,
+    "veille_passages": 311,
+    "veille_age_h": 1502.5,
+    "veille_n_flux_grappe": 9,
+    "nature_contenu": "actualite_factuelle"
+  },
+  {
+    "slug": "66-pour-cent-nappes-phreatiques-sous-normales-alerte-brgm-situation-preoccupante",
+    "statut": "rejete_sensible",
+    "date": "2026-10-13T17:43:35",
+    "problemes_initiaux": 24,
+    "tentative": 3,
+    "bloc5": true,
+    "article_type": "actu",
+    "avertissements_garde_fous": [
+      "faits_repetitifs"
+    ],
+    "titre": "66 % des nappes phréatiques françaises sous les normales saisonnières selon le BRGM",
+    "n_sources": 5,
+    "n_mots": 741,
+    "titre_rss": "France: Deux tiers des nappes phréatiques dans une situation \"très préoccupante“",
+    "matiere_faits_distincts": 740,
+    "matiere_redondance": 0.01,
+    "matiere_donnees_chiffrees": 1,
+    "n_sources_injectees": 10,
+    "n_sources_trouvees": 10,
+    "nature_contenu": "actualite_factuelle"
+  },
+  {
+    "slug": "cop31-demande-fossiles-progresse-malgre-renouvelables-2026",
+    "statut": "rejete_sensible",
+    "date": "2026-10-13T17:48:49",
+    "problemes_initiaux": 13,
+    "tentative": 2,
+    "bloc5": true,
+    "article_type": "actu",
+    "titre": "COP31 : la demande mondiale en énergies fossiles progresse malgré les renouvelables",
+    "n_sources": 3,
+    "n_mots": 803,
+    "titre_rss": "COP31: l'humanité est toujours accro aux énergies fossiles",
+    "matiere_faits_distincts": 850,
+    "matiere_redondance": 0.0,
+    "matiere_donnees_chiffrees": 0,
+    "n_sources_injectees": 10,
+    "n_sources_trouvees": 10,
+    "nature_contenu": "actualite_factuelle"
+  },
+  {
+    "slug": "inserm-demonstration-sept-idees-recues-vaccins-campagne-2026-2027",
+    "statut": "rejete_sensible",
+    "date": "2026-10-13T17:55:25",
+    "problemes_initiaux": 17,
+    "bloc5": [
+      "faux_debat"
+    ],
+    "article_type": "actu",
+    "avertissements_garde_fous": [
+      "faits_repetitifs"
+    ],
+    "titre": "Inserm démontre sept idées reçues sur les vaccins à l’ouverture de la campagne 2026-2027",
+    "n_sources": 5,
+    "n_mots": 1025,
+    "titre_rss": "Sept fausses idées sur les vaccins",
+    "matiere_faits_distincts": 1219,
+    "matiere_redondance": 0.01,
+    "matiere_donnees_chiffrees": 1,
+    "n_sources_injectees": 10,
+    "n_sources_trouvees": 10,
+    "nature_contenu": "actualite_factuelle"
+  },
+  {
+    "slug": "deces-carole-fritz-archeologue-art-parietal-impact-scientifique",
+    "statut": "rejete_sensible",
+    "date": "2026-10-13T17:58:47",
+    "problemes_initiaux": 18,
+    "bloc5": [
+      "diffamation_potentielle"
+    ],
+    "article_type": "actu",
+    "titre": "Décès de Carole Fritz, figure majeure de l'archéologie de l'art pariétal",
+    "n_sources": 6,
+    "n_mots": 732,
+    "titre_rss": "Carole Fritz, archéologue et préhistorienne, grande amoureuse de l’art pariétal, est morte",
+    "matiere_faits_distincts": 799,
+    "matiere_redondance": 0.0,
+    "matiere_donnees_chiffrees": 1,
+    "n_sources_injectees": 10,
+    "n_sources_trouvees": 10,
+    "nature_contenu": "actualite_factuelle"
+  },
+  {
+    "slug": "horloges-atomiques-precision-record-redefinition-seconde-2026",
+    "statut": "rejete_sensible",
+    "date": "2026-10-13T18:04:42",
+    "problemes_initiaux": 12,
+    "bloc5": [
+      "compteur_incoherent"
+    ],
+    "article_type": "actu",
+    "titre": "Horloges atomiques : précision record et enjeux d'une possible redéfinition de la seconde",
+    "n_sources": 3,
+    "n_mots": 850,
+    "titre_rss": "La folle course des physiciens pour mesurer le temps, jusqu’à envisager une redéfinition de la seconde",
+    "matiere_faits_distincts": 707,
+    "matiere_redondance": 0.0,
+    "matiere_donnees_chiffrees": 0,
+    "n_sources_injectees": 10,
+    "n_sources_trouvees": 10,
+    "nature_contenu": "actualite_factuelle"
+  },
+  {
+    "slug": "finistere-secheresse-75-eau-cours-deau-crise-historique",
+    "statut": "rejete_sensible",
+    "date": "2026-10-13T18:09:52",
+    "problemes_initiaux": 17,
+    "bloc5": [
+      "compteur_incoherent"
+    ],
+    "article_type": "actu",
+    "avertissements_garde_fous": [
+      "faits_repetitifs"
+    ],
+    "titre": "Finistère : 75 % de l'eau dépendante des cours d'eau, en crise sécheresse historique",
+    "n_sources": 6,
+    "n_mots": 783,
+    "titre_rss": "Sécheresse : le Finistère dans une « situation critique »",
+    "matiere_faits_distincts": 838,
+    "matiere_redondance": 0.03,
+    "matiere_donnees_chiffrees": 2,
+    "n_sources_injectees": 10,
+    "n_sources_trouvees": 10,
+    "nature_contenu": "actualite_factuelle"
+  },
+  {
+    "slug": "greta-thunberg-soutient-grève-lycéens-saint-denis-13-octobre-2026",
+    "statut": "rejete_sensible",
+    "date": "2026-10-13T18:22:40",
+    "problemes_initiaux": 19,
+    "bloc5": [
+      "source_inventee"
+    ],
+    "article_type": "actu",
+    "avertissements_garde_fous": [
+      "cliches_ia"
+    ],
+    "titre": "Greta Thunberg soutient des lycéens en grève à Saint-Denis",
+    "n_sources": 5,
+    "n_mots": 410,
+    "titre_rss": "Greta Thunberg : de l’ONU à Saint-Denis, du climat à Gaza, que devient la militante suédoise",
+    "matiere_faits_distincts": 833,
+    "matiere_redondance": 0.0,
+    "matiere_donnees_chiffrees": 2,
+    "n_sources_injectees": 10,
+    "n_sources_trouvees": 10,
+    "nature_contenu": "actualite_factuelle"
+  },
+  {
+    "slug": "mortalite-france-2024-641-046-deces-taux-baisse-maladies-respiratoires",
+    "statut": "rejete_sensible",
+    "date": "2026-10-13T18:30:08",
+    "problemes_initiaux": 11,
+    "tentative": 3,
+    "bloc5": true,
+    "article_type": "actu",
+    "avertissements_garde_fous": [
+      "resume_repete_corps",
+      "titre_de_mauvaise_qualite"
+    ],
+    "titre": "France : 641 046 décès en 2024, un taux de mortalité en baisse malgré une hausse des maladies respiratoires",
+    "n_sources": 4,
+    "n_mots": 706,
+    "titre_rss": "Grandes causes de décès en France : tendances et causes associées en 2024",
+    "matiere_faits_distincts": 878,
+    "matiere_redondance": 0.21,
+    "matiere_donnees_chiffrees": 2,
+    "n_sources_injectees": 10,
+    "n_sources_trouvees": 10,
+    "veille_heures_visible": 517.7,
+    "veille_passages": 311,
+    "veille_age_h": 1502.5,
+    "veille_n_flux_grappe": 1,
+    "nature_contenu": "actualite_factuelle"
+  },
+  {
+    "slug": "qualite-emploi-ue-progres-disparites-rapport-2026",
+    "statut": "corrige_automatiquement",
+    "date": "2026-10-13T18:34:17",
+    "problemes_initiaux": 12,
+    "tentatives": 1,
+    "problemes_residuels_style": 17,
+    "rapport_initial": {
+      "conforme": false,
+      "sujet_sensible": false,
+      "sujet_sensible_raison": "",
+      "angle_insuffisant": false,
+      "angle_insuffisant_raison": "",
+      "nature_contenu": "rapport",
+      "problemes": [
+        {
+          "bloc": 2,
+          "section": "faits",
+          "type": "source_inventee",
+          "phrase_exacte": "Cela explique en partie la forte flambée des chiffres enregistrée en août 2025, selon *L'Express* [2].",
+          "explication": "La source [2] (*L'Express*) ne mentionne pas explicitement une 'forte flambée des chiffres enregistrée en août 2025' dans son titre ou son contenu visible. Le renvoi [2] ne correspond pas à ce fait précis."
+        },
+        {
+          "bloc": 2,
+          "section": "faits",
+          "type": "source_inventee",
+          "phrase_exacte": "Cette approche a influencé les politiques publiques européennes pour éviter une précarisation excessive des travailleurs.",
+          "explication": "La source [4] (*Le Figaro*) n'est pas citée dans le tableau des sources autorisées, et son contenu visible ne traite pas des politiques publiques européennes post-2008 ni de leur influence sur la précarisation."
+        },
+        {
+          "bloc": 2,
+          "section": "contexte",
+          "type": "source_inventee",
+          "phrase_exacte": "La théorie économique de Keynes, rappelée par *Le Figaro*, souligne les conséquences négatives d'une baisse des salaires sur la demande effective et donc l'emploi [4].",
+          "explication": "La source [4] (*Le Figaro*) n'est pas citée dans le tableau des sources autorisées, et son contenu visible ne mentionne pas explicitement la théorie de Keynes ni son lien avec les politiques publiques européennes."
+        },
+        {
+          "bloc": 2,
+          "section": "contexte",
+          "type": "source_derivee_comptee_comme_primaire",
+          "phrase_exacte": "Comparativement, des pays comme l'Allemagne ou les Pays-Bas, où les partenariats sociaux entre syndicats et employeurs sont historiques, affichaient déjà des taux de contrats précaires inférieurs à 10 % dès 2015, contre plus de 15 % dans des économies plus libérales comme le Royaume-Uni ou l'Irlande [1].",
+          "explication": "La source [1] (rapport Europa) ne fournit pas explicitement ces comparaisons pays par pays (Allemagne, Pays-Bas, Royaume-Uni, Irlande) ni les chiffres précis pour 2015. Ces détails semblent extrapolés ou reformulés sans référence directe dans le rapport."
+        },
+        {
+          "bloc": 2,
+          "section": "nuances",
+          "type": "source_inventee",
+          "phrase_exacte": "Enfin, les disparités régionales ne sont pas toujours prises en compte dans les politiques européennes, bien que des pays comme la Pologne ou la Hongrie aient réduit leur taux de précarité grâce à des mesures locales ciblées [1].",
+          "explication": "La source [1] ne mentionne pas explicitement la Pologne ou la Hongrie comme exemples de réduction de précarité via des mesures locales. Ces pays ne sont pas cités dans le rapport Europa fourni."
+        },
+        {
+          "bloc": 1,
+          "section": "faits",
+          "type": "fait_tranche_arbitrairement",
+          "phrase_exacte": "Les transitions numérique et écologique, bien que créatrices d'emplois qualifiés, accentuent les inégalités régionales, avec des taux de chômage structurel dépassant 10 % dans certains bassins industriels.",
+          "explication": "La source [1] ne précise pas quels 'certains bassins industriels' sont concernés ni si ces taux dépassant 10 % sont confirmés par des données chiffrées ou des exemples concrets. La généralisation est plus forte que ce que permet la source."
+        },
+        {
+          "bloc": 1,
+          "section": "nuances",
+          "type": "niveau_preuve_insuffisant",
+          "phrase_exacte": "Par exemple, une hausse des salaires médians peut masquer une polarisation accrue : les hauts revenus progressent plus vite que les bas, creusant les écarts internes.",
+          "explication": "La source [1] ne fournit pas de données chiffrées ou d'analyse détaillée sur cette 'polarisation accrue' ou les écarts internes entre hauts et bas revenus. Cette affirmation repose sur une interprétation non explicitement sourcée."
+        },
+        {
+          "bloc": 2,
+          "section": "nuances",
+          "type": "source_inventee",
+          "phrase_exacte": "Enfin, les données ne permettent pas d'évaluer l'impact réel des transitions écologique et numérique sur la qualité des emplois.",
+          "explication": "Bien que cette affirmation soit plausible, elle n'est pas explicitement soutenue par la source [1], qui ne mentionne pas cette limite méthodologique spécifique. Elle relève davantage d'une interprétation générale."
+        },
+        {
+          "bloc": 4,
+          "section": "contexte",
+          "type": "contexte_hors_sujet",
+          "phrase_exacte": "La théorie économique de Keynes, rappelée par *Le Figaro*, souligne les conséquences négatives d'une baisse des salaires sur la demande effective et donc l'emploi.",
+          "explication": "Cette référence à la théorie de Keynes, bien que pertinente pour le sujet, n'est pas directement liée à l'analyse des progrès concrets de la qualité de l'emploi dans l'UE depuis 2016. Elle relève davantage d'un contexte économique général."
+        },
+        {
+          "bloc": 4,
+          "section": "nuances",
+          "type": "redondance",
+          "phrase_exacte": "Les indicateurs utilisés (durée des contrats, niveau des salaires) ne capturent pas entièrement la satisfaction des travailleurs ou la conciliation entre vie professionnelle et personnelle.",
+          "explication": "Cette idée est déjà évoquée dans les faits ('ces progrès masquent des disparités persistantes') et dans le contexte ('les protections sociales et les droits des travailleurs'). Elle est reformulée sans apporter de nouvelle information sourcée."
+        },
+        {
+          "bloc": 2,
+          "section": "faits",
+          "type": "compteur_incoherent",
+          "phrase_exacte": "Le calendrier d'actualisation des données de Pôle emploi, arrêté à date fixe depuis janvier 2025, peut fausser les statistiques mensuelles en fonction du nombre de jours ouvrés par mois [2]. Cela explique en partie la forte flambée des chiffres enregistrée en août 2025, selon *L'Express* [2].",
+          "explication": "La source [2] (*L'Express*) est citée deux fois pour des faits distincts, mais elle n'est pas une source primaire sur les données de Pôle emploi. De plus, le rapport Europa [1] est la seule source autorisée sur les données européennes, et il n'est pas utilisé ici pour ces détails techniques."
+        },
+        {
+          "bloc": 3,
+          "section": "contexte",
+          "type": "cadrage_emprunte",
+          "phrase_exacte": "Avant 2016, les politiques publiques se concentraient surtout sur la réduction du chômage, souvent au détriment de la stabilité des emplois.",
+          "explication": "Cette affirmation ('au détriment de la stabilité des emplois') est un jugement de valeur non explicitement attribué à une source. Elle relève d'une interprétation subjective non sourcée dans les extraits fournis."
+        }
+      ]
+    },
+    "article_type": "actu",
+    "avertissements_garde_fous": [
+      "cliches_ia"
+    ],
+    "titre": "Qualité de l'emploi dans l'UE : améliorations mesurées, mais disparités persistantes",
+    "n_sources": 3,
+    "n_mots": 792,
+    "titre_rss": "La qualité de l'emploi est une priorité dans l'UE, selon le rapport annuel de la Commission",
+    "matiere_faits_distincts": 1153,
+    "matiere_redondance": 0.0,
+    "matiere_donnees_chiffrees": 0,
+    "n_sources_injectees": 10,
+    "n_sources_trouvees": 10,
+    "nature_contenu": "rapport"
+  },
+  {
+    "slug": "divergence-166-milliards-aides-publiques-gouvernement-senat-perimetre",
+    "statut": "rejete_sensible",
+    "date": "2026-10-13T18:38:24",
+    "problemes_initiaux": 20,
+    "bloc5": [
+      "compteur_incoherent"
+    ],
+    "article_type": "actu",
+    "avertissements_garde_fous": [
+      "resume_repete_corps"
+    ],
+    "titre": "166 milliards d'euros d'aides publiques : le gouvernement et le Sénat s'opposent sur leur périmètre",
+    "n_sources": 5,
+    "n_mots": 891,
+    "titre_rss": "Le gouvernement estime à 166 milliards d'euros le montant des aides publiques accordées aux entreprises en 2024",
+    "matiere_faits_distincts": 1259,
+    "matiere_redondance": 0.0,
+    "matiere_donnees_chiffrees": 10,
+    "n_sources_injectees": 10,
+    "n_sources_trouvees": 10,
+    "nature_contenu": "actualite_factuelle"
+  },
+  {
+    "slug": "budget-2027-detaille-mesures-impots-retraites-prestations-sociales",
+    "statut": "rejete_sensible",
+    "date": "2026-10-13T18:41:41",
+    "problemes_initiaux": 13,
+    "bloc5": [
+      "acteur_mis_en_cause_sans_reponse"
+    ],
+    "article_type": "actu",
+    "avertissements_garde_fous": [
+      "faits_repetitifs"
+    ],
+    "titre": "Budget 2027 : gel des barèmes, retraites et aides au logement, les mesures détaillées",
+    "n_sources": 4,
+    "n_mots": 670,
+    "titre_rss": "Ce que contient le projet de budget 2027",
+    "matiere_faits_distincts": 915,
+    "matiere_redondance": 0.03,
+    "matiere_donnees_chiffrees": 0,
+    "n_sources_injectees": 10,
+    "n_sources_trouvees": 10,
+    "nature_contenu": "decision_officielle"
+  },
+  {
+    "slug": "comptes-tiktok-generent-5000-euros-mois-fausses-informations",
+    "statut": "rejete_sensible",
+    "date": "2026-10-13T18:47:30",
+    "problemes_initiaux": 12,
+    "bloc5": [
+      "extrapolation"
+    ],
+    "article_type": "actu",
+    "avertissements_garde_fous": [
+      "resume_repete_corps"
+    ],
+    "titre": "Des comptes TikTok génèrent jusqu’à 5 000 euros par mois avec des fausses informations",
+    "n_sources": 3,
+    "n_mots": 577,
+    "titre_rss": "Les faux contenus d''informations font recette sur les réseaux sociaux",
+    "matiere_faits_distincts": 829,
+    "matiere_redondance": 0.34,
+    "matiere_donnees_chiffrees": 0,
+    "n_sources_injectees": 10,
+    "n_sources_trouvees": 10,
+    "nature_contenu": "actualite_factuelle"
+  },
+  {
+    "slug": "ia-entreprises-gains-productivite-resistances-rapports-parlementaires-2024-2026",
+    "statut": "rejete_sensible",
+    "date": "2026-10-13T18:56:12",
+    "problemes_initiaux": 22,
+    "bloc5": [
+      "acteur_mis_en_cause_sans_reponse"
+    ],
+    "article_type": "actu",
+    "avertissements_garde_fous": [
+      "faits_repetitifs",
+      "cliches_ia"
+    ],
+    "titre": "IA dans les entreprises : gains de productivité et résistances selon les rapports parlementaires 2024-2026",
+    "n_sources": 5,
+    "n_mots": 834,
+    "titre_rss": "Mon collègue est une IA",
+    "matiere_faits_distincts": 1025,
+    "matiere_redondance": 0.0,
+    "matiere_donnees_chiffrees": 0,
+    "n_sources_injectees": 10,
+    "n_sources_trouvees": 10,
+    "nature_contenu": "rapport"
+  },
+  {
+    "slug": "les-aides-auditives-a-ia-isolent-les-voix-avec-une-precision-de-99-63",
+    "statut": "rejete_sensible",
+    "date": "2026-10-13T18:59:50",
+    "problemes_initiaux": 10,
+    "bloc5": [
+      "compteur_incoherent"
+    ],
+    "article_type": "actu",
+    "avertissements_garde_fous": [
+      "titre_de_mauvaise_qualite",
+      "article_sans_date"
+    ],
+    "titre": "Les aides auditives à IA isolent les voix avec une précision de 99,63 % dans des conditions contrôlées",
+    "n_sources": 8,
+    "n_mots": 359,
+    "titre_rss": "Ce que l’intelligence artificielle change vraiment pour les aides auditives",
+    "matiere_faits_distincts": 1254,
+    "matiere_redondance": 0.0,
+    "matiere_donnees_chiffrees": 0,
+    "n_sources_injectees": 10,
+    "n_sources_trouvees": 10,
+    "nature_contenu": "actualite_factuelle"
+  },
+  {
+    "slug": "loi-integrale-violences-sexuelles-desaccords-lfi-feministes",
+    "statut": "rejete_sensible",
+    "date": "2026-10-13T20:13:44",
+    "sujet_sensible": true,
+    "raison": "L'article aborde une proposition de loi et des débats parlementaires impliquant des critiques publiques entre des députés (dont Gabrielle Cathala) et des associations féministes, avec des accusations mutuelles (ex : « haine grossière »). Bien que non judiciaire, le sujet implique des tensions politiques et des accusations personnelles, nécessitant une relecture humaine pour équilibrer les positions et éviter un faux débat.",
+    "article_type": "actu",
+    "avertissements_garde_fous": [
+      "faits_repetitifs",
+      "cliches_ia"
+    ],
+    "titre": "Loi intégrale contre les violences sexuelles : les critiques des LFI et des féministes",
+    "n_sources": 4,
+    "n_mots": 884,
+    "titre_rss": "Derrière la loi intégrale, la guerre des féministes : \"Si on s'écarte un peu de LFI, on est vite traité de facho\"",
+    "matiere_faits_distincts": 650,
+    "matiere_redondance": 0.16,
+    "matiere_donnees_chiffrees": 1,
+    "n_sources_injectees": 10,
+    "n_sources_trouvees": 10,
+    "nature_contenu": "actualite_factuelle"
+  },
+  {
+    "slug": "directive-europeenne-mgm-divise-innovation-securite",
+    "statut": "rejete_sensible",
+    "date": "2026-10-13T20:18:23",
+    "problemes_initiaux": 12,
+    "bloc5": [
+      "acteur_mis_en_cause_sans_reponse"
+    ],
+    "article_type": "actu",
+    "titre": "La directive européenne sur les MGM divise sur ses garde-fous",
+    "n_sources": 5,
+    "n_mots": 587,
+    "titre_rss": "« Nous demandons à la Commission européenne de surseoir au projet de directive sur le marché de micro-organismes génétiquement modifiés »",
+    "matiere_faits_distincts": 666,
+    "matiere_redondance": 0.11,
+    "matiere_donnees_chiffrees": 0,
+    "n_sources_injectees": 10,
+    "n_sources_trouvees": 10,
+    "nature_contenu": "actualite_factuelle"
+  },
+  {
+    "slug": "retraites-fonctionnaires-68-5-milliards-integres-aux-credits-ministeriels-2027",
+    "statut": "rejete_qualite",
+    "date": "2026-10-13T20:24:24",
+    "tentative": 3,
+    "perte_substance": true,
+    "section": "contexte",
+    "mots_avant": 258,
+    "mots_apres": 0,
+    "article_type": "actu",
+    "avertissements_garde_fous": [
+      "faits_repetitifs",
+      "titre_de_mauvaise_qualite"
+    ],
+    "titre": "Projet de budget 2027 : 68,5 milliards d’euros de retraites des fonctionnaires intégrés aux crédits ministériels",
+    "n_sources": 4,
+    "n_mots": 804,
+    "titre_rss": "Pourquoi près d'un tiers des crédits alloués à certains ministères financent les retraites",
+    "matiere_faits_distincts": 788,
+    "matiere_redondance": 0.15,
+    "matiere_donnees_chiffrees": 2,
+    "n_sources_injectees": 10,
+    "n_sources_trouvees": 10,
+    "nature_contenu": "actualite_factuelle"
+  },
+  {
+    "slug": "chasse-illégale-reserves-naturelles-pyrenees-orientales-notables",
+    "statut": "rejete_sensible",
+    "date": "2026-10-13T20:29:32",
+    "problemes_initiaux": 18,
+    "bloc5": [
+      "acteur_mis_en_cause_sans_reponse"
+    ],
+    "article_type": "actu",
+    "avertissements_garde_fous": [
+      "resume_repete_corps",
+      "faits_repetitifs"
+    ],
+    "titre": "Chasse illégale dans deux réserves naturelles des Pyrénées-Orientales",
+    "n_sources": 4,
+    "n_mots": 835,
+    "titre_rss": "Chasse : les petits arrangements de notables dans une réserve naturelle",
+    "matiere_faits_distincts": 1210,
+    "matiere_redondance": 0.03,
+    "matiere_donnees_chiffrees": 1,
+    "n_sources_injectees": 10,
+    "n_sources_trouvees": 10,
+    "nature_contenu": "actualite_factuelle"
+  },
+  {
+    "slug": "budget-2027-rejet-en-commission-et-risques-pour-les-collectivites",
+    "statut": "rejete_sensible",
+    "date": "2026-10-13T20:32:48",
+    "problemes_initiaux": 17,
+    "tentative": 1,
+    "bloc5": true,
+    "article_type": "actu",
+    "avertissements_garde_fous": [
+      "faits_repetitifs"
+    ],
+    "titre": "Budget 2027 : rejet en commission, tensions sociales et collectivités locales en première ligne",
+    "n_sources": 4,
+    "n_mots": 858,
+    "titre_rss": "France: toujours aussi divisée, l'Assemblée nationale entame l'examen du budget 2027 sur fond de crises multiples",
+    "matiere_faits_distincts": 910,
+    "matiere_redondance": 0.01,
+    "matiere_donnees_chiffrees": 0,
+    "n_sources_injectees": 10,
+    "n_sources_trouvees": 10,
+    "nature_contenu": "actualite_factuelle"
+  },
+  {
+    "slug": "bei-extension-financement-munitions-defense-europeenne-proposition-senat",
+    "statut": "rejete_sensible",
+    "date": "2026-10-13T20:35:32",
+    "problemes_initiaux": 15,
+    "bloc5": [
+      "faux_debat"
+    ],
+    "article_type": "actu",
+    "avertissements_garde_fous": [
+      "resume_repete_corps"
+    ],
+    "titre": "La BEI pourrait élargir ses financements aux munitions européennes",
+    "n_sources": 4,
+    "n_mots": 405,
+    "titre_rss": "Armes et munitions produites par les industries européennes de la défense - Rapport n° 879",
+    "matiere_faits_distincts": 1099,
+    "matiere_redondance": 0.0,
+    "matiere_donnees_chiffrees": 1,
+    "n_sources_injectees": 10,
+    "n_sources_trouvees": 10,
+    "veille_heures_visible": 517.7,
+    "veille_passages": 326,
+    "veille_age_h": 1505.6,
+    "veille_n_flux_grappe": 4,
+    "nature_contenu": "actualite_factuelle"
+  },
+  {
+    "slug": "canicule-2026-senat-propositions-diplomatie-climatique-france",
+    "statut": "rejete_sensible",
+    "date": "2026-10-13T20:39:08",
+    "problemes_initiaux": 15,
+    "bloc5": [
+      "faux_debat"
+    ],
+    "article_type": "actu",
+    "avertissements_garde_fous": [
+      "faits_repetitifs"
+    ],
+    "titre": "Canicule 2026 : records climatiques et 34 propositions du Sénat pour une diplomatie renforcée",
+    "n_sources": 5,
+    "n_mots": 617,
+    "titre_rss": "Climat : La France, puissance océanique au coeur des défis du siècle - Rapport d'information n° 859",
+    "matiere_faits_distincts": 939,
+    "matiere_redondance": 0.0,
+    "matiere_donnees_chiffrees": 2,
+    "n_sources_injectees": 10,
+    "n_sources_trouvees": 10,
+    "veille_heures_visible": 517.7,
+    "veille_passages": 326,
+    "veille_age_h": 1505.6,
+    "veille_n_flux_grappe": 5,
+    "nature_contenu": "actualite_factuelle"
+  },
+  {
+    "slug": "brgm-66-points-nappes-phreatiques-niveaux-anormaux-octobre-2026",
+    "statut": "rejete_sensible",
+    "date": "2026-10-13T20:43:05",
+    "problemes_initiaux": 16,
+    "tentative": 1,
+    "bloc5": true,
+    "article_type": "actu",
+    "titre": "BRGM : 66 % des points de mesure des nappes phréatiques en dessous des normales",
+    "n_sources": 4,
+    "n_mots": 715,
+    "titre_rss": "France: Deux tiers des nappes phréatiques dans une situation \"très préoccupante“",
+    "matiere_faits_distincts": 1000,
+    "matiere_redondance": 0.01,
+    "matiere_donnees_chiffrees": 0,
+    "n_sources_injectees": 10,
+    "n_sources_trouvees": 10,
+    "nature_contenu": "actualite_factuelle"
+  },
+  {
+    "slug": "energies-fossiles-dominent-toujours-mix-mondial-2026",
+    "statut": "rejete_sensible",
+    "date": "2026-10-13T20:48:15",
+    "problemes_initiaux": 15,
+    "tentative": 2,
+    "bloc5": true,
+    "article_type": "actu",
+    "avertissements_garde_fous": [
+      "faits_repetitifs"
+    ],
+    "titre": "Mix énergétique mondial : les fossiles couvrent encore 75 % de la consommation en 2026",
+    "n_sources": 4,
+    "n_mots": 789,
+    "titre_rss": "COP31: l'humanité est toujours accro aux énergies fossiles",
+    "matiere_faits_distincts": 1120,
+    "matiere_redondance": 0.0,
+    "matiere_donnees_chiffrees": 0,
+    "n_sources_injectees": 10,
+    "n_sources_trouvees": 10,
+    "nature_contenu": "actualite_factuelle"
+  },
+  {
+    "slug": "inserm-demonstration-scientifique-sept-idees-recues-vaccins-campagne-2026",
+    "statut": "rejete_sensible",
+    "date": "2026-10-13T20:53:55",
+    "problemes_initiaux": 13,
+    "tentative": 1,
+    "bloc5": true,
+    "article_type": "actu",
+    "titre": "L’Inserm démontre scientifiquement sept idées reçues sur les vaccins avant la campagne 2026-2027",
+    "n_sources": 4,
+    "n_mots": 954,
+    "titre_rss": "Sept fausses idées sur les vaccins",
+    "matiere_faits_distincts": 1007,
+    "matiere_redondance": 0.02,
+    "matiere_donnees_chiffrees": 1,
+    "n_sources_injectees": 10,
+    "n_sources_trouvees": 10,
+    "nature_contenu": "actualite_factuelle"
+  },
+  {
+    "slug": "deces-carole-fritz-impact-etudes-grotte-chauvet-2026",
+    "statut": "rejete_qualite",
+    "date": "2026-10-13T21:00:10",
+    "problemes_initiaux": 16,
+    "tentatives": 3,
+    "problemes_restants": 15,
+    "bloquants_restants": 7,
+    "bloquants_types": [
+      "source_inventee",
+      "source_inventee",
+      "source_inventee",
+      "source_inventee",
+      "source_inventee",
+      "incoherence_inter_sections",
+      "incoherence_inter_sections"
+    ],
+    "bloquants_detail": [
+      {
+        "bloc": 2,
+        "type": "source_inventee",
+        "description": "La source [3] (Assemblée nationale) ne mentionne ni désaccord entre chercheurs ni interprétation spécifique de Carole Fritz, ce qui rend l'affirmation non sourcée.",
+        "phrase": "La pétition de l'Assemblée nationale rendant hommage à son héritage scientifique met en lumière l'importance de ses contributions, sans pour autant documenter de désaccord explicite entre chercheurs concernant ses interp"
+      },
+      {
+        "bloc": 2,
+        "type": "source_inventee",
+        "description": "L'affirmation selon laquelle son rôle dans la réévaluation des interprétations traditionnelles était 'reconnu' n'est pas sourcée par une source autorisée.",
+        "phrase": "La disparition de Carole Fritz soulève des questions sur la continuité des recherches, alors que son rôle dans la réévaluation des interprétations traditionnelles de l'art pariétal était reconnu."
+      },
+      {
+        "bloc": 2,
+        "type": "source_inventee",
+        "description": "La source [1] (*Le Monde*) ne mentionne explicitement ni absence de successeur ni absence de réorganisation de l'équipe, seulement une incertitude sur la continuité des recherches.",
+        "phrase": "Cependant, aucune information n'est disponible concernant un successeur désigné ou une réorganisation de l'équipe de recherche à court terme [1]."
+      },
+      {
+        "bloc": 2,
+        "type": "source_inventee",
+        "description": "La source [2] (CNRS) ne mentionne pas explicitement les comparaisons avec Lascaux ou Altamira, ni les dates précises de -18 000 à -15 000 ans pour ces sites.",
+        "phrase": "Ces découvertes ont profondément transformé la compréhension de l'art préhistorique en révélant des représentations bien plus anciennes que celles traditionnellement étudiées, comme celles de Lascaux ou Altamira, datées "
+      },
+      {
+        "bloc": 2,
+        "type": "source_inventee",
+        "description": "La source [3] (Assemblée nationale) ne contient aucune mention de désaccord entre chercheurs ou d'interprétations spécifiques.",
+        "phrase": "La pétition de l'Assemblée nationale souligne l'importance de son héritage scientifique, mais aucune source ne documente de désaccord explicite entre chercheurs concernant ses interprétations [3]."
+      },
+      {
+        "bloc": 1,
+        "type": "incoherence_inter_sections",
+        "description": "La mention de l'âge des peintures (-36 000 ans) n'est pas explicitement confirmée par la source [2] (CNRS), qui ne donne pas de date précise pour les peintures de Chauvet.",
+        "phrase": "La grotte Chauvet, classée au patrimoine mondial de l'Unesco et abritant des peintures estimées à environ -36 000 ans [2]."
+      },
+      {
+        "bloc": 1,
+        "type": "incoherence_inter_sections",
+        "description": "La source [2] ne mentionne pas explicitement les comparaisons avec Lascaux ou Altamira, ni les dates précises de -18 000 à -15 000 ans.",
+        "phrase": "Ces découvertes ont profondément transformé la compréhension de l'art préhistorique en révélant des représentations bien plus anciennes que celles traditionnellement étudiées, comme celles de Lascaux ou Altamira, datées "
+      }
+    ],
+    "types_restants": [
+      "source_inventee",
+      "source_inventee",
+      "source_inventee",
+      "source_inventee",
+      "source_inventee",
+      "formule_vague",
+      "formule_vague",
+      "formule_vague",
+      "compteur_incoherent",
+      "redondance",
+      "redondance",
+      "redondance",
+      "fait_tranche_arbitrairement",
+      "incoherence_inter_sections",
+      "incoherence_inter_sections"
+    ],
+    "article_type": "actu",
+    "titre": "Décès de Carole Fritz, archéologue à l'origine des avancées majeures sur la grotte Chauvet",
+    "n_sources": 3,
+    "n_mots": 686,
+    "titre_rss": "Carole Fritz, archéologue et préhistorienne, grande amoureuse de l’art pariétal, est morte",
+    "matiere_faits_distincts": 932,
+    "matiere_redondance": 0.0,
+    "matiere_donnees_chiffrees": 0,
+    "n_sources_injectees": 10,
+    "n_sources_trouvees": 10,
+    "nature_contenu": "actualite_factuelle"
+  },
+  {
+    "slug": "igf-propose-suppression-totale-taxe-dhabitation-2026",
+    "statut": "rejete_sensible",
+    "date": "2026-10-13T21:03:40",
+    "problemes_initiaux": 14,
+    "bloc5": [
+      "acteur_mis_en_cause_sans_reponse"
+    ],
+    "article_type": "actu",
+    "titre": "IGF propose la suppression totale de la taxe d'habitation en 2026",
+    "n_sources": 4,
+    "n_mots": 430,
+    "titre_rss": "Supprimer définitivement la taxe d’habitation : la piste longtemps restée secrète de l’inspection générale des finances",
+    "matiere_faits_distincts": 1167,
+    "matiere_redondance": 0.02,
+    "matiere_donnees_chiffrees": 0,
+    "n_sources_injectees": 10,
+    "n_sources_trouvees": 10,
+    "nature_contenu": "actualite_factuelle"
+  },
+  {
+    "slug": "tatouages-metaux-lourds-ganglions-lymphatiques-impact-vaccins-souris",
+    "statut": "rejete_sensible",
+    "date": "2026-10-13T21:07:25",
+    "problemes_initiaux": 12,
+    "tentative": 1,
+    "bloc5": true,
+    "article_type": "actu",
+    "avertissements_garde_fous": [
+      "faits_repetitifs",
+      "titre_de_mauvaise_qualite"
+    ],
+    "titre": "Tatouages : métaux lourds dans les ganglions lymphatiques modifient la réponse vaccinale chez la souris",
+    "n_sources": 4,
+    "n_mots": 862,
+    "titre_rss": "Attention à votre santé, des métaux lourds se cachent dans l'encre de vos tatouages",
+    "matiere_faits_distincts": 1056,
+    "matiere_redondance": 0.0,
+    "matiere_donnees_chiffrees": 1,
+    "n_sources_injectees": 10,
+    "n_sources_trouvees": 10,
+    "nature_contenu": "etude_scientifique"
+  },
+  {
+    "slug": "baisse-emissions-gaz-effet-serre-france-2026-4-1-premier-semestre",
+    "statut": "rejete_sensible",
+    "date": "2026-10-13T21:10:47",
+    "problemes_initiaux": 15,
+    "bloc5": [
+      "acteur_mis_en_cause_sans_reponse"
+    ],
+    "article_type": "actu",
+    "avertissements_garde_fous": [
+      "titre_de_mauvaise_qualite"
+    ],
+    "titre": "Baisse des émissions de GES en France : 4,1 % au premier semestre, mais quels mécanismes ?",
+    "n_sources": 6,
+    "n_mots": 778,
+    "titre_rss": "Les émissions de gaz à effet de serre en France diminuent du fait de l’envolée des prix des carburants",
+    "matiere_faits_distincts": 1217,
+    "matiere_redondance": 0.04,
+    "matiere_donnees_chiffrees": 0,
+    "n_sources_injectees": 10,
+    "n_sources_trouvees": 10,
+    "nature_contenu": "actualite_factuelle"
+  },
+  {
+    "slug": "tribune-appelle-interdire-influence-marche-financier-sante",
+    "statut": "rejete_sensible",
+    "date": "2026-10-13T21:14:32",
+    "problemes_initiaux": 14,
+    "bloc5": [
+      "cadrage_emprunte"
+    ],
+    "article_type": "actu",
+    "avertissements_garde_fous": [
+      "resume_repete_corps",
+      "titre_de_mauvaise_qualite"
+    ],
+    "titre": "Santé : une tribune appelle à interdire l’influence des marchés financiers",
+    "n_sources": 5,
+    "n_mots": 479,
+    "titre_rss": "« La santé n’est pas un marché, le seul profit légitime est celui du service médical rendu »",
+    "matiere_faits_distincts": 1111,
+    "matiere_redondance": 0.02,
+    "matiere_donnees_chiffrees": 0,
+    "n_sources_injectees": 10,
+    "n_sources_trouvees": 10,
+    "nature_contenu": "tribune"
+  },
+  {
+    "slug": "les-entreprises-francaises-recoivent-166-milliards-d-aides-publiques-en-2024",
+    "statut": "rejete_sensible",
+    "date": "2026-10-13T21:18:27",
+    "problemes_initiaux": 16,
+    "bloc5": [
+      "faux_debat"
+    ],
+    "article_type": "actu",
+    "avertissements_garde_fous": [
+      "faits_repetitifs"
+    ],
+    "titre": "166 milliards d'euros d'aides publiques aux entreprises en 2024",
+    "n_sources": 4,
+    "n_mots": 955,
+    "titre_rss": "Niches fiscales, allégements de cotisations, TVA réduite… De quelles aides publiques bénéficient les entreprises ?",
+    "matiere_faits_distincts": 1063,
+    "matiere_redondance": 0.02,
+    "matiere_donnees_chiffrees": 3,
+    "n_sources_injectees": 10,
+    "n_sources_trouvees": 10,
+    "nature_contenu": "actualite_factuelle"
+  },
+  {
+    "slug": "finistere-alerte-secheresse-75-eau-cours-deau-crise",
+    "statut": "rejete_sensible",
+    "date": "2026-10-13T21:21:45",
+    "problemes_initiaux": 10,
+    "bloc5": [
+      "compteur_incoherent"
+    ],
+    "article_type": "actu",
+    "titre": "Finistère en alerte sécheresse : 75 % de l'eau dépendent de cours d'eau en crise",
+    "n_sources": 5,
+    "n_mots": 394,
+    "titre_rss": "Sécheresse : le Finistère dans une « situation critique »",
+    "matiere_faits_distincts": 601,
+    "matiere_redondance": 0.0,
+    "matiere_donnees_chiffrees": 0,
+    "n_sources_injectees": 10,
+    "n_sources_trouvees": 10,
+    "nature_contenu": "actualite_factuelle"
+  },
+  {
+    "slug": "horloges-atomiques-precision-record-17-chiffres-seismes",
+    "statut": "rejete_sensible",
+    "date": "2026-10-13T21:24:32",
+    "problemes_initiaux": 11,
+    "bloc5": [
+      "compteur_incoherent"
+    ],
+    "article_type": "actu",
+    "titre": "Horloges atomiques : précision à 17 chiffres après la virgule pour détecter les séismes",
+    "n_sources": 4,
+    "n_mots": 711,
+    "titre_rss": "La folle course des physiciens pour mesurer le temps, jusqu’à envisager une redéfinition de la seconde",
+    "matiere_faits_distincts": 822,
+    "matiere_redondance": 0.0,
+    "matiere_donnees_chiffrees": 0,
+    "n_sources_injectees": 10,
+    "n_sources_trouvees": 10,
+    "nature_contenu": "actualite_factuelle"
+  },
+  {
+    "slug": "cyberattaque-dixell-refrigeration-supermarches-risques-consommateurs",
+    "statut": "rejete_sensible",
+    "date": "2026-10-13T21:27:29",
+    "problemes_initiaux": 15,
+    "bloc5": [
+      "extrapolation"
+    ],
+    "article_type": "actu",
+    "titre": "Cyberattaque sur les systèmes Dixell : des températures critiques dans les supermarchés",
+    "n_sources": 3,
+    "n_mots": 724,
+    "titre_rss": "Cyberattaque contre les supermarchés : après ceux de l’entreprise Danfoss, d’autres systèmes de réfrigération ont été visés",
+    "matiere_faits_distincts": 868,
+    "matiere_redondance": 0.0,
+    "matiere_donnees_chiffrees": 0,
+    "n_sources_injectees": 10,
+    "n_sources_trouvees": 10,
+    "nature_contenu": "actualite_factuelle"
+  },
+  {
+    "slug": "400-scientifiques-demandent-organisme-international-securiser-ia-avancees",
+    "statut": "rejete_sensible",
+    "date": "2026-10-13T21:31:23",
+    "problemes_initiaux": 12,
+    "bloc5": [
+      "acteur_mis_en_cause_sans_reponse"
+    ],
+    "article_type": "actu",
+    "avertissements_garde_fous": [
+      "resume_repete_corps",
+      "faits_repetitifs"
+    ],
+    "titre": "400 scientifiques demandent un organisme international pour sécuriser les IA avancées",
+    "n_sources": 9,
+    "n_mots": 769,
+    "titre_rss": "IA : 400 scientifiques alertent sur les risques de cybersécurité",
+    "matiere_faits_distincts": 1136,
+    "matiere_redondance": 0.0,
+    "matiere_donnees_chiffrees": 0,
+    "n_sources_injectees": 10,
+    "n_sources_trouvees": 10,
+    "nature_contenu": "actualite_factuelle"
+  },
+  {
+    "slug": "france-641-046-deces-en-2024-taux-mortalite-en-baisse",
+    "statut": "rejete_sensible",
+    "date": "2026-10-13T21:37:04",
+    "problemes_initiaux": 13,
+    "bloc5": [
+      "compteur_incoherent"
+    ],
+    "article_type": "actu",
+    "avertissements_garde_fous": [
+      "resume_repete_corps"
+    ],
+    "titre": "France : 641 046 décès en 2024, hausse globale mais baisse du taux de mortalité",
+    "n_sources": 4,
+    "n_mots": 688,
+    "titre_rss": "Grandes causes de décès en France : tendances et causes associées en 2024",
+    "matiere_faits_distincts": 1081,
+    "matiere_redondance": 0.08,
+    "matiere_donnees_chiffrees": 1,
+    "n_sources_injectees": 10,
+    "n_sources_trouvees": 10,
+    "veille_heures_visible": 517.7,
+    "veille_passages": 311,
+    "veille_age_h": 1505.6,
+    "veille_n_flux_grappe": 1,
+    "nature_contenu": "actualite_factuelle"
+  },
+  {
+    "slug": "etudes-inserm-additifs-alimentaires-risques-sante-mai-2026",
+    "statut": "rejete_sensible",
+    "date": "2026-10-13T21:44:25",
+    "problemes_initiaux": 22,
+    "bloc5": [
+      "compteur_incoherent"
+    ],
+    "article_type": "actu",
+    "avertissements_garde_fous": [
+      "faits_repetitifs",
+      "titre_de_mauvaise_qualite"
+    ],
+    "titre": "Trois études Inserm lient additifs alimentaires à cancer, diabète et maladies cardiovasculaires",
+    "n_sources": 3,
+    "n_mots": 1020,
+    "titre_rss": "Colorants, conservateurs : trois nouvelles études pointent des liens entre additifs alimentaires et risque accru de cancer, de diabète de type 2, de maladies cardiovasculaires et d’hypertension",
+    "matiere_faits_distincts": 539,
+    "matiere_redondance": 0.03,
+    "matiere_donnees_chiffrees": 0,
+    "n_sources_injectees": 10,
+    "n_sources_trouvees": 10,
+    "veille_heures_visible": 517.7,
+    "veille_passages": 311,
+    "veille_age_h": 1505.6,
+    "veille_n_flux_grappe": 3,
+    "nature_contenu": "etude_scientifique"
+  },
+  {
+    "slug": "budget-2027-impact-fiscal-social-et-secteurs-prioritaires",
+    "statut": "rejete_sensible",
+    "date": "2026-10-13T21:47:43",
+    "problemes_initiaux": 15,
+    "bloc5": [
+      "acteur_mis_en_cause_sans_reponse"
+    ],
+    "article_type": "actu",
+    "avertissements_garde_fous": [
+      "faits_repetitifs"
+    ],
+    "titre": "Budget 2027 : les mesures fiscales et sociales détaillées et leur portée",
+    "n_sources": 6,
+    "n_mots": 713,
+    "titre_rss": "Ce que contient le projet de budget 2027",
+    "matiere_faits_distincts": 987,
+    "matiere_redondance": 0.02,
+    "matiere_donnees_chiffrees": 0,
+    "n_sources_injectees": 10,
+    "n_sources_trouvees": 10,
+    "nature_contenu": "decision_officielle"
+  },
+  {
+    "slug": "optogenetique-essai-clinique-phase-1-surete-traitement-cecite",
+    "statut": "rejete_sensible",
+    "date": "2026-10-13T21:51:16",
+    "problemes_initiaux": 13,
+    "bloc5": [
+      "compteur_incoherent"
+    ],
+    "article_type": "actu",
+    "avertissements_garde_fous": [
+      "resume_repete_corps",
+      "faits_repetitifs"
+    ],
+    "titre": "Essai clinique de phase 1 : l'optogénétique sûre pour traiter certaines cécités",
+    "n_sources": 3,
+    "n_mots": 629,
+    "titre_rss": "L’optogénétique s’avère sûre pour traiter certaines formes de cécité",
+    "matiere_faits_distincts": 823,
+    "matiere_redondance": 0.02,
+    "matiere_donnees_chiffrees": 1,
+    "n_sources_injectees": 10,
+    "n_sources_trouvees": 10,
+    "nature_contenu": "actualite_factuelle"
+  },
+  {
+    "slug": "thrombinov-inserm-plaquettes-tests-medicaments-risques-thrombotiques",
+    "statut": "rejete_sensible",
+    "date": "2026-10-13T21:54:22",
+    "problemes_initiaux": 15,
+    "bloc5": [
+      "diffamation_potentielle"
+    ],
+    "article_type": "actu",
+    "avertissements_garde_fous": [
+      "cliches_ia"
+    ],
+    "titre": "ThrombInnov accélère les tests précliniques sur les plaquettes pour éviter les effets thrombotiques",
+    "n_sources": 4,
+    "n_mots": 838,
+    "titre_rss": "L’entrepreneuriat dans le sang !",
+    "matiere_faits_distincts": 850,
+    "matiere_redondance": 0.0,
+    "matiere_donnees_chiffrees": 3,
+    "n_sources_injectees": 10,
+    "n_sources_trouvees": 10,
+    "nature_contenu": "actualite_factuelle"
+  },
+  {
+    "slug": "arcom-97-francais-exposes-fausses-informations-semaine-reseaux-sociaux",
+    "statut": "rejete_sensible",
+    "date": "2026-10-13T21:58:28",
+    "problemes_initiaux": 18,
+    "bloc5": [
+      "faux_debat"
+    ],
+    "article_type": "actu",
+    "titre": "Arcom : 97 % des Français exposés à des fausses informations chaque semaine",
+    "n_sources": 5,
+    "n_mots": 1000,
+    "titre_rss": "Les faux contenus d''informations font recette sur les réseaux sociaux",
+    "matiere_faits_distincts": 990,
+    "matiere_redondance": 0.02,
+    "matiere_donnees_chiffrees": 0,
+    "n_sources_injectees": 10,
+    "n_sources_trouvees": 10,
+    "nature_contenu": "actualite_factuelle"
+  },
+  {
+    "slug": "ird-obligation-registre-rgpd-traitements-donnees-personnelles",
+    "statut": "rejete_sensible",
+    "date": "2026-10-13T22:04:20",
+    "problemes_initiaux": 11,
+    "tentative": 2,
+    "bloc5": true,
+    "article_type": "actu",
+    "avertissements_garde_fous": [
+      "resume_repete_corps",
+      "faits_repetitifs"
+    ],
+    "titre": "L'IRD forme ses agents au registre RGPD obligatoire pour les traitements de données",
+    "n_sources": 4,
+    "n_mots": 716,
+    "titre_rss": "Protection des données personnelles - Le registre des traitements",
+    "matiere_faits_distincts": 1233,
+    "matiere_redondance": 0.02,
+    "matiere_donnees_chiffrees": 0,
+    "n_sources_injectees": 10,
+    "n_sources_trouvees": 10,
+    "veille_heures_visible": 517.7,
+    "veille_passages": 326,
+    "veille_age_h": 1505.6,
+    "veille_n_flux_grappe": 1,
+    "nature_contenu": "actualite_factuelle"
+  },
+  {
+    "slug": "etat-participations-boursieres-20-5-milliards-constraintes-financieres",
+    "statut": "rejete_sensible",
+    "date": "2026-10-13T22:07:32",
+    "problemes_initiaux": 14,
+    "bloc5": [
+      "faux_debat"
+    ],
+    "article_type": "actu",
+    "avertissements_garde_fous": [
+      "prise_de_position"
+    ],
+    "titre": "L'État actionnaire gagne 20,5 milliards, mais doit vendre pour équilibrer ses comptes",
+    "n_sources": 4,
+    "n_mots": 355,
+    "titre_rss": "Avec 20,5 milliards d’euros de plus en un an, « l’Etat actionnaire s’enrichit, mais il a moins de marge de manœuvre »",
+    "matiere_faits_distincts": 546,
+    "matiere_redondance": 0.04,
+    "matiere_donnees_chiffrees": 2,
+    "n_sources_injectees": 10,
+    "n_sources_trouvees": 10,
+    "nature_contenu": "actualite_factuelle"
+  },
+  {
+    "slug": "morvan-parc-eolien-conteste-transition-energetique-biodiversite",
+    "statut": "rejete_sensible",
+    "date": "2026-10-13T22:11:21",
+    "problemes_initiaux": 12,
+    "bloc5": [
+      "faux_debat"
+    ],
+    "article_type": "actu",
+    "avertissements_garde_fous": [
+      "titre_de_mauvaise_qualite"
+    ],
+    "titre": "Morvan : un parc éolien contesté bloque la transition énergétique et la biodiversité",
+    "n_sources": 4,
+    "n_mots": 439,
+    "titre_rss": "Dans le Morvan, ces citoyens qui achètent la forêt pour mieux la sauvegarder",
+    "matiere_faits_distincts": 1090,
+    "matiere_redondance": 0.0,
+    "matiere_donnees_chiffrees": 0,
+    "n_sources_injectees": 10,
+    "n_sources_trouvees": 10,
+    "nature_contenu": "actualite_factuelle"
+  },
+  {
+    "slug": "nist-ue-cadres-securite-ia-entreprises-2026",
+    "statut": "rejete_sensible",
+    "date": "2026-10-13T22:15:38",
+    "problemes_initiaux": 15,
+    "tentative": 1,
+    "bloc5": true,
+    "article_type": "actu",
+    "avertissements_garde_fous": [
+      "resume_repete_corps",
+      "faits_repetitifs"
+    ],
+    "titre": "NIST et UE publient des cadres pour sécuriser l’IA intégrée aux entreprises",
+    "n_sources": 9,
+    "n_mots": 736,
+    "titre_rss": "Mon collègue est une IA",
+    "matiere_faits_distincts": 926,
+    "matiere_redondance": 0.04,
+    "matiere_donnees_chiffrees": 0,
+    "n_sources_injectees": 10,
+    "n_sources_trouvees": 10,
+    "nature_contenu": "actualite_factuelle"
+  },
+  {
+    "slug": "aides-auditives-ia-isolation-voix-reglementation-europeenne-2026",
+    "statut": "rejete_sensible",
+    "date": "2026-10-13T22:21:12",
+    "problemes_initiaux": 12,
+    "tentative": 2,
+    "bloc5": true,
+    "article_type": "actu",
+    "avertissements_garde_fous": [
+      "titre_de_mauvaise_qualite"
+    ],
+    "titre": "Aides auditives : l'IA isole les voix dans le bruit, mais sous conditions réglementaires strictes",
+    "n_sources": 4,
+    "n_mots": 831,
+    "titre_rss": "Ce que l’intelligence artificielle change vraiment pour les aides auditives",
+    "matiere_faits_distincts": 574,
+    "matiere_redondance": 0.06,
+    "matiere_donnees_chiffrees": 2,
+    "n_sources_injectees": 10,
+    "n_sources_trouvees": 10,
+    "nature_contenu": "actualite_factuelle"
   }
 ]
