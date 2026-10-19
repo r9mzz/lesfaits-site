@@ -35836,5 +35836,2017 @@
     "n_sources_injectees": 10,
     "n_sources_trouvees": 10,
     "nature_contenu": "actualite_factuelle"
+  },
+  {
+    "slug": "senat-bilan-negociations-adhesion-albanie-montenegro-juin-2026",
+    "statut": "erreur_verification",
+    "date": "2026-10-19T10:35:24",
+    "etape": "detection",
+    "erreur": "Pas de JSON dans la réponse",
+    "article_type": "actu",
+    "titre": "Le Sénat dresse le bilan des négociations d'adhésion de l'Albanie et du Monténégro",
+    "n_sources": 5,
+    "n_mots": 587,
+    "titre_rss": "Albanie et Monténégro : un état des lieux des négociations d'adhésion à l'Union européenne - Rapport d'information n° 845",
+    "matiere_faits_distincts": 772,
+    "matiere_redondance": 0.0,
+    "matiere_donnees_chiffrees": 0,
+    "n_sources_injectees": 10,
+    "n_sources_trouvees": 10
+  },
+  {
+    "slug": "senat-bilan-negociations-adhesion-albanie-montenegro-juin-2026",
+    "statut": "rejete_qualite",
+    "date": "2026-10-19T10:35:24",
+    "raison": "verification_indisponible",
+    "statut_verification_initial": "erreur_verification"
+  },
+  {
+    "slug": "mortalite-hausse-29-juin-2026-canicule-sante-publique-france",
+    "statut": "erreur_verification",
+    "date": "2026-10-19T10:57:38",
+    "etape": "detection",
+    "erreur": "Pas de JSON dans la réponse",
+    "article_type": "actu",
+    "titre": "Hausse de 29 % de la mortalité fin juin 2026",
+    "n_sources": 4,
+    "n_mots": 507,
+    "titre_rss": "Point de situation sur la mortalité toutes causes confondues  sur la période du 22 au 28 juin 2026",
+    "matiere_faits_distincts": 1015,
+    "matiere_redondance": 0.01,
+    "matiere_donnees_chiffrees": 0,
+    "n_sources_injectees": 10,
+    "n_sources_trouvees": 10
+  },
+  {
+    "slug": "mortalite-hausse-29-juin-2026-canicule-sante-publique-france",
+    "statut": "rejete_qualite",
+    "date": "2026-10-19T10:57:38",
+    "raison": "verification_indisponible",
+    "statut_verification_initial": "erreur_verification"
+  },
+  {
+    "slug": "sante-publique-france-lance-5e-enquete-eras-hsh",
+    "statut": "erreur_verification",
+    "date": "2026-10-19T11:12:14",
+    "etape": "detection",
+    "erreur": "Expecting property name enclosed in double quotes: line 1 column 20 (char 19)",
+    "article_type": "actu",
+    "titre": "Santé publique France lance la 5e enquête ERAS auprès des HSH",
+    "n_sources": 4,
+    "n_mots": 362,
+    "titre_rss": "Enquête « Rapport au sexe » (ERAS) 2026 à destination des hommes ayant des rapports sexuels avec des hommes",
+    "matiere_faits_distincts": 1022,
+    "matiere_redondance": 0.08,
+    "matiere_donnees_chiffrees": 6,
+    "n_sources_injectees": 10,
+    "n_sources_trouvees": 10,
+    "veille_heures_visible": 117.0,
+    "veille_passages": 24,
+    "veille_age_h": 1239.0,
+    "veille_n_flux_grappe": 1
+  },
+  {
+    "slug": "sante-publique-france-lance-5e-enquete-eras-hsh",
+    "statut": "rejete_qualite",
+    "date": "2026-10-19T11:12:14",
+    "raison": "verification_indisponible",
+    "statut_verification_initial": "erreur_verification"
+  },
+  {
+    "slug": "inserm-met-a-jour-sept-idees-recues-vaccins-campagne-13-octobre",
+    "statut": "erreur_verification",
+    "date": "2026-10-19T11:32:56",
+    "etape": "detection",
+    "erreur": "Pas de JSON dans la réponse",
+    "article_type": "actu",
+    "avertissements_garde_fous": [
+      "resume_repete_corps",
+      "titre_de_mauvaise_qualite"
+    ],
+    "titre": "Inserm met à jour ses sept idées reçues sur les vaccins pour la campagne du 13 octobre",
+    "n_sources": 7,
+    "n_mots": 465,
+    "titre_rss": "Sept fausses idées sur les vaccins",
+    "matiere_faits_distincts": 1050,
+    "matiere_redondance": 0.11,
+    "matiere_donnees_chiffrees": 0,
+    "n_sources_injectees": 10,
+    "n_sources_trouvees": 10
+  },
+  {
+    "slug": "inserm-met-a-jour-sept-idees-recues-vaccins-campagne-13-octobre",
+    "statut": "rejete_qualite",
+    "date": "2026-10-19T11:32:56",
+    "raison": "verification_indisponible",
+    "statut_verification_initial": "erreur_verification"
+  },
+  {
+    "slug": "sonde-mmx-phobos-echantillons-retour-2031",
+    "statut": "erreur_verification",
+    "date": "2026-10-19T11:47:32",
+    "etape": "detection",
+    "erreur": "Pas de JSON dans la réponse",
+    "article_type": "breve",
+    "titre": "La sonde MMX vise Phobos pour un retour d'échantillons en 2031",
+    "n_sources": 4,
+    "n_mots": 131,
+    "titre_rss": "La sonde MMX s'envole pour étudier Phobos et Déimos, les lunes de Mars",
+    "matiere_faits_distincts": 827,
+    "matiere_redondance": 0.0,
+    "matiere_donnees_chiffrees": 2,
+    "n_sources_injectees": 10,
+    "n_sources_trouvees": 10
+  },
+  {
+    "slug": "sonde-mmx-phobos-echantillons-retour-2031",
+    "statut": "rejete_qualite",
+    "date": "2026-10-19T11:47:32",
+    "raison": "verification_indisponible",
+    "statut_verification_initial": "erreur_verification"
+  },
+  {
+    "slug": "cyberattaque-supermarche-resilience-alimentaire-france",
+    "statut": "erreur_verification",
+    "date": "2026-10-19T12:05:51",
+    "etape": "detection",
+    "erreur": "Pas de JSON dans la réponse",
+    "article_type": "actu",
+    "titre": "Cyberattaque sur les supermarchés : la résilience alimentaire en question",
+    "n_sources": 4,
+    "n_mots": 379,
+    "titre_rss": "Piratage de supermarchés en France : \"Pas besoin de chars pour faire la guerre\", dit un expert",
+    "matiere_faits_distincts": 751,
+    "matiere_redondance": 0.0,
+    "matiere_donnees_chiffrees": 0,
+    "n_sources_injectees": 10,
+    "n_sources_trouvees": 10
+  },
+  {
+    "slug": "cyberattaque-supermarche-resilience-alimentaire-france",
+    "statut": "rejete_qualite",
+    "date": "2026-10-19T12:05:51",
+    "raison": "verification_indisponible",
+    "statut_verification_initial": "erreur_verification"
+  },
+  {
+    "slug": "especes-migration-cnrs-poles-sommets-rechauffement",
+    "statut": "erreur_verification",
+    "date": "2026-10-19T12:18:13",
+    "etape": "detection",
+    "erreur": "Pas de JSON dans la réponse",
+    "article_type": "actu",
+    "titre": "Espèces en migration : le CNRS décrypte la ruée vers les pôles et les sommets",
+    "n_sources": 5,
+    "n_mots": 599,
+    "titre_rss": "Biodiversité : ruée vers les pôles et les sommets",
+    "matiere_faits_distincts": 1155,
+    "matiere_redondance": 0.0,
+    "matiere_donnees_chiffrees": 1,
+    "n_sources_injectees": 10,
+    "n_sources_trouvees": 10
+  },
+  {
+    "slug": "especes-migration-cnrs-poles-sommets-rechauffement",
+    "statut": "rejete_qualite",
+    "date": "2026-10-19T12:18:13",
+    "raison": "verification_indisponible",
+    "statut_verification_initial": "erreur_verification"
+  },
+  {
+    "slug": "cop17-biodiversite-erevan-bilan-mi-parcours-defis-financement",
+    "statut": "erreur_verification",
+    "date": "2026-10-19T12:35:13",
+    "etape": "detection",
+    "erreur": "Pas de JSON dans la réponse",
+    "article_type": "actu",
+    "titre": "COP17 biodiversité à Erevan : bilan à mi-parcours et défis de financement",
+    "n_sources": 5,
+    "n_mots": 551,
+    "titre_rss": "COP17 sur la biodiversité à Erevan : les leviers dont dispose la communauté internationale pour corriger la trajectoire « avant qu’il ne soit trop tard »",
+    "matiere_faits_distincts": 949,
+    "matiere_redondance": 0.0,
+    "matiere_donnees_chiffrees": 0,
+    "n_sources_injectees": 10,
+    "n_sources_trouvees": 10
+  },
+  {
+    "slug": "cop17-biodiversite-erevan-bilan-mi-parcours-defis-financement",
+    "statut": "rejete_qualite",
+    "date": "2026-10-19T12:35:13",
+    "raison": "verification_indisponible",
+    "statut_verification_initial": "erreur_verification"
+  },
+  {
+    "slug": "mortalite-2024-france-baisse-taux-standardise-ecart-tendance-pre-covid",
+    "statut": "erreur_verification",
+    "date": "2026-10-19T12:44:58",
+    "etape": "detection",
+    "erreur": "Pas de JSON dans la réponse",
+    "article_type": "actu",
+    "titre": "Mortalité 2024 en France : taux standardisé en baisse, écart persistant d'avant Covid",
+    "n_sources": 4,
+    "n_mots": 537,
+    "titre_rss": "Grandes causes de décès en France : tendances et causes associées en 2024",
+    "matiere_faits_distincts": 798,
+    "matiere_redondance": 0.01,
+    "matiere_donnees_chiffrees": 1,
+    "n_sources_injectees": 10,
+    "n_sources_trouvees": 10,
+    "veille_heures_visible": 517.7,
+    "veille_passages": 311,
+    "veille_age_h": 1639.8,
+    "veille_n_flux_grappe": 1
+  },
+  {
+    "slug": "mortalite-2024-france-baisse-taux-standardise-ecart-tendance-pre-covid",
+    "statut": "rejete_qualite",
+    "date": "2026-10-19T12:44:58",
+    "raison": "verification_indisponible",
+    "statut_verification_initial": "erreur_verification"
+  },
+  {
+    "slug": "commission-europeenne-reporte-reporting-methane-reglement-2024-1787",
+    "statut": "erreur_verification",
+    "date": "2026-10-19T12:58:40",
+    "etape": "detection",
+    "erreur": "JSON tronqué ou incomplet dans la réponse (max_tokens atteint ?)",
+    "article_type": "actu",
+    "titre": "La Commission européenne reporte d'un an le reporting méthane du règlement 2024/1787",
+    "n_sources": 5,
+    "n_mots": 539,
+    "titre_rss": "Fuites de méthane : l'Europe cède aux lobbies de l'énergie",
+    "matiere_faits_distincts": 973,
+    "matiere_redondance": 0.01,
+    "matiere_donnees_chiffrees": 0,
+    "n_sources_injectees": 10,
+    "n_sources_trouvees": 10
+  },
+  {
+    "slug": "commission-europeenne-reporte-reporting-methane-reglement-2024-1787",
+    "statut": "rejete_qualite",
+    "date": "2026-10-19T12:58:40",
+    "raison": "verification_indisponible",
+    "statut_verification_initial": "erreur_verification"
+  },
+  {
+    "slug": "homme-hospitalise-delires-empoisonnement-chatgpt-alerte-chercheurs",
+    "statut": "erreur_verification",
+    "date": "2026-10-19T13:09:59",
+    "etape": "detection",
+    "erreur": "Pas de JSON dans la réponse",
+    "article_type": "actu",
+    "titre": "Un homme de 60 ans hospitalisé après des délires d'empoisonnement déclenchés par ChatGPT",
+    "n_sources": 5,
+    "n_mots": 532,
+    "titre_rss": "Un homme empoisonné après avoir consulté ChatGPT : l’alerte des chercheurs sur les dangers invisibles de l’IA",
+    "matiere_faits_distincts": 693,
+    "matiere_redondance": 0.0,
+    "matiere_donnees_chiffrees": 1,
+    "n_sources_injectees": 10,
+    "n_sources_trouvees": 10
+  },
+  {
+    "slug": "homme-hospitalise-delires-empoisonnement-chatgpt-alerte-chercheurs",
+    "statut": "rejete_qualite",
+    "date": "2026-10-19T13:09:59",
+    "raison": "verification_indisponible",
+    "statut_verification_initial": "erreur_verification"
+  },
+  {
+    "slug": "thrombinnov-startup-strasbourg-plaquettes-tests-medicaments",
+    "statut": "erreur_verification",
+    "date": "2026-10-19T13:40:32",
+    "etape": "correction",
+    "tentative": 1,
+    "erreur": "Pas de JSON dans la réponse",
+    "article_type": "actu",
+    "titre": "ThrombInnov : une startup strasbourgeoise valorise 40 ans d'expertise sur les plaquettes",
+    "n_sources": 4,
+    "n_mots": 495,
+    "titre_rss": "L’entrepreneuriat dans le sang !",
+    "matiere_faits_distincts": 563,
+    "matiere_redondance": 0.0,
+    "matiere_donnees_chiffrees": 1,
+    "n_sources_injectees": 10,
+    "n_sources_trouvees": 10
+  },
+  {
+    "slug": "thrombinnov-startup-strasbourg-plaquettes-tests-medicaments",
+    "statut": "rejete_qualite",
+    "date": "2026-10-19T13:40:32",
+    "raison": "verification_indisponible",
+    "statut_verification_initial": "erreur_verification"
+  },
+  {
+    "slug": "faux-medias-tiktok-instagram-economie-lucrative-france-info",
+    "statut": "erreur_verification",
+    "date": "2026-10-19T13:45:56",
+    "etape": "detection",
+    "erreur": "Pas de JSON dans la réponse",
+    "article_type": "actu",
+    "avertissements_garde_fous": [
+      "resume_repete_corps"
+    ],
+    "titre": "Faux médias sur TikTok et Instagram : une économie lucrative selon France Info",
+    "n_sources": 10,
+    "n_mots": 467,
+    "titre_rss": "Les faux contenus d''informations font recette sur les réseaux sociaux",
+    "matiere_faits_distincts": 1162,
+    "matiere_redondance": 0.03,
+    "matiere_donnees_chiffrees": 0,
+    "n_sources_injectees": 10,
+    "n_sources_trouvees": 10
+  },
+  {
+    "slug": "faux-medias-tiktok-instagram-economie-lucrative-france-info",
+    "statut": "rejete_qualite",
+    "date": "2026-10-19T13:45:56",
+    "raison": "verification_indisponible",
+    "statut_verification_initial": "erreur_verification"
+  },
+  {
+    "slug": "eurobarometre-42-entreprises-europeennes-ia-freins-juridiques-couts",
+    "statut": "erreur_verification",
+    "date": "2026-10-19T13:58:33",
+    "etape": "detection",
+    "erreur": "Pas de JSON dans la réponse",
+    "article_type": "actu",
+    "avertissements_garde_fous": [
+      "resume_repete_corps"
+    ],
+    "titre": "Eurobaromètre : 42 % des entreprises européennes utilisent l'IA, freins juridiques et coûts en tête",
+    "n_sources": 5,
+    "n_mots": 537,
+    "titre_rss": "Une enquête Eurobaromètre met en évidence l'utilisation croissante de l'IA dans les entreprises européennes",
+    "matiere_faits_distincts": 1122,
+    "matiere_redondance": 0.01,
+    "matiere_donnees_chiffrees": 0,
+    "n_sources_injectees": 10,
+    "n_sources_trouvees": 10
+  },
+  {
+    "slug": "eurobarometre-42-entreprises-europeennes-ia-freins-juridiques-couts",
+    "statut": "rejete_qualite",
+    "date": "2026-10-19T13:58:33",
+    "raison": "verification_indisponible",
+    "statut_verification_initial": "erreur_verification"
+  },
+  {
+    "slug": "plfss-2027-rejet-recettes-commission-assemblee-nationale",
+    "statut": "erreur_verification",
+    "date": "2026-10-19T14:09:57",
+    "etape": "detection",
+    "erreur": "Pas de JSON dans la réponse",
+    "article_type": "actu",
+    "titre": "PLFSS 2027 : rejet des recettes en commission, texte intact en séance",
+    "n_sources": 4,
+    "n_mots": 453,
+    "titre_rss": "Budget de la Sécurité sociale : les députés rejettent en commission la partie « recettes » du texte",
+    "matiere_faits_distincts": 822,
+    "matiere_redondance": 0.01,
+    "matiere_donnees_chiffrees": 0,
+    "n_sources_injectees": 10,
+    "n_sources_trouvees": 10
+  },
+  {
+    "slug": "plfss-2027-rejet-recettes-commission-assemblee-nationale",
+    "statut": "rejete_qualite",
+    "date": "2026-10-19T14:09:57",
+    "raison": "verification_indisponible",
+    "statut_verification_initial": "erreur_verification"
+  },
+  {
+    "slug": "reforme-facturation-electronique-e-reporting-entreprises",
+    "statut": "rejete_qualite",
+    "date": "2026-10-19T15:03:05",
+    "problemes_initiaux": 2,
+    "tentatives": 3,
+    "problemes_restants": 3,
+    "bloquants_restants": 1,
+    "bloquants_types": [
+      "annonce_perimee"
+    ],
+    "bloquants_detail": [
+      {
+        "bloc": 1,
+        "type": "annonce_perimee",
+        "description": "Le résumé présente l'entrée en vigueur de la réception comme un événement passé (\"entrée en vigueur\"), alors que le titre et le chapeau présentent globalement la réforme comme un processus en cours ou à venir (\"a instaur",
+        "phrase": "L'entrée en vigueur pour les PME et micro-entreprises est fixée au 1er septembre 2027, après une phase de réception obligatoire entrée en vigueur en septembre 2026"
+      }
+    ],
+    "types_restants": [
+      "annonce_perimee",
+      "acteur_mis_en_cause_sans_reponse",
+      "redondance"
+    ],
+    "article_type": "actu",
+    "titre": "La France impose le e-reporting fiscal aux entreprises dès septembre 2026",
+    "n_sources": 6,
+    "n_mots": 422,
+    "titre_rss": "L’e-reporting, l’angle mort de la réforme de la facturation électronique",
+    "matiere_faits_distincts": 1120,
+    "matiere_redondance": 0.02,
+    "matiere_donnees_chiffrees": 0,
+    "n_sources_injectees": 10,
+    "n_sources_trouvees": 10,
+    "nature_contenu": "actualite_factuelle"
+  },
+  {
+    "slug": "rapport-meadows-predictions-effondrement-civilisation",
+    "statut": "rejete_qualite",
+    "date": "2026-10-19T15:10:04",
+    "angle_insuffisant": true,
+    "raison": "L'article ne contient aucun événement précis daté et actuel. Il expose un concept théorique (rapport de 1972) et des rapports économiques généraux de 2025/2026 sans fait déclencheur récent qui justifierait une publication immédiate. Il répond à 'qu'est-ce que le rapport Meadows' plutôt qu'à 'pourquoi en parle-t-on maintenant'.",
+    "article_type": "actu",
+    "titre": "Le rapport Meadows et les risques d'effondrement de la civilisation au XXIe siècle",
+    "n_sources": 6,
+    "n_mots": 398,
+    "titre_rss": "Effondrement de notre civilisation : ces prédictions du Rapport Meadows (MIT) il y a 50 ans semblent se confirmer",
+    "matiere_faits_distincts": 466,
+    "matiere_redondance": 0.04,
+    "matiere_donnees_chiffrees": 0,
+    "n_sources_injectees": 10,
+    "n_sources_trouvees": 10,
+    "nature_contenu": "sujet_pedagogique"
+  },
+  {
+    "slug": "cop17-biodiversite-financements-protection-nature",
+    "statut": "corrige_automatiquement",
+    "date": "2026-10-19T15:13:43",
+    "problemes_initiaux": 1,
+    "tentatives": 1,
+    "problemes_residuels_style": 0,
+    "rapport_initial": {
+      "conforme": false,
+      "sujet_sensible": false,
+      "sujet_sensible_raison": "",
+      "angle_insuffisant": false,
+      "angle_insuffisant_raison": "",
+      "nature_contenu": "actualite_factuelle",
+      "problemes": [
+        {
+          "bloc": 2,
+          "section": "faits",
+          "type": "compteur_incoherent",
+          "phrase_exacte": "nb_sources: 6",
+          "explication": "Le champ nb_sources indique 6, mais seules les sources [1] et [2] sont effectivement utilisées dans le texte."
+        }
+      ]
+    },
+    "article_type": "breve",
+    "avertissements_garde_fous": [
+      "resume_repete_corps"
+    ],
+    "titre": "La COP17 biodiversité s'ouvre sur un constat de déséquilibre financier majeur",
+    "n_sources": 6,
+    "n_mots": 115,
+    "titre_rss": "COP17 biodiversité : «Pour chaque dollar investi dans la protection de la nature, 30 sont consacrés  à sa destruction»",
+    "matiere_faits_distincts": 519,
+    "matiere_redondance": 0.0,
+    "matiere_donnees_chiffrees": 0,
+    "n_sources_injectees": 10,
+    "n_sources_trouvees": 10,
+    "nature_contenu": "actualite_factuelle"
+  },
+  {
+    "slug": "vaccins-ebola-zaire-anticorps-souche-bundibugyo",
+    "statut": "conforme_du_premier_coup",
+    "date": "2026-10-19T15:21:28",
+    "article_type": "breve",
+    "avertissements_garde_fous": [
+      "faits_repetitifs",
+      "article_sans_date"
+    ],
+    "titre": "Des vaccins contre Ebola Zaïre induisent des anticorps contre la souche Bundibugyo",
+    "n_sources": 6,
+    "n_mots": 116,
+    "titre_rss": "Épidémie d’Ebola Bundibugyo : des premiers résultats pour guider la recherche d’un vaccin efficace",
+    "matiere_faits_distincts": 1125,
+    "matiere_redondance": 0.02,
+    "matiere_donnees_chiffrees": 4,
+    "n_sources_injectees": 10,
+    "n_sources_trouvees": 10,
+    "veille_heures_visible": 517.7,
+    "veille_passages": 311,
+    "veille_age_h": 1644.2,
+    "veille_n_flux_grappe": 9,
+    "nature_contenu": "etude_scientifique"
+  },
+  {
+    "slug": "hausse-mortalite-france-juin-2026",
+    "statut": "corrige_automatiquement",
+    "date": "2026-10-19T15:33:50",
+    "problemes_initiaux": 4,
+    "tentatives": 2,
+    "problemes_residuels_style": 0,
+    "rapport_initial": {
+      "conforme": false,
+      "sujet_sensible": false,
+      "sujet_sensible_raison": "",
+      "angle_insuffisant": false,
+      "angle_insuffisant_raison": "",
+      "nature_contenu": "actualite_factuelle",
+      "problemes": [
+        {
+          "bloc": 4,
+          "section": "contexte",
+          "type": "contexte_hors_sujet",
+          "phrase_exacte": "Parallèlement à ce suivi climatique, d'autres types de mortalités font l'objet d'études nationales, comme les morts violentes au sein du couple, dont le rapport 2024 de la Délégation aux victimes note une légère hausse de la proportion d'homicides conjugaux parmi l'ensemble des homicides recensés [7].",
+          "explication": "L'ajout d'une statistique sur les homicides conjugaux n'a aucun lien avec le sujet de l'article (mortalité liée à une canicule) et sert uniquement à remplir la section."
+        },
+        {
+          "bloc": 4,
+          "section": "contexte",
+          "type": "contexte_hors_sujet",
+          "phrase_exacte": "Le cadre institutionnel français s'appuie sur des ressources publiques diversifiées, incluant des rapports et études diffusés via Vie Publique pour assurer la transparence des données de santé et de sécurité [6].",
+          "explication": "Cette phrase est une généralité sur le fonctionnement de Vie Publique qui n'apporte aucune information utile à la compréhension de la hausse de mortalité de juin 2026."
+        },
+        {
+          "bloc": 2,
+          "section": "contexte",
+          "type": "source_inventee",
+          "phrase_exacte": "dont le rapport 2024 de la Délégation aux victimes note une légère hausse de la proportion d'homicides conjugaux parmi l'ensemble des homicides recensés [7].",
+          "explication": "Le renvoi [7] pointe vers une source inexistante dans la liste des sources autorisées (qui ne contient que 3 éléments)."
+        },
+        {
+          "bloc": 2,
+          "section": "contexte",
+          "type": "source_inventee",
+          "phrase_exacte": "incluant des rapports et études diffusés via Vie Publique pour assurer la transparence des données de santé et de sécurité [6].",
+          "explication": "Le renvoi [6] pointe vers une source inexistante dans la liste des sources autorisées (qui ne contient que 3 éléments)."
+        }
+      ]
+    },
+    "article_type": "actu",
+    "titre": "Hausse de 29,1 % des décès en France fin juin 2026",
+    "n_sources": 3,
+    "n_mots": 486,
+    "titre_rss": "Point de situation sur la mortalité toutes causes confondues  sur la période du 22 au 28 juin 2026",
+    "matiere_faits_distincts": 860,
+    "matiere_redondance": 0.0,
+    "matiere_donnees_chiffrees": 1,
+    "n_sources_injectees": 10,
+    "n_sources_trouvees": 10,
+    "nature_contenu": "actualite_factuelle"
+  },
+  {
+    "slug": "enquete-eras-2026-prevention-vih-ist-hommes",
+    "statut": "corrige_automatiquement",
+    "date": "2026-10-19T15:40:40",
+    "problemes_initiaux": 3,
+    "tentatives": 2,
+    "problemes_residuels_style": 1,
+    "rapport_initial": {
+      "conforme": false,
+      "sujet_sensible": false,
+      "sujet_sensible_raison": "",
+      "angle_insuffisant": false,
+      "angle_insuffisant_raison": "",
+      "nature_contenu": "actualite_factuelle",
+      "problemes": [
+        {
+          "bloc": 2,
+          "section": "faits",
+          "type": "source_inventee",
+          "phrase_exacte": "Selon Santepubliquefrance, ce dispositif se déroule du 16 mars au 26 avril 2026 en partenariat avec l’ANRS - Maladies infectieuses émergentes.",
+          "explication": "L'article n'utilise pas le format de citation obligatoire [n] pour attribuer les faits aux sources."
+        },
+        {
+          "bloc": 2,
+          "section": "faits",
+          "type": "source_inventee",
+          "phrase_exacte": "Cette initiative répond au constat que les hommes ayant des rapports avec des hommes et les personnes trans représentaient 42% des découvertes de séropositivité déclarées en 2024.",
+          "explication": "Le fait n'est pas attribué par un renvoi [n] vers la source correspondante."
+        },
+        {
+          "bloc": 2,
+          "section": "faits",
+          "type": "source_inventee",
+          "phrase_exacte": "Par ailleurs, d'autres institutions comme WHO et IGAS publient également des rapports de santé et de génomique en octobre 2026.",
+          "explication": "Le fait n'est pas attribué par un renvoi [n] vers les sources correspondantes."
+        }
+      ]
+    },
+    "article_type": "breve",
+    "titre": "Lancement de la 5e enquête nationale sur les comportements sexuels des hommes",
+    "n_sources": 3,
+    "n_mots": 160,
+    "titre_rss": "Enquête « Rapport au sexe » (ERAS) 2026 à destination des hommes ayant des rapports sexuels avec des hommes",
+    "matiere_faits_distincts": 781,
+    "matiere_redondance": 0.05,
+    "matiere_donnees_chiffrees": 0,
+    "n_sources_injectees": 10,
+    "n_sources_trouvees": 10,
+    "nature_contenu": "actualite_factuelle"
+  },
+  {
+    "slug": "maisons-connectees-automatisation-livraisons",
+    "statut": "rejete_qualite",
+    "date": "2026-10-19T15:43:48",
+    "angle_insuffisant": true,
+    "raison": "Le texte ne contient aucune phrase liant un événement daté récent à une donnée chiffrée ou nommée qui lui est propre ; il juxtapose des généralités sur la domotique, un projet de décret et un rapport sur la commande publique sans lien logique ni actualité déclenchante unique.",
+    "article_type": "breve",
+    "avertissements_garde_fous": [
+      "titre_de_mauvaise_qualite"
+    ],
+    "titre": "Le marché des maisons connectées s'étend à l'automatisation intégrale des livraisons",
+    "n_sources": 3,
+    "n_mots": 152,
+    "titre_rss": "Éclairage, douche, chauffage... À la découverte de la maison qui obéit sur commande",
+    "matiere_faits_distincts": 870,
+    "matiere_redondance": 0.0,
+    "matiere_donnees_chiffrees": 0,
+    "n_sources_injectees": 10,
+    "n_sources_trouvees": 10,
+    "nature_contenu": "sujet_pedagogique"
+  },
+  {
+    "slug": "inserm-deconstruction-idees-recues-vaccins",
+    "statut": "corrige_automatiquement",
+    "date": "2026-10-19T15:59:49",
+    "problemes_initiaux": 14,
+    "tentatives": 1,
+    "problemes_residuels_style": 0,
+    "rapport_initial": {
+      "conforme": false,
+      "sujet_sensible": false,
+      "sujet_sensible_raison": "",
+      "angle_insuffisant": false,
+      "angle_insuffisant_raison": "",
+      "nature_contenu": "actualite_factuelle",
+      "problemes": [
+        {
+          "bloc": 1,
+          "section": "titre",
+          "type": "chiffre_errone",
+          "phrase_exacte": "L'Inserm publie un guide contre sept idées reçues pour la campagne vaccinale 2026",
+          "explication": "Le titre mentionne la campagne vaccinale 2026, alors que la source [1] (publiée en 2025) ne mentionne aucune campagne pour 2026."
+        },
+        {
+          "bloc": 1,
+          "section": "resume",
+          "type": "chiffre_errone",
+          "phrase_exacte": "L'Inserm a publié un guide détaillant sept idées reçues sur la vaccination alors que la campagne contre la grippe et la Covid-19 débute le 13 octobre 2026 en France [5].",
+          "explication": "La date du 13 octobre 2026 n'apparaît pas dans la source [5] (qui correspond en réalité à la source [1] de la liste). De plus, le renvoi [5] est erroné car il n'existe que 4 sources."
+        },
+        {
+          "bloc": 1,
+          "section": "resume",
+          "type": "chiffre_errone",
+          "phrase_exacte": "alors que 80 % des adultes de 18 à 79 ans se disent favorables à la vaccination selon le Baromètre de Santé publique France 2024 [5].",
+          "explication": "Le chiffre de 80 % et la référence au Baromètre 2024 ne figurent pas dans la source [1] (citée comme [5])."
+        },
+        {
+          "bloc": 1,
+          "section": "resume",
+          "type": "chiffre_errone",
+          "phrase_exacte": "L'institut s'appuie sur des données cliniques et des études de grande ampleur pour rétablir les faits sur la sécurité des composants et l'efficacité des vaccins non obligatoires [5].",
+          "explication": "Le renvoi [5] est erroné (maximum 4 sources)."
+        },
+        {
+          "bloc": 1,
+          "section": "faits",
+          "type": "chiffre_errone",
+          "phrase_exacte": "le cas du papillomavirus (HPV), qui prévient des cancers dont environ 6 400 nouveaux cas sont diagnostiqués chaque année en France, dont près de la moitié touchent le col de l'utérus [5].",
+          "explication": "Le chiffre de 6 400 cas et la répartition ne figurent pas dans la source [1] (citée comme [5])."
+        },
+        {
+          "bloc": 1,
+          "section": "faits",
+          "type": "chiffre_errone",
+          "phrase_exacte": "En Australie, un programme systématique lancé en 2007 a réduit de 90 à 95 % la proportion de jeunes femmes diagnostiquées avec des condylomes génitaux [5].",
+          "explication": "L'exemple de l'Australie et les pourcentages de réduction ne figurent pas dans la source [1] (citée comme [5])."
+        },
+        {
+          "bloc": 1,
+          "section": "faits",
+          "type": "chiffre_errone",
+          "phrase_exacte": "Deux études publiées en 2026 renforcent ces données sur le cancer du col de l'utérus [5].",
+          "explication": "La source [1] a été publiée en 2025 ; elle ne peut citer des études de 2026. Le renvoi [5] est également erroné."
+        },
+        {
+          "bloc": 1,
+          "section": "faits",
+          "type": "chiffre_errone",
+          "phrase_exacte": "En Suède, un suivi de 2006 à 2023 sur plus de 300 000 femmes montre une réduction de 79 % du risque pour celles vaccinées avant 17 ans [5].",
+          "explication": "Ces données précises (Suède, 300 000 femmes, 79 %) ne figurent pas dans la source [1] (citée comme [5])."
+        },
+        {
+          "bloc": 1,
+          "section": "faits",
+          "type": "chiffre_errone",
+          "phrase_exacte": "En Allemagne, une étude couvrant la période 2008-2024 sur un effectif similaire observe une baisse de 65 % du risque chez les femmes complètement vaccinées [5].",
+          "explication": "Ces données précises (Allemagne, 65 %) ne figurent pas dans la source [1] (citée comme [5])."
+        },
+        {
+          "bloc": 1,
+          "section": "faits",
+          "type": "chiffre_errone",
+          "phrase_exacte": "Entre 2002 et le 15 septembre 2017, seulement 515 notifications de cette maladie ont été reçues par le centre régional de pharmacovigilance [5].",
+          "explication": "Le chiffre de 515 notifications et la date du 15 septembre 2017 ne figurent pas dans la source [1] (citée comme [5])."
+        },
+        {
+          "bloc": 1,
+          "section": "faits",
+          "type": "chiffre_errone",
+          "phrase_exacte": "Enfin, la grippe saisonnière cause chaque année entre 290 000 et 650 000 décès dans le monde en raison de complications respiratoires [5].",
+          "explication": "Ces chiffres de mortalité mondiale ne figurent pas dans la source [1] (citée comme [5])."
+        },
+        {
+          "bloc": 1,
+          "section": "contexte",
+          "type": "chiffre_errone",
+          "phrase_exacte": "La campagne de vaccination contre la grippe et la Covid-19 débute le 13 octobre 2026 dans l'Hexagone, aux Antilles et en Guyane, tandis qu'elle a commencé le 8 septembre 2026 à Mayotte [5].",
+          "explication": "Ces dates de 2026 ne figurent pas dans la source [1] (citée comme [5])."
+        },
+        {
+          "bloc": 2,
+          "section": "faits",
+          "type": "source_inventee",
+          "phrase_exacte": "L'utilité des vaccins non obligatoires est illustrée par le cas du papillomavirus (HPV), qui prévient des cancers dont environ 6 400 nouveaux cas sont diagnostiqués chaque année en France, dont près de la moitié touchent le col de l'utérus [5].",
+          "explication": "Le renvoi [5] pointe vers une source inexistante (la liste s'arrête à 4) et le contenu n'est pas dans la source [1]."
+        },
+        {
+          "bloc": 2,
+          "section": "faits",
+          "type": "compteur_incoherent",
+          "phrase_exacte": "nb_sources: 4",
+          "explication": "L'article utilise massivement un renvoi [5] qui n'existe pas dans la liste des sources."
+        }
+      ]
+    },
+    "article_type": "actu",
+    "titre": "L'Inserm publie un guide contre sept idées reçues pour la campagne vaccinale 2026",
+    "n_sources": 4,
+    "n_mots": 623,
+    "titre_rss": "Sept fausses idées sur les vaccins",
+    "matiere_faits_distincts": 817,
+    "matiere_redondance": 0.14,
+    "matiere_donnees_chiffrees": 0,
+    "n_sources_injectees": 10,
+    "n_sources_trouvees": 10,
+    "nature_contenu": "actualite_factuelle"
+  },
+  {
+    "slug": "mission-japonaise-mmx-lunes-mars",
+    "statut": "rejete_qualite",
+    "date": "2026-10-19T16:10:27",
+    "tentative": 1,
+    "angle_insuffisant": true,
+    "raison": "Aucune phrase de la section 'faits' ne lie un événement daté récent à une donnée chiffrée ou nommée qui lui est propre ; le texte décrit des objectifs généraux sans préciser l'actualité immédiate (le décollage mentionné dans le résumé est absent des faits).",
+    "article_type": "breve",
+    "avertissements_garde_fous": [
+      "article_sans_date"
+    ],
+    "titre": "Le Japon lance la mission spatiale MMX vers les lunes de Mars",
+    "n_sources": 3,
+    "n_mots": 170,
+    "titre_rss": "En quête d’«indices sur les origines de la vie», l’expédition japonaise MMX vise les lunes de Mars",
+    "matiere_faits_distincts": 637,
+    "matiere_redondance": 0.0,
+    "matiere_donnees_chiffrees": 0,
+    "n_sources_injectees": 10,
+    "n_sources_trouvees": 10,
+    "nature_contenu": "actualite_factuelle"
+  },
+  {
+    "slug": "routine-matinale-performance-science-harvard",
+    "statut": "rejete_qualite",
+    "date": "2026-10-19T16:16:55",
+    "angle_insuffisant": true,
+    "raison": "Le texte ne contient aucune phrase liant un événement daté récent à une donnée chiffrée ou nommée ; il expose des conseils de routine générale sans fait déclencheur actuel.",
+    "article_type": "breve",
+    "avertissements_garde_fous": [
+      "article_sans_date"
+    ],
+    "titre": "Des chercheurs de Harvard préconisent l'activité physique et la lumière pour la performance",
+    "n_sources": 3,
+    "n_mots": 165,
+    "titre_rss": "Voici la routine matinale jugée parfaite par des chercheurs de Harvard pour être plus performant toute la journée",
+    "matiere_faits_distincts": 510,
+    "matiere_redondance": 0.0,
+    "matiere_donnees_chiffrees": 0,
+    "n_sources_injectees": 10,
+    "n_sources_trouvees": 10,
+    "nature_contenu": "sujet_pedagogique"
+  },
+  {
+    "slug": "piratage-installations-frigorifiques-vulnerabilite-alimentaire",
+    "statut": "rejete_qualite",
+    "date": "2026-10-19T16:26:15",
+    "angle_insuffisant": true,
+    "raison": "Le texte ne contient aucune phrase liant l'événement à une date précise ou à une donnée chiffrée propre ; il expose un concept de vulnérabilité sans préciser quand l'attaque a eu lieu ni son ampleur.",
+    "article_type": "breve",
+    "titre": "Le piratage des installations frigorifiques de supermarchés révèle une vulnérabilité alimentaire en France",
+    "n_sources": 4,
+    "n_mots": 113,
+    "titre_rss": "Piratage de supermarchés en France : \"Pas besoin de chars pour faire la guerre\", dit un expert",
+    "matiere_faits_distincts": 830,
+    "matiere_redondance": 0.02,
+    "matiere_donnees_chiffrees": 0,
+    "n_sources_injectees": 10,
+    "n_sources_trouvees": 10,
+    "nature_contenu": "actualite_factuelle"
+  },
+  {
+    "slug": "migration-biodiversite-europe-nord-altitude",
+    "statut": "corrige_automatiquement",
+    "date": "2026-10-19T16:32:13",
+    "problemes_initiaux": 3,
+    "tentatives": 1,
+    "problemes_residuels_style": 0,
+    "rapport_initial": {
+      "conforme": false,
+      "sujet_sensible": false,
+      "sujet_sensible_raison": "",
+      "angle_insuffisant": false,
+      "angle_insuffisant_raison": "",
+      "nature_contenu": "etude_scientifique",
+      "problemes": [
+        {
+          "bloc": 2,
+          "section": "contexte",
+          "type": "source_inventee",
+          "phrase_exacte": "Un rapport de la Banque mondiale publié en 2021 estimait que le changement climatique pourrait pousser jusqu'à 216 millions de personnes à migrer d'ici 2050 [1].",
+          "explication": "Le fait est attribué à la source [1] (CNRS), mais mentionne un rapport de la Banque mondiale qui ne figure pas dans la liste des sources autorisées."
+        },
+        {
+          "bloc": 2,
+          "section": "contexte",
+          "type": "compteur_incoherent",
+          "phrase_exacte": "nb_sources: 4",
+          "explication": "Le champ nb_sources indique 4, mais seules 3 sources distinctes sont effectivement utilisées dans le texte ([1], [4], [5], [7] - attention, le renvoi [7] n'existe pas dans la liste des sources qui s'arrête à 4)."
+        },
+        {
+          "bloc": 2,
+          "section": "contexte",
+          "type": "source_inventee",
+          "phrase_exacte": "Ce déclin est tel qu'aucun des objectifs d'Aichi en matière de biodiversité ne sera pleinement atteint, compromettant ainsi les efforts de lutte contre le réchauffement climatique [7].",
+          "explication": "Le renvoi [7] pointe vers une source inexistante dans la liste des sources autorisées (qui ne contient que 4 éléments)."
+        }
+      ]
+    },
+    "article_type": "actu",
+    "titre": "Plus de la moitié des espèces observées migrent vers le nord en Europe",
+    "n_sources": 4,
+    "n_mots": 574,
+    "titre_rss": "Biodiversité : ruée vers les pôles et les sommets",
+    "matiere_faits_distincts": 1284,
+    "matiere_redondance": 0.02,
+    "matiere_donnees_chiffrees": 2,
+    "n_sources_injectees": 10,
+    "n_sources_trouvees": 10,
+    "nature_contenu": "etude_scientifique"
+  },
+  {
+    "slug": "aides-energies-renouvelables-redirigees-carburants",
+    "statut": "rejete_qualite",
+    "date": "2026-10-19T16:37:31",
+    "angle_insuffisant": true,
+    "raison": "Le texte ne contient aucune phrase liant un événement daté récent à une donnée chiffrée ou nommée qui lui est propre (absence de date de décret ou de publication).",
+    "article_type": "breve",
+    "avertissements_garde_fous": [
+      "article_sans_date"
+    ],
+    "titre": "Le gouvernement réalloue 406 millions d'euros d'aides aux renouvelables vers les carburants",
+    "n_sources": 3,
+    "n_mots": 116,
+    "titre_rss": "Des aides aux énergies renouvelables... redirigées vers le carburant",
+    "matiere_faits_distincts": 1114,
+    "matiere_redondance": 0.01,
+    "matiere_donnees_chiffrees": 0,
+    "n_sources_injectees": 10,
+    "n_sources_trouvees": 10,
+    "nature_contenu": "actualite_factuelle"
+  },
+  {
+    "slug": "rover-idefix-exploration-phobos-mars",
+    "statut": "rejete_qualite",
+    "date": "2026-10-19T16:41:33",
+    "angle_insuffisant": true,
+    "raison": "Le texte ne contient aucune phrase liant un événement daté récent à une donnée chiffrée ou nommée qui lui est propre ; il décrit des capacités techniques et des objectifs généraux sans fait déclencheur actuel.",
+    "article_type": "breve",
+    "avertissements_garde_fous": [
+      "article_sans_date"
+    ],
+    "titre": "Le rover franco-allemand Idefix prévu pour explorer la lune martienne Phobos",
+    "n_sources": 3,
+    "n_mots": 121,
+    "titre_rss": "Idefix, le rover franco-allemand qui devrait rouler sur Phobos, l’une des lunes de Mars",
+    "matiere_faits_distincts": 841,
+    "matiere_redondance": 0.0,
+    "matiere_donnees_chiffrees": 0,
+    "n_sources_injectees": 10,
+    "n_sources_trouvees": 10,
+    "nature_contenu": "actualite_factuelle"
+  },
+  {
+    "slug": "cop17-biodiversite-erevan-objectifs-financements",
+    "statut": "rejete_qualite",
+    "date": "2026-10-19T16:45:56",
+    "angle_insuffisant": true,
+    "raison": "L'article ne répond pas à la question posée dans l'angle_reponse concernant les 'leviers financiers' spécifiques (montants, mécanismes précis) pour inverser le déclin, se contentant de mentionner vaguement que des mécanismes seront 'négociés'.",
+    "article_type": "breve",
+    "titre": "La COP17 sur la biodiversité s'ouvre à Erevan pour réévaluer les progrès mondiaux",
+    "n_sources": 4,
+    "n_mots": 158,
+    "titre_rss": "COP17 sur la biodiversité à Erevan : les leviers dont dispose la communauté internationale pour corriger la trajectoire « avant qu’il ne soit trop tard »",
+    "matiere_faits_distincts": 915,
+    "matiere_redondance": 0.0,
+    "matiere_donnees_chiffrees": 0,
+    "n_sources_injectees": 10,
+    "n_sources_trouvees": 10,
+    "nature_contenu": "actualite_factuelle"
+  },
+  {
+    "slug": "ia-quantique-transformation-metiers-absence-leader",
+    "statut": "rejete_qualite",
+    "date": "2026-10-19T16:53:14",
+    "angle_insuffisant": true,
+    "raison": "L'article ne contient aucune phrase dans la section 'faits' associant un événement précis daté à une donnée chiffrée ou nommée. Il expose des concepts généraux et des statistiques de contexte, mais ne répond pas à la question 'pourquoi parle-t-on de cela maintenant ?'.",
+    "article_type": "actu",
+    "titre": "L'IA et le quantique transforment les métiers sans leader dominant selon Futura Sciences",
+    "n_sources": 7,
+    "n_mots": 389,
+    "titre_rss": "« Face à l'IA et au quantique, nous sommes tous débutants »",
+    "matiere_faits_distincts": 457,
+    "matiere_redondance": 0.0,
+    "matiere_donnees_chiffrees": 1,
+    "n_sources_injectees": 10,
+    "n_sources_trouvees": 10,
+    "nature_contenu": "sujet_pedagogique"
+  },
+  {
+    "slug": "projet-renaissance-industrialisation-arn-biotherapie",
+    "statut": "corrige_automatiquement",
+    "date": "2026-10-19T16:59:34",
+    "problemes_initiaux": 2,
+    "tentatives": 1,
+    "problemes_residuels_style": 0,
+    "rapport_initial": {
+      "conforme": false,
+      "sujet_sensible": false,
+      "sujet_sensible_raison": "",
+      "angle_insuffisant": false,
+      "angle_insuffisant_raison": "",
+      "nature_contenu": "actualite_factuelle",
+      "problemes": [
+        {
+          "bloc": 1,
+          "section": "resume",
+          "type": "chiffre_errone",
+          "phrase_exacte": "Une initiative lancée en 2025 prévoit le développement d'une infrastructure industrielle",
+          "explication": "La source [1] ne mentionne pas l'année 2025 comme date de lancement de l'initiative."
+        },
+        {
+          "bloc": 1,
+          "section": "faits",
+          "type": "niveau_preuve_insuffisant",
+          "phrase_exacte": "Des tests réalisés sur des souris saines ont montré que cette technique produit des anticorps circulant en grande quantité sans déclencher de réponse inflammatoire [1].",
+          "explication": "L'article présente un résultat d'efficacité sur modèle animal sans préciser la taille de l'échantillon ni la durée du suivi, alors que ces éléments sont requis pour les études d'efficacité (critère a)."
+        }
+      ]
+    },
+    "article_type": "actu",
+    "avertissements_garde_fous": [
+      "article_sans_date"
+    ],
+    "titre": "Le projet ReNAissance vise l'industrialisation de l'ARN pour créer de nouveaux médicaments",
+    "n_sources": 3,
+    "n_mots": 463,
+    "titre_rss": "Biothérapie : guérir avec l’ARN",
+    "matiere_faits_distincts": 1040,
+    "matiere_redondance": 0.0,
+    "matiere_donnees_chiffrees": 0,
+    "n_sources_injectees": 10,
+    "n_sources_trouvees": 10,
+    "nature_contenu": "actualite_factuelle"
+  },
+  {
+    "slug": "station-meteo-connectee-baisse-prix-74-90",
+    "statut": "rejete_qualite",
+    "date": "2026-10-19T17:08:12",
+    "angle_insuffisant": true,
+    "raison": "L'article ne contient aucune phrase liant un événement daté récent à une donnée chiffrée ou nommée qui lui est propre concernant le sujet principal (la station météo). De plus, il mélange des faits sans lien entre eux (météo, Conseil d'État, Sénat), s'apparentant à un agrégat de notes plutôt qu'à une brève cohérente.",
+    "article_type": "breve",
+    "avertissements_garde_fous": [
+      "article_sans_date"
+    ],
+    "titre": "Une station météo connectée 7 en 1 commercialisée à 74,90 euros",
+    "n_sources": 3,
+    "n_mots": 147,
+    "titre_rss": "Cette station météo professionnelle ultra-complète 7 en 1 voit son prix chuter à 74,90 € !",
+    "matiere_faits_distincts": 765,
+    "matiere_redondance": 0.02,
+    "matiere_donnees_chiffrees": 0,
+    "n_sources_injectees": 10,
+    "n_sources_trouvees": 10,
+    "nature_contenu": "actualite_factuelle"
+  },
+  {
+    "slug": "commission-europeenne-report-reporting-methane",
+    "statut": "rejete_qualite",
+    "date": "2026-10-19T17:11:14",
+    "angle_insuffisant": true,
+    "raison": "Le texte ne contient aucune phrase liant l'événement (le report du reporting) à une date précise ou récente ; il explique le contexte et les positions, mais ne dit pas QUAND ce report a été décidé.",
+    "article_type": "breve",
+    "titre": "La Commission européenne reporte d'un an le reporting sur les fuites de méthane",
+    "n_sources": 3,
+    "n_mots": 133,
+    "titre_rss": "Fuites de méthane : l'Europe cède aux lobbies de l'énergie",
+    "matiere_faits_distincts": 1054,
+    "matiere_redondance": 0.01,
+    "matiere_donnees_chiffrees": 0,
+    "n_sources_injectees": 10,
+    "n_sources_trouvees": 10,
+    "nature_contenu": "actualite_factuelle"
+  },
+  {
+    "slug": "deces-carole-fritz-directrice-scientifique-grotte-chauvet",
+    "statut": "corrige_automatiquement",
+    "date": "2026-10-19T17:19:07",
+    "problemes_initiaux": 2,
+    "tentatives": 2,
+    "problemes_residuels_style": 0,
+    "rapport_initial": {
+      "conforme": false,
+      "sujet_sensible": false,
+      "sujet_sensible_raison": "",
+      "angle_insuffisant": false,
+      "angle_insuffisant_raison": "",
+      "nature_contenu": "actualite_factuelle",
+      "problemes": [
+        {
+          "bloc": 2,
+          "section": "faits",
+          "type": "source_inventee",
+          "phrase_exacte": "Selon Le Monde et Étiolles, campements paléolithiques, la chercheuse dirigeait depuis 2018 l'étude pluridisciplinaire de la grotte Chauvet Pont-d'Arc.",
+          "explication": "L'article n'utilise pas le format de citation obligatoire [n] pour attribuer les faits aux sources."
+        },
+        {
+          "bloc": 2,
+          "section": "faits",
+          "type": "compteur_incoherent",
+          "phrase_exacte": "nb_sources: 3",
+          "explication": "La source [3] (Sénat) n'est jamais utilisée dans le texte, le nombre de sources effectives est de 2."
+        }
+      ]
+    },
+    "article_type": "breve",
+    "titre": "L'archéologue et directrice scientifique de la grotte Chauvet Carole Fritz est morte",
+    "n_sources": 3,
+    "n_mots": 148,
+    "titre_rss": "Carole Fritz, archéologue et préhistorienne, grande amoureuse de l’art pariétal, est morte",
+    "matiere_faits_distincts": 1035,
+    "matiere_redondance": 0.0,
+    "matiere_donnees_chiffrees": 2,
+    "n_sources_injectees": 10,
+    "n_sources_trouvees": 10,
+    "nature_contenu": "actualite_factuelle"
+  },
+  {
+    "slug": "cyberattaque-congelateurs-supermarches-pertes-alimentaires",
+    "statut": "rejete_qualite",
+    "date": "2026-10-19T17:26:32",
+    "angle_insuffisant": true,
+    "raison": "Le texte ne respecte pas le test opérationnel : aucune phrase des 'faits' ne lie un événement daté récent à une donnée chiffrée ou nommée qui lui est propre (le nombre de magasins 'plusieurs centaines' est dans le titre/résumé mais absent de la section faits).",
+    "article_type": "breve",
+    "avertissements_garde_fous": [
+      "article_sans_date"
+    ],
+    "titre": "Plusieurs centaines de magasins visés par une cyberattaque les 11 et 12 octobre",
+    "n_sources": 3,
+    "n_mots": 164,
+    "titre_rss": "« La cyberattaque visant les congélateurs des supermarchés montre à quel point Internet et le monde physique sont désormais imbriqués »",
+    "matiere_faits_distincts": 1133,
+    "matiere_redondance": 0.0,
+    "matiere_donnees_chiffrees": 0,
+    "n_sources_injectees": 10,
+    "n_sources_trouvees": 10,
+    "nature_contenu": "actualite_factuelle"
+  },
+  {
+    "slug": "aides-publiques-entreprises-budget-2027",
+    "statut": "rejete_qualite",
+    "date": "2026-10-19T17:29:38",
+    "angle_insuffisant": true,
+    "raison": "Le texte ne contient aucune phrase liant un événement daté récent à une donnée chiffrée ou nommée qui lui est propre ; il expose des données générales et un outil administratif sans fait déclencheur précis.",
+    "article_type": "breve",
+    "titre": "Les aides publiques aux entreprises estimées à 166 milliards d'euros en 2024",
+    "n_sources": 3,
+    "n_mots": 147,
+    "titre_rss": "Les aides publiques aux entreprises: l’éléphant dans la pièce du budget 2027",
+    "matiere_faits_distincts": 710,
+    "matiere_redondance": 0.03,
+    "matiere_donnees_chiffrees": 0,
+    "n_sources_injectees": 10,
+    "n_sources_trouvees": 10,
+    "nature_contenu": "actualite_factuelle"
+  },
+  {
+    "slug": "monetisation-faux-contenus-information-reseaux-sociaux",
+    "statut": "rejete_qualite",
+    "date": "2026-10-19T17:36:10",
+    "angle_insuffisant": true,
+    "raison": "Le texte ne contient aucune phrase liant un événement daté récent à une donnée chiffrée ou nommée qui lui est propre ; il décrit un mécanisme général de monétisation sans fait déclencheur actuel.",
+    "article_type": "breve",
+    "titre": "La monétisation des faux comptes d'actualité sur TikTok, Facebook et Instagram",
+    "n_sources": 11,
+    "n_mots": 103,
+    "titre_rss": "Les faux contenus d''informations font recette sur les réseaux sociaux",
+    "matiere_faits_distincts": 956,
+    "matiere_redondance": 0.0,
+    "matiere_donnees_chiffrees": 0,
+    "n_sources_injectees": 10,
+    "n_sources_trouvees": 10,
+    "nature_contenu": "sujet_pedagogique"
+  },
+  {
+    "slug": "ird-formation-registre-donnees-personnelles-rgpd",
+    "statut": "corrige_automatiquement",
+    "date": "2026-10-19T17:45:35",
+    "problemes_initiaux": 1,
+    "tentatives": 2,
+    "problemes_residuels_style": 0,
+    "rapport_initial": {
+      "conforme": false,
+      "sujet_sensible": false,
+      "sujet_sensible_raison": "",
+      "angle_insuffisant": false,
+      "angle_insuffisant_raison": "",
+      "nature_contenu": "actualite_factuelle",
+      "problemes": [
+        {
+          "bloc": 1,
+          "section": "resume",
+          "type": "annonce_perimee",
+          "phrase_exacte": "Le 5 novembre 2026, l'IRD a ouvert des modules d'apprentissage pour maîtriser l'inventaire des données personnelles utilisé par l'organisme [1].",
+          "explication": "Le résumé présente l'événement au passé composé (« a ouvert ») alors que le titre présente cet événement comme futur (« lance le 5 novembre 2026 »)."
+        }
+      ]
+    },
+    "article_type": "actu",
+    "titre": "L'IRD lance le 5 novembre 2026 des formations sur le registre RGPD",
+    "n_sources": 7,
+    "n_mots": 453,
+    "titre_rss": "Protection des données personnelles - Le registre des traitements",
+    "matiere_faits_distincts": 1081,
+    "matiere_redondance": 0.04,
+    "matiere_donnees_chiffrees": 0,
+    "n_sources_injectees": 10,
+    "n_sources_trouvees": 10,
+    "veille_heures_visible": 517.7,
+    "veille_passages": 326,
+    "veille_age_h": 1644.2,
+    "veille_n_flux_grappe": 1,
+    "nature_contenu": "actualite_factuelle"
+  },
+  {
+    "slug": "liban-contraction-economique-inflation-conflit",
+    "statut": "corrige_automatiquement",
+    "date": "2026-10-19T17:54:39",
+    "problemes_initiaux": 2,
+    "tentatives": 2,
+    "problemes_residuels_style": 3,
+    "rapport_initial": {
+      "conforme": false,
+      "sujet_sensible": false,
+      "sujet_sensible_raison": "",
+      "angle_insuffisant": false,
+      "angle_insuffisant_raison": "",
+      "nature_contenu": "actualite_factuelle",
+      "problemes": [
+        {
+          "bloc": 3,
+          "section": "contexte",
+          "type": "cadrage_emprunte",
+          "phrase_exacte": "Depuis 2019, le Liban traverse une crise financière qualifiée de sans précédent [2].",
+          "explication": "L'expression « sans précédent » est un jugement de valeur/cadrage éditorial de la source [2] qui doit être attribué explicitement (« selon X ») ou reformulé factuellement."
+        },
+        {
+          "bloc": 4,
+          "section": "contexte",
+          "type": "jugement_de_valeur",
+          "phrase_exacte": "Ce déclin est marqué par un blocage des institutions, une corruption des élites et une explosion de la pauvreté, plaçant l'État au bord de la faillite [2].",
+          "explication": "L'utilisation de termes comme « corruption des élites » et « explosion de la pauvreté » relève d'un jugement de valeur ou d'un cadrage non neutre, même si sourcé."
+        }
+      ]
+    },
+    "article_type": "actu",
+    "titre": "Le Liban prévoit une contraction économique de 6,4 % cette année",
+    "n_sources": 5,
+    "n_mots": 369,
+    "titre_rss": "Au Liban, la crise économique et l'inflation frappent les foyers",
+    "matiere_faits_distincts": 525,
+    "matiere_redondance": 0.07,
+    "matiere_donnees_chiffrees": 0,
+    "n_sources_injectees": 10,
+    "n_sources_trouvees": 10,
+    "nature_contenu": "actualite_factuelle"
+  },
+  {
+    "slug": "mesures-soutien-commercants-victimes-pillages",
+    "statut": "corrige_automatiquement",
+    "date": "2026-10-19T18:06:50",
+    "problemes_initiaux": 1,
+    "tentatives": 1,
+    "problemes_residuels_style": 2,
+    "rapport_initial": {
+      "conforme": false,
+      "sujet_sensible": false,
+      "sujet_sensible_raison": "",
+      "angle_insuffisant": false,
+      "angle_insuffisant_raison": "",
+      "nature_contenu": "actualite_factuelle",
+      "problemes": [
+        {
+          "bloc": 2,
+          "section": "faits",
+          "type": "compteur_incoherent",
+          "phrase_exacte": "nb_sources: 3",
+          "explication": "Le champ nb_sources indique 3, mais seule la source [1] est effectivement utilisée dans le texte."
+        }
+      ]
+    },
+    "article_type": "breve",
+    "titre": "Sébastien Lecornu annonce des mesures de soutien pour les commerçants pillés",
+    "n_sources": 3,
+    "n_mots": 149,
+    "titre_rss": "Chômage partiel, fonds de soutien… Sébastien Lecornu annonce plusieurs mesures pour les commerçants victimes de pillages durant le week-end",
+    "matiere_faits_distincts": 639,
+    "matiere_redondance": 0.01,
+    "matiere_donnees_chiffrees": 0,
+    "n_sources_injectees": 10,
+    "n_sources_trouvees": 10,
+    "nature_contenu": "actualite_factuelle"
+  },
+  {
+    "slug": "rejet-recettes-budget-securite-sociale-commission",
+    "statut": "rejete_qualite",
+    "date": "2026-10-19T18:14:35",
+    "tentative": 1,
+    "angle_insuffisant": true,
+    "raison": "L'article ne répond pas à la question posée dans le champ angle_reponse (« Ce rejet en commission fragilise-t-il l'adoption du budget de la Sécurité sociale 2027 ? »). Le texte se contente d'exposer le fait du rejet et le calendrier, sans analyser ni rapporter d'éléments sur la fragilisation du processus d'adoption global.",
+    "article_type": "actu",
+    "avertissements_garde_fous": [
+      "resume_repete_corps"
+    ],
+    "titre": "Les députés rejettent en commission les recettes du budget de la Sécurité sociale",
+    "n_sources": 5,
+    "n_mots": 428,
+    "titre_rss": "Budget de la Sécurité sociale : les députés rejettent en commission la partie « recettes » du texte",
+    "matiere_faits_distincts": 784,
+    "matiere_redondance": 0.02,
+    "matiere_donnees_chiffrees": 0,
+    "n_sources_injectees": 10,
+    "n_sources_trouvees": 10,
+    "nature_contenu": "actualite_factuelle"
+  },
+  {
+    "slug": "arcep-surcouts-fibre-optique-reseaux-ruraux",
+    "statut": "rejete_qualite",
+    "date": "2026-10-19T18:20:29",
+    "angle_insuffisant": true,
+    "raison": "Le texte ne contient aucune phrase liant un événement daté récent à une donnée chiffrée ou nommée qui lui est propre ; il décrit des mesures de manière générale sans préciser quand elles ont été prises ni en quoi elles consistent précisément.",
+    "article_type": "breve",
+    "avertissements_garde_fous": [
+      "titre_de_mauvaise_qualite"
+    ],
+    "titre": "L'Arcep instaure des mesures de compensation pour l'entretien de la fibre rurale",
+    "n_sources": 4,
+    "n_mots": 129,
+    "titre_rss": "Le régulateur des télécoms peine à rassurer la filière sur l’équilibre économique des réseaux ruraux de fibre optique",
+    "matiere_faits_distincts": 1179,
+    "matiere_redondance": 0.01,
+    "matiere_donnees_chiffrees": 0,
+    "n_sources_injectees": 10,
+    "n_sources_trouvees": 10,
+    "nature_contenu": "actualite_factuelle"
+  },
+  {
+    "slug": "cop17-subventions-fossiles-defi-persistant-biodiversite",
+    "statut": "rejete_sensible",
+    "date": "2026-10-19T19:28:39",
+    "problemes_initiaux": 17,
+    "bloc5": [
+      "acteur_mis_en_cause_sans_reponse"
+    ],
+    "article_type": "actu",
+    "titre": "COP17 : les subventions fossiles, un défi persistant malgré leur baisse",
+    "n_sources": 7,
+    "n_mots": 1011,
+    "titre_rss": "A la COP17, haro sur les subventions aux énergies fossiles",
+    "matiere_faits_distincts": 736,
+    "matiere_redondance": 0.0,
+    "matiere_donnees_chiffrees": 1,
+    "n_sources_injectees": 10,
+    "n_sources_trouvees": 10,
+    "nature_contenu": "actualite_factuelle"
+  },
+  {
+    "slug": "assemblee-nationale-placement-produit-television-risques-neutralite",
+    "statut": "rejete_sensible",
+    "date": "2026-10-19T19:30:45",
+    "problemes_initiaux": 6,
+    "bloc5": [
+      "diffamation_potentielle"
+    ],
+    "article_type": "breve",
+    "avertissements_garde_fous": [
+      "titre_de_mauvaise_qualite",
+      "article_sans_date"
+    ],
+    "titre": "Assemblée nationale examine les risques du placement de produit dans les émissions télévisées",
+    "n_sources": 3,
+    "n_mots": 184,
+    "titre_rss": "Le placement de produit, espoir des producteurs de télévision pour financer leurs émissions",
+    "matiere_faits_distincts": 814,
+    "matiere_redondance": 0.01,
+    "matiere_donnees_chiffrees": 0,
+    "n_sources_injectees": 10,
+    "n_sources_trouvees": 10,
+    "nature_contenu": "actualite_factuelle"
+  },
+  {
+    "slug": "centre-dart-amilly-coupes-budgetaires-30-pourcent-maire-rn",
+    "statut": "rejete_sensible",
+    "date": "2026-10-19T19:32:42",
+    "problemes_initiaux": 15,
+    "bloc5": [
+      "acteur_mis_en_cause_sans_reponse"
+    ],
+    "article_type": "actu",
+    "titre": "Amilly : le centre d’art des Tanneries réduit ses activités après des coupes budgétaires frontistes",
+    "n_sources": 4,
+    "n_mots": 717,
+    "titre_rss": "«Un avant-goût de ce qu’on va subir si Le Pen l’emporte en 2027» : à Amilly, le maire RN sabre les subventions du centre d’art des Tanneries",
+    "matiere_faits_distincts": 632,
+    "matiere_redondance": 0.15,
+    "matiere_donnees_chiffrees": 0,
+    "n_sources_injectees": 10,
+    "n_sources_trouvees": 10,
+    "nature_contenu": "actualite_factuelle"
+  },
+  {
+    "slug": "ecoles-hors-contrat-france-83-000-eleves-enjeux-juridiques",
+    "statut": "rejete_sensible",
+    "date": "2026-10-19T19:37:17",
+    "problemes_initiaux": 26,
+    "bloc5": [
+      "source_inventee"
+    ],
+    "article_type": "actu",
+    "avertissements_garde_fous": [
+      "faits_repetitifs"
+    ],
+    "titre": "Écoles hors contrat : 83 000 élèves, un modèle en tension",
+    "n_sources": 4,
+    "n_mots": 840,
+    "titre_rss": "Les écoles catholiques hors contrat : « La liberté pédagogique s’accompagne d’un repli communautaire »",
+    "matiere_faits_distincts": 446,
+    "matiere_redondance": 0.0,
+    "matiere_donnees_chiffrees": 0,
+    "n_sources_injectees": 10,
+    "n_sources_trouvees": 10,
+    "nature_contenu": "actualite_factuelle"
+  },
+  {
+    "slug": "albanie-montenegro-avancees-adhesion-ue-2026",
+    "statut": "rejete_sensible",
+    "date": "2026-10-19T19:39:40",
+    "problemes_initiaux": 12,
+    "bloc5": [
+      "faux_debat"
+    ],
+    "article_type": "actu",
+    "titre": "Albanie et Monténégro : avancées récentes et blocages dans leur adhésion à l’UE",
+    "n_sources": 4,
+    "n_mots": 361,
+    "titre_rss": "Albanie et Monténégro : un état des lieux des négociations d'adhésion à l'Union européenne - Rapport d'information n° 845",
+    "matiere_faits_distincts": 499,
+    "matiere_redondance": 0.0,
+    "matiere_donnees_chiffrees": 0,
+    "n_sources_injectees": 10,
+    "n_sources_trouvees": 10,
+    "nature_contenu": "actualite_factuelle"
+  },
+  {
+    "slug": "vaccins-ebola-bundibugyo-immunite-partielle-resultats-inserm-23-juillet-2026",
+    "statut": "rejete_sensible",
+    "date": "2026-10-19T19:42:04",
+    "problemes_initiaux": 13,
+    "bloc5": [
+      "compteur_incoherent"
+    ],
+    "article_type": "actu",
+    "titre": "Vaccins Ebola Zaïre : une immunité partielle détectée contre la souche Bundibugyo",
+    "n_sources": 4,
+    "n_mots": 477,
+    "titre_rss": "Épidémie d’Ebola Bundibugyo : des premiers résultats pour guider la recherche d’un vaccin efficace",
+    "matiere_faits_distincts": 1060,
+    "matiere_redondance": 0.03,
+    "matiere_donnees_chiffrees": 0,
+    "n_sources_injectees": 10,
+    "n_sources_trouvees": 10,
+    "veille_heures_visible": 517.7,
+    "veille_passages": 311,
+    "veille_age_h": 1648.9,
+    "veille_n_flux_grappe": 9,
+    "nature_contenu": "actualite_factuelle"
+  },
+  {
+    "slug": "sanofi-interdiction-communication-vaccins-grippe-ue-france-allemagne",
+    "statut": "rejete_sensible",
+    "date": "2026-10-19T19:44:19",
+    "problemes_initiaux": 17,
+    "bloc5": [
+      "diffamation_potentielle"
+    ],
+    "article_type": "actu",
+    "avertissements_garde_fous": [
+      "resume_repete_corps",
+      "faits_repetitifs"
+    ],
+    "titre": "Sanofi interdit de critiquer les recommandations vaccinales en France et en Allemagne",
+    "n_sources": 7,
+    "n_mots": 760,
+    "titre_rss": "Vaccins contre la grippe : Sanofi, accusé d’avoir dénigré un concurrent, sommé par l’UE de rectifier sa communication",
+    "matiere_faits_distincts": 1203,
+    "matiere_redondance": 0.04,
+    "matiere_donnees_chiffrees": 1,
+    "n_sources_injectees": 10,
+    "n_sources_trouvees": 10,
+    "nature_contenu": "actualite_factuelle"
+  },
+  {
+    "slug": "canicule-juin-2026-hausse-29-deces-semaine",
+    "statut": "rejete_sensible",
+    "date": "2026-10-19T19:47:02",
+    "problemes_initiaux": 17,
+    "bloc5": [
+      "compteur_incoherent"
+    ],
+    "article_type": "actu",
+    "avertissements_garde_fous": [
+      "faits_repetitifs",
+      "titre_de_mauvaise_qualite"
+    ],
+    "titre": "France : +29 % de décès en une semaine lors de la canicule de juin 2026",
+    "n_sources": 3,
+    "n_mots": 657,
+    "titre_rss": "Point de situation sur la mortalité toutes causes confondues  sur la période du 22 au 28 juin 2026",
+    "matiere_faits_distincts": 974,
+    "matiere_redondance": 0.01,
+    "matiere_donnees_chiffrees": 0,
+    "n_sources_injectees": 10,
+    "n_sources_trouvees": 10,
+    "nature_contenu": "actualite_factuelle"
+  },
+  {
+    "slug": "sante-publique-france-lance-enquete-eras-2026-hsh-vih-ist",
+    "statut": "rejete_sensible",
+    "date": "2026-10-19T19:49:39",
+    "problemes_initiaux": 12,
+    "bloc5": [
+      "compteur_incoherent"
+    ],
+    "article_type": "actu",
+    "titre": "Santé publique France lance l’enquête ERAS 2026 sur les HSH",
+    "n_sources": 4,
+    "n_mots": 696,
+    "titre_rss": "Enquête « Rapport au sexe » (ERAS) 2026 à destination des hommes ayant des rapports sexuels avec des hommes",
+    "matiere_faits_distincts": 1029,
+    "matiere_redondance": 0.01,
+    "matiere_donnees_chiffrees": 0,
+    "n_sources_injectees": 10,
+    "n_sources_trouvees": 10,
+    "nature_contenu": "actualite_factuelle"
+  },
+  {
+    "slug": "decret-2030-chauffage-automatisation-logements-limites",
+    "statut": "rejete_sensible",
+    "date": "2026-10-19T19:52:28",
+    "problemes_initiaux": 13,
+    "bloc5": [
+      "compteur_incoherent"
+    ],
+    "article_type": "actu",
+    "avertissements_garde_fous": [
+      "resume_repete_corps",
+      "titre_de_mauvaise_qualite"
+    ],
+    "titre": "Décret 2030 : les nouvelles règles sur les équipements de chauffage limitent-elles l'automatisation des logements ?",
+    "n_sources": 5,
+    "n_mots": 417,
+    "titre_rss": "Éclairage, douche, chauffage... À la découverte de la maison qui obéit sur commande",
+    "matiere_faits_distincts": 1102,
+    "matiere_redondance": 0.0,
+    "matiere_donnees_chiffrees": 0,
+    "n_sources_injectees": 10,
+    "n_sources_trouvees": 10,
+    "nature_contenu": "actualite_factuelle"
+  },
+  {
+    "slug": "inserm-demontre-sept-idees-fausses-vaccins-campagne-2026-2027",
+    "statut": "rejete_sensible",
+    "date": "2026-10-19T19:55:21",
+    "problemes_initiaux": 18,
+    "bloc5": [
+      "acteur_mis_en_cause_sans_reponse"
+    ],
+    "article_type": "actu",
+    "avertissements_garde_fous": [
+      "faits_repetitifs"
+    ],
+    "titre": "L'Inserm démontre sept idées fausses sur les vaccins à l'ouverture de la campagne 2026-2027",
+    "n_sources": 4,
+    "n_mots": 754,
+    "titre_rss": "Sept fausses idées sur les vaccins",
+    "matiere_faits_distincts": 967,
+    "matiere_redondance": 0.03,
+    "matiere_donnees_chiffrees": 2,
+    "n_sources_injectees": 10,
+    "n_sources_trouvees": 10,
+    "nature_contenu": "actualite_factuelle"
+  },
+  {
+    "slug": "harvard-etude-routine-matinale-lumiere-mouvement-performance-cognitive",
+    "statut": "rejete_sensible",
+    "date": "2026-10-19T20:03:42",
+    "problemes_initiaux": 22,
+    "tentative": 3,
+    "bloc5": true,
+    "article_type": "actu",
+    "titre": "Une routine matinale optimale selon Harvard : lumière et mouvement améliorent la vigilance",
+    "n_sources": 3,
+    "n_mots": 820,
+    "titre_rss": "Voici la routine matinale jugée parfaite par des chercheurs de Harvard pour être plus performant toute la journée",
+    "matiere_faits_distincts": 449,
+    "matiere_redondance": 0.0,
+    "matiere_donnees_chiffrees": 0,
+    "n_sources_injectees": 10,
+    "n_sources_trouvees": 10,
+    "nature_contenu": "etude_scientifique"
+  },
+  {
+    "slug": "macky-sall-retrait-candidature-secretaire-general-onu-17-octobre-2026",
+    "statut": "rejete_sensible",
+    "date": "2026-10-19T20:08:01",
+    "problemes_initiaux": 23,
+    "bloc5": [
+      "compteur_incoherent"
+    ],
+    "article_type": "actu",
+    "avertissements_garde_fous": [
+      "faits_repetitifs",
+      "cliches_ia"
+    ],
+    "titre": "Macky Sall retire sa candidature à la tête de l'ONU après un vote défavorable",
+    "n_sources": 3,
+    "n_mots": 841,
+    "titre_rss": "Macky Sall renonce à briguer le secrétariat général de l’ONU après un premier “résultat cinglant”",
+    "matiere_faits_distincts": 841,
+    "matiere_redondance": 0.0,
+    "matiere_donnees_chiffrees": 0,
+    "n_sources_injectees": 10,
+    "n_sources_trouvees": 10,
+    "nature_contenu": "actualite_factuelle"
+  },
+  {
+    "slug": "1023-espèces-europeennes-deplacees-rechauffement-climatique-risques-survie",
+    "statut": "rejete_sensible",
+    "date": "2026-10-19T20:11:49",
+    "problemes_initiaux": 12,
+    "bloc5": [
+      "compteur_incoherent"
+    ],
+    "article_type": "actu",
+    "avertissements_garde_fous": [
+      "titre_de_mauvaise_qualite"
+    ],
+    "titre": "1 023 espèces européennes déplacées par la chaleur : les pièges des montagnes et des pôles",
+    "n_sources": 4,
+    "n_mots": 471,
+    "titre_rss": "Biodiversité : ruée vers les pôles et les sommets",
+    "matiere_faits_distincts": 1165,
+    "matiere_redondance": 0.02,
+    "matiere_donnees_chiffrees": 1,
+    "n_sources_injectees": 10,
+    "n_sources_trouvees": 10,
+    "nature_contenu": "actualite_factuelle"
+  },
+  {
+    "slug": "methode-mathématique-mathkind-relie-généalogie-survie-espèces",
+    "statut": "rejete_sensible",
+    "date": "2026-10-19T20:17:24",
+    "problemes_initiaux": 14,
+    "bloc5": [
+      "jugement_de_valeur"
+    ],
+    "article_type": "actu",
+    "avertissements_garde_fous": [
+      "faits_repetitifs"
+    ],
+    "titre": "Projet MathKinD : une méthode mathématique relie généalogie et survie des espèces",
+    "n_sources": 3,
+    "n_mots": 918,
+    "titre_rss": "La foisonnante inventivité des chercheurs pour étudier les capacités d’adaptation des espèces",
+    "matiere_faits_distincts": 899,
+    "matiere_redondance": 0.01,
+    "matiere_donnees_chiffrees": 0,
+    "n_sources_injectees": 10,
+    "n_sources_trouvees": 10,
+    "nature_contenu": "etude_scientifique"
+  },
+  {
+    "slug": "mission-japonaise-mmx-phobos-retour-echantillons-lune-mars",
+    "statut": "rejete_sensible",
+    "date": "2026-10-19T20:21:06",
+    "problemes_initiaux": 16,
+    "tentative": 1,
+    "bloc5": true,
+    "article_type": "actu",
+    "avertissements_garde_fous": [
+      "faits_repetitifs"
+    ],
+    "titre": "La mission MMX du Japon part explorer Phobos et rapporter des échantillons inédits",
+    "n_sources": 4,
+    "n_mots": 686,
+    "titre_rss": "Le Japon se lance à la conquête des lunes de Mars",
+    "matiere_faits_distincts": 472,
+    "matiere_redondance": 0.0,
+    "matiere_donnees_chiffrees": 1,
+    "n_sources_injectees": 10,
+    "n_sources_trouvees": 10,
+    "nature_contenu": "actualite_factuelle"
+  },
+  {
+    "slug": "france-europe-retard-competences-ia-ocde-alerte-ecart-europe-du-nord",
+    "statut": "rejete_sensible",
+    "date": "2026-10-19T20:23:58",
+    "problemes_initiaux": 14,
+    "bloc5": [
+      "faux_debat"
+    ],
+    "article_type": "actu",
+    "avertissements_garde_fous": [
+      "titre_de_mauvaise_qualite"
+    ],
+    "titre": "France et Europe en retard sur les compétences IA : l'OCDE alerte sur un écart avec l'Europe du Nord",
+    "n_sources": 6,
+    "n_mots": 447,
+    "titre_rss": "« Face à l'IA et au quantique, nous sommes tous débutants »",
+    "matiere_faits_distincts": 1075,
+    "matiere_redondance": 0.0,
+    "matiere_donnees_chiffrees": 0,
+    "n_sources_injectees": 10,
+    "n_sources_trouvees": 10,
+    "nature_contenu": "actualite_factuelle"
+  },
+  {
+    "slug": "mortalité-france-2024-comorbidités-et-causes-principales",
+    "statut": "rejete_sensible",
+    "date": "2026-10-19T20:26:52",
+    "problemes_initiaux": 13,
+    "bloc5": [
+      "jugement_de_valeur"
+    ],
+    "article_type": "actu",
+    "avertissements_garde_fous": [
+      "resume_repete_corps",
+      "faits_repetitifs"
+    ],
+    "titre": "France : 641 046 décès en 2024, cancers et comorbidités en hausse relative",
+    "n_sources": 4,
+    "n_mots": 694,
+    "titre_rss": "Grandes causes de décès en France : tendances et causes associées en 2024",
+    "matiere_faits_distincts": 705,
+    "matiere_redondance": 0.02,
+    "matiere_donnees_chiffrees": 1,
+    "n_sources_injectees": 10,
+    "n_sources_trouvees": 10,
+    "veille_heures_visible": 517.7,
+    "veille_passages": 311,
+    "veille_age_h": 1648.9,
+    "veille_n_flux_grappe": 1,
+    "nature_contenu": "actualite_factuelle"
+  },
+  {
+    "slug": "ue-report-règlement-methane-lobbies-2026-impact-concret",
+    "statut": "rejete_sensible",
+    "date": "2026-10-19T20:29:50",
+    "problemes_initiaux": 15,
+    "bloc5": [
+      "acteur_mis_en_cause_sans_reponse"
+    ],
+    "article_type": "actu",
+    "avertissements_garde_fous": [
+      "resume_repete_corps",
+      "faits_repetitifs"
+    ],
+    "titre": "Report d'un an du règlement UE sur les fuites de méthane sous pression des lobbies",
+    "n_sources": 4,
+    "n_mots": 896,
+    "titre_rss": "Fuites de méthane : l'Europe cède aux lobbies de l'énergie",
+    "matiere_faits_distincts": 1053,
+    "matiere_redondance": 0.01,
+    "matiere_donnees_chiffrees": 1,
+    "n_sources_injectees": 10,
+    "n_sources_trouvees": 10,
+    "nature_contenu": "actualite_factuelle"
+  },
+  {
+    "slug": "carole-fritz-deces-impact-etudes-grotte-chauvet-2026",
+    "statut": "rejete_sensible",
+    "date": "2026-10-19T20:38:46",
+    "problemes_initiaux": 22,
+    "tentative": 2,
+    "bloc5": true,
+    "article_type": "actu",
+    "avertissements_garde_fous": [
+      "resume_repete_corps"
+    ],
+    "titre": "Carole Fritz décédée : son rôle clé dans l'étude de la grotte Chauvet",
+    "n_sources": 3,
+    "n_mots": 782,
+    "titre_rss": "Carole Fritz, archéologue et préhistorienne, grande amoureuse de l’art pariétal, est morte",
+    "matiere_faits_distincts": 943,
+    "matiere_redondance": 0.0,
+    "matiere_donnees_chiffrees": 2,
+    "n_sources_injectees": 10,
+    "n_sources_trouvees": 10,
+    "nature_contenu": "actualite_factuelle"
+  },
+  {
+    "slug": "plan-nature-france-ecosystemes-degrade-2050-manque-moyens",
+    "statut": "rejete_sensible",
+    "date": "2026-10-19T20:42:09",
+    "problemes_initiaux": 14,
+    "bloc5": [
+      "acteur_mis_en_cause_sans_reponse"
+    ],
+    "article_type": "actu",
+    "avertissements_garde_fous": [
+      "faits_repetitifs"
+    ],
+    "titre": "Plan nature : la France échoue à financer ses objectifs de restauration écologique",
+    "n_sources": 6,
+    "n_mots": 931,
+    "titre_rss": "Plan pour la nature : la France voit grand mais ne propose rien",
+    "matiere_faits_distincts": 1081,
+    "matiere_redondance": 0.02,
+    "matiere_donnees_chiffrees": 0,
+    "n_sources_injectees": 10,
+    "n_sources_trouvees": 10,
+    "nature_contenu": "actualite_factuelle"
+  },
+  {
+    "slug": "aides-entreprises-166-milliards-deficit-2024-perspectives-2027",
+    "statut": "rejete_sensible",
+    "date": "2026-10-19T20:49:47",
+    "problemes_initiaux": 13,
+    "tentative": 2,
+    "bloc5": true,
+    "article_type": "actu",
+    "avertissements_garde_fous": [
+      "resume_repete_corps",
+      "faits_repetitifs",
+      "attributions_trop_repetitives"
+    ],
+    "titre": "Les aides publiques aux entreprises atteignent 166 milliards d'euros en 2024, équivalent du déficit public",
+    "n_sources": 9,
+    "n_mots": 992,
+    "titre_rss": "Les aides publiques aux entreprises: l’éléphant dans la pièce du budget 2027",
+    "matiere_faits_distincts": 834,
+    "matiere_redondance": 0.01,
+    "matiere_donnees_chiffrees": 0,
+    "n_sources_injectees": 10,
+    "n_sources_trouvees": 10,
+    "nature_contenu": "actualite_factuelle"
+  },
+  {
+    "slug": "reseaux-sociaux-fausses-informations-exposition-51-internautes",
+    "statut": "rejete_sensible",
+    "date": "2026-10-19T20:53:19",
+    "problemes_initiaux": 15,
+    "bloc5": [
+      "faux_debat"
+    ],
+    "article_type": "actu",
+    "avertissements_garde_fous": [
+      "article_sans_date"
+    ],
+    "titre": "Réseaux sociaux : 51 % des Français exposés à des fausses infos en 3 mois",
+    "n_sources": 6,
+    "n_mots": 398,
+    "titre_rss": "Les faux contenus d''informations font recette sur les réseaux sociaux",
+    "matiere_faits_distincts": 956,
+    "matiere_redondance": 0.0,
+    "matiere_donnees_chiffrees": 0,
+    "n_sources_injectees": 10,
+    "n_sources_trouvees": 10,
+    "nature_contenu": "actualite_factuelle"
+  },
+  {
+    "slug": "ird-forme-agents-tenue-registre-rgpd-traitements-donnees",
+    "statut": "rejete_sensible",
+    "date": "2026-10-19T20:56:54",
+    "problemes_initiaux": 11,
+    "tentative": 1,
+    "bloc5": true,
+    "article_type": "actu",
+    "titre": "L'IRD forme ses agents à la tenue du registre RGPD des traitements de données",
+    "n_sources": 7,
+    "n_mots": 911,
+    "titre_rss": "Protection des données personnelles - Le registre des traitements",
+    "matiere_faits_distincts": 1187,
+    "matiere_redondance": 0.0,
+    "matiere_donnees_chiffrees": 0,
+    "n_sources_injectees": 10,
+    "n_sources_trouvees": 10,
+    "veille_heures_visible": 517.7,
+    "veille_passages": 326,
+    "veille_age_h": 1648.9,
+    "veille_n_flux_grappe": 1,
+    "nature_contenu": "actualite_factuelle"
+  },
+  {
+    "slug": "cop17-biodiversite-outils-financements-erevan-2026",
+    "statut": "rejete_sensible",
+    "date": "2026-10-19T21:02:02",
+    "problemes_initiaux": 13,
+    "bloc5": [
+      "faux_debat"
+    ],
+    "article_type": "actu",
+    "avertissements_garde_fous": [
+      "titre_de_mauvaise_qualite"
+    ],
+    "titre": "COP17 biodiversité : quels outils et financements pour protéger les écosystèmes ?",
+    "n_sources": 7,
+    "n_mots": 400,
+    "titre_rss": "COP17 sur la biodiversité à Erevan : les leviers dont dispose la communauté internationale pour corriger la trajectoire « avant qu’il ne soit trop tard »",
+    "matiere_faits_distincts": 1201,
+    "matiere_redondance": 0.0,
+    "matiere_donnees_chiffrees": 1,
+    "n_sources_injectees": 10,
+    "n_sources_trouvees": 10,
+    "nature_contenu": "actualite_factuelle"
+  },
+  {
+    "slug": "pillages-commercants-aides-chomage-partiel-fonds-soutien-2026",
+    "statut": "rejete_sensible",
+    "date": "2026-10-19T21:07:47",
+    "problemes_initiaux": 19,
+    "bloc5": [
+      "acteur_mis_en_cause_sans_reponse"
+    ],
+    "article_type": "actu",
+    "avertissements_garde_fous": [
+      "faits_repetitifs",
+      "titre_de_mauvaise_qualite"
+    ],
+    "titre": "Pillages : chômage partiel et fonds de soutien pour les commerçants",
+    "n_sources": 4,
+    "n_mots": 803,
+    "titre_rss": "Chômage partiel, fonds de soutien… Sébastien Lecornu annonce plusieurs mesures pour les commerçants victimes de pillages durant le week-end",
+    "matiere_faits_distincts": 854,
+    "matiere_redondance": 0.01,
+    "matiere_donnees_chiffrees": 1,
+    "n_sources_injectees": 10,
+    "n_sources_trouvees": 10,
+    "nature_contenu": "actualite_factuelle"
+  },
+  {
+    "slug": "plfss-2027-rejet-recettes-commission-tensions-budgetaires",
+    "statut": "rejete_sensible",
+    "date": "2026-10-19T21:11:38",
+    "problemes_initiaux": 14,
+    "bloc5": [
+      "acteur_mis_en_cause_sans_reponse"
+    ],
+    "article_type": "actu",
+    "avertissements_garde_fous": [
+      "faits_repetitifs"
+    ],
+    "titre": "PLFSS 2027 : rejet des recettes en commission, gel des allocations et tensions budgétaires",
+    "n_sources": 9,
+    "n_mots": 998,
+    "titre_rss": "Budget de la Sécurité sociale : les députés rejettent en commission la partie « recettes » du texte",
+    "matiere_faits_distincts": 939,
+    "matiere_redondance": 0.02,
+    "matiere_donnees_chiffrees": 0,
+    "n_sources_injectees": 10,
+    "n_sources_trouvees": 10,
+    "nature_contenu": "actualite_factuelle"
+  },
+  {
+    "slug": "arcom-surcoûts-fibre-rurale-dépassent-300-previsions",
+    "statut": "rejete_sensible",
+    "date": "2026-10-19T21:15:59",
+    "problemes_initiaux": 15,
+    "tentative": 1,
+    "bloc5": true,
+    "article_type": "actu",
+    "avertissements_garde_fous": [
+      "faits_repetitifs"
+    ],
+    "titre": "Arcom : les surcoûts des réseaux fibre ruraux dépassent les prévisions de 300 %",
+    "n_sources": 4,
+    "n_mots": 765,
+    "titre_rss": "Le régulateur des télécoms peine à rassurer la filière sur l’équilibre économique des réseaux ruraux de fibre optique",
+    "matiere_faits_distincts": 1096,
+    "matiere_redondance": 0.0,
+    "matiere_donnees_chiffrees": 0,
+    "n_sources_injectees": 10,
+    "n_sources_trouvees": 10,
+    "nature_contenu": "actualite_factuelle"
+  },
+  {
+    "slug": "ia-fermees-ouvertes-fracture-technologique-et-reglementaire",
+    "statut": "rejete_sensible",
+    "date": "2026-10-19T21:19:18",
+    "problemes_initiaux": 15,
+    "tentative": 1,
+    "bloc5": true,
+    "article_type": "actu",
+    "avertissements_garde_fous": [
+      "titre_de_mauvaise_qualite"
+    ],
+    "titre": "IA fermées et ouvertes : une fracture technologique et réglementaire",
+    "n_sources": 4,
+    "n_mots": 372,
+    "titre_rss": "Derrière les appels à la régulation, l’affrontement entre IA fermées et IA ouvertes",
+    "matiere_faits_distincts": 919,
+    "matiere_redondance": 0.0,
+    "matiere_donnees_chiffrees": 0,
+    "n_sources_injectees": 10,
+    "n_sources_trouvees": 10,
+    "nature_contenu": "actualite_factuelle"
+  },
+  {
+    "slug": "ia-400-scientifiques-demande-organisme-international-supervision-cybersecurite",
+    "statut": "rejete_sensible",
+    "date": "2026-10-19T21:23:20",
+    "problemes_initiaux": 11,
+    "bloc5": [
+      "faux_debat"
+    ],
+    "article_type": "actu",
+    "titre": "IA avancée : 400 scientifiques demandent un organisme international de supervision",
+    "n_sources": 8,
+    "n_mots": 588,
+    "titre_rss": "IA : 400 scientifiques alertent sur les risques de cybersécurité",
+    "matiere_faits_distincts": 1179,
+    "matiere_redondance": 0.0,
+    "matiere_donnees_chiffrees": 1,
+    "n_sources_injectees": 10,
+    "n_sources_trouvees": 10,
+    "nature_contenu": "actualite_factuelle"
+  },
+  {
+    "slug": "duralex-repris-par-tome-155-emplois-sauves-transition-ecologique",
+    "statut": "rejete_sensible",
+    "date": "2026-10-19T21:26:53",
+    "problemes_initiaux": 17,
+    "bloc5": [
+      "affaire_en_cours_presentee_comme_fait"
+    ],
+    "article_type": "actu",
+    "avertissements_garde_fous": [
+      "resume_repete_corps",
+      "titre_de_mauvaise_qualite"
+    ],
+    "titre": "Duralex repris par Tomé : 155 emplois sauvés, 16 millions d'euros investis et une transition écologique accélérée",
+    "n_sources": 4,
+    "n_mots": 810,
+    "titre_rss": "Fini la coopérative : Duralex repris pour en faire \"l'usine de verre la plus verte au monde\"",
+    "matiere_faits_distincts": 991,
+    "matiere_redondance": 0.03,
+    "matiere_donnees_chiffrees": 0,
+    "n_sources_injectees": 10,
+    "n_sources_trouvees": 10,
+    "nature_contenu": "actualite_factuelle"
+  },
+  {
+    "slug": "conseil-etat-suspend-jugement-tarifs-livraison-amazon",
+    "statut": "rejete_sensible",
+    "date": "2026-10-19T21:29:38",
+    "problemes_initiaux": 17,
+    "bloc5": [
+      "acteur_mis_en_cause_sans_reponse"
+    ],
+    "article_type": "actu",
+    "titre": "Le Conseil d'État suspend son jugement sur les tarifs minimaux de livraison en ligne",
+    "n_sources": 4,
+    "n_mots": 946,
+    "titre_rss": "Les stocks du PC portable Lenovo IdeaPad Slim 3 s'effondrent avec cette remise limitée signée Amazon",
+    "matiere_faits_distincts": 1026,
+    "matiere_redondance": 0.03,
+    "matiere_donnees_chiffrees": 0,
+    "n_sources_injectees": 10,
+    "n_sources_trouvees": 10,
+    "nature_contenu": "actualite_factuelle"
   }
 ]
