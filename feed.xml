@@ -5,13 +5,31 @@
     <link>https://lesfaits.info/</link>
     <description>Journal numérique français rédigé par IA. Juste les faits. Aucun parti pris.</description>
     <language>fr</language>
-    <lastBuildDate>Tue, 17 Nov 2026 00:31:23 GMT</lastBuildDate>
+    <lastBuildDate>Tue, 17 Nov 2026 23:40:37 GMT</lastBuildDate>
     <ns0:link href="https://lesfaits.info/feed.xml" rel="self" type="application/rss+xml" />
     <image>
       <url>https://lesfaits.info/assets/images/og-default.jpg</url>
       <title>Les Faits</title>
       <link>https://lesfaits.info/</link>
     </image>
+    <item>
+      <title>COP31 : la Turquie propose de mesurer l’empreinte carbone des centres de données</title>
+      <link>https://lesfaits.info/articles/cop31-antalya-turquie-mesure-empreinte-carbone-centres-donnees-ia.html</link>
+      <guid isPermaLink="true">https://lesfaits.info/articles/cop31-antalya-turquie-mesure-empreinte-carbone-centres-donnees-ia.html</guid>
+      <description>La COP31 ouverte à Antalya place pour la première fois l'empreinte environnementale de l'intelligence artificielle au cœur des négociations climatiques, avec une proposition turque de mesure obligatoire des émissions des centres de données. Près de 200 pays négocient jusqu'au 20 novembre sur le financement climatique et la transition énergétique, sous la coprésidence inédite de la Turquie et de l'Australie. Les désaccords persistent sur l'ampleur des engagements financiers des pays développés, tandis que le GIEC alerte sur le financement de ses prochains rapports.</description>
+      <category>environnement</category>
+      <enclosure url="https://lesfaits.info/assets/images/cop31-antalya-turquie-mesure-empreinte-carbone-centres-donnees-ia.jpg" type="image/jpeg" length="0" />
+      <pubDate>Tue, 17 Nov 2026 23:40:38 GMT</pubDate>
+    </item>
+    <item>
+      <title>Apple jugé en France pour obsolescence programmée en juin 2027</title>
+      <link>https://lesfaits.info/articles/apple-proces-obsolescence-programmee-juin-2027-france.html</link>
+      <guid isPermaLink="true">https://lesfaits.info/articles/apple-proces-obsolescence-programmee-juin-2027-france.html</guid>
+      <description>Le tribunal judiciaire de Paris examinera à partir de juin 2027 les pratiques d'Apple soupçonnées d'avoir verrouillé logiciellement les pièces détachées d'iPhone, limitant les réparations hors circuit officiel. Cette procédure, une première en France sur ce fondement pénal, porte sur l'augmentation des coûts de réparation et le raccourcissement de la durée de vie des appareils. L'enquête judiciaire s'inscrit dans un cadre européen renforcé par la directive 2024/2853 sur la responsabilité du fait des produits défectueux, qui intègre désormais les logiciels et services numériques.</description>
+      <category>tech</category>
+      <enclosure url="https://lesfaits.info/assets/images/apple-proces-obsolescence-programmee-juin-2027-france.jpg" type="image/jpeg" length="0" />
+      <pubDate>Tue, 17 Nov 2026 23:40:38 GMT</pubDate>
+    </item>
     <item>
       <title>L’Inserm liste sept idées reçues sur les vaccins avant la campagne grippe-Covid du 13 octobre</title>
       <link>https://lesfaits.info/articles/inserm-sept-fausses-idees-vaccins-campagne-grippe-covid-2026.html</link>
@@ -173,24 +191,6 @@
       <category>societe</category>
       <enclosure url="https://lesfaits.info/assets/images/ile-oleron-remporte-bras-de-fer-avec-airbnb.jpg" type="image/jpeg" length="0" />
       <pubDate>Fri, 31 Jul 2026 13:04:26 GMT</pubDate>
-    </item>
-    <item>
-      <title>Cancer du pancréas : essai clinique prometteur avec un anticorps en 2026</title>
-      <link>https://lesfaits.info/articles/cancer-pancreas-essai-clinique-anticorps.html</link>
-      <guid isPermaLink="true">https://lesfaits.info/articles/cancer-pancreas-essai-clinique-anticorps.html</guid>
-      <description>Le cancer du pancréas, l'un des cancers les plus agressifs, fait l'objet d'une recherche intensive pour améliorer les traitements et les taux de survie. Les progrès récents dans la compréhension des mécanismes de résistance des cellules cancéreuses ouvrent de nouvelles pistes thérapeutiques, notamment avec des anticorps ciblés. L'évaluation de ces approches innovantes dans des essais cliniques constitue une étape cruciale pour valider leur efficacité et leur sécurité.</description>
-      <category>sante</category>
-      <enclosure url="https://lesfaits.info/assets/images/cancer-pancreas-essai-clinique-anticorps.jpg" type="image/jpeg" length="0" />
-      <pubDate>Fri, 31 Jul 2026 03:56:11 GMT</pubDate>
-    </item>
-    <item>
-      <title>Mort inexpliquée de 15 éléphants au Kenya</title>
-      <link>https://lesfaits.info/articles/morts-elephants-kenya.html</link>
-      <guid isPermaLink="true">https://lesfaits.info/articles/morts-elephants-kenya.html</guid>
-      <description>Une enquête a été ouverte après la mort inexpliquée de 15 éléphants dans le parc national d'Amboseli au Kenya, entre le 24 juin et le 24 juillet 2026, comme rapporté par Le Figaro. Les autorités kényanes sont préoccupées par la santé de la population d'éléphants dans le parc et cherchent à déterminer les causes de ces décès, selon Ouest-France. La mort de ces éléphants soulève des questions sur la sécurité de l'écosystème et les mesures à prendre pour prévenir de telles tragédies à l'avenir, souligne Sciences et Avenir.</description>
-      <category>sante</category>
-      <enclosure url="https://lesfaits.info/assets/images/morts-elephants-kenya.jpg" type="image/jpeg" length="0" />
-      <pubDate>Thu, 30 Jul 2026 12:54:21 GMT</pubDate>
     </item>
   </channel>
 </rss>

@@ -76596,5 +76596,510 @@
     "n_sources_injectees": 10,
     "n_sources_trouvees": 10,
     "nature_contenu": "sujet_pedagogique"
+  },
+  {
+    "slug": "798-etudes-analysees-trois-methodes-identifier-refuges-climatiques-marins",
+    "statut": "rejete_qualite",
+    "date": "2026-11-17T17:10:14",
+    "problemes_initiaux": 12,
+    "tentatives": 3,
+    "problemes_restants": 8,
+    "bloquants_restants": 3,
+    "bloquants_types": [
+      "chiffre_errone",
+      "chiffre_errone",
+      "chiffre_errone"
+    ],
+    "bloquants_detail": [
+      {
+        "bloc": 1,
+        "type": "chiffre_errone",
+        "description": "La source [1] indique 798 articles identifiés, 116 pertinents après criblage, mais 83 études retenues pour l'analyse finale (et non 81).",
+        "phrase": "Une équipe internationale a passé en revue 798 études scientifiques publiées entre 2012 et 2023, en identifiant 116 travaux pertinents après criblage et en retenant 81 études qui identifient ou cartographient des refuges"
+      },
+      {
+        "bloc": 1,
+        "type": "chiffre_errone",
+        "description": "La source [1] porte la date de publication en ligne du 28 novembre 2024 (et non 2025).",
+        "phrase": "L'étude [1] (PMID: 39604689, mise en ligne le 28 novembre 2025) cartographie les zones sensibles et stables à l'échelle mondiale."
+      },
+      {
+        "bloc": 1,
+        "type": "chiffre_errone",
+        "description": "La source [4] (BBC, 17 mars 2021) indique que 2,7 % des océans sont 'fully or highly protected' (protégés intégralement ou hautement), sans distinguer les deux catégories ; l'article rapporte ce chiffre comme s'il ne con",
+        "phrase": "En mars 2021, seulement 2,7 % des océans étaient hautement protégés selon la BBC [4]."
+      }
+    ],
+    "types_restants": [
+      "chiffre_errone",
+      "chiffre_errone",
+      "chiffre_errone",
+      "source_inventee",
+      "compteur_incoherent",
+      "contexte_hors_sujet",
+      "contexte_hors_sujet",
+      "source_inventee"
+    ],
+    "article_type": "actu",
+    "titre": "798 études analysées : trois méthodes pour identifier les refuges climatiques marins",
+    "n_sources": 6,
+    "n_mots": 631,
+    "titre_rss": "Why marine climate refugia matters for safeguarding the world’s oceans",
+    "matiere_faits_distincts": 1173,
+    "matiere_redondance": 0.02,
+    "matiere_donnees_chiffrees": 0,
+    "n_sources_injectees": 10,
+    "n_sources_trouvees": 10,
+    "nature_contenu": "etude_scientifique"
+  },
+  {
+    "slug": "plans-epargne-retraite-trois-changements-per-2026",
+    "statut": "rejete_qualite",
+    "date": "2026-11-17T17:14:38",
+    "angle_insuffisant": true,
+    "raison": "L'article annonce dans son angle de réponse qu'il détaillera les trois ajustements du PER applicables en 2026 et leurs impacts pour les épargnants, mais la section 'faits' ne cite aucun des trois ajustements concrets (plafonds, fiscalité à la sortie, conditions de déblocage anticipé) ni aucune donnée chiffrée propre à ces mesures. La source principale [1] n'est pas accessible dans les extraits fournis, et l'article le reconnaît lui-même dans 'nuances'. Aucun événement précis daté ni donnée chiffrée spécifique aux ajustements 2026 n'apparaît dans 'faits'.",
+    "article_type": "actu",
+    "titre": "Plans d'épargne-retraite : les trois changements du PER en 2026",
+    "n_sources": 3,
+    "n_mots": 517,
+    "titre_rss": "Plans d’épargne-retraite : ce qui a changé en 2026",
+    "matiere_faits_distincts": 819,
+    "matiere_redondance": 0.0,
+    "matiere_donnees_chiffrees": 1,
+    "n_sources_injectees": 10,
+    "n_sources_trouvees": 10,
+    "nature_contenu": "actualite_factuelle"
+  },
+  {
+    "slug": "vaccin-arn-personnalise-melanome-reduit-42-risque-recidive-deces",
+    "statut": "rejete_sensible",
+    "date": "2026-11-17T17:29:29",
+    "problemes_initiaux": 10,
+    "tentative": 3,
+    "bloc5": true,
+    "article_type": "actu",
+    "titre": "Vaccin ARN personnalisé : 42 % de risque en moins pour le mélanome",
+    "n_sources": 5,
+    "n_mots": 561,
+    "titre_rss": "Cancer de la peau : ce vaccin ARN « sur mesure » réduit de 42 % le risque de rechute ou de décès",
+    "matiere_faits_distincts": 776,
+    "matiere_redondance": 0.0,
+    "matiere_donnees_chiffrees": 0,
+    "n_sources_injectees": 10,
+    "n_sources_trouvees": 10,
+    "nature_contenu": "etude_scientifique"
+  },
+  {
+    "slug": "afd-contrat-objectifs-moyens-2027-2029-transmis-parlement",
+    "statut": "rejete_qualite",
+    "date": "2026-11-17T17:39:40",
+    "problemes_initiaux": 9,
+    "tentatives": 3,
+    "problemes_restants": 8,
+    "bloquants_restants": 4,
+    "bloquants_types": [
+      "chiffre_errone",
+      "chiffre_errone",
+      "chiffre_errone",
+      "chiffre_errone"
+    ],
+    "bloquants_detail": [
+      {
+        "bloc": 1,
+        "type": "chiffre_errone",
+        "description": "La source [4] est la page data.gouv.fr de l'AFD (catalogue de jeux de données) ; elle ne contient pas les chiffres d'investissements 2025 ni le doublement sous Rémy Rioux — ces données ne figurent pas dans les extraits f",
+        "phrase": "L'AFD, établissement public au cœur du dispositif français de coopération depuis plus de soixante-dix ans, a vu son volume d'investissements doubler sous la direction de Rémy Rioux, atteignant 13,7 milliards d'euros en 2"
+      },
+      {
+        "bloc": 1,
+        "type": "chiffre_errone",
+        "description": "La source [4] (data.gouv.fr) ne mentionne ni la date de départ de Rémy Rioux ni la durée de son mandat — l'information est absente des extraits fournis.",
+        "phrase": "Le directeur général Rémy Rioux doit quitter ses fonctions début mai 2027 après dix ans à la tête de l'institution [4]"
+      },
+      {
+        "bloc": 1,
+        "type": "chiffre_errone",
+        "description": "La source [1] (rapport Sénat n° 119) n'est pas fournie en extrait ; le chiffre 0,37 % pour 2026 et la baisse d'un tiers ne sont pas vérifiables dans les sources autorisées.",
+        "phrase": "Le maximum a été atteint en 2022 avec 0,56 %, avant de s'établir à 0,37 % en 2026, soit une baisse de près d'un tiers en quatre ans [1]."
+      },
+      {
+        "bloc": 1,
+        "type": "chiffre_errone",
+        "description": "Même origine que le point précédent : le chiffre 0,37 % pour 2026 et la variation ne sont pas confirmés par les extraits des sources listées.",
+        "phrase": "L'aide publique au développement française a chuté de 0,56 % du revenu national brut en 2022 à 0,37 % en 2026, s'éloignant de l'objectif légal de 0,7 % fixé par la loi de 2021."
+      }
+    ],
+    "types_restants": [
+      "chiffre_errone",
+      "chiffre_errone",
+      "chiffre_errone",
+      "chiffre_errone",
+      "source_inventee",
+      "source_inventee",
+      "compteur_incoherent",
+      "extrapolation"
+    ],
+    "article_type": "actu",
+    "titre": "L'AFD reçoit son contrat 2027-2029 le 13 juillet 2026 après cinq ans sans cadre",
+    "n_sources": 4,
+    "n_mots": 493,
+    "titre_rss": "Enfin ! Le COM 2027-2029 de l'AFD - Rapport d'information n° 119",
+    "matiere_faits_distincts": 852,
+    "matiere_redondance": 0.03,
+    "matiere_donnees_chiffrees": 0,
+    "n_sources_injectees": 10,
+    "n_sources_trouvees": 10,
+    "nature_contenu": "actualite_factuelle"
+  },
+  {
+    "slug": "norvege-cour-supreme-invalide-licences-petrolieres-mer-du-nord",
+    "statut": "corrige_automatiquement",
+    "date": "2026-11-17T18:02:51",
+    "problemes_initiaux": 8,
+    "tentatives": 3,
+    "problemes_residuels_style": 0,
+    "rapport_initial": {
+      "conforme": false,
+      "sujet_sensible": false,
+      "sujet_sensible_raison": "",
+      "angle_insuffisant": false,
+      "angle_insuffisant_raison": "",
+      "nature_contenu": "decision_officielle",
+      "problemes": [
+        {
+          "bloc": 1,
+          "section": "faits",
+          "type": "chiffre_errone",
+          "phrase_exacte": "La Norvège est le premier producteur de pétrole d'Europe occidentale, avec une production quotidienne d'environ 1,8 million de barils en 2023, selon les données officielles du secteur [1].",
+          "explication": "La source [1] (Sciences et Avenir) indique une production de 2 millions de barils par jour, pas 1,8 million."
+        },
+        {
+          "bloc": 1,
+          "section": "contexte",
+          "type": "chiffre_errone",
+          "phrase_exacte": "La Norvège est le premier producteur de pétrole d'Europe occidentale, avec une production quotidienne d'environ 1,8 million de barils en 2023, selon les données officielles du secteur [1].",
+          "explication": "La source [1] (Sciences et Avenir) indique une production de 2 millions de barils par jour, pas 1,8 million."
+        },
+        {
+          "bloc": 1,
+          "section": "contexte",
+          "type": "fait_tranche_arbitrairement",
+          "phrase_exacte": "En 2020, la Cour suprême avait déjà été saisie d'une affaire similaire concernant des licences en mer de Barents, mais elle avait rejeté le recours au motif que les émissions scope 3 n'étaient pas juridiquement exigibles à ce stade [1].",
+          "explication": "La source [1] indique que la Cour suprême a rejeté le recours car les licences avaient été attribuées avant l'entrée en vigueur de l'article 112 de la Constitution (2014), et non parce que les émissions scope 3 n'étaient pas juridiquement exigibles."
+        },
+        {
+          "bloc": 1,
+          "section": "nuances",
+          "type": "source_inventee",
+          "phrase_exacte": "Les juristes notent que la Cour n'a pas ordonné l'arrêt immédiat des forages, mais seulement l'annulation des actes administratifs d'attribution, laissant une marge de manœuvre à l'exécutif pour régulariser la situation [1].",
+          "explication": "La source [1] ne mentionne pas l'avis de juristes ni la distinction entre arrêt des forages et annulation des actes administratifs."
+        },
+        {
+          "bloc": 1,
+          "section": "nuances",
+          "type": "source_inventee",
+          "phrase_exacte": "Enfin, l'impact réel sur les émissions mondiales dépendra de la réaction des compagnies pétrolières : si les licences sont réattribuées après une évaluation conforme, la production pourrait reprendre avec un simple délai procédural [4].",
+          "explication": "La source [4] (20 Minutes) ne contient pas cette analyse sur la réattribution des licences et le délai procédural."
+        },
+        {
+          "bloc": 2,
+          "section": "contexte",
+          "type": "source_derivee_comptee_comme_primaire",
+          "phrase_exacte": "La Norvège est le premier producteur de pétrole d'Europe occidentale, avec une production quotidienne d'environ 1,8 million de barils en 2023, selon les données officielles du secteur [1].",
+          "explication": "Les trois sources (Sciences et Avenir, 20 Minutes, AFP) sont des médias qui reprennent la même dépêche AFP, elles ne constituent pas trois sources indépendantes."
+        },
+        {
+          "bloc": 2,
+          "section": "faits",
+          "type": "compteur_incoherent",
+          "phrase_exacte": "nb_sources: 3",
+          "explication": "Le champ nb_sources indique 3 mais les trois sources listées sont des reprises de la même dépêche AFP, ce qui ne constitue qu'une seule source primaire indépendante."
+        },
+        {
+          "bloc": 4,
+          "section": "contexte",
+          "type": "redondance",
+          "phrase_exacte": "La Norvège est le premier producteur de pétrole d'Europe occidentale, avec une production quotidienne d'environ 1,8 million de barils en 2023, selon les données officielles du secteur [1].",
+          "explication": "Cette phrase est répétée mot pour mot dans la section 'faits' et dans la section 'contexte'."
+        }
+      ]
+    },
+    "article_type": "actu",
+    "titre": "La Cour suprême norvégienne invalide trois licences pétrolières en mer du Nord",
+    "n_sources": 3,
+    "n_mots": 616,
+    "titre_rss": "En Norvège, victoire \"historique\" après l'invalidation de licences pétrolières en mer du Nord",
+    "matiere_faits_distincts": 490,
+    "matiere_redondance": 0.0,
+    "matiere_donnees_chiffrees": 0,
+    "n_sources_injectees": 10,
+    "n_sources_trouvees": 10,
+    "nature_contenu": "decision_officielle"
+  },
+  {
+    "slug": "canicule-juin-2026-surmortalite-2025-deces-supplementaires",
+    "statut": "rejete_sensible",
+    "date": "2026-11-17T18:10:19",
+    "problemes_initiaux": 5,
+    "tentative": 1,
+    "bloc5": true,
+    "article_type": "actu",
+    "titre": "Canicule de juin 2026 : 2 025 décès supplémentaires en une semaine",
+    "n_sources": 5,
+    "n_mots": 783,
+    "titre_rss": "Point de situation sur la mortalité toutes causes confondues  sur la période du 22 au 28 juin 2026",
+    "matiere_faits_distincts": 1030,
+    "matiere_redondance": 0.01,
+    "matiere_donnees_chiffrees": 5,
+    "n_sources_injectees": 10,
+    "n_sources_trouvees": 10,
+    "veille_heures_visible": 221.3,
+    "veille_passages": 74,
+    "veille_age_h": 2047.1,
+    "veille_n_flux_grappe": 1,
+    "nature_contenu": "actualite_factuelle"
+  },
+  {
+    "slug": "apple-proces-obsolescence-programmee-juin-2027-france",
+    "statut": "corrige_automatiquement",
+    "date": "2026-11-17T18:19:29",
+    "problemes_initiaux": 7,
+    "tentatives": 3,
+    "problemes_residuels_style": 9,
+    "rapport_initial": {
+      "conforme": false,
+      "sujet_sensible": false,
+      "sujet_sensible_raison": "",
+      "angle_insuffisant": false,
+      "angle_insuffisant_raison": "",
+      "nature_contenu": "actualite_factuelle",
+      "problemes": [
+        {
+          "bloc": 1,
+          "section": "faits",
+          "type": "chiffre_errone",
+          "phrase_exacte": "L'infraction d'obsolescence programmée, créée par la loi Hamon de 2014 et renforcée en 2020, est passible de deux ans d'emprisonnement et de 300 000 euros d'amende, pouvant atteindre 5 % du chiffre d'affaires annuel mondial [4][5].",
+          "explication": "Le chiffre de 300 000 euros d'amende est erroné : selon l'article L. 441-2 du Code de la consommation (loi Hamon 2014, renforcée 2020), l'amende encourue pour une personne physique est de 3 000 000 d'euros (3 millions), et non 300 000 euros. Les sources [4] et [5] ne contiennent pas ce chiffre, qui est une extrapolation non sourcée."
+        },
+        {
+          "bloc": 1,
+          "section": "faits",
+          "type": "source_inventee",
+          "phrase_exacte": "L'infraction d'obsolescence programmée, créée par la loi Hamon de 2014 et renforcée en 2020, est passible de deux ans d'emprisonnement et de 300 000 euros d'amende, pouvant atteindre 5 % du chiffre d'affaires annuel mondial [4][5].",
+          "explication": "Les sources [4] (Le Figaro) et [5] (Le Monde en anglais) ne mentionnent pas les peines encourues (emprisonnement, amende, pourcentage du CA). L'attribution [4][5] pour ce fait juridique précis est inventée."
+        },
+        {
+          "bloc": 1,
+          "section": "contexte",
+          "type": "contexte_hors_sujet",
+          "phrase_exacte": "La Commission européenne a désigné Apple comme \"contrôleur d'accès\" au titre du règlement sur les marchés numériques (DMA) pour l'App Store et iOS. EUR-Lex mentionne que la République française, le Parlement européen et le Conseil de l'Union européenne sont intervenus en soutien du défendeur dans l'affaire T-1080/23, de même que la Free Software Foundation Europe [2].",
+          "explication": "La source [2] (EUR-Lex, liste des intervenants dans l'affaire T-1080/23) ne traite pas du procès pour obsolescence programmée (sujet de l'article) mais d'un contentieux DMA distinct. Ce développement n'éclaire pas le sujet principal et constitue un remplissage hors sujet."
+        },
+        {
+          "bloc": 1,
+          "section": "contexte",
+          "type": "contexte_hors_sujet",
+          "phrase_exacte": "La Commission a clos son enquête sur les obligations de choix utilisateur d'Apple sous le DMA, tout en émettant des conclusions préliminaires sur la non-conformité des conditions contractuelles de distribution d'applications alternatives [7].",
+          "explication": "La source [7] (Europa, mai 2025) porte sur une enquête DMA close (choix utilisateur, distribution d'applications), sans lien avec l'obsolescence programmée ou le verrouillage logiciel des pièces détachées. Ce fait est vrai mais tangentiel et ne sert qu'à gonfler la section contexte."
+        },
+        {
+          "bloc": 4,
+          "section": "nuances",
+          "type": "redondance",
+          "phrase_exacte": "La réaction d'Apple aux accusations n'était pas détaillée dans les sources consultées à la date de publication, le groupe se bornant à défendre sa politique de réparations certifiées [4][5].",
+          "explication": "Cette phrase répète l'information déjà présente dans les faits : \"Apple conteste les accusations et affirme garantir la sécurité et la qualité des réparations via son réseau certifié [4][5]\". La charte interdit de répéter une même idée d'une section à l'autre."
+        },
+        {
+          "bloc": 4,
+          "section": "nuances",
+          "type": "extrapolation",
+          "phrase_exacte": "L'articulation entre la procédure pénale française et les contentieux DMA au niveau européen n'est pas encore établie.",
+          "explication": "Aucune source ne mentionne une articulation possible ou en cours entre ces deux procédures distinctes. L'article anticipe une conséquence future (lien entre procès pénal et contentieux DMA) non explicitement sourcée."
+        },
+        {
+          "bloc": 2,
+          "section": "faits",
+          "type": "compteur_incoherent",
+          "phrase_exacte": "nb_sources: 7",
+          "explication": "Le champ nb_sources indique 7, mais la source [2] (EUR-Lex) est citée pour des faits (intervenants T-1080/23, désignation DMA) qu'elle ne confirme pas pour le sujet de l'article (obsolescence programmée). De plus, les sources [4] et [5] sont deux versions (FR/EN) du même article du Monde sur le même événement : elles ne constituent qu'une source indépendante. Le compte réel de sources distinctes et pertinentes est inférieur à 7."
+        }
+      ]
+    },
+    "article_type": "actu",
+    "titre": "Apple jugé en France pour obsolescence programmée en juin 2027",
+    "n_sources": 7,
+    "n_mots": 583,
+    "titre_rss": "Le procès d’Apple pour obsolescence programmée s’ouvrira en juin 2027 en France",
+    "matiere_faits_distincts": 895,
+    "matiere_redondance": 0.0,
+    "matiere_donnees_chiffrees": 1,
+    "n_sources_injectees": 10,
+    "n_sources_trouvees": 10,
+    "nature_contenu": "actualite_factuelle"
+  },
+  {
+    "slug": "refuges-climatiques-marins-etude-82-travaux-protection-oceans-2030",
+    "statut": "rejete_qualite",
+    "date": "2026-11-17T21:59:33",
+    "etape": "correction",
+    "tentative": 1,
+    "erreur": "Groq 503: {\"message\":\"Service temporarily overloaded\",\"type\":\"Overloaded\",\"code\":503}",
+    "bloquants_connus": 3,
+    "article_type": "actu",
+    "titre": "Refuges climatiques marins : une étude recense 82 travaux pour guider la protection des océans",
+    "n_sources": 5,
+    "n_mots": 829,
+    "titre_rss": "Why marine climate refugia matters for safeguarding the world’s oceans",
+    "matiere_faits_distincts": 863,
+    "matiere_redondance": 0.0,
+    "matiere_donnees_chiffrees": 0,
+    "n_sources_injectees": 10,
+    "n_sources_trouvees": 10,
+    "nature_contenu": "etude_scientifique"
+  },
+  {
+    "slug": "proces-a10-inass-touloub-vie-inconnue-onze-jours-audience",
+    "statut": "rejete_sensible",
+    "date": "2026-11-17T22:56:16",
+    "sujet_sensible": true,
+    "raison": "L'article porte sur un procès criminel en cours (assises du Loir-et-Cher, ouvert le 2 novembre 2026) visant deux personnes physiques (Halima El Bakhti et Ahmed Touloub) pour torture et barbarie sur mineur. L'affaire n'est pas définitivement jugée.",
+    "article_type": "actu",
+    "titre": "Procès de l'A10 : la vie d'Inass Touloub reste méconnue après onze jours d'audience",
+    "n_sources": 4,
+    "n_mots": 491,
+    "titre_rss": "\"Cette enfant aura été plus aimée morte que vivante\" : après onze jours de procès, la courte vie de la petite martyre de l'A10 se dessine en pointillés",
+    "matiere_faits_distincts": 595,
+    "matiere_redondance": 0.04,
+    "matiere_donnees_chiffrees": 2,
+    "n_sources_injectees": 10,
+    "n_sources_trouvees": 10,
+    "nature_contenu": "actualite_factuelle"
+  },
+  {
+    "slug": "cop31-antalya-turquie-mesure-empreinte-carbone-centres-donnees-ia",
+    "statut": "corrige_automatiquement",
+    "date": "2026-11-17T23:08:21",
+    "problemes_initiaux": 14,
+    "tentatives": 1,
+    "problemes_residuels_style": 18,
+    "rapport_initial": {
+      "conforme": false,
+      "sujet_sensible": false,
+      "sujet_sensible_raison": "",
+      "angle_insuffisant": false,
+      "angle_insuffisant_raison": "",
+      "nature_contenu": "actualite_factuelle",
+      "problemes": [
+        {
+          "bloc": 1,
+          "section": "faits",
+          "type": "source_inventee",
+          "phrase_exacte": "La 31e Conférence des parties (COP31) s'est ouverte le 9 novembre 2026 à Antalya, en Turquie, pour deux semaines de négociations réunissant près de 200 pays [2].",
+          "explication": "La source [2] (Vie Publique) ne mentionne pas le chiffre 'près de 200 pays' dans les extraits fournis ; ce chiffre est absent de la source citée."
+        },
+        {
+          "bloc": 1,
+          "section": "faits",
+          "type": "source_inventee",
+          "phrase_exacte": "La présidence turque, assurée par le ministre de l'Environnement Murat Kurum, a placé l'empreinte environnementale croissante de l'intelligence artificielle à l'ordre du jour, proposant spécifiquement de mesurer l'empreinte carbone des centres de données et de lancer une initiative internationale pour en limiter l'impact [1].",
+          "explication": "La source [1] (Le Figaro) ne mentionne ni le ministre Murat Kurum, ni une proposition turque spécifique de mesure obligatoire des émissions des centres de données dans les extraits fournis."
+        },
+        {
+          "bloc": 1,
+          "section": "faits",
+          "type": "source_inventee",
+          "phrase_exacte": "Le sommet se tient sous une coprésidence inédite : la Turquie assure la présidence formelle tandis que l'Australie, représentée par son ministre du Changement climatique Chris Bowen, supervise les négociations, un dispositif convenu à l'issue de la COP30 [3].",
+          "explication": "La source [3] (Sénat) ne mentionne pas Chris Bowen ni le détail d'une coprésidence formelle Turquie/Australie dans les extraits fournis."
+        },
+        {
+          "bloc": 1,
+          "section": "faits",
+          "type": "source_inventee",
+          "phrase_exacte": "Le secrétaire exécutif de l'ONU Climat, Simon Stiell, a exhorté les pays à « donner un coup d'accélérateur aux solutions » lors de la plénière d'ouverture, constatant que « les progrès sont loin d'être suffisants ou équitables » [4].",
+          "explication": "La source [4] (Le Monde, podcast) ne contient pas ces citations de Simon Stiell dans les extraits fournis."
+        },
+        {
+          "bloc": 1,
+          "section": "faits",
+          "type": "source_inventee",
+          "phrase_exacte": "L'Australie a proposé que les pays élaborent une décision politique dès les premiers jours de la conférence, plutôt que d'attendre la dernière ligne droite [5].",
+          "explication": "La source [5] (Le Monde, article du 17 novembre) ne mentionne pas cette proposition australienne dans les extraits fournis."
+        },
+        {
+          "bloc": 1,
+          "section": "contexte",
+          "type": "source_inventee",
+          "phrase_exacte": "La COP30 à Belém en 2025 avait acté la création de cette coprésidence tournante entre pays développés et en développement pour fluidifier les négociations [3].",
+          "explication": "La source [3] (Sénat) ne mentionne pas la COP30 à Belém ni l'acte de création d'une coprésidence tournante dans les extraits fournis."
+        },
+        {
+          "bloc": 1,
+          "section": "contexte",
+          "type": "source_inventee",
+          "phrase_exacte": "Le GIEC, qui tient sa 65e session en marge de la COP31, a présenté l'avancement de son septième cycle d'évaluation : les trois rapports des groupes de travail sont en cours de révision par les experts, avec une publication prévue à partir de 2027 [4].",
+          "explication": "La source [4] (Le Monde, podcast) ne mentionne pas la 65e session du GIEC, ni le septième cycle d'évaluation, ni une publication prévue à partir de 2027 dans les extraits fournis."
+        },
+        {
+          "bloc": 1,
+          "section": "contexte",
+          "type": "source_inventee",
+          "phrase_exacte": "Le Secrétariat du GIEC alerte toutefois sur un déficit de financement : les contributions volontaires ne couvrent qu'un tiers du budget 2026 approuvé, menaçant le calendrier des rapports [4].",
+          "explication": "La source [4] (Le Monde, podcast) ne mentionne pas ce déficit de financement du GIEC ni le budget 2026 dans les extraits fournis."
+        },
+        {
+          "bloc": 1,
+          "section": "contexte",
+          "type": "source_inventee",
+          "phrase_exacte": "L'OCDE qualifie la COP31 de « COP de mise en œuvre » et identifie cinq enjeux majeurs à suivre à Antalya : l'atténuation, l'adaptation, les pertes et préjudices, le financement et la transparence [7].",
+          "explication": "La source [6] (OCDE, index 6 dans le tableau) ne mentionne pas la qualification 'COP de mise en œuvre' ni la liste de cinq enjeux dans les extraits fournis ; de plus la référence [7] n'existe pas (seules 6 sources)."
+        },
+        {
+          "bloc": 1,
+          "section": "nuances",
+          "type": "source_inventee",
+          "phrase_exacte": "Par ailleurs, l'OCDE qualifie la COP31 de « COP de mise en œuvre », soulignant que ses résultats les plus conséquents dépendront encore des négociations en cours sur l'atténuation, l'adaptation et les pertes et préjudices [7].",
+          "explication": "Même problème : la source [6] (OCDE) ne contient pas cette qualification dans les extraits, et la référence [7] est inexistante."
+        },
+        {
+          "bloc": 1,
+          "section": "nuances",
+          "type": "source_inventee",
+          "phrase_exacte": "Le financement du GIEC constitue une incertitude opérationnelle pour la disponibilité des données scientifiques futures [4].",
+          "explication": "La source [4] (Le Monde, podcast) ne mentionne pas le financement du GIEC ni son impact sur les données scientifiques futures dans les extraits fournis."
+        },
+        {
+          "bloc": 1,
+          "section": "nuances",
+          "type": "source_inventee",
+          "phrase_exacte": "Un premier projet de décision finale témoigne de l'ampleur des désaccords persistants entre les pays sur les engagements financiers et la mise en œuvre des objectifs de l'accord de Paris [5].",
+          "explication": "La source [5] (Le Monde, article du 17 novembre) ne mentionne pas de 'premier projet de décision finale' ni le contenu des désaccords dans les extraits fournis."
+        },
+        {
+          "bloc": 1,
+          "section": "nuances",
+          "type": "source_inventee",
+          "phrase_exacte": "Les ministres de nombreux États, arrivés en Turquie pour la deuxième semaine, doivent permettre de faire avancer les négociations bloquées [5].",
+          "explication": "La source [5] (Le Monde, article du 17 novembre) ne mentionne pas l'arrivée des ministres pour la deuxième semaine dans les extraits fournis."
+        },
+        {
+          "bloc": 2,
+          "section": "faits",
+          "type": "compteur_incoherent",
+          "phrase_exacte": "nb_sources: 6",
+          "explication": "L'article utilise des références [7] inexistantes (seules 6 sources listées) et attribue à plusieurs sources des informations absentes des extraits fournis, ce qui fausse le comptage des sources effectivement utilisées et vérifiées."
+        }
+      ]
+    },
+    "article_type": "actu",
+    "titre": "COP31 : la Turquie propose de mesurer l'empreinte carbone des centres de données",
+    "n_sources": 6,
+    "n_mots": 618,
+    "titre_rss": "Émissions de CO₂, consommation d’eau… La COP31 se penche sur l’empreinte environnementale croissante de l’IA sur le climat",
+    "matiere_faits_distincts": 570,
+    "matiere_redondance": 0.01,
+    "matiere_donnees_chiffrees": 0,
+    "n_sources_injectees": 10,
+    "n_sources_trouvees": 10,
+    "nature_contenu": "actualite_factuelle"
   }
 ]

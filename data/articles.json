@@ -1,5 +1,39 @@
 [
   {
+    "slug": "cop31-antalya-turquie-mesure-empreinte-carbone-centres-donnees-ia",
+    "titre": "COP31 : la Turquie propose de mesurer l’empreinte carbone des centres de données",
+    "categorie": "environnement",
+    "nb_sources": 0,
+    "nb_mots": 571,
+    "format": "article",
+    "date": "18 novembre 2026, 00h40",
+    "resume": [
+      "La COP31 ouverte à Antalya place pour la première fois l'empreinte environnementale de l'intelligence artificielle au cœur des négociations climatiques, avec une proposition turque de mesure obligatoire des émissions des centres de données.",
+      "Près de 200 pays négocient jusqu'au 20 novembre sur le financement climatique et la transition énergétique, sous la coprésidence inédite de la Turquie et de l'Australie.",
+      "Les désaccords persistent sur l'ampleur des engagements financiers des pays développés, tandis que le GIEC alerte sur le financement de ses prochains rapports."
+    ],
+    "image_keyword": "data center turkey",
+    "statut_verification": "corrige_automatiquement",
+    "date_iso": "2026-11-18T00:40:38+01:00"
+  },
+  {
+    "slug": "apple-proces-obsolescence-programmee-juin-2027-france",
+    "titre": "Apple jugé en France pour obsolescence programmée en juin 2027",
+    "categorie": "tech",
+    "nb_sources": 0,
+    "nb_mots": 600,
+    "format": "article",
+    "date": "18 novembre 2026, 00h40",
+    "resume": [
+      "Le tribunal judiciaire de Paris examinera à partir de juin 2027 les pratiques d'Apple soupçonnées d'avoir verrouillé logiciellement les pièces détachées d'iPhone, limitant les réparations hors circuit officiel.",
+      "Cette procédure, une première en France sur ce fondement pénal, porte sur l'augmentation des coûts de réparation et le raccourcissement de la durée de vie des appareils.",
+      "L'enquête judiciaire s'inscrit dans un cadre européen renforcé par la directive 2024/2853 sur la responsabilité du fait des produits défectueux, qui intègre désormais les logiciels et services numériques."
+    ],
+    "image_keyword": "courtroom building france",
+    "statut_verification": "corrige_automatiquement",
+    "date_iso": "2026-11-18T00:40:38+01:00"
+  },
+  {
     "slug": "inserm-sept-fausses-idees-vaccins-campagne-grippe-covid-2026",
     "titre": "L’Inserm liste sept idées reçues sur les vaccins avant la campagne grippe-Covid du 13 octobre",
     "categorie": "sante",
