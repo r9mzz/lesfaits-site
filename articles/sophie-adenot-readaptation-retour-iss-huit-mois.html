@@ -17,6 +17,15 @@
     <p>Une vérification après publication a montré que cet article contenait des informations inexactes ou non étayées par ses sources. Nous l’avons retiré plutôt que de laisser en ligne un texte qui ne respecte pas notre charte.</p>
     <p style="color:var(--muted);font-size:.9rem"><strong>Motif :</strong> Les circonstances du retour étaient inexactes : Sophie Adenot a amerri dans le Pacifique le 8 octobre 2026 à bord de Crew-12 (et non atterri au Kazakhstan le 2 octobre à bord d’un Soyouz), après environ 237 jours dans l’espace ; le précédent record européen et l’équipage de relève étaient également mal identifiés.<br/><strong>Date :</strong> 2026-11-10</p>
     <p><a href="/corrections.html" style="font-weight:700;color:var(--blue)">Toutes nos corrections →</a> · <a href="/" style="color:var(--blue)">Accueil</a></p>
-  </main>
+  <div class="newsletter-block"><div><div class="newsletter-block__label">NEWSLETTER</div><div class="newsletter-block__text"><strong>Le résumé du jour dans votre boîte mail</strong><span>Les nouvelles éditions, matin et soir, en un email par créneau. Gratuit. Sans pub.</span></div></div><a class="newsletter-block__btn" href="/#newsletter">S'abonner →</a></div>
+</main>
+<button class="back-to-top" id="btt" aria-label="Retour en haut" title="Retour en haut">↑</button>
+<script>
+(function(){
+  var btn=document.getElementById("btt");
+  window.addEventListener("scroll",function(){btn.classList.toggle("visible",window.scrollY>300);},{passive:true});
+  btn.addEventListener("click",function(){window.scrollTo({top:0,behavior:"smooth"});});
+})();
+</script>
 </body>
 </html>
