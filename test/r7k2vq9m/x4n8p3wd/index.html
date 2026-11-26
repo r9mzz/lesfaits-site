@@ -67,17 +67,25 @@ h1,h2,h3{font-weight:var(--titre-poids);letter-spacing:var(--titre-ls);line-heig
 @media (max-width:980px){.menu{display:none}}
 
 /* ── Haut de page ── */
-.hero{padding-top:clamp(130px,18vh,190px);padding-bottom:clamp(48px,8vh,96px)}
-.surtitre{display:inline-flex;align-items:center;gap:10px;font-size:14px;font-weight:600;color:var(--ink-2);margin-bottom:26px}
+.hero{padding-top:clamp(96px,14vh,150px);padding-bottom:clamp(32px,6vh,72px);display:grid;grid-template-columns:1.1fr 1fr;gap:clamp(28px,4vw,72px);align-items:center}
+.fil{background:var(--card);border:1px solid var(--rule);border-radius:var(--radius);padding:10px}
+.fil-tete{display:flex;justify-content:space-between;align-items:center;padding:10px 12px 8px;font-size:13px;font-weight:700;color:var(--ink-2)}
+.fil a.f{display:grid;grid-template-columns:72px 1fr;gap:14px;align-items:center;padding:10px;border-radius:16px;transition:background .2s}
+.fil a.f:hover{background:var(--accent-soft)}
+.fil img{width:72px;height:72px;border-radius:12px;object-fit:cover;background:var(--rule)}
+.fil h3{font-size:16px;font-weight:700;letter-spacing:-.015em;line-height:1.3;margin:2px 0 4px}
+.fil .f+.f{border-top:1px solid var(--rule);border-radius:0 0 16px 16px}
+@media (max-width:900px){.hero{grid-template-columns:1fr;padding-top:96px}.fil a.f:nth-child(n+5){display:none}}
+.surtitre{display:inline-flex;align-items:center;gap:10px;font-size:13px;font-weight:600;color:var(--ink-2);margin-bottom:18px}
 .direct{width:8px;height:8px;border-radius:50%;background:#16B364;box-shadow:0 0 0 0 rgba(22,179,100,.5);animation:pouls 2.2s infinite}
 @keyframes pouls{70%{box-shadow:0 0 0 9px rgba(22,179,100,0)}100%{box-shadow:0 0 0 0 rgba(22,179,100,0)}}
-.hero h1{font-size:clamp(48px,3rem + 5vw,124px);max-width:13ch}
+.hero h1{font-size:clamp(34px,1.5rem + 2.6vw,66px);max-width:16ch;line-height:1.05}
 .hero h1 em{font-style:normal;color:var(--accent)}
-.hero .chapo{margin-top:26px;font-size:clamp(17px,1rem + .4vw,21px);color:var(--ink-2);max-width:46ch;line-height:1.5}
-.hero .cta{display:flex;flex-wrap:wrap;gap:18px 26px;align-items:center;margin-top:34px}
-.preuves{display:flex;flex-wrap:wrap;gap:12px 34px;margin-top:46px;padding-top:26px;border-top:1px solid var(--rule)}
-.preuve b{display:block;font-size:clamp(26px,1.4rem + 1vw,38px);font-weight:var(--titre-poids);letter-spacing:var(--titre-ls);line-height:1.1}
-.preuve span{font-size:14px;color:var(--ink-2)}
+.hero .chapo{margin-top:18px;font-size:clamp(16px,.95rem + .3vw,19px);color:var(--ink-2);max-width:46ch;line-height:1.5}
+.hero .cta{display:flex;flex-wrap:wrap;gap:14px 24px;align-items:center;margin-top:26px}
+.preuves{display:flex;flex-wrap:wrap;gap:10px 28px;margin-top:30px;padding-top:20px;border-top:1px solid var(--rule)}
+.preuve b{display:block;font-size:clamp(20px,1.1rem + .5vw,26px);font-weight:var(--titre-poids);letter-spacing:var(--titre-ls);line-height:1.1}
+.preuve span{font-size:13px;color:var(--ink-2)}
 
 /* ── Titres de section ── */
 .sec{padding-block:clamp(48px,8vh,96px)}
@@ -172,7 +180,7 @@ h1,h2,h3{font-weight:var(--titre-poids);letter-spacing:var(--titre-ls);line-heig
 .essai button{padding:8px 14px;border-radius:var(--pill);color:rgba(255,255,255,.7);font-weight:600}
 .essai button[aria-pressed="true"]{background:#fff;color:#0E0E10}
 @media (max-width:420px){.essai span{display:none}}
-@media (max-width:520px){.preuves{display:grid;grid-template-columns:1fr 1fr}}
+@media (max-width:520px){.preuves{gap:10px 22px}.preuve:nth-child(4){display:none}.hero .btn.grand{padding:14px 22px;font-size:15px}}
 
 .apparait{opacity:0;transform:translateY(18px);transition:opacity .7s var(--ease),transform .7s var(--ease)}
 .apparait.vu{opacity:1;transform:none}
@@ -204,11 +212,12 @@ h1,h2,h3{font-weight:var(--titre-poids);letter-spacing:var(--titre-ls);line-heig
 
 <main id="haut">
   <section class="hero wrap">
+   <div>
     <div class="surtitre"><span class="direct"></span><span id="maj">Mis à jour chaque matin et chaque soir</span></div>
     <h1>Juste les faits. <em>Aucun parti pris.</em></h1>
     <p class="chapo">Un journal français rédigé par IA sous un protocole strict&nbsp;: chaque affirmation attribuée à sa source, aucune opinion, aucune publicité.</p>
     <div class="cta">
-      <a class="btn grand" href="#une">Lire l'essentiel du jour <span class="fl">↓</span></a>
+      <a class="btn grand" href="#une">À la une <span class="fl">↓</span></a>
       <a class="lien" href="/methode.html">Comment on travaille</a>
     </div>
     <div class="preuves">
@@ -217,6 +226,11 @@ h1,h2,h3{font-weight:var(--titre-poids);letter-spacing:var(--titre-ls);line-heig
       <div class="preuve"><b>0</b><span>actionnaire</span></div>
       <div class="preuve"><b>2×</b><span>par jour, week-end compris</span></div>
     </div>
+   </div>
+   <aside class="fil" aria-label="Dernières publications">
+    <div class="fil-tete"><span>Aujourd'hui sur Les Faits</span><a href="#articles" style="color:var(--accent)">Tout voir</a></div>
+    <div id="fil"><div class="squelette" style="min-height:300px"></div></div>
+   </aside>
   </section>
 
   <section class="sec wrap" id="une">
@@ -332,6 +346,9 @@ h1,h2,h3{font-weight:var(--titre-poids);letter-spacing:var(--titre-ls);line-heig
     document.getElementById("nb-articles").textContent=liste.length;
     if(articles[0]&&articles[0].date){document.getElementById("maj").textContent="Dernière publication : "+String(articles[0].date).replace(","," à")}
 
+    var fil=document.getElementById("fil");
+    fil.innerHTML=articles.slice(0,5).map(function(a){return '<a class="f" href="'+lienA(a)+'"><img src="'+img(a.slug,1)+'" alt="" loading="eager"><div><span class="cat">'+esc(NOMS[a.categorie]||a.categorie)+'</span><h3>'+esc(a.titre)+'</h3><div class="meta">'+sources(a)+'<span>'+jour(a)+'</span></div></div></a>'}).join("");
+    fil.querySelectorAll("img").forEach(cacherSiErreur);
     /* À la une : les mieux sourcés parmi les plus récents */
     var sources5=articles.filter(function(a){return a.nb_sources>=5}).slice(0,4);
     var une=sources5.length?sources5:articles.slice(0,4);
