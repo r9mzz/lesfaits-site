@@ -75,7 +75,18 @@ h1,h2,h3{font-weight:var(--titre-poids);letter-spacing:var(--titre-ls);line-heig
 .fil img{width:72px;height:72px;border-radius:12px;object-fit:cover;background:var(--rule)}
 .fil h3{font-size:16px;font-weight:700;letter-spacing:-.015em;line-height:1.3;margin:2px 0 4px}
 .fil .f+.f{border-top:1px solid var(--rule);border-radius:0 0 16px 16px}
-@media (max-width:900px){.hero{grid-template-columns:1fr;padding-top:96px}.fil a.f:nth-child(n+5){display:none}}
+@media (max-width:900px){.hero{grid-template-columns:1fr;padding-top:112px;gap:36px;min-height:100svh;align-content:start}
+ .hero .cta,.hero .preuves{display:none!important}
+ .hero .chapo{font-size:16px}
+ .hero h1{font-size:34px}
+ .fil{background:none;border:0;padding:0}
+ .fil-tete{padding:0 0 6px}
+ .fil a.f{grid-template-columns:1fr;padding:18px 0;border-radius:0;border-top:1px solid var(--rule)}
+ .fil a.f img{display:none}
+ .fil a.f h3{font-size:19px;line-height:1.3;margin:6px 0 6px}
+ .fil .f+.f{border-radius:0}
+ .defiler{display:flex}}
+.defiler{display:none;align-items:center;gap:8px;font-size:13px;font-weight:600;color:var(--ink-2);margin-top:8px}
 .surtitre{display:inline-flex;align-items:center;gap:10px;font-size:13px;font-weight:600;color:var(--ink-2);margin-bottom:18px}
 .direct{width:8px;height:8px;border-radius:50%;background:#16B364;box-shadow:0 0 0 0 rgba(22,179,100,.5);animation:pouls 2.2s infinite}
 @keyframes pouls{70%{box-shadow:0 0 0 9px rgba(22,179,100,0)}100%{box-shadow:0 0 0 0 rgba(22,179,100,0)}}
@@ -228,8 +239,9 @@ h1,h2,h3{font-weight:var(--titre-poids);letter-spacing:var(--titre-ls);line-heig
     </div>
    </div>
    <aside class="fil" aria-label="Dernières publications">
-    <div class="fil-tete"><span>Aujourd'hui sur Les Faits</span><a href="#articles" style="color:var(--accent)">Tout voir</a></div>
+    <div class="fil-tete"><span id="fil-titre">Aujourd'hui sur Les Faits</span><a href="#articles" style="color:var(--accent)">Tout voir</a></div>
     <div id="fil"><div class="squelette" style="min-height:300px"></div></div>
+    <a class="defiler" href="#une">Faire défiler pour la suite <span aria-hidden="true">↓</span></a>
    </aside>
   </section>
 
@@ -347,7 +359,8 @@ h1,h2,h3{font-weight:var(--titre-poids);letter-spacing:var(--titre-ls);line-heig
     if(articles[0]&&articles[0].date){document.getElementById("maj").textContent="Dernière publication : "+String(articles[0].date).replace(","," à")}
 
     var fil=document.getElementById("fil");
-    fil.innerHTML=articles.slice(0,5).map(function(a){return '<a class="f" href="'+lienA(a)+'"><img src="'+img(a.slug,1)+'" alt="" loading="eager"><div><span class="cat">'+esc(NOMS[a.categorie]||a.categorie)+'</span><h3>'+esc(a.titre)+'</h3><div class="meta">'+sources(a)+'<span>'+jour(a)+'</span></div></div></a>'}).join("");
+    var tel=matchMedia("(max-width:900px)").matches;if(tel)document.getElementById("fil-titre").textContent="Les brèves du jour";
+    fil.innerHTML=(tel&&breves.length>=3?breves.slice(0,3):articles.slice(0,5)).map(function(a){return '<a class="f" href="'+lienA(a)+'"><img src="'+img(a.slug,1)+'" alt="" loading="eager"><div><span class="cat">'+esc(NOMS[a.categorie]||a.categorie)+'</span><h3>'+esc(a.titre)+'</h3><div class="meta">'+sources(a)+'<span>'+jour(a)+'</span></div></div></a>'}).join("");
     fil.querySelectorAll("img").forEach(cacherSiErreur);
     /* À la une : les mieux sourcés parmi les plus récents */
     var sources5=articles.filter(function(a){return a.nb_sources>=5}).slice(0,4);
